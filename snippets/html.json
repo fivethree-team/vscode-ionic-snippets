@@ -1,0 +1,22 @@
+{
+    "ion-button": {
+        "prefix": "i-button",
+        "body": [
+            "<ion-button>",
+            "\t${1:Text}",
+            "</ion-button>"
+        ],
+        "description": "Ionic ion-button"
+    },
+    "ion-fab": {
+        "prefix": "i-fab",
+        "body": [
+            "<ion-fab vertical=\"${1:bottom}\" horizontal=\"${2:end}\" slot=\"${3:fixed}\">",
+            "\t<ion-fab-button>",
+            "\t\t<ion-icon name=\"${4:icon}\"></ion-icon>",
+            "\t</ion-fab-button>",
+            "</ion-fab>"
+        ],
+        "description": "Ionic ion-button"
+    }
+}
