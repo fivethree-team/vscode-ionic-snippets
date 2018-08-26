@@ -11,10 +11,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/marcjulian/vscode-ionic-snippets.git"
+        "url": "https://github.com/fivethree-team/vscode-ionic-snippets.git"
     },
     "bugs": {
-        "url": "https://github.com/marcjulian/vscode-ionic-snippets/issues"
+        "url": "https://github.com/fivethree-team/vscode-ionic-snippets/issues"
     },
     "engines": {
         "vscode": "^1.26.0"
