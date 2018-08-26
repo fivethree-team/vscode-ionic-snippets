@@ -1,21 +1,131 @@
 {
+    "ion-app": {
+        "prefix": "i-app",
+        "body": [
+            "<ion-app>",
+            "</ion-app>"
+        ],
+        "description": "<ion-app>"
+    },
+    "ion-avatar": {
+        "prefix": "i-avatar",
+        "body": [
+            "<ion-avatar>",
+            "\t<img [src]=\"${1:image}\">",
+            "</ion-buttons>"
+        ],
+        "description": "<ion-avatar>"
+    },
+    "ion-back-button": {
+        "prefix": "i-back-button",
+        "body": [
+            "<ion-buttons slot=\"${1:start}\">",
+            "\t<ion-back-button></ion-back-button>",
+            "</ion-buttons>"
+        ],
+        "description": "<ion-back-button>"
+    },
+    "ion-backdrop": {
+        "prefix": "i-backdrop",
+        "body": [
+            "<ion-backdrop></ion-backdrop>"
+        ],
+        "description": "<ion-backdrop>"
+    },
+    "ion-badge": {
+        "prefix": "i-badge",
+        "body": [
+            "<ion-badge color=\"${1:primary}\">${2:42}</ion-badge>"
+        ],
+        "description": "<ion-backdrop>"
+    },
     "ion-button": {
         "prefix": "i-button",
         "body": [
-            "<ion-button>",
-            "\t${1:Click me}",
+            "<ion-button (click)=\"${1:onClick()}\">",
+            "\t${2:Click me}",
             "</ion-button>"
         ],
-        "description": "<ion-button>"
+        "description": "<ion-button> w/ click event"
+    },
+    "ion-button-icon-only": {
+        "prefix": "i-button-icon-only",
+        "body": [
+            "<ion-button (click)=\"${1:onClick()}\">",
+            "\t<ion-icon slot=\"${2:icon-only}\" name=\"${3:add}\"></ion-icon>",
+            "</ion-button>"
+        ],
+        "description": "<ion-button> w/ icon only"
     },
     "ion-button-w-icon": {
-        "prefix": "i-button-icon",
+        "prefix": "i-button-w-icon",
         "body": [
-            "<ion-button>",
-            "\t<ion-icon slot=\"${1:icon-only}\" name=\"${2:add}\"></ion-icon>",
+            "<ion-button (click)=\"${1:onClick()}\">",
+            "\t<ion-icon slot=\"${2:start}\" name=\"${3:add}\"></ion-icon>",
+            "\t${4:Click me}",
             "</ion-button>"
         ],
-        "description": "<ion-button> with <ion-icon>"
+        "description": "<ion-button> w/ <ion-icon>"
+    },
+    "ion-buttons": {
+        "prefix": "i-buttons",
+        "body": [
+            "<ion-buttons slot=\"${1:primary}\">",
+            "\t<ion-button (click)=\"${2:onClick()}\">",
+            "\t\t<ion-icon slot=\"${3:start}\" name=\"${4:add}\"></ion-icon>",
+            "\t\t${5:Click me}",
+            "\t</ion-button>",
+            "</ion-buttons>"
+        ],
+        "description": "<ion-buttons>"
+    },
+    "ion-card": {
+        "prefix": "i-card",
+        "body": [
+            "<ion-card>",
+            "\t<ion-card-header>",
+            "\t\t<ion-card-subtitle>${1:Awesome Subtitle}</ion-card-subtitle>",
+            "\t\t<ion-card-title>${2:Awesome Title}</ion-card-title>",
+            "\t</ion-card-header>",
+            "\t<ion-card-content>",
+            "\t\t${3:Awesome content}",
+            "\t</ion-card-content>",
+            "</ion-card>"
+        ],
+        "description": "<ion-card>"
+    },
+    "ion-card-content": {
+        "prefix": "i-card-content",
+        "body": [
+            "<ion-card-content>",
+            "\t${1:Awesome content}",
+            "</ion-card-content>"
+        ],
+        "description": "<ion-card-content>"
+    },
+    "ion-card-header": {
+        "prefix": "i-card-header",
+        "body": [
+            "<ion-card-header>",
+            "\t<ion-card-subtitle>${1:Awesome Subtitle}</ion-card-subtitle>",
+            "\t<ion-card-title>${2:Awesome Title}</ion-card-title>",
+            "</ion-card-header>"
+        ],
+        "description": "<ion-card-header>"
+    },
+    "ion-card-subtitle": {
+        "prefix": "i-card-subtitle",
+        "body": [
+            "<ion-card-subtitle>${1:Awesome Subtitle}</ion-card-subtitle>"
+        ],
+        "description": "<ion-card-subtitle>"
+    },
+    "ion-card-title": {
+        "prefix": "i-card-title",
+        "body": [
+            "<ion-card-title>${1:Awesome Title}</ion-card-title>"
+        ],
+        "description": "<ion-card-subtitle>"
     },
     "ion-col": {
         "prefix": "i-col",
@@ -54,7 +164,6 @@
         ],
         "description": "<ion-fab>"
     },
-
     "ion-icon": {
         "prefix": "i-icon",
         "body": [
@@ -80,12 +189,25 @@
         ],
         "description": "<ion-row> with <ion-col>"
     },
+    "click": {
+        "prefix": "i-click",
+        "body": [
+            "(click)=\"${1:onClick()}\""
+        ],
+        "description": "Ionic (click) event"
+    },
     "scrollEvents": {
         "prefix": "i-scrollEvents",
         "body": [
             "[scrollEvents]=\"${1:true}\""
         ],
         "description": "Ionic [scrollEvents] binding"
+    },
+    "slot": {
+        "prefix": "i-slot",
+        "body": [
+            "slot=\"${1:start}\""
+        ],
+        "description": "Ionic slot property"
     }
-
 }
