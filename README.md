@@ -10,7 +10,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 
 ### Overview
 * [Snippet Prefix](https://github.com/marcjulian/vscode-ionic-snippets#snippet-prefix)
-* [HTMl Snippets](https://github.com/marcjulian/vscode-ionic-snippets#html-snippets)
+* [HTML Snippets](https://github.com/marcjulian/vscode-ionic-snippets#html-snippets)
 * [Typescript Snippets](https://github.com/marcjulian/vscode-ionic-snippets#typescript-snippets)
 
 ### Snippet Prefix
