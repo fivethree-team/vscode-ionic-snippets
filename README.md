@@ -1,6 +1,6 @@
-# Ionic TypeScript Snippets for VS Code
+# Ionic Snippets for VS Code
 
-Visual Studio Code Extension adds TypeScript and Html snippets snippets for Ionic v4.
+Visual Studio Code Extension adds TypeScript and HTML snippets for Ionic v4.
 
 All code snippets are based on and follow the Angular style guide [Ionic v4 Api](https://beta.ionicframework.com/docs/api).
 
