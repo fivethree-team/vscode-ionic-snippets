@@ -171,6 +171,17 @@
         ],
         "description": "<ion-icon>"
     },
+    "ion-item": {
+        "prefix": "i-item",
+        "body": [
+            "<ion-item>",
+            "\t<ion-label>",
+            "\t\t${1:Awesome Label}",
+            "\t</ion-label>",
+            "</ion-item>"
+        ],
+        "description": "<ion-item>"
+    },
     "ion-menu-button": {
         "prefix": "i-menu-button",
         "body": [
@@ -187,7 +198,178 @@
             "\t<ion-col size=\"${1:12}\"></ion-col>",
             "</ion-row>"
         ],
-        "description": "<ion-row> with <ion-col>"
+        "description": "<ion-row> w/ <ion-col>"
+    },
+    "ion-select": {
+        "prefix": "i-select",
+        "body": [
+            "<ion-select placeholder=\"${1:Select Pizza}\">",
+            "\t<ion-select-option value=\"${2:peperoni}\">${3:Peperoni}</ion-select-option>",
+            "\t<ion-select-option value=\"${4:hawaii}\">${5:Hawaii}</ion-select-option>",
+            "</ion-select>"
+        ],
+        "description": "<ion-select> w/ <ion-select-option>"
+    },
+    "ion-select-option": {
+        "prefix": "i-select",
+        "body": [
+            "\t<ion-select-option value=\"${1:peperoni}\">${2:Peperoni}</ion-select-option>"
+        ],
+        "description": "<ion-select-option>"
+    },
+    "ion-show-when-mode": {
+        "prefix": "i-show-when-mode",
+        "body": [
+            "<ion-show-when mode=\"${1:md,ios}\">",
+            "\t<${2:h1}>${3:Awesome Slide Content}</${2:h1}>",
+            "</ion-show-when>"
+        ],
+        "description": "<ion-show-when> w/ mode"
+    },
+    "ion-show-when-orientation": {
+        "prefix": "i-show-when-orientation",
+        "body": [
+            "<ion-show-when orientation=\"${1:portrait}\">",
+            "\t<${2:h1}>${3:Awesome Slide Content}</${2:h1}>",
+            "</ion-show-when>"
+        ],
+        "description": "<ion-show-when> w/ orientation"
+    },
+    "ion-show-when-platform": {
+        "prefix": "i-show-when-platform",
+        "body": [
+            "<ion-show-when platform=\"${1:android,ios}\">",
+            "\t<${2:h1}>${3:Awesome Slide Content}</${2:h1}>",
+            "</ion-show-when>"
+        ],
+        "description": "<ion-show-when> w/ platform"
+    },
+    "ion-show-when-size": {
+        "prefix": "i-show-when-size",
+        "body": [
+            "<ion-show-when size=\"${1:xl}\">",
+            "\t<${2:h1}>${3:Awesome Slide Content}</${2:h1}>",
+            "</ion-show-when>"
+        ],
+        "description": "<ion-show-when> w/ size"
+    },
+    "ion-skeleton-text": {
+        "prefix": "i-skeleton-text",
+        "body": [
+            "<ion-skeleton-text width=\"${1:80}%\"></ion-skeleton-text>"
+        ],
+        "description": "<ion-skeleton-text>"
+    },
+    "ion-slide": {
+        "prefix": "i-slide",
+        "body": [
+            "<ion-slide>",
+            "\t<${2:h1}>${3:Awesome Slide Content}</${2:h1}>",
+            "</ion-slide>"
+        ],
+        "description": "<ion-slide>"
+    },
+    "ion-slides": {
+        "prefix": "i-slides",
+        "body": [
+            "<ion-slides pager=\"${1:true}\">",
+            "\t<ion-slide>",
+            "\t\t<${2:h1}>${3:Awesome Slide Content}</${2:h1}>",
+            "\t</ion-slide>",
+            "</ion-slides>"
+        ],
+        "description": "<ion-slides> w/ <ion-slide>"
+    },
+    "ion-spinner": {
+        "prefix": "i-spinner",
+        "body": [
+            "<ion-spinner name=\"${1:crescent}\"></ion-spinner>"
+        ],
+        "description": "<ion-spinner>"
+    },
+    "ion-split-pane": {
+        "prefix": "i-split-pane",
+        "body": [
+            "<ion-split-pane>",
+            "\t<ion-menu>",
+            "\t\t<ion-header>",
+            "\t\t\t<ion-toolbar>",
+            "\t\t\t\t<ion-title>${1:Awesome Title}</ion-title>",
+            "\t\t\t</ion-toolbar>",
+            "\t\t</ion-header>",
+            "\t</ion-menu>",
+            "\t<ion-router-outlet main></ion-router-outlet>",
+            "</ion-split-pane>"
+        ],
+        "description": "<ion-split-pane>"
+    },
+    "ion-tab": {
+        "prefix": "i-tab",
+        "body": [
+            "<ion-tab label=\"${1:Explore}\" icon=\"${2:search}\" href=\"${3:/app/tabs/}(${4:explore}:${4:explore})\">",
+            "\t<ion-router-outlet stack name=\"${4:explore}\"></ion-router-outlet>",
+            "</ion-tab>"
+        ],
+        "description": "<ion-tab>"
+    },
+    "ion-tabs": {
+        "prefix": "i-tabs",
+        "body": [
+            "<ion-tabs>",
+            "\t<ion-tab label=\"${1:Explore}\" icon=\"${2:search}\" href=\"${3:/app/tabs/}(${4:explore}:${4:explore})\">",
+            "\t\t<ion-router-outlet stack name=\"${4:explore}\"></ion-router-outlet>",
+            "\t</ion-tab>",
+            "</ion-tabs>"
+        ],
+        "description": "<ion-tabs>"
+    },
+    "ion-text": {
+        "prefix": "i-text",
+        "body": [
+            "<ion-text color=\"${1:primary}\">",
+            "\t<${2:h1}>${3:Awesome text}</${2:h1}>",
+            "</ion-text>"
+        ],
+        "description": "<ion-text> to style the color of any element"
+    },
+    "ion-textarea": {
+        "prefix": "i-textarea",
+        "body": [
+            "<ion-textarea></ion-textarea>"
+        ],
+        "description": "<ion-textarea>"
+    },
+    "ion-thumbnail": {
+        "prefix": "i-thumbnail",
+        "body": [
+            "<ion-thumbnail>",
+            "\t<img src=\"${1:image}\">",
+            "</ion-thumbnail>"
+        ],
+        "description": "<ion-thumbnail>"
+    },
+    "ion-title": {
+        "prefix": "i-title",
+        "body": [
+            "<ion-title>${1:Title}</ion-title>"
+        ],
+        "description": "<ion-title>"
+    },
+    "ion-toggle": {
+        "prefix": "i-toggle",
+        "body": [
+            "<ion-toggle></ion-toggle>"
+        ],
+        "description": "<ion-toggle>"
+    },
+    "ion-toolbar": {
+        "prefix": "i-toolbar",
+        "body": [
+            "<ion-toolbar>",
+            "\t<ion-title>${1:Title}</ion-title>",
+            "</ion-toolbar>"
+        ],
+        "description": "<ion-toolbar>"
     },
     "click": {
         "prefix": "i-click",
