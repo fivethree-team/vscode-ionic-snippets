@@ -29,10 +29,6 @@
         "HTML",
         "Snippets"
     ],
-    "activationEvents": [
-        "onCommand:extension.sayHello"
-    ],
-    "main": "./out/extension",
     "contributes": {
         "snippets": [
             {
