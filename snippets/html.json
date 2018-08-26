@@ -6,7 +6,7 @@
             "\t${1:Click me}",
             "</ion-button>"
         ],
-        "description": "Ionic ion-button"
+        "description": "<ion-button>"
     },
     "ion-button-w-icon": {
         "prefix": "i-button-icon",
@@ -15,7 +15,14 @@
             "\t<ion-icon slot=\"${1:icon-only}\" name=\"${2:add}\"></ion-icon>",
             "</ion-button>"
         ],
-        "description": "Ionic ion-button"
+        "description": "<ion-button> with <ion-icon>"
+    },
+    "ion-col": {
+        "prefix": "i-col",
+        "body": [
+            "<ion-col size=\"${1:12}\"></ion-col>"
+        ],
+        "description": "<ion-col> with size"
     },
     "ion-content": {
         "prefix": "i-content",
@@ -23,7 +30,18 @@
             "<ion-content>",
             "</ion-content>"
         ],
-        "description": "Ionic ion-button"
+        "description": "<ion-button>"
+    },
+    "ion-grid": {
+        "prefix": "i-grid",
+        "body": [
+            "<ion-grid>",
+            "\t<ion-row>",
+            "\t\t<ion-col size=\"${1:12}\"></ion-col>",
+            "\t</ion-row>",
+            "</ion-grid>"
+        ],
+        "description": "<ion-grid> with <ion-row> and <ion-col>"
     },
     "ion-fab": {
         "prefix": "i-fab",
@@ -34,14 +52,15 @@
             "\t</ion-fab-button>",
             "</ion-fab>"
         ],
-        "description": "Ionic ion-button"
+        "description": "<ion-fab>"
     },
+
     "ion-icon": {
         "prefix": "i-icon",
         "body": [
             "<ion-icon slot=\"${1:start}\" name=\"${2:add}\"></ion-icon>"
         ],
-        "description": "Ionic ion-button"
+        "description": "<ion-icon>"
     },
     "ion-menu-button": {
         "prefix": "i-menu-button",
@@ -50,6 +69,23 @@
             "\t<ion-menu-button></ion-menu-button>",
             "</ion-buttons>"
         ],
-        "description": "Ionic ion-button"
+        "description": "<ion-menu-button>"
+    },
+    "ion-row": {
+        "prefix": "i-row",
+        "body": [
+            "<ion-row>",
+            "\t<ion-col size=\"${1:12}\"></ion-col>",
+            "</ion-row>"
+        ],
+        "description": "<ion-row> with <ion-col>"
+    },
+    "scrollEvents": {
+        "prefix": "i-scrollEvents",
+        "body": [
+            "[scrollEvents]=\"${1:true}\""
+        ],
+        "description": "Ionic [scrollEvents] binding"
     }
+
 }
