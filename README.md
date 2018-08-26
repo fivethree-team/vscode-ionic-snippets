@@ -9,10 +9,10 @@ All code snippets are based on and follow the Angular style guide [Ionic v4 Api]
 Type part of a snippet, press enter, and the snippet unfolds.
 
 ### Overview
-* [Snippet Prefix](https://github.com/marcjulian/vscode-ionic-snippets#snippet-prefix)
-* [HTML Snippets](https://github.com/marcjulian/vscode-ionic-snippets#html-snippets)
-* [SCSS Snippets](https://github.com/marcjulian/vscode-ionic-snippets#scss-snippets)
-* [Typescript Snippets](https://github.com/marcjulian/vscode-ionic-snippets#typescript-snippets)
+* [Snippet Prefix](https://github.com/fivethree-team/vscode-ionic-snippets#snippet-prefix)
+* [HTML Snippets](https://github.com/fivethree-team/vscode-ionic-snippets#html-snippets)
+* [SCSS Snippets](https://github.com/fivethree-team/vscode-ionic-snippets#scss-snippets)
+* [Typescript Snippets](https://github.com/fivethree-team/vscode-ionic-snippets#typescript-snippets)
 
 ### Snippet Prefix
 
