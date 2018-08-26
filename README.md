@@ -8,7 +8,12 @@ All code snippets are based on and follow the Angular style guide [Ionic v4 Api]
 
 Type part of a snippet, press enter, and the snippet unfolds.
 
-### Snippet Prefixes
+### Overview
+* [Snippet Prefix](https://github.com/marcjulian/vscode-ionic-snippets#snippet-prefix)
+* [HTMl Snippets](https://github.com/marcjulian/vscode-ionic-snippets#html-snippets)
+* [Typescript Snippets](https://github.com/marcjulian/vscode-ionic-snippets#typescript-snippets)
+
+### Snippet Prefix
 
 | Prefix | Description |
 | ------- | ----------|
@@ -19,6 +24,11 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | Snippet                      | Purpose                                                      |
 | ---------------------------- | ------------------------------------------------------------ |
 | `i-button`                | `<ion-button>`                                                    |
+
+### Typescript Snippets
+
+| Snippet                      | Purpose                                                      |
+| ---------------------------- | ------------------------------------------------------------ |
 
 ## Requirements
 
