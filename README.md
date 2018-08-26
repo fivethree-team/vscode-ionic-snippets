@@ -33,7 +33,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | ---------------------------- | ------------------------------------------------------------ |
 | `i-root`                | `:root { }`                                                    |
 | `i-var`                | `var(--ion-color-primary, #default);`                                                    |
-| `i-common`                | `ion-*{*/common overrides/*}`                                                    |
+| `i-common`                | `ion-*{*/#common-overrides/*}`                                                    |
 
 ### Typescript Snippets
 
