@@ -12,13 +12,13 @@ Type part of a snippet, press enter, and the snippet unfolds.
 
 | Prefix | Description |
 | ------- | ----------|
-| i- | Ionic Snippets |
+| `i-` | Ionic Snippets |
 
 ### HTML Snippets
 
 | Snippet                      | Purpose                                                      |
 | ---------------------------- | ------------------------------------------------------------ |
-| `i-button`                | component                                                    |
+| `i-button`                | `<ion-button>`                                                    |
 
 ## Requirements
 
