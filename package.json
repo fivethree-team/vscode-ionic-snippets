@@ -4,6 +4,11 @@
     "description": "Ionic v4 snippets for VS Code by Marc Julian",
     "version": "0.0.3",
     "publisher": "marcjulian",
+    "icon": "images/ionic-light-icon.png",
+    "galleryBanner": {
+        "color": "#3880ff",
+        "theme": "dark"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/marcjulian/vscode-ionic-snippets.git"
