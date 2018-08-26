@@ -3,8 +3,25 @@
         "prefix": "i-button",
         "body": [
             "<ion-button>",
-            "\t${1:Text}",
+            "\t${1:Click me}",
             "</ion-button>"
+        ],
+        "description": "Ionic ion-button"
+    },
+    "ion-button-w-icon": {
+        "prefix": "i-button-icon",
+        "body": [
+            "<ion-button>",
+            "\t<ion-icon slot=\"${1:icon-only}\" name=\"${2:add}\"></ion-icon>",
+            "</ion-button>"
+        ],
+        "description": "Ionic ion-button"
+    },
+    "ion-content": {
+        "prefix": "i-content",
+        "body": [
+            "<ion-content>",
+            "</ion-content>"
         ],
         "description": "Ionic ion-button"
     },
@@ -13,9 +30,25 @@
         "body": [
             "<ion-fab vertical=\"${1:bottom}\" horizontal=\"${2:end}\" slot=\"${3:fixed}\">",
             "\t<ion-fab-button>",
-            "\t\t<ion-icon name=\"${4:icon}\"></ion-icon>",
+            "\t\t<ion-icon name=\"${4:add}\"></ion-icon>",
             "\t</ion-fab-button>",
             "</ion-fab>"
+        ],
+        "description": "Ionic ion-button"
+    },
+    "ion-icon": {
+        "prefix": "i-icon",
+        "body": [
+            "<ion-icon slot=\"${1:start}\" name=\"${2:add}\"></ion-icon>"
+        ],
+        "description": "Ionic ion-button"
+    },
+    "ion-menu-button": {
+        "prefix": "i-menu-button",
+        "body": [
+            "<ion-buttons slot=\"start\">",
+            "\t<ion-menu-button></ion-menu-button>",
+            "</ion-buttons>"
         ],
         "description": "Ionic ion-button"
     }

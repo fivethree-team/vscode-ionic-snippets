@@ -1,8 +1,8 @@
 {
     "name": "vscode-ionic-snippets",
-    "displayName": "vscode-ionic-snippets",
+    "displayName": "Ionic v4 Snippets",
     "description": "Ionic v4 snippets for VS Code by Marc Julian",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "marcjulian",
     "repository": {
         "type": "git",
