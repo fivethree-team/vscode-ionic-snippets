@@ -1,13 +1,27 @@
 {
     "name": "vscode-ionic-snippets",
     "displayName": "vscode-ionic-snippets",
-    "description": "Ionic v4 snippets by Marc Julian",
+    "description": "Ionic v4 snippets for VS Code by Marc Julian",
     "version": "0.0.1",
     "publisher": "marcjulian",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/marcjulian/vscode-ionic-snippets.git"
+    },
+    "bugs": {
+        "url": "https://github.com/marcjulian/vscode-ionic-snippets/issues"
+    },
     "engines": {
         "vscode": "^1.26.0"
     },
     "categories": [
+        "Snippets"
+    ],
+    "keywords": [
+        "Ionic",
+        "Ionic v4",
+        "TypeScript",
+        "HTML",
         "Snippets"
     ],
     "activationEvents": [

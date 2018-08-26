@@ -1,16 +1,24 @@
-# vscode-ionic-snippets README
+# Ionic TypeScript Snippets for VS Code
 
-This is the README for your extension "vscode-ionic-snippets". After writing up a brief description, we recommend including the following sections.
+Visual Studio Code Extension adds TypeScript and Html snippets snippets for Ionic v4.
 
-## Features
+All code snippets are based on and follow the Angular style guide [Ionic v4 Api](https://beta.ionicframework.com/docs/api)
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## Using Snippets for Ionic v4
 
-For example if there is an image subfolder under your extension project workspace:
+Type part of a snippet, press enter, and the snippet unfolds.
 
-\!\[feature X\]\(images/feature-x.png\)
+### Snippet Prefixes
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+| Prefix | Description |
+| ------- | ----------|
+| i- | Ionic Snippets |
+
+### HTML Snippets
+
+| Snippet                      | Purpose                                                      |
+| ---------------------------- | ------------------------------------------------------------ |
+| `i-button`                | component                                                    |
 
 ## Requirements
 
