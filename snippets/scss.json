@@ -1,0 +1,18 @@
+{
+    "ion-root": {
+        "prefix": "i-root",
+        "body": [
+            "${1::root} {",
+            "\t--ion-color-primary: #${2:00ff00};",
+            "}"
+        ],
+        "description": "Ionic root"
+    },
+    "ion-var": {
+        "prefix": "i-var",
+        "body": [
+            "var(--${1:ion-color-primary}, #${2:00ff00});"
+        ],
+        "description": "Ionic var w/ ion-color-primary"
+    }
+}

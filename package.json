@@ -40,6 +40,10 @@
                 "path": "./snippets/html.json"
             },
             {
+                "language": "scss",
+                "path": "./snippets/scss.json"
+            },
+            {
                 "language": "typescript",
                 "path": "./snippets/typescript.json"
             }
