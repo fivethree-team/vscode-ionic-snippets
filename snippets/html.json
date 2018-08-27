@@ -12,14 +12,14 @@
         "body": [
             "<ion-avatar>",
             "\t<img [src]=\"${1:image}\">",
-            "</ion-buttons>"
+            "</ion-avatar>"
         ],
         "description": "<ion-avatar>"
     },
     "ion-back-button": {
         "prefix": "i-back-button",
         "body": [
-            "<ion-buttons slot=\"${1:start}\">",
+            "<ion-buttons slot=\"${1|start,end,primary,secondary|}\">",
             "\t<ion-back-button></ion-back-button>",
             "</ion-buttons>"
         ],
@@ -52,7 +52,7 @@
         "prefix": "i-button-icon-only",
         "body": [
             "<ion-button (click)=\"${1:onClick()}\">",
-            "\t<ion-icon slot=\"${2:icon-only}\" name=\"${3:add}\"></ion-icon>",
+            "\t<ion-icon slot=\"icon-only\" name=\"${2:add}\"></ion-icon>",
             "</ion-button>"
         ],
         "description": "<ion-button> w/ icon only"
@@ -61,7 +61,7 @@
         "prefix": "i-button-w-icon",
         "body": [
             "<ion-button (click)=\"${1:onClick()}\">",
-            "\t<ion-icon slot=\"${2:start}\" name=\"${3:add}\"></ion-icon>",
+            "\t<ion-icon slot=\"${2|start,end,primary,secondary,icon-only|}\" name=\"${3:add}\"></ion-icon>",
             "\t${4:Click me}",
             "</ion-button>"
         ],
@@ -70,9 +70,9 @@
     "ion-buttons": {
         "prefix": "i-buttons",
         "body": [
-            "<ion-buttons slot=\"${1:primary}\">",
+            "<ion-buttons slot=\"${1|start,end,primary,secondary|}\">",
             "\t<ion-button (click)=\"${2:onClick()}\">",
-            "\t\t<ion-icon slot=\"${3:start}\" name=\"${4:add}\"></ion-icon>",
+            "\t\t<ion-icon slot=\"${3|start,end,primary,secondary,icon-only|}\" name=\"${4:add}\"></ion-icon>",
             "\t\t${5:Click me}",
             "\t</ion-button>",
             "</ion-buttons>"
@@ -125,7 +125,7 @@
         "body": [
             "<ion-card-title>${1:Awesome Title}</ion-card-title>"
         ],
-        "description": "<ion-card-subtitle>"
+        "description": "<ion-card-title>"
     },
     "ion-col": {
         "prefix": "i-col",
@@ -140,23 +140,24 @@
             "<ion-content>",
             "</ion-content>"
         ],
-        "description": "<ion-button>"
+        "description": "<ion-content>"
     },
     "ion-grid": {
         "prefix": "i-grid",
         "body": [
             "<ion-grid>",
             "\t<ion-row>",
-            "\t\t<ion-col size=\"${1:12}\"></ion-col>",
+            "\t\t<ion-col size=\"${1:6}\"></ion-col>",
+            "\t\t<ion-col size=\"${2:6}\"></ion-col>",
             "\t</ion-row>",
             "</ion-grid>"
         ],
-        "description": "<ion-grid> with <ion-row> and <ion-col>"
+        "description": "<ion-grid> w/ <ion-row> and <ion-col>"
     },
     "ion-fab": {
         "prefix": "i-fab",
         "body": [
-            "<ion-fab vertical=\"${1:bottom}\" horizontal=\"${2:end}\" slot=\"${3:fixed}\">",
+            "<ion-fab vertical=\"${1|top,center,bottom|}\" horizontal=\"${2|center,start,end|}\" slot=\"${3:fixed}\">",
             "\t<ion-fab-button>",
             "\t\t<ion-icon name=\"${4:add}\"></ion-icon>",
             "\t</ion-fab-button>",
@@ -164,10 +165,36 @@
         ],
         "description": "<ion-fab>"
     },
+    "ion-form": {
+        "prefix": "i-form",
+        "body": [
+            "<form [formGroup]=\"${1:loginForm}\">",
+            "\t<ion-item>",
+            "\t\t<ion-label position=\"${2|floating,inline,fixed,stacked|}\">${3:E-Mail}</ion-label>",
+            "\t\t<ion-input formControlName=\"${4:email}\" type=\"${5|text,password,email,number,tel,url|}\"></ion-input>",
+            "\t</ion-item>",
+            "\t<ion-item>",
+            "\t\t<ion-label position=\"${2|floating,inline,fixed,stacked|}\">${6:Passwort}</ion-label>",
+            "\t\t<ion-input formControlName=\"${7:password}\" type=\"${8|text,password,email,number,tel,url|}\"></ion-input>",
+            "\t</ion-item>",
+            "</form>"
+        ],
+        "description": "<ion-form> w/ <ion-input> and formGroup"
+    },
+    "ion-form-input": {
+        "prefix": "i-form-input",
+        "body": [
+            "<ion-item>",
+            "\t<ion-label position=\"${1|floating,inline,fixed,stacked|}\">${2:E-Mail}</ion-label>",
+            "\t<ion-input formControlName=\"${3:email}\" type=\"${4|text,password,email,number,tel,url|}\"></ion-input>",
+            "</ion-item>"
+        ],
+        "description": "<ion-item> w/ <ion-input> and formControlName"
+    },
     "ion-icon": {
         "prefix": "i-icon",
         "body": [
-            "<ion-icon slot=\"${1:start}\" name=\"${2:add}\"></ion-icon>"
+            "<ion-icon slot=\"${1|start,end,primary,secondary,icon-only|}\" name=\"${2:add}\"></ion-icon>"
         ],
         "description": "<ion-icon>"
     },
@@ -185,7 +212,7 @@
     "ion-menu-button": {
         "prefix": "i-menu-button",
         "body": [
-            "<ion-buttons slot=\"start\">",
+            "<ion-buttons slot=\"${1|start,end,primary,secondary|\">",
             "\t<ion-menu-button></ion-menu-button>",
             "</ion-buttons>"
         ],
@@ -211,7 +238,7 @@
         "description": "<ion-select> w/ <ion-select-option>"
     },
     "ion-select-option": {
-        "prefix": "i-select",
+        "prefix": "i-select-option",
         "body": [
             "\t<ion-select-option value=\"${1:peperoni}\">${2:Peperoni}</ion-select-option>"
         ],
@@ -220,7 +247,7 @@
     "ion-show-when-mode": {
         "prefix": "i-show-when-mode",
         "body": [
-            "<ion-show-when mode=\"${1:md,ios}\">",
+            "<ion-show-when mode=\"${1|md,ios|}\">",
             "\t<${2:h1}>${3:Awesome Slide Content}</${2:h1}>",
             "</ion-show-when>"
         ],
@@ -229,7 +256,7 @@
     "ion-show-when-orientation": {
         "prefix": "i-show-when-orientation",
         "body": [
-            "<ion-show-when orientation=\"${1:portrait}\">",
+            "<ion-show-when orientation=\"${1|portrait,landscape|}\">",
             "\t<${2:h1}>${3:Awesome Slide Content}</${2:h1}>",
             "</ion-show-when>"
         ],
@@ -238,7 +265,7 @@
     "ion-show-when-platform": {
         "prefix": "i-show-when-platform",
         "body": [
-            "<ion-show-when platform=\"${1:android,ios}\">",
+            "<ion-show-when platform=\"${1|android,ios|}\">",
             "\t<${2:h1}>${3:Awesome Slide Content}</${2:h1}>",
             "</ion-show-when>"
         ],
@@ -247,7 +274,7 @@
     "ion-show-when-size": {
         "prefix": "i-show-when-size",
         "body": [
-            "<ion-show-when size=\"${1:xl}\">",
+            "<ion-show-when size=\"${1|xs,sm,md,lg,xl|}\">",
             "\t<${2:h1}>${3:Awesome Slide Content}</${2:h1}>",
             "</ion-show-when>"
         ],
@@ -283,7 +310,7 @@
     "ion-spinner": {
         "prefix": "i-spinner",
         "body": [
-            "<ion-spinner name=\"${1:crescent}\"></ion-spinner>"
+            "<ion-spinner name=\"${1|crescent,lines|}\"></ion-spinner>"
         ],
         "description": "<ion-spinner>"
     },
@@ -376,19 +403,19 @@
         "body": [
             "(click)=\"${1:onClick()}\""
         ],
-        "description": "Ionic (click) event"
+        "description": "(click) event"
     },
     "scrollEvents": {
         "prefix": "i-scrollEvents",
         "body": [
-            "[scrollEvents]=\"${1:true}\""
+            "[scrollEvents]=\"${1|true,false|}\""
         ],
-        "description": "Ionic [scrollEvents] binding"
+        "description": "Ionic [scrollEvents] binding for <ion-content>"
     },
     "slot": {
         "prefix": "i-slot",
         "body": [
-            "slot=\"${1:start}\""
+            "slot=\"${1|start,end,primary,secondary|}\""
         ],
         "description": "Ionic slot property"
     }
