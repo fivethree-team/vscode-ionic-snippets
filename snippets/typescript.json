@@ -92,6 +92,34 @@
         ],
         "description": "Ionic AlertController"
     },
+    "form": {
+        "prefix": "i-form",
+        "body": [
+            "${1:setupForm}() {",
+            "\tthis.${2:loginForm} = ${3:formBuilder}.group({",
+            "\t\t${4:email}: ['', [Validators.email, Validators.required]],",
+            "\t\t${5:password}: ['', [Validators.minLength(6), Validators.required]],",
+            "\t});",
+            "}"
+        ],
+        "description": "Simple form"
+    },
+    "form-builder": {
+        "prefix": "i-form-builder",
+        "body": [
+            "public ${1:formBuilder}: FormBuilder,"
+        ],
+        "description": "FormBuilder"
+    },
+    "form-value": {
+        "prefix": "i-form-value",
+        "body": [
+            "get ${1:email}(): AbstractControl {",
+            "\treturn this.loginForm.get('${1:email}');",
+            "}"
+        ],
+        "description": "FormBuilder"
+    },
     "modal": {
         "prefix": "i-modal",
         "body": [
