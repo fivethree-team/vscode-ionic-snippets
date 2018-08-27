@@ -39,5 +39,15 @@ Type part of a snippet, press enter, and the snippet unfolds.
 
 | Snippet                      | Purpose                                                      |
 | ---------------------------- | ------------------------------------------------------------ |
-
+| `i-action-sheet`                | Ionic action sheet dialog method                                                  |
+| `i-action-sheet-ctrl`                | Ionic ActionSheetController    |
+| `i-alert`                | Ionic alert dialog method                                                  |
+| `i-alert-confirm`                | Ionic alert confirm dialog method                                                  |
+| `i-alert-ctrl`                | Ionic AlertController                                                 |
+| `i-modal`                | Ionic modal dialog method                                                 |
+| `i-modal-ctrl`                | Ionic ModalController                                                 |
+| `i-popover`                | Ionic popover dialog method                                                 |
+| `i-popover-ctrl`                | Ionic PopoverController                                                 |
+| `i-toast`                | Ionic toast notification method                                                 |
+| `i-toast-ctrl`                | Ionic ToastController                                                 |
 
