@@ -92,6 +92,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-alert-ctrl`                | Ionic AlertController                                                 |
 | `i-form`                | Simple form group                                                 |
 | `i-form-builder`                | FormBuilder                                                 |
+| `i-form-value`                | Get value for formControlName                                                  |
 | `i-modal`                | Ionic modal dialog method                                                 |
 | `i-modal-ctrl`                | Ionic ModalController                                                 |
 | `i-popover`                | Ionic popover dialog method                                                 |
