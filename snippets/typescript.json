@@ -122,7 +122,7 @@
         "prefix": "i-form-value",
         "body": [
             "get ${1:email}(): AbstractControl {",
-            "\treturn this.loginForm.get('${1:email}');",
+            "\treturn this.${2:loginForm}.get('${1:email}');",
             "}"
         ],
         "description": "FormBuilder"
