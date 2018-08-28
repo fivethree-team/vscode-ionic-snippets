@@ -51,6 +51,14 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-form-input-error`                | `<ion-item>` w/ `<ion-input>` and formControlName including error text                                                    |
 | `i-icon`                | `<ion-icon>`                                                    |
 | `i-item`                | `<ion-item>` w/ `<ion-label>`                                                    |
+| `i-item-checkbox`                | `<ion-item>` w/ `<ion-checkbox>`                                                    |
+| `i-item-input`                | `<ion-item>` w/ `<ion-input>`                                                    |
+| `i-item-toggle`                | `<ion-item>` w/ `<ion-toggle>`                                                    |
+| `i-item-radio`                | `<ion-item>` w/ `<ion-radio>`                                                    |
+| `i-list`                | `<ion-item>` w/ two `<ion-item>`                                                    |
+| `i-list-input`                | `<ion-item>` w/ two `<ion-item>`                                                    |
+| `i-menu`                | `<ion-menu>` w/ `<ion-header>` and `<ion-content>`                                                   |
+| `i-menu-advanced`                | `<ion-menu>` w/ `<ion-header>`, `<ion-content>` and `<ion-footer>`                                                    |
 | `i-menu-button`                | `<ion-menu-button>`                                                    |
 | `i-row`                | `<ion-row>` w/ `<ion-col>`                                                   |
 | `i-select`                | `<ion-select>` w/ `<ion-select-option>`                                                   |
@@ -64,6 +72,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-slides`                | `<ion-slides>` w/ `<ion-slide>`                                                |
 | `i-spinner`                | `<ion-spinner>`                                              |
 | `i-split-pane`                | `<ion-split-pane>`                                              |
+| `i-split-pane-advanced`                | `<ion-split-pane>` w/ a menu including `<ion-header>`, `<ion-content>` and `<ion-footer>`                                           |
 | `i-tab`                | `<ion-tab>`                                              |
 | `i-tabs`                | `<ion-tabs>`                                              |
 | `i-text`                | `<ion-text>`                                              |

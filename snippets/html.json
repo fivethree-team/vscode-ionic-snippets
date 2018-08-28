@@ -240,18 +240,129 @@
         "prefix": "i-item",
         "body": [
             "<ion-item>",
-            "\t<ion-label>",
-            "\t\t${1:Awesome Label}",
-            "\t</ion-label>",
+            "\t<ion-label>${1:Awesome Label}</ion-label>",
             "</ion-item>"
         ],
         "description": "<ion-item>"
+    },
+    "ion-item-checkbox": {
+        "prefix": "i-item-checkbox",
+        "body": [
+            "<ion-item>",
+            "\t<ion-label>${1:Checkbox}</ion-label>",
+            "\t<ion-checkbox slot=\"${2|start,end|}\"></ion-checkbox>",
+            "</ion-item>"
+        ],
+        "description": "<ion-item> w/ <ion-checkbox>"
+    },
+    "ion-item-input": {
+        "prefix": "i-item-input",
+        "body": [
+            "<ion-item>",
+            "\t<ion-label>${1:Input}</ion-label>",
+            "\t<ion-input></ion-input>",
+            "</ion-item>"
+        ],
+        "description": "<ion-item> w/ <ion-input>"
+    },
+    "ion-item-toggle": {
+        "prefix": "i-item-toggle",
+        "body": [
+            "<ion-item>",
+            "\t<ion-label>${1:Toggle}</ion-label>",
+            "\t<ion-toggle slot=\"${2|end,start|}\"></ion-toggle>",
+            "</ion-item>"
+        ],
+        "description": "<ion-item> w/ <ion-toggle>"
+    },
+    "ion-item-radio": {
+        "prefix": "i-item-radio",
+        "body": [
+            "<ion-item>",
+            "\t<ion-label>${1:Radio}</ion-label>",
+            "\t<ion-radio slot=\"${2|end,start|}\"></ion-radio>",
+            "</ion-item>"
+        ],
+        "description": "<ion-item> w/ <ion-radio>"
+    },
+    "ion-list": {
+        "prefix": "i-list",
+        "body": [
+            "<ion-list>",
+            "\t<ion-item>",
+            "\t\t<ion-label>${1:Peperoni}</ion-label>",
+            "\t</ion-item>",
+            "\t<ion-item>",
+            "\t\t<ion-label>${1:Hawaii}</ion-label>",
+            "\t</ion-item>",
+            "</ion-list>"
+        ],
+        "description": "<ion-list>"
+    },
+    "ion-list-input": {
+        "prefix": "i-list-input",
+        "body": [
+            "<ion-list>",
+            "\t<ion-item>",
+            "\t\t<ion-label>${1:Input}</ion-label>",
+            "\t\t<ion-input></ion-input>",
+            "\t</ion-item>",
+            "\t<ion-item>",
+            "\t\t<ion-label>${2:Toggle}</ion-label>",
+            "\t\t<ion-toggle slot=\"${4|end,start|}\"></ion-toggle>",
+            "\t</ion-item>",
+            "\t<ion-item>",
+            "\t\t<ion-label>${5:Radio}</ion-label>",
+            "\t\t<ion-radio slot=\"${6|end,start|}\"></ion-radio>",
+            "\t</ion-item>",
+            "\t<ion-item>",
+            "\t\t<ion-label>${7:Checkbox}</ion-label>",
+            "\t\t<ion-checkbox slot=\"${8|start,end|}\"></ion-checkbox>",
+            "\t</ion-item>",
+            "</ion-list>"
+        ],
+        "description": "<ion-list>"
+    },
+    "ion-menu": {
+        "prefix": "i-menu",
+        "body": [
+            "<ion-menu menuId=\"${1:avocadoMenu}\" side=\"${2|start,end|}\" type=\"${3|overlay,push,reveal|}\">",
+            "\t<ion-header>",
+            "\t\t<ion-toolbar>",
+            "\t\t\t<ion-title>${4:Awesome avocado menu}</ion-title>",
+            "\t\t</ion-toolbar>",
+            "\t</ion-header>",
+            "\t<ion-content>",
+            "\t\t${5:Awesome avocado content}",
+            "\t</ion-content>",
+            "</ion-menu>"
+        ],
+        "description": "<ion-menu> w/ <ion-header> and <ion-content>"
+    },
+    "ion-menu-advanced": {
+        "prefix": "i-menu-advanced",
+        "body": [
+            "<ion-menu menuId=\"${1:pizzaMenu}\" side=\"${2|start,end|}\" type=\"${3|overlay,push,reveal|}\">",
+            "\t<ion-header>",
+            "\t\t<ion-toolbar>",
+            "\t\t\t<ion-title>${4:Awesome pizza menu}</ion-title>",
+            "\t\t</ion-toolbar>",
+            "\t</ion-header>",
+            "\t<ion-content>",
+            "\t\t${5:Awesome pizza content}",
+            "\t</ion-content>",
+            "\t<ion-footer>",
+            "\t\t${6:Awesome pizza footer}",
+            "\t</ion-footer>",
+            "</ion-menu>"
+        ],
+        "description": "<ion-menu> w/ <ion-header>, <ion-content> and <ion-footer>"
     },
     "ion-menu-button": {
         "prefix": "i-menu-button",
         "body": [
             "<ion-buttons slot=\"${1|start,end,primary,secondary|\">",
-            "\t<ion-menu-button></ion-menu-button>",
+            "\t<ion-menu-button menu=\"${2|menuId,start,end|}\"></ion-menu-button>",
             "</ion-buttons>"
         ],
         "description": "<ion-menu-button>"
@@ -356,17 +467,42 @@
         "prefix": "i-split-pane",
         "body": [
             "<ion-split-pane>",
-            "\t<ion-menu>",
+            "\t<ion-menu menuId=\"${1:avocadoMenu}\" side=\"${2|start,end|}\" type=\"${3|overlay,push,reveal|}\">",
             "\t\t<ion-header>",
             "\t\t\t<ion-toolbar>",
-            "\t\t\t\t<ion-title>${1:Awesome Title}</ion-title>",
+            "\t\t\t\t<ion-title>${4:Awesome avocado menu}</ion-title>",
             "\t\t\t</ion-toolbar>",
             "\t\t</ion-header>",
+            "\t\t<ion-content>",
+            "\t\t\t${5:Awesome avocado content}",
+            "\t\t</ion-content>",
             "\t</ion-menu>",
             "\t<ion-router-outlet main></ion-router-outlet>",
             "</ion-split-pane>"
         ],
         "description": "<ion-split-pane>"
+    },
+    "ion-split-pane-advanced": {
+        "prefix": "i-split-pane-advanced",
+        "body": [
+            "<ion-split-pane>",
+            "\t<ion-menu menuId=\"${1:avocadoMenu}\" side=\"${2|start,end|}\" type=\"${3|overlay,push,reveal|}\">",
+            "\t\t<ion-header>",
+            "\t\t\t<ion-toolbar>",
+            "\t\t\t\t<ion-title>${4:Awesome avocado menu}</ion-title>",
+            "\t\t\t</ion-toolbar>",
+            "\t\t</ion-header>",
+            "\t\t<ion-content>",
+            "\t\t\t${5:Awesome avocado content}",
+            "\t\t</ion-content>",
+            "\t\t<ion-footer>",
+            "\t\t\t${6:Awesome avocado footer}",
+            "\t\t</ion-footer>",
+            "\t</ion-menu>",
+            "\t<ion-router-outlet main></ion-router-outlet>",
+            "</ion-split-pane>"
+        ],
+        "description": "<ion-split-pane> w/ one complete menu"
     },
     "ion-tab": {
         "prefix": "i-tab",
