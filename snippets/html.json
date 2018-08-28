@@ -35,7 +35,7 @@
     "ion-badge": {
         "prefix": "i-badge",
         "body": [
-            "<ion-badge color=\"${1:primary}\">${2:42}</ion-badge>"
+            "<ion-badge color=\"${1|primary,secondary,tertiary|}\">${2:42}</ion-badge>"
         ],
         "description": "<ion-backdrop>"
     },
@@ -168,18 +168,41 @@
     "ion-form": {
         "prefix": "i-form",
         "body": [
-            "<form [formGroup]=\"${1:loginForm}\">",
+            "<form [formGroup]=\"${1:loginForm}\" (ngSubmit)=\"${2:onSubmit}()\">",
             "\t<ion-item>",
-            "\t\t<ion-label position=\"${2|floating,inline,fixed,stacked|}\">${3:E-Mail}</ion-label>",
-            "\t\t<ion-input formControlName=\"${4:email}\" type=\"${5|text,password,email,number,tel,url|}\"></ion-input>",
+            "\t\t<ion-label position=\"${3|floating,inline,fixed,stacked|}\">${4:E-Mail}</ion-label>",
+            "\t\t<ion-input formControlName=\"${5:email}\" type=\"${6|text,password,email,number,tel,url|}\"></ion-input>",
             "\t</ion-item>",
             "\t<ion-item>",
-            "\t\t<ion-label position=\"${2|floating,inline,fixed,stacked|}\">${6:Passwort}</ion-label>",
-            "\t\t<ion-input formControlName=\"${7:password}\" type=\"${8|text,password,email,number,tel,url|}\"></ion-input>",
+            "\t\t<ion-label position=\"${3|floating,inline,fixed,stacked|}\">${7:Password}</ion-label>",
+            "\t\t<ion-input formControlName=\"${8:password}\" type=\"${9|text,password,email,number,tel,url|}\"></ion-input>",
             "\t</ion-item>",
+            "\t<ion-button block color=\"${10|primary,secondary,tertiary|}\" type=\"submit\" [disabled]=\"${1:loginForm}.invalid\">",
+            "\t\t${11:Login}",
+            "\t</ion-button>",
             "</form>"
         ],
         "description": "<ion-form> w/ <ion-input> and formGroup"
+    },
+    "ion-form-error": {
+        "prefix": "i-form-error",
+        "body": [
+            "<form [formGroup]=\"${1:loginForm}\" (ngSubmit)=\"${2:onSubmit}()\">",
+            "\t<ion-item>",
+            "\t\t<ion-label position=\"${3|floating,inline,fixed,stacked|}\">${4:E-Mail}</ion-label>",
+            "\t\t<ion-input formControlName=\"${5:email}\" type=\"${6|text,password,email,number,tel,url|}\"></ion-input>",
+            "\t</ion-item>",
+            "\t<ion-item *ngIf=\"${5:email}.invalid && ${5:email}.touched\">",
+            "\t\t<ion-text color=\"${7:danger}\" class=\"{8:form-error}\">",
+            "\t\t\t${9:Please enter a valid email address.}",
+            "\t\t</ion-text>",
+            "\t</ion-item>",
+            "\t<ion-button block color=\"${10|primary,secondary,tertiary|}\" type=\"submit\" [disabled]=\"${1:loginForm}.invalid\">",
+            "\t\t${11:Login}",
+            "\t</ion-button>",
+            "</form>"
+        ],
+        "description": "<ion-form> w/ <ion-input> and formGroup including error text"
     },
     "ion-form-input": {
         "prefix": "i-form-input",
@@ -190,6 +213,21 @@
             "</ion-item>"
         ],
         "description": "<ion-item> w/ <ion-input> and formControlName"
+    },
+    "ion-form-input-error": {
+        "prefix": "i-form-input-error",
+        "body": [
+            "<ion-item>",
+            "\t<ion-label position=\"${1|floating,inline,fixed,stacked|}\">${2:E-Mail}</ion-label>",
+            "\t<ion-input formControlName=\"${3:email}\" type=\"${4|text,password,email,number,tel,url|}\"></ion-input>",
+            "</ion-item>",
+            "<ion-item *ngIf=\"${3:email}.invalid && ${3:email}.touched\">",
+            "\t<ion-text color=\"${5:danger}\" class=\"${6:form-error}\">",
+            "\t\t${7:Please enter a valid email address.}",
+            "\t</ion-text>",
+            "</ion-item>"
+        ],
+        "description": "<ion-item> w/ <ion-input> and formControlName including error text"
     },
     "ion-icon": {
         "prefix": "i-icon",
@@ -353,7 +391,7 @@
     "ion-text": {
         "prefix": "i-text",
         "body": [
-            "<ion-text color=\"${1:primary}\">",
+            "<ion-text color=\"${1|primary,secondary,tertiary|}\">",
             "\t<${2:h1}>${3:Awesome text}</${2:h1}>",
             "</ion-text>"
         ],

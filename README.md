@@ -45,7 +45,9 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-grid`                | `<ion-grid>` w/ `<ion-row>` and `<ion-col>`                                                    |
 | `i-fab`                | `<ion-fab>` w/ `<ion-fab-button>`                                                    |
 | `i-form`                | `<ion-form>` w/ `<ion-input>` and formGroup                                                    |
+| `i-form-error`                | `<ion-form>` w/ `<ion-input>` and formGroup including error text                                                    |
 | `i-form-input`                | `<ion-item>` w/ `<ion-input>` and formControlName                                                    |
+| `i-form-input-error`                | `<ion-item>` w/ `<ion-input>` and formControlName including error text                                                    |
 | `i-icon`                | `<ion-icon>`                                                    |
 | `i-item`                | `<ion-item>` w/ `<ion-label>`                                                    |
 | `i-menu-button`                | `<ion-menu-button>`                                                    |
