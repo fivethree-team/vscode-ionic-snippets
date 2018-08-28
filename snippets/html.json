@@ -193,7 +193,7 @@
             "\t\t<ion-input formControlName=\"${5:email}\" type=\"${6|text,password,email,number,tel,url|}\"></ion-input>",
             "\t</ion-item>",
             "\t<ion-item *ngIf=\"${5:email}.invalid && ${5:email}.touched\">",
-            "\t\t<ion-text color=\"${7:danger}\" class=\"{8:form-error}\">",
+            "\t\t<ion-text color=\"${7:danger}\" class=\"${8:form-error}\">",
             "\t\t\t${9:Please enter a valid email address.}",
             "\t\t</ion-text>",
             "\t</ion-item>",

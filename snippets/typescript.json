@@ -96,7 +96,7 @@
         "prefix": "i-form",
         "body": [
             "${1:setupForm}() {",
-            "\tthis.${2:loginForm} = ${3:formBuilder}.group({",
+            "\tthis.${2:loginForm} = this.${3:formBuilder}.group({",
             "\t\t${4:email}: ['', [Validators.email, Validators.required]],",
             "\t\t${5:password}: ['', [Validators.minLength(6), Validators.required]],",
             "\t});",
@@ -110,6 +110,13 @@
             "public ${1:formBuilder}: FormBuilder,"
         ],
         "description": "FormBuilder"
+    },
+    "form-group": {
+        "prefix": "i-form-group",
+        "body": [
+            "${1:loginForm}: FormGroup;"
+        ],
+        "description": "FormGroup instance"
     },
     "form-value": {
         "prefix": "i-form-value",
