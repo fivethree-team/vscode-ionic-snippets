@@ -41,14 +41,27 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-card-header`                | `<ion-card-header>`                                                    |
 | `i-card-subtitle`                | `<ion-card-subtitle>`                                                    |
 | `i-card-title`                | `<ion-card-title>`                                                    |
+| `i-checkbox`                | `<ion-checkbox>`                                                    |
+| `i-chip`                | `<ion-chip>`                                                    |
+| `i-chip-button`                | `<ion-chip-button>`                                                    |
+| `i-chip-icon`                | `<ion-chip>` w/ `<ion-icon>` at the start                                                    |
+| `i-chip-icon-end`                | `<ion-chip>` w/ `<ion-icon>` at the end                                                  |
 | `i-col`                | `<ion-col>`                                                    |
 | `i-content`                | `<ion-content>`                                                    |
-| `i-grid`                | `<ion-grid>` w/ `<ion-row>` and `<ion-col>`                                                    |
+| `i-content-events`                | `<ion-content>` w/ events                                                    |
+| `i-datetime`                | `<ion-datetime>`                                                |
 | `i-fab`                | `<ion-fab>` w/ `<ion-fab-button>`                                                    |
+| `i-footer`                | `<ion-footer>`                                                    |
 | `i-form`                | `<ion-form>` w/ `<ion-input>` and formGroup                                                    |
 | `i-form-error`                | `<ion-form>` w/ `<ion-input>` and formGroup including error text                                                    |
 | `i-form-input`                | `<ion-item>` w/ `<ion-input>` and formControlName                                                    |
 | `i-form-input-error`                | `<ion-item>` w/ `<ion-input>` and formControlName including error text                                                    |
+| `i-grid`                | `<ion-grid>` w/ `<ion-row>` and `<ion-col>`                                                    |
+| `i-header`                | `<ion-header>`                                                   |
+| `i-hide-when-mode`                | `<ion-hide-when>` w/ mode                                                   |
+| `i-hide-when-orientation`                | `<ion-hide-when>` w/ orientation                                                   |
+| `i-hide-when-platform`                | `<ion-hide-when>` w/ platform                                                   |
+| `i-hide-when-size`                | `<ion-hide-when>` w/ size                                                   |
 | `i-icon`                | `<ion-icon>`                                                    |
 | `i-item`                | `<ion-item>` w/ `<ion-label>`                                                    |
 | `i-item-checkbox`                | `<ion-item>` w/ `<ion-checkbox>`                                                    |
@@ -106,6 +119,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-form-builder`                | FormBuilder                                                 |
 | `i-form-group`                | FormGroup instance                                                 |
 | `i-form-value`                | Get value for formControlName `form.get('email')`                                               |
+| `i-ctrl-import`                | Imports from `@ionic/angular` package                                               |
 | `i-modal`                | Ionic modal dialog method                                                 |
 | `i-modal-ctrl`                | Ionic ModalController                                                 |
 | `i-popover`                | Ionic popover dialog method                                                 |

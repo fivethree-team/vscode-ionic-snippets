@@ -127,6 +127,13 @@
         ],
         "description": "FormBuilder"
     },
+    "ion-ctrl-import": {
+        "prefix": "i-ctrl-import",
+        "body": [
+            "import { ${1:AlertController} } from '@ionic/angular';"
+        ],
+        "description": "Imports from @ionic/angular package"
+    },
     "modal": {
         "prefix": "i-modal",
         "body": [

@@ -127,6 +127,54 @@
         ],
         "description": "<ion-card-title>"
     },
+    "ion-checkbox": {
+        "prefix": "i-checkbox",
+        "body": [
+            "<ion-checkbox></ion-checkbox>"
+        ],
+        "description": "<ion-checkbox>"
+    },
+    "ion-chip": {
+        "prefix": "i-chip",
+        "body": [
+            "<ion-chip>",
+            "\t<ion-label>${1:Default}</ion-label>",
+            "</ion-chip>"
+        ],
+        "description": "<ion-chip>"
+    },
+    "ion-chip-button": {
+        "prefix": "i-chip-button",
+        "body": [
+            "<ion-chip>",
+            "\t<ion-label>${1:Default}</ion-label>",
+            "\t<ion-chip-button fill=\"${2:clear}\" color=\"${3:light}\">",
+            "\t\t<ion-icon name=\"${4:close-circle}\"></ion-icon>",
+            "\t</ion-chip-button>",
+            "</ion-chip>"
+        ],
+        "description": "<ion-chip-button>"
+    },
+    "ion-chip-icon": {
+        "prefix": "i-chip-icon",
+        "body": [
+            "<ion-chip>",
+            "\t<ion-icon name=\"${1:pin}\"></ion-icon>",
+            "\t<ion-label>${2:Default}</ion-label>",
+            "</ion-chip>"
+        ],
+        "description": "<ion-chip> w/ <ion-icon> at the start"
+    },
+    "ion-chip-icon-end": {
+        "prefix": "i-chip-icon-end",
+        "body": [
+            "<ion-chip>",
+            "\t<ion-label>${1:Default}</ion-label>",
+            "\t<ion-icon name=\"${2:pin}\"></ion-icon>",
+            "</ion-chip>"
+        ],
+        "description": "<ion-chip> w/ <ion-icon> at the end"
+    },
     "ion-col": {
         "prefix": "i-col",
         "body": [
@@ -142,17 +190,27 @@
         ],
         "description": "<ion-content>"
     },
-    "ion-grid": {
-        "prefix": "i-grid",
+    "ion-content-events": {
+        "prefix": "i-content-events",
         "body": [
-            "<ion-grid>",
-            "\t<ion-row>",
-            "\t\t<ion-col size=\"${1:6}\"></ion-col>",
-            "\t\t<ion-col size=\"${2:6}\"></ion-col>",
-            "\t</ion-row>",
-            "</ion-grid>"
+            "<ion-content",
+            "\t[scrollEvents]=\"${1:true}\"",
+            "\t(ionScrollStart)=\"${2:logScrollStart}()\"",
+            "\t(ionScroll)=\"${3:logScrolling}(\\$event)\"",
+            "\t(ionScrollEnd)=\"${4:logScrollEnd}()\">",
+            "</ion-content>"
         ],
-        "description": "<ion-grid> w/ <ion-row> and <ion-col>"
+        "description": "<ion-content>"
+    },
+    "ion-datetime": {
+        "prefix": "i-datetime",
+        "body": [
+            "<ion-item>",
+            "<ion-label>${1:Date}</ion-label>",
+            "<ion-datetime display-format=\"${2:DD.MM.YYYY} ${3:HH:mm}\"></ion-datetime>",
+            "</ion-item>"
+        ],
+        "description": "<ion-datetime>"
     },
     "ion-fab": {
         "prefix": "i-fab",
@@ -164,6 +222,17 @@
             "</ion-fab>"
         ],
         "description": "<ion-fab>"
+    },
+    "ion-footer": {
+        "prefix": "i-footer",
+        "body": [
+            "<ion-footer>",
+            "\t<ion-toolbar>",
+            "\t\t<ion-title>${1:Footer}</ion-title>",
+            "\t</ion-toolbar>",
+            "</ion-footer>"
+        ],
+        "description": "<ion-footer>"
     },
     "ion-form": {
         "prefix": "i-form",
@@ -228,6 +297,65 @@
             "</ion-item>"
         ],
         "description": "<ion-item> w/ <ion-input> and formControlName including error text"
+    },
+    "ion-grid": {
+        "prefix": "i-grid",
+        "body": [
+            "<ion-grid>",
+            "\t<ion-row>",
+            "\t\t<ion-col size=\"${1:6}\"></ion-col>",
+            "\t\t<ion-col size=\"${2:6}\"></ion-col>",
+            "\t</ion-row>",
+            "</ion-grid>"
+        ],
+        "description": "<ion-grid> w/ <ion-row> and <ion-col>"
+    },
+    "ion-header": {
+        "prefix": "i-header",
+        "body": [
+            "<ion-header>",
+            "\t<ion-toolbar>",
+            "\t\t<ion-title>${1:Header}</ion-title>",
+            "\t</ion-toolbar>",
+            "</ion-header>"
+        ],
+        "description": "<ion-header>"
+    },
+    "ion-hide-when-mode": {
+        "prefix": "i-hide-when-mode",
+        "body": [
+            "<ion-hide-when mode=\"${1|md,ios|}\">",
+            "\t<${2:h1}>${3:Awesome Slide Content}</${2:h1}>",
+            "</ion-hide-when>"
+        ],
+        "description": "<ion-hide-when> w/ mode"
+    },
+    "ion-hide-when-orientation": {
+        "prefix": "i-hide-when-orientation",
+        "body": [
+            "<ion-hide-when orientation=\"${1|portrait,landscape|}\">",
+            "\t<${2:h1}>${3:Awesome Slide Content}</${2:h1}>",
+            "</ion-hide-when>"
+        ],
+        "description": "<ion-hide-when> w/ orientation"
+    },
+    "ion-hide-when-platform": {
+        "prefix": "i-hide-when-platform",
+        "body": [
+            "<ion-hide-when platform=\"${1|android,ios|}\">",
+            "\t<${2:h1}>${3:Awesome Slide Content}</${2:h1}>",
+            "</ion-hide-when>"
+        ],
+        "description": "<ion-hide-when> w/ platform"
+    },
+    "ion-hide-when-size": {
+        "prefix": "i-hide-when-size",
+        "body": [
+            "<ion-hide-when size=\"${1|xs,sm,md,lg,xl|}\">",
+            "\t<${2:h1}>${3:Awesome Slide Content}</${2:h1}>",
+            "</ion-hide-when>"
+        ],
+        "description": "<ion-hide-when> w/ size"
     },
     "ion-icon": {
         "prefix": "i-icon",
