@@ -11,9 +11,9 @@
     "ion-var": {
         "prefix": "i-var",
         "body": [
-            "var(--${1:ion-color-primary}, #${2:00ff00});"
+            "var(--ion-color-${1|primary,secondary,tertiary,success,warning,danger,dark,medium,light|});"
         ],
-        "description": "Ionic var w/ ion-color-primary"
+        "description": "Ionic scss variables w/ color selection  "
     },
     "ion-common": {
         "prefix": "i-common",
