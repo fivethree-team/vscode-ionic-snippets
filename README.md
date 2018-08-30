@@ -30,6 +30,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-app`                | `<ion-app>`                                                    |
 | `i-avatar`                | `<ion-avatar>`                                                    |
 | `i-back-button`                | `<ion-back-button>`                                                    |
+| `i-back-button-default`                | `<ion-back-button>` w/ defaultHref                                                |
 | `i-backdrop`                | `<ion-backdrop>`                                                    |
 | `i-badge`                | `<ion-badge>`                                                    |
 | `i-button`                | `<ion-button>`                                                    |

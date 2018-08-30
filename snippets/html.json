@@ -25,6 +25,15 @@
         ],
         "description": "<ion-back-button>"
     },
+    "ion-back-button-default": {
+        "prefix": "i-back-button-default",
+        "body": [
+            "<ion-buttons slot=\"${1|start,end,primary,secondary|}\">",
+            "\t<ion-back-button defaultHref=\"${2:home}\"></ion-back-button>",
+            "</ion-buttons>"
+        ],
+        "description": "<ion-back-button> w/ defaultHref"
+    },
     "ion-backdrop": {
         "prefix": "i-backdrop",
         "body": [
