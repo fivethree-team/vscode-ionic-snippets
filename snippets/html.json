@@ -723,6 +723,13 @@
         ],
         "description": "Ionic [scrollEvents] binding for <ion-content>"
     },
+    "size": {
+        "prefix": "i-size",
+        "body": [
+            "${1|size,sizeXs,sizeSm,sizeMd,sizeLg,sizeXl|}=\"${2:12}\""
+        ],
+        "description": "Ionic col [size] property selection"
+    },
     "slot": {
         "prefix": "i-slot",
         "body": [

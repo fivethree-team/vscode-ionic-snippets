@@ -14,6 +14,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 ### Overview
 * [Snippet Prefix](https://github.com/fivethree-team/vscode-ionic-snippets#snippet-prefix)
 * [HTML Snippets](https://github.com/fivethree-team/vscode-ionic-snippets#html-snippets)
+* [HTML Properties](https://github.com/fivethree-team/vscode-ionic-snippets#html-properties)
 * [SCSS Snippets](https://github.com/fivethree-team/vscode-ionic-snippets#scss-snippets)
 * [Typescript Snippets](https://github.com/fivethree-team/vscode-ionic-snippets#typescript-snippets)
 
@@ -95,8 +96,14 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-title`                | `<ion-title>`                                              |
 | `i-toggle`                | `<ion-toggle>`                                              |
 | `i-toolbar`                | `<ion-toolbar>`                                              |
+
+### HTML Snippets
+
+| Snippet                      | Purpose                                                      |
+| ---------------------------- | ------------------------------------------------------------ |
 | `i-click`                | (click) event                                              |
 | `i-scrollEvents`                | Ionic [scrollEvents] binding for `<ion-content>`                                          |
+| `i-size`                | Ionic `<ion-col>` `[size]` property selection                                 |
 | `i-slot`                | Ionic slot property                                  |
 
 ### SCSS Snippets
