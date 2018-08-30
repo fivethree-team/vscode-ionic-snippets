@@ -489,7 +489,7 @@
     "ion-menu-button": {
         "prefix": "i-menu-button",
         "body": [
-            "<ion-buttons slot=\"${1|start,end,primary,secondary|\">",
+            "<ion-buttons slot=\"${1|start,end,primary,secondary|}\">",
             "\t<ion-menu-button menu=\"${2|menuId,start,end|}\"></ion-menu-button>",
             "</ion-buttons>"
         ],
