@@ -97,7 +97,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-toggle`                | `<ion-toggle>`                                              |
 | `i-toolbar`                | `<ion-toolbar>`                                              |
 
-### HTML Snippets
+### HTML Properties
 
 | Snippet                      | Purpose                                                      |
 | ---------------------------- | ------------------------------------------------------------ |
