@@ -135,11 +135,14 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-alert`                | Ionic alert dialog method                                                  |
 | `i-alert-confirm`                | Ionic alert confirm dialog method                                                  |
 | `i-alert-ctrl`                | Ionic AlertController                                                 |
+| `i-ctrl-import`                | Imports from `@ionic/angular` package                                               |
 | `i-form`                | Simple form group                                                 |
 | `i-form-builder`                | FormBuilder                                                 |
 | `i-form-group`                | FormGroup instance                                                 |
 | `i-form-value`                | Get value for formControlName `form.get('email')`                                               |
-| `i-ctrl-import`                | Imports from `@ionic/angular` package                                               |
+| `i-infinite-scroll-load-data`                | Method to load more data with `complete` and `disabled` call                                             |
+| `i-infinite-scroll-toggle`                | Method to toggle `disabled` of InfiniteScroll                                             |
+| `i-infinite-scroll-viewchild`                | Viewchild for InfiniteScroll                                             |
 | `i-modal`                | Ionic modal dialog method                                                 |
 | `i-modal-ctrl`                | Ionic ModalController                                                 |
 | `i-popover`                | Ionic popover dialog method                                                 |

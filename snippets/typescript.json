@@ -134,6 +134,37 @@
         ],
         "description": "Imports from @ionic/angular package"
     },
+    "ion-infinite-scroll-load-data": {
+        "prefix": "i-infinite-scroll-load-data",
+        "body": [
+            "${1:loadData}(event) {",
+            "\tsetTimeout(() => {",
+            "\t\tevent.target.complete();",
+            "\t\t",
+            "\t\tif (data.length == 1000) {",
+            "\t\t\tevent.target.disabled = true;",
+            "\t\t}",
+            "\t}, 500);",
+            "}"
+        ],
+        "description": "Method to load more data with `complete` and `disabled` call"
+    },
+    "ion-infinite-scroll-toggle": {
+        "prefix": "i-infinite-scroll-toggle",
+        "body": [
+            "${1:toggleInfiniteScroll}() {",
+            "\t${2:infiniteScroll}.disabled = !${2:infiniteScroll}.disabled;",
+            "}"
+        ],
+        "description": "Method to toggle InfiniteScroll"
+    },
+    "ion-infinite-scroll-viewchild": {
+        "prefix": "i-infinite-scroll-viewchild",
+        "body": [
+            "@ViewChild(InfiniteScroll) ${1:infiniteScroll}: InfiniteScroll;"
+        ],
+        "description": "Viewchild for InfiniteScroll"
+    },
     "modal": {
         "prefix": "i-modal",
         "body": [
