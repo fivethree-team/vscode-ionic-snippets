@@ -422,6 +422,20 @@
         ],
         "description": "<ion-item> w/ <ion-radio>"
     },
+    "ion-label": {
+        "prefix": "i-label",
+        "body": [
+            "<ion-label>${1:Label}</ion-label>"
+        ],
+        "description": "<ion-label>"
+    },
+    "ion-label-position": {
+        "prefix": "i-label-position",
+        "body": [
+            "<ion-label position=\"${1|inline,fixed,stacked,floating|}\">${2:Label}</ion-label>"
+        ],
+        "description": "<ion-label>"
+    },
     "ion-list": {
         "prefix": "i-list",
         "body": [
@@ -713,6 +727,13 @@
         "prefix": "i-click",
         "body": [
             "(click)=\"${1:onClick()}\""
+        ],
+        "description": "(click) event"
+    },
+    "color": {
+        "prefix": "i-color",
+        "body": [
+            "color=\"${1|primary,secondary,tertiary|}\""
         ],
         "description": "(click) event"
     },

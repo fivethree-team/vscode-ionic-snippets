@@ -70,6 +70,8 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-item-input`                | `<ion-item>` w/ `<ion-input>`                                                    |
 | `i-item-toggle`                | `<ion-item>` w/ `<ion-toggle>`                                                    |
 | `i-item-radio`                | `<ion-item>` w/ `<ion-radio>`                                                    |
+| `i-label`                | `<ion-label>`                                                    |
+| `i-label-position`                | `<ion-label>` w/ position selection                                                  |
 | `i-list`                | `<ion-item>` w/ two `<ion-item>`                                                    |
 | `i-list-input`                | `<ion-item>` w/ two `<ion-item>`                                                    |
 | `i-menu`                | `<ion-menu>` w/ `<ion-header>` and `<ion-content>`                                                   |
@@ -102,9 +104,10 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | Snippet                      | Purpose                                                      |
 | ---------------------------- | ------------------------------------------------------------ |
 | `i-click`                | (click) event                                              |
+| `i-color`                | Ionic color property w/ selection                                              |
 | `i-scrollEvents`                | Ionic [scrollEvents] binding for `<ion-content>`                                          |
 | `i-size`                | Ionic `<ion-col>` `[size]` property selection                                 |
-| `i-slot`                | Ionic slot property                                  |
+| `i-slot`                | Ionic slot property w/ selection                                |
 
 ### SCSS Snippets
 
