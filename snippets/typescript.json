@@ -36,7 +36,7 @@
     "action-sheet-ctrl": {
         "prefix": "i-action-sheet-ctrl",
         "body": [
-            "public ${1:actionSheetController}: ActionSheetController,"
+            "public ${1:actionSheetController}: ActionSheetController"
         ],
         "description": "Ionic ActionSheetController"
     },
@@ -88,7 +88,7 @@
     "alert-ctrl": {
         "prefix": "i-alert-ctrl",
         "body": [
-            "public ${1:alertController}: AlertController,"
+            "public ${1:alertController}: AlertController"
         ],
         "description": "Ionic AlertController"
     },
@@ -107,7 +107,7 @@
     "form-builder": {
         "prefix": "i-form-builder",
         "body": [
-            "public ${1:formBuilder}: FormBuilder,"
+            "public ${1:formBuilder}: FormBuilder"
         ],
         "description": "FormBuilder"
     },
@@ -155,7 +155,7 @@
     "modal-ctrl": {
         "prefix": "i-modal-ctrl",
         "body": [
-            "public ${1:modalController}: ModalController,"
+            "public ${1:modalController}: ModalController"
         ],
         "description": "Ionic ModalController"
     },
@@ -171,7 +171,7 @@
             "",
             "\t${4:popover}.onDidDismiss((${8:data}) => {",
             "\t\t${9:console.log(data);}",
-            "\t})",
+            "\t});",
             "",
             "\treturn await ${4:popover}.present();",
             "}"
@@ -181,7 +181,7 @@
     "popover-ctrl": {
         "prefix": "i-popover-ctrl",
         "body": [
-            "public ${1:popoverController}: PopoverController,"
+            "public ${1:popoverController}: PopoverController"
         ],
         "description": "Ionic PopoverController"
     },
@@ -201,7 +201,7 @@
     "toast-ctrl": {
         "prefix": "i-toast-ctrl",
         "body": [
-            "public ${1:toastController}: ToastController,"
+            "public ${1:toastController}: ToastController"
         ],
         "description": "Ionic ToastController"
     }
