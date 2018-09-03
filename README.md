@@ -28,6 +28,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 
 | Snippet                      | Purpose                                                      |
 | ---------------------------- | ------------------------------------------------------------ |
+| `i-anchor`                | `<ion-anchor>`                                                    |
 | `i-app`                | `<ion-app>`                                                    |
 | `i-avatar`                | `<ion-avatar>`                                                    |
 | `i-back-button`                | `<ion-back-button>`                                                    |
@@ -45,6 +46,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-card-title`                | `<ion-card-title>`                                                    |
 | `i-checkbox`                | `<ion-checkbox>`                                                    |
 | `i-chip`                | `<ion-chip>`                                                    |
+| `i-chip-avatar`                | `<ion-chip>` w/ `<ion-avatar>`                                                    |
 | `i-chip-button`                | `<ion-chip-button>`                                                    |
 | `i-chip-icon`                | `<ion-chip>` w/ `<ion-icon>` at the start                                                    |
 | `i-chip-icon-end`                | `<ion-chip>` w/ `<ion-icon>` at the end                                                  |
@@ -53,6 +55,9 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-content-events`                | `<ion-content>` w/ events                                                    |
 | `i-datetime`                | `<ion-datetime>`                                                |
 | `i-fab`                | `<ion-fab>` w/ `<ion-fab-button>`                                                    |
+| `i-fab-button`                | `<ion-fab-button>`                                                    |
+| `i-fab-list`                | `<ion-fab-list>`                                                    |
+| `i-fab-list-full`                | `<ion-fab>` w/ `<ion-fab-list>`                                                    |
 | `i-footer`                | `<ion-footer>`                                                    |
 | `i-form`                | `<ion-form>` w/ `<ion-input>` and formGroup                                                    |
 | `i-form-error`                | `<ion-form>` w/ `<ion-input>` and formGroup including error text                                                    |
@@ -65,7 +70,11 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-hide-when-platform`                | `<ion-hide-when>` w/ platform                                                   |
 | `i-hide-when-size`                | `<ion-hide-when>` w/ size                                                   |
 | `i-icon`                | `<ion-icon>`                                                    |
+| `i-img`                | `<ion-img>` lazyily load an image                                                   |
+| `i-infinite-scroll`                | `<ion-infinite-scroll>` w/ `<ion-infinite-scroll-content>`                                                   |
 | `i-item`                | `<ion-item>` w/ `<ion-label>`                                                    |
+| `i-item-avatar`                | `<ion-item>` w/ `<ion-avatar>`                                                    |
+| `i-item-badge`                | `<ion-item>` w/ `<ion-badge>`                                                    |
 | `i-item-checkbox`                | `<ion-item>` w/ `<ion-checkbox>`                                                    |
 | `i-item-input`                | `<ion-item>` w/ `<ion-input>`                                                    |
 | `i-item-toggle`                | `<ion-item>` w/ `<ion-toggle>`                                                    |
