@@ -1,4 +1,11 @@
 {
+    "ion-color": {
+        "prefix": "i-color",
+        "body": [
+            "var(--ion-color-${1|primary,secondary,tertiary,success,warning,danger,dark,medium,light|});"
+        ],
+        "description": "Ionic scss variables w/ color selection  "
+    },
     "ion-root": {
         "prefix": "i-root",
         "body": [
@@ -7,13 +14,6 @@
             "}"
         ],
         "description": "Ionic root"
-    },
-    "ion-var": {
-        "prefix": "i-var",
-        "body": [
-            "var(--ion-color-${1|primary,secondary,tertiary,success,warning,danger,dark,medium,light|});"
-        ],
-        "description": "Ionic scss variables w/ color selection  "
     },
     "ion-common": {
         "prefix": "i-common",

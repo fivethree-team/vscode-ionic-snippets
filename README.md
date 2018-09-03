@@ -111,7 +111,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | Snippet                      | Purpose                                                      |
 | ---------------------------- | ------------------------------------------------------------ |
 | `i-root`                | `:root { }`                                                    |
-| `i-var`                | Ionic scss variables w/ color selection                                                    |
+| `i-color`                | Ionic scss color variables w/ color selection                                                    |
 | `i-common`                | `ion-*{*/#common-overrides/*}`                                                    |
 
 ### Typescript Snippets
