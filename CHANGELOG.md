@@ -1,3 +1,22 @@
+<a name="0.4.0"></a>
+# [0.4.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/0.3.3...0.4.0) (2018-09-03)
+
+
+### Bug Fixes
+
+* **typescript:** remove trailing comma for the controllers ([1b1f76b](https://github.com/fivethree-team/vscode-ionic-snippets/commit/1b1f76b))
+
+
+### Features
+
+* **html:** add new html snippets ([54a4820](https://github.com/fivethree-team/vscode-ionic-snippets/commit/54a4820))
+* **html:** add new snippets for label and add color property w/ selection ([bd848ed](https://github.com/fivethree-team/vscode-ionic-snippets/commit/bd848ed))
+* **scss:** change var to color ([aada761](https://github.com/fivethree-team/vscode-ionic-snippets/commit/aada761))
+* **typescript:** add controller selection ([d5699fd](https://github.com/fivethree-team/vscode-ionic-snippets/commit/d5699fd))
+* **typescript:** add new typescript snippets ([ef100da](https://github.com/fivethree-team/vscode-ionic-snippets/commit/ef100da))
+
+
+
 <a name="0.3.3"></a>
 ## [0.3.3](https://github.com/fivethree-team/vscode-ionic-snippets/compare/0.3.2...0.3.3) (2018-08-30)
 
