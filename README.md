@@ -76,12 +76,14 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-item-avatar`                | `<ion-item>` w/ `<ion-avatar>`                                                    |
 | `i-item-badge`                | `<ion-item>` w/ `<ion-badge>`                                                    |
 | `i-item-checkbox`                | `<ion-item>` w/ `<ion-checkbox>`                                                    |
+| `i-item-divider`                | `<ion-item-divider>` w/ `<ion-label>`                                                    |
 | `i-item-input`                | `<ion-item>` w/ `<ion-input>`                                                    |
 | `i-item-toggle`                | `<ion-item>` w/ `<ion-toggle>`                                                    |
 | `i-item-radio`                | `<ion-item>` w/ `<ion-radio>`                                                    |
 | `i-label`                | `<ion-label>`                                                    |
 | `i-label-position`                | `<ion-label>` w/ position selection                                                  |
-| `i-list`                | `<ion-item>` w/ two `<ion-item>`                                                    |
+| `i-list`                | `<ion-list>` w/ two `<ion-item>`                                                    |
+| `i-list-header`                | `<ion-list-header>`                                                    |
 | `i-list-input`                | `<ion-item>` w/ two `<ion-item>`                                                    |
 | `i-menu`                | `<ion-menu>` w/ `<ion-header>` and `<ion-content>`                                                   |
 | `i-menu-advanced`                | `<ion-menu>` w/ `<ion-header>`, `<ion-content>` and `<ion-footer>`                                                    |
@@ -135,7 +137,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-alert`                | Ionic alert dialog method                                                  |
 | `i-alert-confirm`                | Ionic alert confirm dialog method                                                  |
 | `i-alert-ctrl`                | Ionic AlertController                                                 |
-| `i-ctrl-import`                | Imports from `@ionic/angular` package                                               |
+| `i-ctrl-import`                | Imports Ionic Controller from `@ionic/angular` package                                               |
 | `i-form`                | Simple form group                                                 |
 | `i-form-builder`                | FormBuilder                                                 |
 | `i-form-group`                | FormGroup instance                                                 |

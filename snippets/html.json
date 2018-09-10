@@ -482,6 +482,15 @@
         ],
         "description": "<ion-item> w/ <ion-checkbox>"
     },
+    "ion-item-divider": {
+        "prefix": "i-item-divider",
+        "body": [
+            "<ion-item-divider>",
+            "\t<ion-label>${1:Label}</ion-label>",
+            "</ion-item-divider>"
+        ],
+        "description": "<ion-item-divider> w/ <ion-label>"
+    },
     "ion-item-input": {
         "prefix": "i-item-input",
         "body": [
@@ -538,7 +547,16 @@
             "\t</ion-item>",
             "</ion-list>"
         ],
-        "description": "<ion-list>"
+        "description": "<ion-item> w/ two <ion-item>"
+    },
+    "ion-list-header": {
+        "prefix": "i-list-header",
+        "body": [
+            "<ion-list-header>",
+            "\t<ion-label>${1:Title}</ion-label>",
+            "</ion-list-header>"
+        ],
+        "description": "<ion-list-header>"
     },
     "ion-list-input": {
         "prefix": "i-list-input",
