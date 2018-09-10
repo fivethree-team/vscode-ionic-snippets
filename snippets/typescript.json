@@ -130,7 +130,7 @@
     "ion-ctrl-import": {
         "prefix": "i-ctrl-import",
         "body": [
-            "import { ${1|ActionSheetController,AlertController,ModalController,ToastController,PopoverController|} } from '@ionic/angular';"
+            "import { ${1|ActionSheetController,AlertController,LoadingController,ModalController,ToastController,PopoverController|} } from '@ionic/angular';"
         ],
         "description": "Imports from @ionic/angular package"
     },
@@ -165,7 +165,27 @@
         ],
         "description": "Viewchild for InfiniteScroll"
     },
-    "modal": {
+    "ion-loading": {
+        "prefix": "i-loading",
+        "body": [
+            "async ${1:presentLoading}() {",
+            "\tconst ${2:loading} = await this.${3:loadingController}.create({",
+            "\t\tcontent: '${4:Hellooo}',",
+            "\t\tduration: ${5:2000}",
+            "\t});",
+            "\tawait ${2:loading}.present();",
+            "}"
+        ],
+        "description": "Ionic loading dialog"
+    },
+    "ion-loading-ctrl": {
+        "prefix": "i-loading-ctrl",
+        "body": [
+            "public ${1:loadingController}: LoadingController"
+        ],
+        "description": "Ionic LoadingController"
+    },
+    "ion-modal": {
         "prefix": "i-modal",
         "body": [
             "async ${1:presentModal}() {",
@@ -174,23 +194,38 @@
             "\tcomponentProps: { ${5:value}: ${6:123} }",
             "\t});",
             "",
-            "${2:modal}.onDidDismiss((${7:data}) => {",
-            "\t\t${8:console.log(data);}",
-            "\t})",
+            "\tawait ${2:modal}.present();",
             "",
-            "\treturn await ${2:modal}.present();",
             "}"
         ],
         "description": "Ionic modal dialog"
     },
-    "modal-ctrl": {
+    "ion-modal-will-dismiss": {
+        "prefix": "i-modal-will-dismiss",
+        "body": [
+            "async ${1:presentModal}() {",
+            "\tconst ${2:modal} = await this.${3:modalController}.create({",
+            "\tcomponent: ${4:ModalPage},",
+            "\tcomponentProps: { ${5:value}: ${6:123} }",
+            "\t});",
+            "",
+            "\tawait ${2:modal}.present();",
+            "",
+            "\tawait ${2:modal}.onWillDismiss();",
+            "\t${7:// TODO do something after dismiss}",
+            "",
+            "}"
+        ],
+        "description": "Ionic modal dialog with `onWillDismiss()`"
+    },
+    "ion-modal-ctrl": {
         "prefix": "i-modal-ctrl",
         "body": [
             "public ${1:modalController}: ModalController"
         ],
         "description": "Ionic ModalController"
     },
-    "popover": {
+    "ion-popover": {
         "prefix": "i-popover",
         "body": [
             "async ${1:presentPopover}(${2:ev}: ${3:any}) {",
@@ -200,23 +235,53 @@
             "\t\ttranslucent: ${7:false}",
             "\t});",
             "",
-            "\t${4:popover}.onDidDismiss((${8:data}) => {",
-            "\t\t${9:console.log(data);}",
-            "\t});",
-            "",
-            "\treturn await ${4:popover}.present();",
+            "\tawait ${4:popover}.present();",
             "}"
         ],
         "description": "Ionic popover dialog"
     },
-    "popover-ctrl": {
+    "ion-popover-ctrl": {
         "prefix": "i-popover-ctrl",
         "body": [
             "public ${1:popoverController}: PopoverController"
         ],
         "description": "Ionic PopoverController"
     },
-    "toast": {
+    "ion-on-did-dismiss": {
+        "prefix": "i-on-did-dismiss",
+        "body": [
+            "await ${1:alert}.onDidDismiss();"
+        ],
+        "description": "`onDidDismiss`"
+    },
+    "ion-on-did-dismiss-data": {
+        "prefix": "i-on-did-dismiss-data",
+        "body": [
+            "const { data } = await ${1:alert}.onWillDismiss();",
+            "if (data) {",
+            "\t${2:// TODO do something}",
+            "}"
+        ],
+        "description": "`onDidDismiss`"
+    },
+    "ion-on-will-dismiss": {
+        "prefix": "i-on-will-dismiss",
+        "body": [
+            "await ${1:alert}.onWillDismiss();"
+        ],
+        "description": "`onWillDismiss`"
+    },
+    "ion-on-will-dismiss-data": {
+        "prefix": "i-on-will-dismiss-data",
+        "body": [
+            "const { data } = await ${1:alert}.onWillDismiss();",
+            "if (data) {",
+            "\t${2:// TODO do something}",
+            "}"
+        ],
+        "description": "`onWillDismiss`"
+    },
+    "ion-toast": {
         "prefix": "i-toast",
         "body": [
             "async ${1:presentToast}() {",
@@ -229,7 +294,7 @@
         ],
         "description": "Ionic toast notification"
     },
-    "toast-ctrl": {
+    "ion-toast-ctrl": {
         "prefix": "i-toast-ctrl",
         "body": [
             "public ${1:toastController}: ToastController"

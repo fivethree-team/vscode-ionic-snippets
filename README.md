@@ -145,10 +145,17 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-infinite-scroll-load-data`                | Method to load more data with `complete` and `disabled` call                                             |
 | `i-infinite-scroll-toggle`                | Method to toggle `disabled` of InfiniteScroll                                             |
 | `i-infinite-scroll-viewchild`                | Viewchild for InfiniteScroll                                             |
+| `i-loading`                | Ionic loading dialog                                             |
+| `i-loading-ctrl`                | Ionic LoadingController                                             |
 | `i-modal`                | Ionic modal dialog method                                                 |
+| `i-modal-will-dismiss`                | Ionic modal dialog method wit `onWillDismiss`                                              |
 | `i-modal-ctrl`                | Ionic ModalController                                                 |
 | `i-popover`                | Ionic popover dialog method                                                 |
 | `i-popover-ctrl`                | Ionic PopoverController                                                 |
+| `i-on-did-dismiss`                | Ionic `onDidDismiss` for dialogs                                                 |
+| `i-on-did-dismiss-data`                | Ionic `onDidDismiss` for dialogs returning data                                                 |
+| `i-on-will-dismiss`                | Ionic `onWillDismiss` for dialogs                                                 |
+| `i-on-will-dismiss-data`                | Ionic `onWillDismiss` for dialogs returning data                                                |
 | `i-toast`                | Ionic toast notification method                                                 |
 | `i-toast-ctrl`                | Ionic ToastController                                                 |
 
