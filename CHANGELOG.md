@@ -1,3 +1,15 @@
+<a name="0.5.0"></a>
+# [0.5.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/0.4.0...0.5.0) (2018-09-10)
+
+
+### Features
+
+* **html:** add new snippets including item-sliding and radio-group ([2dc2176](https://github.com/fivethree-team/vscode-ionic-snippets/commit/2dc2176))
+* **html:** add snippets for html ([2e1ac68](https://github.com/fivethree-team/vscode-ionic-snippets/commit/2e1ac68))
+* **typescript:** update onWillDismiss and onDidDismiss ([bdc3acc](https://github.com/fivethree-team/vscode-ionic-snippets/commit/bdc3acc))
+
+
+
 <a name="0.4.0"></a>
 # [0.4.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/0.3.3...0.4.0) (2018-09-03)
 

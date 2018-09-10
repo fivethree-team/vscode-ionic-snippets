@@ -2,7 +2,7 @@
     "name": "vscode-ionic-snippets",
     "displayName": "Ionic v4 Snippets",
     "description": "Ionic v4 snippets for VS Code",
-    "version": "0.4.0",
+    "version": "0.5.0",
     "publisher": "fivethree",
     "icon": "images/ionic-light-icon.png",
     "galleryBanner": {
