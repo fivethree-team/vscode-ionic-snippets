@@ -72,14 +72,22 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-icon`                | `<ion-icon>`                                                    |
 | `i-img`                | `<ion-img>` lazyily load an image                                                   |
 | `i-infinite-scroll`                | `<ion-infinite-scroll>` w/ `<ion-infinite-scroll-content>`                                                   |
+| `i-input`                | `<ion-input>` w/ type and placeholder                                                    |
 | `i-item`                | `<ion-item>` w/ `<ion-label>`                                                    |
 | `i-item-avatar`                | `<ion-item>` w/ `<ion-avatar>`                                                    |
 | `i-item-badge`                | `<ion-item>` w/ `<ion-badge>`                                                    |
 | `i-item-checkbox`                | `<ion-item>` w/ `<ion-checkbox>`                                                    |
 | `i-item-divider`                | `<ion-item-divider>` w/ `<ion-label>`                                                    |
+| `i-item-group`                | `<ion-item-group>` w/ `<ion-item-divider>` and `<ion-item>`                                                    |
 | `i-item-input`                | `<ion-item>` w/ `<ion-input>`                                                    |
-| `i-item-toggle`                | `<ion-item>` w/ `<ion-toggle>`                                                    |
+| `i-item-option`                | `<ion-item-option>`                                                  |
+| `i-item-option-w-icon`                | `<ion-item-option>` w/ icon                                                |
+| `i-item-option-icon-only`                | `<ion-item-option>` w/ icon only                                              |
+| `i-item-option-expandable`                | `<ion-item-option>` w/ expandable option                                             |
+| `i-item-options`                | `<ion-item-options>`                                             |
+| `i-item-sliding`                | `<ion-item-sliding>`                                             |
 | `i-item-radio`                | `<ion-item>` w/ `<ion-radio>`                                                    |
+| `i-item-toggle`                | `<ion-item>` w/ `<ion-toggle>`                                                    |
 | `i-label`                | `<ion-label>`                                                    |
 | `i-label-position`                | `<ion-label>` w/ position selection                                                  |
 | `i-list`                | `<ion-list>` w/ two `<ion-item>`                                                    |
@@ -88,7 +96,12 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-menu`                | `<ion-menu>` w/ `<ion-header>` and `<ion-content>`                                                   |
 | `i-menu-advanced`                | `<ion-menu>` w/ `<ion-header>`, `<ion-content>` and `<ion-footer>`                                                    |
 | `i-menu-button`                | `<ion-menu-button>`                                                    |
+| `i-note`                | `<ion-note>`                                                    |
+| `i-radio`                | `<ion-radio>`                                                    |
+| `i-radio-checked`                | `<ion-radio>` checked                                                    |
+| `i-radio-group`                | `<ion-radio-group>`                                                    |
 | `i-row`                | `<ion-row>` w/ `<ion-col>`                                                   |
+| `i-searchbar`                | `<ion-searchbar>`                                                   |
 | `i-select`                | `<ion-select>` w/ `<ion-select-option>`                                                   |
 | `i-select-option`                | `<ion-select-option>`                                                   |
 | `i-show-when-mode`                | `<ion-show-when>` w/ mode                                                   |

@@ -441,6 +441,13 @@
         ],
         "description": "<ion-infinite-scroll> w/ <ion-infinite-scroll-content>"
     },
+    "ion-input": {
+        "prefix": "i-input",
+        "body": [
+            "<ion-input type=\"${1|text,password,email,search,number,tel,url}\" placeholder=\"${2:Awesome Input}\"></ion-input>"
+        ],
+        "description": "<ion-input> w/ type and placeholder"
+    },
     "ion-item": {
         "prefix": "i-item",
         "body": [
@@ -491,6 +498,24 @@
         ],
         "description": "<ion-item-divider> w/ <ion-label>"
     },
+    "ion-item-group": {
+        "prefix": "i-item-group",
+        "body": [
+            "<ion-item-group>",
+            "\t<ion-item-divider>",
+            "\t\t<ion-label>${1:Label}</ion-label>",
+            "\t</ion-item-divider>",
+            "",
+            "\t<ion-item>",
+            "\t\t<ion-label>${1:Awesome Label}</ion-label>",
+            "\t</ion-item>",
+            "\t<ion-item>",
+            "\t\t<ion-label>${1:Awesome Label}</ion-label>",
+            "\t</ion-item>",
+            "</ion-item-group>"
+        ],
+        "description": "<ion-item-divider> w/ <ion-label>"
+    },
     "ion-item-input": {
         "prefix": "i-item-input",
         "body": [
@@ -501,15 +526,67 @@
         ],
         "description": "<ion-item> w/ <ion-input>"
     },
-    "ion-item-toggle": {
-        "prefix": "i-item-toggle",
+    "ion-item-option": {
+        "prefix": "i-item-option",
         "body": [
-            "<ion-item>",
-            "\t<ion-label>${1:Toggle}</ion-label>",
-            "\t<ion-toggle slot=\"${2|end,start|}\"></ion-toggle>",
-            "</ion-item>"
+            "<ion-item-option color=\"${1|primary,secondary,danger|}\" (click)=\"${2:favorite}(${3:item})\">${4:Favorite}</ion-item-option>"
         ],
-        "description": "<ion-item> w/ <ion-toggle>"
+        "description": "<ion-item-option>"
+    },
+    "ion-item-option-w-icon": {
+        "prefix": "i-item-option-w-icon",
+        "body": [
+            "<ion-item-option color=\"${1|primary,secondary,danger|}\" (click)=\"${2:favorite}(${3:item})\">",
+            "\t<ion-icon name=\"${4:star}\"></ion-icon>${5:Favorite}",
+            "</ion-item-option>"
+        ],
+        "description": "<ion-item-option> w/ icon"
+    },
+    "ion-item-option-icon-only": {
+        "prefix": "i-item-option-icon-only",
+        "body": [
+            "<ion-item-option color=\"${1|primary,secondary,danger|}\" (click)=\"${2:favorite}(${3:item})\">",
+            "\t<ion-icon slot=\"icon-only\" name=\"${4:star}\"></ion-icon>",
+            "</ion-item-option>"
+        ],
+        "description": "<ion-item-option> w/ icon only"
+    },
+    "ion-item-option-expandable": {
+        "prefix": "i-item-option-expandable",
+        "body": [
+            "<ion-item-option color=\"${1|primary,secondary,danger|}\" expandable (click)=\"${2:favorite}(${3:item})\">${4:Delete}</ion-item-option>"
+        ],
+        "description": "<ion-item-option> w/ expandable option"
+    },
+    "ion-item-options": {
+        "prefix": "i-item-options",
+        "body": [
+            "<ion-item-options side=\"${1|start,end|}\">",
+            "\t<ion-item-option color=\"${2|primary,secondary,danger|}\" (click)=\"${3:favorite}(${4:item})\">${5:Favorite}</ion-item-option>",
+            "</ion-item-options>"
+        ],
+        "description": "<ion-item-options>"
+    },
+    "ion-item-sliding": {
+        "prefix": "i-item-sliding",
+        "body": [
+            "<ion-list>",
+            "\t<ion-item-sliding>",
+            "\t\t<ion-item>",
+            "\t\t\t<ion-label>${1:Item}</ion-label>",
+            "\t\t</ion-item>",
+            "\t\t<ion-item-options side=\"${2|start,end|}\">",
+            "\t\t\t<ion-item-option (click)=\"${3:favorite}(${4:item})\">${5:Favorite}</ion-item-option>",
+            "\t\t\t<ion-item-option color=\"${6|primary,secondary,danger|}\" (click)=\"${7:share}(${4:item})\">${8:Share}</ion-item-option>",
+            "\t\t</ion-item-options>",
+            "",
+            "\t\t<ion-item-options side=\"${9|start,end|}\">",
+            "\t\t\t<ion-item-option (click)=\"unread(${4:item})\">${10:Unread}</ion-item-option>",
+            "\t\t</ion-item-options>",
+            "\t</ion-item-sliding>",
+            "</ion-list>"
+        ],
+        "description": "<ion-item-sliding>"
     },
     "ion-item-radio": {
         "prefix": "i-item-radio",
@@ -520,6 +597,16 @@
             "</ion-item>"
         ],
         "description": "<ion-item> w/ <ion-radio>"
+    },
+    "ion-item-toggle": {
+        "prefix": "i-item-toggle",
+        "body": [
+            "<ion-item>",
+            "\t<ion-label>${1:Toggle}</ion-label>",
+            "\t<ion-toggle slot=\"${2|end,start|}\"></ion-toggle>",
+            "</ion-item>"
+        ],
+        "description": "<ion-item> w/ <ion-toggle>"
     },
     "ion-label": {
         "prefix": "i-label",
@@ -626,6 +713,46 @@
         ],
         "description": "<ion-menu-button>"
     },
+    "ion-note": {
+        "prefix": "i-note",
+        "body": [
+            "<ion-note>${1:42}</ion-note>"
+        ],
+        "description": "<ion-note>"
+    },
+    "ion-radio": {
+        "prefix": "i-radio",
+        "body": [
+            "<ion-radio value=\"${1:ford}\"></ion-radio>"
+        ],
+        "description": "<ion-radio>"
+    },
+    "ion-radio-checked": {
+        "prefix": "i-radio-checked",
+        "body": [
+            "<ion-radio value=\"${1:ford}\" checked></ion-radio>"
+        ],
+        "description": "<ion-radio> checked"
+    },
+    "ion-radio-group": {
+        "prefix": "i-radio-group",
+        "body": [
+            "<ion-list>",
+            "\t<ion-radio-group name=\"${1:auto}\">",
+            "\t\t<ion-list-header>${2:Auto Manufacturers}</ion-list-header>",
+            "\t\t<ion-item>",
+            "\t\t\t<ion-label>${3:Tesla}</ion-label>",
+            "\t\t\t<ion-radio value=\"${4:tesla}\"></ion-radio>",
+            "\t\t</ion-item>",
+            "\t\t<ion-item>",
+            "\t\t\t<ion-label>${5:Ford}</ion-label>",
+            "\t\t\t<ion-radio value=\"${6:ford}\"></ion-radio>",
+            "\t\t</ion-item>",
+            "\t</ion-radio-group>",
+            "</ion-list>"
+        ],
+        "description": "<ion-radio-group>"
+    },
     "ion-row": {
         "prefix": "i-row",
         "body": [
@@ -634,6 +761,13 @@
             "</ion-row>"
         ],
         "description": "<ion-row> w/ <ion-col>"
+    },
+    "ion-searchbar": {
+        "prefix": "i-searchbar",
+        "body": [
+            "<ion-searchbar placeholder=\"Filter Schedules\"></ion-searchbar>"
+        ],
+        "description": "<ion-searchbar>"
     },
     "ion-select": {
         "prefix": "i-select",
