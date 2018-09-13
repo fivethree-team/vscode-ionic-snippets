@@ -361,10 +361,10 @@
     "ion-grid": {
         "prefix": "i-grid",
         "body": [
-            "<ion-grid>",
+            "<ion-grid ${1:fixed}>",
             "\t<ion-row>",
-            "\t\t<ion-col size=\"${1:6}\"></ion-col>",
             "\t\t<ion-col size=\"${2:6}\"></ion-col>",
+            "\t\t<ion-col size=\"${3:6}\"></ion-col>",
             "\t</ion-row>",
             "</ion-grid>"
         ],
