@@ -444,7 +444,7 @@
     "ion-input": {
         "prefix": "i-input",
         "body": [
-            "<ion-input type=\"${1|text,password,email,search,number,tel,url}\" placeholder=\"${2:Awesome Input}\"></ion-input>"
+            "<ion-input type=\"${1|text,password,email,search,number,tel,url|}\" placeholder=\"${2:Awesome Input}\"></ion-input>"
         ],
         "description": "<ion-input> w/ type and placeholder"
     },
