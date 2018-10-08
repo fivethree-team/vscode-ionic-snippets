@@ -1,3 +1,13 @@
+<a name="0.5.2"></a>
+## [0.5.2](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.5.0...v0.5.2) (2018-10-08)
+
+
+### Bug Fixes
+
+* **html:** ion-input type selection ([a19ec4b](https://github.com/fivethree-team/vscode-ionic-snippets/commit/a19ec4b))
+
+
+
 <a name="0.5.0"></a>
 # [0.5.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/0.4.0...0.5.0) (2018-09-10)
 
