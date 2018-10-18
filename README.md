@@ -125,6 +125,8 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-toggle`                | `<ion-toggle>`                                              |
 | `i-toolbar`                | `<ion-toolbar>`                                              |
 
+**[⬆ back to top](#overview)**
+
 ### HTML Properties
 
 | Snippet                      | Purpose                                                      |
@@ -135,11 +137,15 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-size`                | Ionic `<ion-col>` `[size]` property selection                                 |
 | `i-slot`                | Ionic slot property w/ selection                                |
 
+**[⬆ back to top](#overview)**
+
 ### CSS Utilities
 
 | Snippet                      | Purpose                                                      |
 | ---------------------------- | ------------------------------------------------------------ |
 | `i-text-alignment`                | Text alignment such as left, right, center                                                   |
+
+**[⬆ back to top](#overview)**
 
 ### SCSS Snippets
 
@@ -148,6 +154,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-root`                | `:root { }`                                                    |
 | `i-color`                | Ionic scss color variables w/ color selection                                                    |
 | `i-common`                | `ion-*{*/#common-overrides/*}`                                                    |
+**[⬆ back to top](#overview)**
 
 ### Typescript Snippets
 
@@ -180,3 +187,4 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-toast`                | Ionic toast notification method                                                 |
 | `i-toast-ctrl`                | Ionic ToastController                                                 |
 
+**[⬆ back to top](#overview)**
