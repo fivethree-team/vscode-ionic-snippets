@@ -170,7 +170,7 @@
         "body": [
             "async ${1:presentLoading}() {",
             "\tconst ${2:loading} = await this.${3:loadingController}.create({",
-            "\t\tcontent: '${4:Hellooo}',",
+            "\t\tmessage: '${4:Hellooo}',",
             "\t\tduration: ${5:2000}",
             "\t});",
             "\tawait ${2:loading}.present();",
