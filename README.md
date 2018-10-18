@@ -154,6 +154,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-root`                | `:root { }`                                                    |
 | `i-color`                | Ionic scss color variables w/ color selection                                                    |
 | `i-common`                | `ion-*{*/#common-overrides/*}`                                                    |
+
 **[⬆ back to top](#overview)**
 
 ### Typescript Snippets
