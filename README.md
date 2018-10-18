@@ -15,6 +15,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 * [Snippet Prefix](https://github.com/fivethree-team/vscode-ionic-snippets#snippet-prefix)
 * [HTML Snippets](https://github.com/fivethree-team/vscode-ionic-snippets#html-snippets)
 * [HTML Properties](https://github.com/fivethree-team/vscode-ionic-snippets#html-properties)
+* [CSS Utilities](https://github.com/fivethree-team/vscode-ionic-snippets#css-utilities)
 * [SCSS Snippets](https://github.com/fivethree-team/vscode-ionic-snippets#scss-snippets)
 * [Typescript Snippets](https://github.com/fivethree-team/vscode-ionic-snippets#typescript-snippets)
 
@@ -40,6 +41,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-button-w-icon`                | `<ion-button>` w/ icon                                                    |
 | `i-buttons`                | `<ion-buttons>`                                                    |
 | `i-card`                | `<ion-card>`                                                    |
+| `i-card`                | `<ion-card>` w/ `<ion-card-header>` and `<ion-card-content>`                                                    |
 | `i-card-content`                | `<ion-card-content>`                                                    |
 | `i-card-header`                | `<ion-card-header>`                                                    |
 | `i-card-subtitle`                | `<ion-card-subtitle>`                                                    |
@@ -132,6 +134,12 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-scrollEvents`                | Ionic [scrollEvents] binding for `<ion-content>`                                          |
 | `i-size`                | Ionic `<ion-col>` `[size]` property selection                                 |
 | `i-slot`                | Ionic slot property w/ selection                                |
+
+### CSS Utilities
+
+| Snippet                      | Purpose                                                      |
+| ---------------------------- | ------------------------------------------------------------ |
+| `i-text-alignment`                | Text alignment such as left, right, center                                                   |
 
 ### SCSS Snippets
 

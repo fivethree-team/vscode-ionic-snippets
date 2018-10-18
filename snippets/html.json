@@ -99,6 +99,15 @@
         "prefix": "i-card",
         "body": [
             "<ion-card>",
+            "\t$0",
+            "</ion-card>"
+        ],
+        "description": "<ion-card>"
+    },
+    "ion-card-full": {
+        "prefix": "i-card-full",
+        "body": [
+            "<ion-card>",
             "\t<ion-card-header>",
             "\t\t<ion-card-subtitle>${1:Awesome Subtitle}</ion-card-subtitle>",
             "\t\t<ion-card-title>${2:Awesome Title}</ion-card-title>",
@@ -108,7 +117,7 @@
             "\t</ion-card-content>",
             "</ion-card>"
         ],
-        "description": "<ion-card>"
+        "description": "<ion-card> w/ <ion-card-header> and <ion-card-content>"
     },
     "ion-card-content": {
         "prefix": "i-card-content",
@@ -925,6 +934,13 @@
             "</ion-text>"
         ],
         "description": "<ion-text> to style the color of any element"
+    },
+    "ion-text-alignment": {
+        "prefix": "i-text-alignment",
+        "body": [
+            "text-${1|left,right,start,end,center,justify,wrap,nowrap|}"
+        ],
+        "description": "text alignment"
     },
     "ion-textarea": {
         "prefix": "i-textarea",
