@@ -1,3 +1,13 @@
+<a name="0.5.3"></a>
+## [0.5.3](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.5.0...v0.5.3) (2018-10-18)
+
+
+### Bug Fixes
+
+* **loading:** wrong attribute of ion-loading ([684d5b](https://github.com/fivethree-team/vscode-ionic-snippets/commit/684d5b))
+
+
+
 <a name="0.5.2"></a>
 ## [0.5.2](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.5.0...v0.5.2) (2018-10-08)
 
