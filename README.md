@@ -118,6 +118,11 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-split-pane`                | `<ion-split-pane>`                                              |
 | `i-split-pane-advanced`                | `<ion-split-pane>` w/ a menu including `<ion-header>`, `<ion-content>` and `<ion-footer>`                                           |
 | `i-tab`                | `<ion-tab>`                                              |
+| `i-tab-bar`                | `<ion-tab-bar>`                                              |
+| `i-tab-button`                | `<ion-tab-button>` connected to `<ion-tab>`                                            |
+| `i-tab-button-only-button`                | `<ion-tab-button>` just a button                                            |
+| `i-tab-button-only-link`                | `<ion-tab-button>` just a link                                            |
+| `i-tab-content`                | `<ion-tab>` custom content                                            |
 | `i-tabs`                | `<ion-tabs>`                                              |
 | `i-text`                | `<ion-text>`                                              |
 | `i-textarea`                | `<ion-textarea>`                                              |

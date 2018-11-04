@@ -918,19 +918,65 @@
     "ion-tab": {
         "prefix": "i-tab",
         "body": [
-            "<ion-tab label=\"${1:Explore}\" icon=\"${2:search}\" href=\"${3:/app/tabs/}(${4:explore}:${4:explore})\">",
-            "\t<ion-router-outlet stack name=\"${4:explore}\"></ion-router-outlet>",
+            "<ion-tab tab=\"${1:home}\">",
+            "\t<ion-router-outlet name=\"${1:home}\"></ion-router-outlet>",
             "</ion-tab>"
         ],
         "description": "<ion-tab>"
+    },
+    "ion-tab-bar": {
+        "prefix": "i-tab-bar",
+        "body": [
+            "<ion-tab-bar slot=\"${1|bottom,top|}\">",
+            "\t$0",
+            "</ion-tab-bar>"
+        ],
+        "description": "<ion-tab-bar>"
+    },
+    "ion-tab-button": {
+        "prefix": "i-tab-button",
+        "body": [
+            "<ion-tab-button tab=\"${1:home}\">",
+            "\t<ion-icon name=\"${2:home}\"></ion-icon>",
+            "\t<ion-label>${3:Home}</ion-label>",
+            "</ion-tab-button>"
+        ],
+        "description": "<ion-tab-button> connected to <ion-tab>"
+    },
+    "ion-tab-button-only-button": {
+        "prefix": "i-tab-button-only-button",
+        "body": [
+            "<ion-tab-button (click)=\"${1:openCamera()}\">",
+            "\t<ion-icon name=\"${2:camera}\"></ion-icon>",
+            "\t<ion-label>${3:Photo}</ion-label>",
+            "</ion-tab-button>"
+        ],
+        "description": "<ion-tab-button> just a button"
+    },
+    "ion-tab-button-only-link": {
+        "prefix": "i-tab-button-only-link",
+        "body": [
+            "<ion-tab-button href=\"${1:https://example.com}\">",
+            "\t<ion-icon name=\"${2:globe}\"></ion-icon>",
+            "\t<ion-label>${3:Search}</ion-label>",
+            "</ion-tab-button>"
+        ],
+        "description": "<ion-tab-button> just a link"
+    },
+    "ion-tab-content": {
+        "prefix": "i-tab-content",
+        "body": [
+            "<ion-tab tab=\"${1:home}\">",
+            "\t${2|<ion-content></ion-content>,<ion-nav></ion-nav>,<ion-router-outlet></ion-router-outlet>|}",
+            "</ion-tab>"
+        ],
+        "description": "<ion-tab> custom content"
     },
     "ion-tabs": {
         "prefix": "i-tabs",
         "body": [
             "<ion-tabs>",
-            "\t<ion-tab label=\"${1:Explore}\" icon=\"${2:search}\" href=\"${3:/app/tabs/}(${4:explore}:${4:explore})\">",
-            "\t\t<ion-router-outlet stack name=\"${4:explore}\"></ion-router-outlet>",
-            "\t</ion-tab>",
+            "\t$0",
             "</ion-tabs>"
         ],
         "description": "<ion-tabs>"
