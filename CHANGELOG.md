@@ -1,3 +1,20 @@
+<a name="0.6.0"></a>
+# [0.6.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.5.0...v0.6.0) (2018-11-04)
+
+
+### Bug Fixes
+
+* **html:** ion-input type selection ([a19ec4b](https://github.com/fivethree-team/vscode-ionic-snippets/commit/a19ec4b))
+
+
+### Features
+
+* **html:** add button with properties ([de19aa5](https://github.com/fivethree-team/vscode-ionic-snippets/commit/de19aa5))
+* **html:** add new tabs api from ionic v4-beta.15 ([2860a0f](https://github.com/fivethree-team/vscode-ionic-snippets/commit/2860a0f))
+* **html:** add simple ion-card and text-alignment ([278873a](https://github.com/fivethree-team/vscode-ionic-snippets/commit/278873a))
+
+
+
 <a name="0.5.3"></a>
 ## [0.5.3](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.5.0...v0.5.3) (2018-10-18)
 
