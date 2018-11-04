@@ -37,6 +37,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-backdrop`                | `<ion-backdrop>`                                                    |
 | `i-badge`                | `<ion-badge>`                                                    |
 | `i-button`                | `<ion-button>`                                                    |
+| `i-button-props`                | `<ion-button>` with fill and shape properties                                                    |
 | `i-button-icon-only`                | `<ion-button>` icon only                                                    |
 | `i-button-w-icon`                | `<ion-button>` w/ icon                                                    |
 | `i-buttons`                | `<ion-buttons>`                                                    |

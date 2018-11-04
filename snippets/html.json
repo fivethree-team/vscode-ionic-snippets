@@ -64,6 +64,15 @@
         ],
         "description": "<ion-button> w/ click event"
     },
+    "ion-button-props": {
+        "prefix": "i-button-props",
+        "body": [
+            "<ion-button (click)=\"${1:onClick()}\" fill=\"${2|solid,outline,clear|}\" shape=\"${3:round}\">",
+            "\t${3:Click me}",
+            "</ion-button>"
+        ],
+        "description": "<ion-button> w/ click event"
+    },
     "ion-button-icon-only": {
         "prefix": "i-button-icon-only",
         "body": [
