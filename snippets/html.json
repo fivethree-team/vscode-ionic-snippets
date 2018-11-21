@@ -787,6 +787,29 @@
         ],
         "description": "<ion-searchbar>"
     },
+    "ion-segment": {
+        "prefix": "i-segment",
+        "body": [
+            "<ion-segment (ionChange)=\"${1:segmentChanged}(\\$event)\">",
+            "\t<ion-segment-button>",
+            "\t\t<ion-label>${2:Pizza}</ion-label>",
+            "\t</ion-segment-button>",
+            "\t<ion-segment-button>",
+            "\t\t<ion-label>${3:Pasta}</ion-label>",
+            "\t</ion-segment-button>",
+            "</ion-segment>"
+        ],
+        "description": "<ion-segment>"
+    },
+    "ion-segment-button": {
+        "prefix": "i-segment-button",
+        "body": [
+            "<ion-segment-button>",
+            "\t<ion-label>${1:Pizza}</ion-label>",
+            "</ion-segment-button>"
+        ],
+        "description": "<ion-segment-button>"
+    },
     "ion-select": {
         "prefix": "i-select",
         "body": [
@@ -1035,6 +1058,44 @@
             "</ion-toolbar>"
         ],
         "description": "<ion-toolbar>"
+    },
+    "ion-virtual-scroll": {
+        "prefix": "i-virtual-scroll",
+        "body": [
+            "<ion-virtual-scroll [items]=\"${1:items}\">",
+            "\t<ion-item *virtualItem=\"let item\">",
+            "\t\t$0{{ item }}",
+            "\t</ion-item>",
+            "</ion-virtual-scroll>"
+        ],
+        "description": "<ion-virtual-scroll>"
+    },
+    "ion-virtual-scroll-w-custom-component": {
+        "prefix": "i-virtual-scroll-w-custom-component",
+        "body": [
+            "<ion-virtual-scroll [items]=\"${1:items}\">",
+            "\t<div *virtualItem=\"let item\">",
+            "\t\t<${2:my-custom-item} [item]=\"item\">",
+            "\t\t\t{{ item }}",
+            "\t\t</${2:my-custom-item}>",
+            "\t</div>",
+            "</ion-virtual-scroll>"
+        ],
+        "description": "<ion-virtual-scroll> with <div> wrapping a custom component"
+    },
+    "ion-virtual-scroll-w-header": {
+        "prefix": "i-virtual-scroll-w-header",
+        "body": [
+            "<ion-virtual-scroll [items]=\"${1:items}\" [headerFn]=\"${2:myHeaderFn}\">",
+            "\t<ion-item-divider *virtualHeader=\"let header\">",
+            "\t\t$0{{ header }}",
+            "\t</ion-item-divider>",
+            "\t<ion-item *virtualItem=\"let item\">",
+            "\t\tItem: {{ item }}",
+            "\t</ion-item>",
+            "</ion-virtual-scroll>"
+        ],
+        "description": "<ion-virtual-scroll> with header function"
     },
     "click": {
         "prefix": "i-click",

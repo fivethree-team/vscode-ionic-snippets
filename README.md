@@ -105,6 +105,8 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-radio-group`                | `<ion-radio-group>`                                                    |
 | `i-row`                | `<ion-row>` w/ `<ion-col>`                                                   |
 | `i-searchbar`                | `<ion-searchbar>`                                                   |
+| `i-segment`                | `<ion-segment>`                                                   |
+| `i-segment-button`                | `<ion-segment-button>`                                                   |
 | `i-select`                | `<ion-select>` w/ `<ion-select-option>`                                                   |
 | `i-select-option`                | `<ion-select-option>`                                                   |
 | `i-show-when-mode`                | `<ion-show-when>` w/ mode                                                   |
@@ -130,6 +132,9 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-title`                | `<ion-title>`                                              |
 | `i-toggle`                | `<ion-toggle>`                                              |
 | `i-toolbar`                | `<ion-toolbar>`                                              |
+| `i-virtual-scroll`                | `<ion-virtual-scroll>`                                              |
+| `i-virtual-scroll-w-custom-component`                | `<ion-virtual-scroll>` with `<div>` wrapping a custom component                                              |
+| `i-virtual-scroll-w-header`                | `<ion-virtual-scroll>` with header function                                          |
 
 **[⬆ back to top](#overview)**
 
@@ -193,5 +198,6 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-on-will-dismiss-data`                | Ionic `onWillDismiss` for dialogs returning data                                                |
 | `i-toast`                | Ionic toast notification method                                                 |
 | `i-toast-ctrl`                | Ionic ToastController                                                 |
+| `i-virtual-scroll-header-fn`                | Ionic virtual scroll header function                                                 |
 
 **[⬆ back to top](#overview)**
