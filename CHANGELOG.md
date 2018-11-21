@@ -1,3 +1,18 @@
+<a name="0.7.0"></a>
+# [0.7.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.6.0...v0.7.0) (2018-11-21)
+
+
+### Bug Fixes
+
+* **html:** choose correct template number for i-button-props ([b1fae07](https://github.com/fivethree-team/vscode-ionic-snippets/commit/b1fae07))
+
+
+### Features
+
+* **html, typescript:** add segment, segment-button and virtual-scroll snippets ([042458a](https://github.com/fivethree-team/vscode-ionic-snippets/commit/042458a))
+
+
+
 <a name="0.6.1"></a>
 ## [0.6.1](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.6.0...v0.6.1) (2018-11-08)
 
