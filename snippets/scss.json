@@ -14,24 +14,5 @@
             "}"
         ],
         "description": "Ionic root"
-    },
-    "ion-common": {
-        "prefix": "i-common",
-        "body": [
-            "ion-${1:*} {",
-            "\t--min-height: ${2:56px};",
-            "\t--padding-top: ${3:4px};",
-            "\t--padding-bottom: ${4:4px};",
-            "\t--padding-end: ${5:16px};",
-            "\t--padding-start: ${6:16px};",
-            "\t--background: var(${7:--ion-color-base});",
-            "\t--border-radius: ${8:0};",
-            "\t--border-width: ${9:0};",
-            "\t--border-style: solid;",
-            "\t--border-color: var(--ion-color-shade);",
-            "\t--box-shadow: ${10:none}",
-            "}"
-        ],
-        "description": "Ionic 4 - most common container css variable overrides (item,card,...)"
     }
 }
