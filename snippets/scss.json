@@ -6,6 +6,78 @@
         ],
         "description": "Ionic scss variables w/ color selection  "
     },
+    "ion-color-custom": {
+        "prefix": "i-color-custom",
+        "body": [
+            ".ion-color-${1:favorite} {",
+            "\t--ion-color-base: #${2:69bb7b};",
+            "\t--ion-color-base-rgb: ${3:105,187,123};",
+            "\t--ion-color-contrast: #${4:ffffff};",
+            "\t--ion-color-contrast-rgb: ${5:255,255,255};",
+            "\t--ion-color-shade: #${6:5ca56c};",
+            "\t--ion-color-tint: #${7:78c288};",
+            "}"
+        ],
+        "description": "Custom Color can be used as color property color='favorite', add to variables.scss"
+    },
+    "ion-color-custom-root": {
+        "prefix": "i-color-custom-root",
+        "body": [
+            "--ion-color-${1:favorite}: #${2:69bb7b};",
+            "--ion-color-${1:favorite}-rgb: ${3:105,187,123};",
+            "--ion-color-${1:favorite}-contrast: #${4:ffffff};",
+            "--ion-color-${1:favorite}-contrast-rgb: ${5:255,255,255};",
+            "--ion-color-${1:favorite}-shade: #${6:5ca56c};",
+            "--ion-color-${1:favorite}-tint: #${7:78c288};"
+        ],
+        "description": "Custom Color add to :root in variables.scss"
+    },
+    "ion-dark-mode": {
+        "prefix": "i-dark-mode",
+        "body": [
+            "@media(prefers-color-scheme: dark) {",
+            "\t:root {",
+            "\t\t--ion-border-color: #2A2A2A;",
+            "\t\t--ion-toolbar-background: #1A1A1A;",
+            "\t\t--ion-tab-bar-background: #1A1A1A;",
+            "\t\t--ion-background-color: #171717;",
+            "\t\t--ion-text-color: #ffffff;",
+            "\t\t--ion-text-color-step-150: #ffffff;",
+            "\t\t--ion-color-step-50: #353535;",
+            "\t\t--ion-color-step-100: #3f3f3f;",
+            "\t\t--ion-color-step-150: #4a4a4a;",
+            "\t\t--ion-color-step-200: #555555;",
+            "\t\t--ion-color-step-250: #5f5f5f;",
+            "\t\t--ion-color-step-300: #6a6a6a;",
+            "\t\t--ion-color-step-350: #757575;",
+            "\t\t--ion-color-step-400: #7f7f7f;",
+            "\t\t--ion-color-step-450: #8a8a8a;",
+            "\t\t--ion-color-step-500: #959595;",
+            "\t\t--ion-color-step-550: #9f9f9f;",
+            "\t\t--ion-color-step-600: #aaaaaa;",
+            "\t\t--ion-color-step-650: #b4b4b4;",
+            "\t\t--ion-color-step-700: #bfbfbf;",
+            "\t\t--ion-color-step-750: #cacaca;",
+            "\t\t--ion-color-step-800: #d4d4d4;",
+            "\t\t--ion-color-step-850: #dfdfdf;",
+            "\t\t--ion-color-step-900: #eaeaea;",
+            "\t\t--ion-color-step-950: #f4f4f4;",
+            "\t}",
+            "}"
+        ],
+        "description": "Dark mode example for Mac OS"
+    },
+    "ion-dark-mode-media-query": {
+        "prefix": "i-dark-mode-media-query",
+        "body": [
+            "@media(prefers-color-scheme: dark) {",
+            "\t:root {",
+            "\t\t$0",
+            "\t}",
+            "}"
+        ],
+        "description": "Dark mode media query for Mac OS"
+    },
     "ion-root": {
         "prefix": "i-root",
         "body": [
@@ -14,5 +86,34 @@
             "}"
         ],
         "description": "Ionic root"
+    },
+    "ion-stepped-color": {
+        "prefix": "i-stepped-color",
+        "body": [
+            "--ion-background-color: #ffffff;",
+            "--ion-background-color-rgb: 255,255,255;",
+            "--ion-text-color: #000000;",
+            "--ion-text-color-rgb: 0,0,0;",
+            "--ion-color-step-50: #f2f2f2;",
+            "--ion-color-step-100: #e6e6e6;",
+            "--ion-color-step-150: #d9d9d9;",
+            "--ion-color-step-200: #cccccc;",
+            "--ion-color-step-250: #bfbfbf;",
+            "--ion-color-step-300: #b3b3b3;",
+            "--ion-color-step-350: #a6a6a6;",
+            "--ion-color-step-400: #999999;",
+            "--ion-color-step-450: #8c8c8c;",
+            "--ion-color-step-500: #808080;",
+            "--ion-color-step-550: #737373;",
+            "--ion-color-step-600: #666666;",
+            "--ion-color-step-650: #595959;",
+            "--ion-color-step-700: #4d4d4d;",
+            "--ion-color-step-750: #404040;",
+            "--ion-color-step-800: #333333;",
+            "--ion-color-step-850: #262626;",
+            "--ion-color-step-900: #191919;",
+            "--ion-color-step-950: #0d0d0d;"
+        ],
+        "description": "Stepped colors add to :root"
     }
 }

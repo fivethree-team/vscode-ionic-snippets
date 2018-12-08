@@ -162,9 +162,14 @@ Type part of a snippet, press enter, and the snippet unfolds.
 
 | Snippet                      | Purpose                                                      |
 | ---------------------------- | ------------------------------------------------------------ |
-| `i-root`                | `:root { }`                                                    |
 | `i-color`                | Ionic scss color variables w/ color selection                                                    |
-| `i-common`                | `ion-*{*/#common-overrides/*}`                                                    |
+| `i-color-custom`                | Custom Color can be used as color property `color='favorite'`, add to variables.scss                                                    |
+| `i-color-custom-root`                | Custom Color add to `:root` in variables.scss                                                   |
+| `i-dark-mode`                | Dark mode example for Mac OS                                                   |
+| `i-dark-mode-media-query`                | Dark mode media query for Mac OS                                                   |
+| `i-root`                | `:root { }`                                                    |
+| `i-stepped-color`                | Stepped colors add to `:root`                                                  |
+
 
 **[⬆ back to top](#overview)**
 
