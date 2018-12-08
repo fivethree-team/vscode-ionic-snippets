@@ -1,3 +1,13 @@
+<a name="0.8.0"></a>
+# [0.8.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.7.0...v0.8.0) (2018-12-08)
+
+
+### Features
+
+* **scss:** add custom color, dark mode and stepped color snippets ([ac865f0](https://github.com/fivethree-team/vscode-ionic-snippets/commit/ac865f0))
+
+
+
 <a name="0.7.0"></a>
 # [0.7.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.6.0...v0.7.0) (2018-11-21)
 
