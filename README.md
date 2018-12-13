@@ -68,10 +68,6 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-form-input-error`                | `<ion-item>` w/ `<ion-input>` and formControlName including error text                                                    |
 | `i-grid`                | `<ion-grid>` w/ `<ion-row>` and `<ion-col>`                                                    |
 | `i-header`                | `<ion-header>`                                                   |
-| `i-hide-when-mode`                | `<ion-hide-when>` w/ mode                                                   |
-| `i-hide-when-orientation`                | `<ion-hide-when>` w/ orientation                                                   |
-| `i-hide-when-platform`                | `<ion-hide-when>` w/ platform                                                   |
-| `i-hide-when-size`                | `<ion-hide-when>` w/ size                                                   |
 | `i-icon`                | `<ion-icon>`                                                    |
 | `i-img`                | `<ion-img>` lazyily load an image                                                   |
 | `i-infinite-scroll`                | `<ion-infinite-scroll>` w/ `<ion-infinite-scroll-content>`                                                   |
@@ -109,10 +105,6 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-segment-button`                | `<ion-segment-button>`                                                   |
 | `i-select`                | `<ion-select>` w/ `<ion-select-option>`                                                   |
 | `i-select-option`                | `<ion-select-option>`                                                   |
-| `i-show-when-mode`                | `<ion-show-when>` w/ mode                                                   |
-| `i-show-when-orientation`                | `<ion-show-when>` w/ orientation                                                   |
-| `i-show-when-platform`                | `<ion-show-when>` w/ platform                                                   |
-| `i-show-when-size`                | `<ion-show-when>` w/ size                                                   |
 | `i-skeleton-text`                | `<ion-skeleton-text>`                                                   |
 | `i-slide`                | `<ion-slide>`                                                   |
 | `i-slides`                | `<ion-slides>` w/ `<ion-slide>`                                                |

@@ -399,42 +399,6 @@
         ],
         "description": "<ion-header>"
     },
-    "ion-hide-when-mode": {
-        "prefix": "i-hide-when-mode",
-        "body": [
-            "<ion-hide-when mode=\"${1|md,ios|}\">",
-            "\t<${2:h1}>${3:Awesome Slide Content}</${2:h1}>",
-            "</ion-hide-when>"
-        ],
-        "description": "<ion-hide-when> w/ mode"
-    },
-    "ion-hide-when-orientation": {
-        "prefix": "i-hide-when-orientation",
-        "body": [
-            "<ion-hide-when orientation=\"${1|portrait,landscape|}\">",
-            "\t<${2:h1}>${3:Awesome Slide Content}</${2:h1}>",
-            "</ion-hide-when>"
-        ],
-        "description": "<ion-hide-when> w/ orientation"
-    },
-    "ion-hide-when-platform": {
-        "prefix": "i-hide-when-platform",
-        "body": [
-            "<ion-hide-when platform=\"${1|android,ios|}\">",
-            "\t<${2:h1}>${3:Awesome Slide Content}</${2:h1}>",
-            "</ion-hide-when>"
-        ],
-        "description": "<ion-hide-when> w/ platform"
-    },
-    "ion-hide-when-size": {
-        "prefix": "i-hide-when-size",
-        "body": [
-            "<ion-hide-when size=\"${1|xs,sm,md,lg,xl|}\">",
-            "\t<${2:h1}>${3:Awesome Slide Content}</${2:h1}>",
-            "</ion-hide-when>"
-        ],
-        "description": "<ion-hide-when> w/ size"
-    },
     "ion-icon": {
         "prefix": "i-icon",
         "body": [
@@ -826,42 +790,6 @@
             "\t<ion-select-option value=\"${1:peperoni}\">${2:Peperoni}</ion-select-option>"
         ],
         "description": "<ion-select-option>"
-    },
-    "ion-show-when-mode": {
-        "prefix": "i-show-when-mode",
-        "body": [
-            "<ion-show-when mode=\"${1|md,ios|}\">",
-            "\t<${2:h1}>${3:Awesome Slide Content}</${2:h1}>",
-            "</ion-show-when>"
-        ],
-        "description": "<ion-show-when> w/ mode"
-    },
-    "ion-show-when-orientation": {
-        "prefix": "i-show-when-orientation",
-        "body": [
-            "<ion-show-when orientation=\"${1|portrait,landscape|}\">",
-            "\t<${2:h1}>${3:Awesome Slide Content}</${2:h1}>",
-            "</ion-show-when>"
-        ],
-        "description": "<ion-show-when> w/ orientation"
-    },
-    "ion-show-when-platform": {
-        "prefix": "i-show-when-platform",
-        "body": [
-            "<ion-show-when platform=\"${1|android,ios|}\">",
-            "\t<${2:h1}>${3:Awesome Slide Content}</${2:h1}>",
-            "</ion-show-when>"
-        ],
-        "description": "<ion-show-when> w/ platform"
-    },
-    "ion-show-when-size": {
-        "prefix": "i-show-when-size",
-        "body": [
-            "<ion-show-when size=\"${1|xs,sm,md,lg,xl|}\">",
-            "\t<${2:h1}>${3:Awesome Slide Content}</${2:h1}>",
-            "</ion-show-when>"
-        ],
-        "description": "<ion-show-when> w/ size"
     },
     "ion-skeleton-text": {
         "prefix": "i-skeleton-text",
