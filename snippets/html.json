@@ -866,15 +866,6 @@
         ],
         "description": "<ion-split-pane> w/ one complete menu"
     },
-    "ion-tab": {
-        "prefix": "i-tab",
-        "body": [
-            "<ion-tab tab=\"${1:home}\">",
-            "\t<ion-router-outlet name=\"${1:home}\"></ion-router-outlet>",
-            "</ion-tab>"
-        ],
-        "description": "<ion-tab>"
-    },
     "ion-tab-bar": {
         "prefix": "i-tab-bar",
         "body": [
@@ -892,7 +883,7 @@
             "\t<ion-label>${3:Home}</ion-label>",
             "</ion-tab-button>"
         ],
-        "description": "<ion-tab-button> connected to <ion-tab>"
+        "description": "<ion-tab-button>"
     },
     "ion-tab-button-only-button": {
         "prefix": "i-tab-button-only-button",
@@ -914,20 +905,24 @@
         ],
         "description": "<ion-tab-button> just a link"
     },
-    "ion-tab-content": {
-        "prefix": "i-tab-content",
-        "body": [
-            "<ion-tab tab=\"${1:home}\">",
-            "\t${2|<ion-content></ion-content>,<ion-nav></ion-nav>,<ion-router-outlet></ion-router-outlet>|}",
-            "</ion-tab>"
-        ],
-        "description": "<ion-tab> custom content"
-    },
     "ion-tabs": {
         "prefix": "i-tabs",
         "body": [
             "<ion-tabs>",
-            "\t$0",
+            "\t<ion-tab-bar slot=\"bottom\">",
+            "\t\t<ion-tab-button tab=\"${1:tab1}\">",
+            "\t\t\t<ion-icon name=\"${2:flash}\"></ion-icon>",
+            "\t\t\t<ion-label>${3:Tab One}</ion-label>",
+            "\t\t</ion-tab-button>",
+            "\t\t<ion-tab-button tab=\"${4:tab2}\">",
+            "\t\t\t<ion-icon name=\"${5:apps}\"></ion-icon>",
+            "\t\t\t<ion-label>${6:Tab Two}</ion-label>",
+            "\t\t</ion-tab-button>",
+            "\t\t<ion-tab-button tab=\"${7:tab3}\">",
+            "\t\t\t<ion-icon name=\"${8:send}\"></ion-icon>",
+            "\t\t\t<ion-label>${9:Tab Three}</ion-label>",
+            "\t\t</ion-tab-button>",
+            "\t</ion-tab-bar>",
             "</ion-tabs>"
         ],
         "description": "<ion-tabs>"
