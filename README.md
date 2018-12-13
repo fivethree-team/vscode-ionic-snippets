@@ -3,11 +3,11 @@
 [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version-short/fivethree.vscode-ionic-snippets.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=fivethree.vscode-ionic-snippets)
 [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs-short/fivethree.vscode-ionic-snippets.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=fivethree.vscode-ionic-snippets)
 
-Visual Studio Code Extension adds TypeScript and HTML snippets for Ionic v4.
+Visual Studio Code Extension adds TypeScript and HTML snippets for Ionic 4.
 
-All code snippets are based on and follow the Angular style guide [Ionic v4 Api](https://beta.ionicframework.com/docs/api).
+All code snippets are based on and follow the Angular style guide [Ionic 4 Api](https://beta.ionicframework.com/docs/api).
 
-## Using Snippets for Ionic v4
+## Using Snippets for Ionic 4
 
 Type part of a snippet, press enter, and the snippet unfolds.
 
