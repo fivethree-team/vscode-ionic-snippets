@@ -2,7 +2,7 @@
     "name": "vscode-ionic-snippets",
     "displayName": "Ionic 4 Snippets",
     "description": "Ionic 4 snippets for VS Code",
-    "version": "0.8.0",
+    "version": "0.9.0",
     "publisher": "fivethree",
     "galleryBanner": {
         "color": "#3880ff",
@@ -51,7 +51,7 @@
         "postinstall": "node ./node_modules/vscode/bin/install",
         "test": "npm run compile && node ./node_modules/vscode/bin/test",
         "vscode:publish": "vsce publish",
-        "changelog": "conventional-changelog -p angular -i ./CHANGELOG.md -s"
+        "version": "conventional-changelog -p angular -i ./CHANGELOG.md -s"
     },
     "devDependencies": {
         "@types/mocha": "^2.2.42",
