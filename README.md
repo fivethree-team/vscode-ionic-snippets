@@ -54,6 +54,10 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-chip-icon`                | `<ion-chip>` w/ `<ion-icon>` at the start                                                    |
 | `i-chip-icon-end`                | `<ion-chip>` w/ `<ion-icon>` at the end                                                  |
 | `i-col`                | `<ion-col>`                                                    |
+| `i-col-offset`                | Ionic `<ion-col>` `[offset]` property selection                                 |
+| `i-col-pull`                | Ionic `<ion-col>` `[pull]` property selection                                 |
+| `i-col-push`                | Ionic `<ion-col>` `[push]` property selection                                 |
+| `i-col-size`                | Ionic `<ion-col>` `[size]` property selection                                 |
 | `i-content`                | `<ion-content>`                                                    |
 | `i-content-events`                | `<ion-content>` w/ events                                                    |
 | `i-datetime`                | `<ion-datetime>`                                                |
@@ -137,7 +141,6 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-click`                | (click) event                                              |
 | `i-color`                | Ionic color property w/ selection                                              |
 | `i-scrollEvents`                | Ionic [scrollEvents] binding for `<ion-content>`                                          |
-| `i-size`                | Ionic `<ion-col>` `[size]` property selection                                 |
 | `i-slot`                | Ionic slot property w/ selection                                |
 
 **[⬆ back to top](#overview)**
