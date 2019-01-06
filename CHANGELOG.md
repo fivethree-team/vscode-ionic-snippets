@@ -1,3 +1,18 @@
+# [0.10.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.8.0...v0.10.0) (2019-01-06)
+
+
+### Bug Fixes
+
+* **html:** remove hide and show when ([15c432a](https://github.com/fivethree-team/vscode-ionic-snippets/commit/15c432a))
+
+
+### Features
+
+* **html:** add col properties offset, pull and push ([a91057f](https://github.com/fivethree-team/vscode-ionic-snippets/commit/a91057f))
+* **html:** use latest tabs api ([d6b7cc3](https://github.com/fivethree-team/vscode-ionic-snippets/commit/d6b7cc3))
+
+
+
 <a name="0.9.0"></a>
 # [0.9.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.8.0...v0.9.0) (2018-12-13)
 
