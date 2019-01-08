@@ -224,7 +224,9 @@
     "ion-col": {
         "prefix": "i-col",
         "body": [
-            "<ion-col ${1|size,sizeXs,sizeSm,sizeMd,sizeLg,sizeXl|}=\"${2:12}\"></ion-col>"
+            "<ion-col ${1|size,sizeXs,sizeSm,sizeMd,sizeLg,sizeXl|}=\"${2:12}\">",
+            "\t$0",
+            "</ion-col>"
         ],
         "description": "<ion-col> with size"
     },
