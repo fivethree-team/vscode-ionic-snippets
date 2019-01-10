@@ -301,6 +301,51 @@
         ],
         "description": "Ionic ToastController"
     },
+    "ion-view-will-enter": {
+        "prefix": "i-view-will-enter",
+        "body": [
+            "ionViewWillEnter() {",
+            "\t$0",
+            "}"
+        ],
+        "description": "ionViewWillEnter (1st) - Fired when entering a page (also if it’s come back from stack), subscribe to Observables here or in ionViewDidEnter"
+    },
+    "ion-view-did-enter": {
+        "prefix": "i-view-did-enter",
+        "body": [
+            "ionViewDidEnter() {",
+            "\t$0",
+            "}"
+        ],
+        "description": "ionViewDidEnter (2nd) - Fired after entering (also if it’s come back from stack), subscribe to Observables here or in ionViewWillEnter"
+    },
+    "ion-view-will-leave": {
+        "prefix": "i-view-will-leave",
+        "body": [
+            "ionViewWillLeave() {",
+            "\t$0",
+            "}"
+        ],
+        "description": "ionViewWillLeave (3rd) - Fired if the page will leave (also if it’s keep in stack), cancel Observables here or in ionViewDidLeave"
+    },
+    "ion-view-did-leave": {
+        "prefix": "i-view-did-leave",
+        "body": [
+            "ionViewDidLeave() {",
+            "\t$0",
+            "}"
+        ],
+        "description": "ionViewDidLeave (4th) - Fired after the page was left (also if it’s keep in stack), cancel Observables here or in ionViewWillLeave"
+    },
+    "ion-view-will-unload": {
+        "prefix": "i-view-will-unload",
+        "body": [
+            "${1|ionViewWillUnload,ngOnDestroy|}() {",
+            "\t$0",
+            "}"
+        ],
+        "description": "ionViewWillUnload (5th) - In Angular not firing because here you have to use ngOnDestroy"
+    },
     "ion-virtual-scroll-header-fn": {
         "prefix": "i-virtual-scroll-header-fn",
         "body": [

@@ -198,6 +198,11 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-on-will-dismiss-data`                | Ionic `onWillDismiss` for dialogs returning data                                                |
 | `i-toast`                | Ionic toast notification method                                                 |
 | `i-toast-ctrl`                | Ionic ToastController                                                 |
+| `i-view-will-enter`                | `ionViewWillEnter` (1st) - Fired when entering a page (also if it’s come back from stack), subscribe to `Observables` here or in `ionViewDidEnter`                                                |
+| `i-view-did-enter`                | `ionViewDidEnter` (2nd) - Fired after entering (also if it’s come back from stack), subscribe to `Observables` here or in `ionViewWillEnter`                                                |
+| `i-view-will-leave`                | `ionViewWillLeave` (3rd) - Fired if the page will leave (also if it’s keep in stack), cancel `Observables` here or in `ionViewDidLeave`                                                |
+| `i-view-did-leave`                | `ionViewDidLeave` (4th) - Fired after the page was left (also if it’s keep in stack), cancel `Observables` here or in `ionViewWillLeave`                                                |
+| `i-view-will-unload`                | `ionViewWillUnload` (5th) - In Angular not firing because here you have to use `ngOnDestroy`                                                |
 | `i-virtual-scroll-header-fn`                | Ionic virtual scroll header function                                                 |
 
 **[⬆ back to top](#overview)**
