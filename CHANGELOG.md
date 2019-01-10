@@ -1,3 +1,17 @@
+# [0.11.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.10.0...v0.11.0) (2019-01-10)
+
+
+### Bug Fixes
+
+* **col:** place cursor between ion-col ([75071a7](https://github.com/fivethree-team/vscode-ionic-snippets/commit/75071a7))
+
+
+### Features
+
+* **lifecycle:** add ionic 4 lifecycle snippets ([89bc5a8](https://github.com/fivethree-team/vscode-ionic-snippets/commit/89bc5a8))
+
+
+
 # [0.10.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.8.0...v0.10.0) (2019-01-06)
 
 
