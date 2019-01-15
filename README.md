@@ -164,6 +164,8 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-dark-mode-media-query`                | Dark mode media query for Mac OS                                                   |
 | `i-root`                | `:root { }`                                                    |
 | `i-stepped-color`                | Stepped colors add to `:root`                                                  |
+| `i-toast-props`                | Toast CSS custom properties                                                  |
+| `i-toast-example`                | Toast CSS custom example style for success, warning or danger toasts                                                  |
 
 
 **[⬆ back to top](#overview)**

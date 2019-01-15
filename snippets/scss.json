@@ -133,7 +133,7 @@
             "--min-width: ${13:92px};",
             "--width: ${14:124px};"
         ],
-        "description": "Toast CSS Custom Properties"
+        "description": "Toast CSS custom properties"
     },
     "ion-toast-example": {
         "prefix": "i-toast-example",
@@ -145,6 +145,6 @@
             "\t--border-width: 8px;",
             "}"
         ],
-        "description": "Toast CSS Custom Properties"
+        "description": "Toast CSS custom example style for success, warning or danger toasts"
     }
 }
