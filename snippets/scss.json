@@ -115,5 +115,36 @@
             "--ion-color-step-950: #0d0d0d;"
         ],
         "description": "Stepped colors add to :root"
+    },
+    "ion-toast-props": {
+        "prefix": "i-toast-props",
+        "body": [
+            "--background: ${1:#3880ff};",
+            "--border-color: ${2:#3880ff};",
+            "--border-radius: ${3:15px};",
+            "--border-style: ${4:solid};",
+            "--border-width: ${5:8px};",
+            "--box-shadow: ${6:10px} ${7:10px};",
+            "--color: ${8:#3880ff};",
+            "--height: ${9:42px};",
+            "--max-height: ${10:64px};",
+            "--max-width: ${11:192px};",
+            "--min-height: ${12:24px};",
+            "--min-width: ${13:92px};",
+            "--width: ${14:124px};"
+        ],
+        "description": "Toast CSS Custom Properties"
+    },
+    "ion-toast-example": {
+        "prefix": "i-toast-example",
+        "body": [
+            ".toast-${1|success,warning,danger|} {",
+            "\t--background: var(--ion-color-${1|success,warning,danger|}-tint);",
+            "\t--border-color: var(--ion-color-${1|success,warning,danger|}-shade);",
+            "\t--border-style: none none none solid;",
+            "\t--border-width: 8px;",
+            "}"
+        ],
+        "description": "Toast CSS Custom Properties"
     }
 }
