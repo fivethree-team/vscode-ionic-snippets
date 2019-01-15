@@ -257,7 +257,7 @@
     "ion-on-did-dismiss-data": {
         "prefix": "i-on-did-dismiss-data",
         "body": [
-            "const { data } = await ${1:alert}.onWillDismiss();",
+            "const { data } = await ${1:alert}.onDidDismiss();",
             "if (data) {",
             "\t${2:// TODO do something}",
             "}"
