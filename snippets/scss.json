@@ -116,6 +116,21 @@
         ],
         "description": "Stepped colors add to :root"
     },
+    "ion-thumbnail-props": {
+        "prefix": "i-thumbnail-props",
+        "body": [
+            "--border-radius: ${1:8px};",
+            "--size: ${2:64px};"
+        ],
+        "description": "Title CSS custom properties"
+    },
+    "ion-title-props": {
+        "prefix": "i-title-props",
+        "body": [
+            "--color: ${1:#3880ff};"
+        ],
+        "description": "Title CSS custom properties"
+    },
     "ion-toast-props": {
         "prefix": "i-toast-props",
         "body": [
@@ -146,5 +161,32 @@
             "}"
         ],
         "description": "Toast CSS custom example style for success, warning or danger toasts"
+    },
+    "ion-toggle-props": {
+        "prefix": "i-toggle-props",
+        "body": [
+            "--background: ${1:#ffffff};",
+            "--background-checked: ${2:#3880ff};",
+            "--handle-background: ${3:#ffffff};",
+            "--handle-background-checked: ${4:#3880ff};"
+        ],
+        "description": "Toggle CSS custom properties"
+    },
+    "ion-toolbar-props": {
+        "prefix": "i-toolbar-props",
+        "body": [
+            "--background: ${1:#ffffff};",
+            "--border-color: ${2:#3880ff};",
+            "--border-style: ${3:solid};",
+            "--border-width: ${4:8px};",
+            "--color: ${5:#3880ff};",
+            "--min-height: ${6:56px};",
+            "--opacity: ${7:56px};",
+            "--padding-bottom: ${8:4px};",
+            "--padding-end: ${9:4px};",
+            "--padding-start: ${10:4px};",
+            "--padding-top: ${11:4px};"
+        ],
+        "description": "Toolbar CSS custom properties"
     }
 }
