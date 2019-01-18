@@ -108,7 +108,11 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-segment`                | `<ion-segment>`                                                   |
 | `i-segment-button`                | `<ion-segment-button>`                                                   |
 | `i-select`                | `<ion-select>` w/ `<ion-select-option>`                                                   |
+| `i-select-loop`                | `<ion-select>` w/ `<ion-select-option *ngFor>`                                                   |
+| `i-select-interface-options`                | `<ion-select>` w/ `interfaceOptions`                                                   |
+| `i-select-interface-options-loop`                | `<ion-select>` w/ `interfaceOptions` and `<ion-select-option *ngFor>`                                                  |
 | `i-select-option`                | `<ion-select-option>`                                                   |
+| `i-select-option-loop`                | `<ion-select-option *ngFor>`                                                   |
 | `i-skeleton-text`                | `<ion-skeleton-text>`                                                   |
 | `i-slide`                | `<ion-slide>`                                                   |
 | `i-slides`                | `<ion-slides>` w/ `<ion-slide>`                                                |

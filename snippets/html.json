@@ -807,12 +807,40 @@
     "ion-select": {
         "prefix": "i-select",
         "body": [
-            "<ion-select placeholder=\"${1:Select Pizza}\">",
-            "\t<ion-select-option value=\"${2:peperoni}\">${3:Peperoni}</ion-select-option>",
-            "\t<ion-select-option value=\"${4:hawaii}\">${5:Hawaii}</ion-select-option>",
+            "<ion-select multiple=\"${1|true,false|}\" placeholder=\"${2:Select Pizza}\">",
+            "\t<ion-select-option value=\"${3:peperoni}\">${4:Peperoni}</ion-select-option>",
+            "\t<ion-select-option value=\"${5:hawaii}\">${6:Hawaii}</ion-select-option>",
             "</ion-select>"
         ],
         "description": "<ion-select> w/ <ion-select-option>"
+    },
+    "ion-select-loop": {
+        "prefix": "i-select-loop",
+        "body": [
+            "<ion-select multiple=\"${1|true,false|}\" placeholder=\"${2:Select Pizza}\">",
+            "\t<ion-select-option *ngFor=\"let ${3:pizza} of ${4:pizzas}\" value=\"${3:pizza}.${5:id}\">{{${3:pizza}.${6:name}}}</ion-select-option>",
+            "</ion-select>"
+        ],
+        "description": "<ion-select> w/ *ngFor"
+    },
+    "ion-select-interface-options": {
+        "prefix": "i-select-interface-options",
+        "body": [
+            "<ion-select [interfaceOptions]=\"${1:customOptions}\" interface=\"${2|action-sheet,alert,popover|}\" placeholder=\"${3:Select Pizza}\">",
+            "\t<ion-select-option value=\"${4:peperoni}\">${5:Peperoni}</ion-select-option>",
+            "\t<ion-select-option value=\"${6:hawaii}\">${7:Hawaii}</ion-select-option>",
+            "</ion-select>"
+        ],
+        "description": "<ion-select> w/ interfaceOptions"
+    },
+    "ion-select-interface-options-loop": {
+        "prefix": "i-select-interface-options-loop",
+        "body": [
+            "<ion-select [interfaceOptions]=\"${1:customOptions}\" interface=\"${2|action-sheet,alert,popover|}\" placeholder=\"${3:Select Pizza}\">",
+            "\t<ion-select-option *ngFor=\"let ${4:pizza} of ${5:pizzas}\" value=\"${4:pizza}.${6:id}\">{{${4:pizza}.${7:name}}}</ion-select-option>",
+            "</ion-select>"
+        ],
+        "description": "<ion-select> w/ interfaceOptions"
     },
     "ion-select-option": {
         "prefix": "i-select-option",
@@ -820,6 +848,13 @@
             "\t<ion-select-option value=\"${1:peperoni}\">${2:Peperoni}</ion-select-option>"
         ],
         "description": "<ion-select-option>"
+    },
+    "ion-select-option-loop": {
+        "prefix": "i-select-option-loop",
+        "body": [
+            "\t<ion-select-option *ngFor=\"let ${1:pizza} of ${2:pizzas}\" value=\"${1:pizza}.${3:id}\">{{${1:pizza}.${4:name}}}</ion-select-option>"
+        ],
+        "description": "<ion-select-option> w/ *ngFor"
     },
     "ion-skeleton-text": {
         "prefix": "i-skeleton-text",
