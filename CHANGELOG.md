@@ -1,3 +1,12 @@
+# [0.13.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.12.0...v0.13.0) (2019-01-18)
+
+
+### Features
+
+* **select:** add ion-select snippets with interfaceOptions and ngFor to ion-select-option ([4076e84](https://github.com/fivethree-team/vscode-ionic-snippets/commit/4076e84))
+
+
+
 # [0.12.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.10.0...v0.12.0) (2019-01-15)
 
 
