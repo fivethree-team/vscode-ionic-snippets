@@ -1,10 +1,48 @@
 {
+    "ion-anchor-props": {
+        "prefix": "i-anchor-props",
+        "body": [
+            "${1:ion-anchor} {",
+            "\t--background: ${2:#ffffff};",
+            "\t--color: ${3:#3880ff};",
+            "}"
+        ],
+        "description": "Anchor CSS custom properties"
+    },
+    "ion-card-props": {
+        "prefix": "i-card-props",
+        "body": [
+            "${1:ion-card} {",
+            "\t--background: ${2:#ffffff};",
+            "\t--color: ${3:#3880ff};",
+            "}"
+        ],
+        "description": "Card CSS custom properties"
+    },
+    "ion-card-subtitle": {
+        "prefix": "i-card-subtitle-props",
+        "body": [
+            "${1:ion-card-subtitle} {",
+            "\t--color: ${2:#3880ff};",
+            "}"
+        ],
+        "description": "Card Subtitle CSS custom properties"
+    },
+    "ion-card-title": {
+        "prefix": "i-card-title-props",
+        "body": [
+            "${1:ion-card-title} {",
+            "\t--color: ${2:#3880ff};",
+            "}"
+        ],
+        "description": "Card Title CSS custom properties"
+    },
     "ion-color": {
         "prefix": "i-color",
         "body": [
             "var(--ion-color-${1|primary,secondary,tertiary,success,warning,danger,dark,medium,light|});"
         ],
-        "description": "Ionic scss variables w/ color selection  "
+        "description": "Ionic scss variables w/ color selection"
     },
     "ion-color-custom": {
         "prefix": "i-color-custom",
@@ -116,37 +154,62 @@
         ],
         "description": "Stepped colors add to :root"
     },
+    "ion-textarea-props": {
+        "prefix": "i-textarea-props",
+        "body": [
+            "${1:ion-textarea} {",
+            "\t--background: ${2:#3880ff};",
+            "\t--border-radius: ${3:8px};",
+            "\t--color: ${4:#3880ff};",
+            "\t--padding-bottom: ${5:4px};",
+            "\t--padding-end: ${6:4px};",
+            "\t--padding-start: ${7:4px};",
+            "\t--padding-top: ${8:4px};",
+            "\t--placeholder-color: ${9:c5c5c5}",
+            "\t--placeholder-font-style: ${10:initial}",
+            "\t--placeholder-font-weight ${11:initial}",
+            "\t--placeholder-opacity ${12:0.5}",
+            "}"
+        ],
+        "description": "Textarea CSS custom properties"
+    },
     "ion-thumbnail-props": {
         "prefix": "i-thumbnail-props",
         "body": [
-            "--border-radius: ${1:8px};",
-            "--size: ${2:64px};"
+            "${1:ion-thumbnail} {",
+            "\t--border-radius: ${2:8px};",
+            "\t--size: ${3:64px};",
+            "}"
         ],
-        "description": "Title CSS custom properties"
+        "description": "Thumbnail CSS custom properties"
     },
     "ion-title-props": {
         "prefix": "i-title-props",
         "body": [
-            "--color: ${1:#3880ff};"
+            "${1:ion-toast} {",
+            "\t--color: ${2:#3880ff};",
+            "}"
         ],
         "description": "Title CSS custom properties"
     },
     "ion-toast-props": {
         "prefix": "i-toast-props",
         "body": [
-            "--background: ${1:#3880ff};",
-            "--border-color: ${2:#3880ff};",
-            "--border-radius: ${3:15px};",
-            "--border-style: ${4:solid};",
-            "--border-width: ${5:8px};",
-            "--box-shadow: ${6:10px} ${7:10px};",
-            "--color: ${8:#3880ff};",
-            "--height: ${9:42px};",
-            "--max-height: ${10:64px};",
-            "--max-width: ${11:192px};",
-            "--min-height: ${12:24px};",
-            "--min-width: ${13:92px};",
-            "--width: ${14:124px};"
+            "${1:ion-toast} {",
+            "\t--background: ${2:#3880ff};",
+            "\t--border-color: ${3:#3880ff};",
+            "\t--border-radius: ${4:15px};",
+            "\t--border-style: ${5:solid};",
+            "\t--border-width: ${6:8px};",
+            "\t--box-shadow: ${7:10px} ${8:10px};",
+            "\t--color: ${9:#3880ff};",
+            "\t--height: ${10:42px};",
+            "\t--max-height: ${11:64px};",
+            "\t--max-width: ${12:192px};",
+            "\t--min-height: ${13:24px};",
+            "\t--min-width: ${14:92px};",
+            "\t--width: ${15:124px};",
+            "}"
         ],
         "description": "Toast CSS custom properties"
     },
@@ -165,27 +228,31 @@
     "ion-toggle-props": {
         "prefix": "i-toggle-props",
         "body": [
-            "--background: ${1:#ffffff};",
-            "--background-checked: ${2:#3880ff};",
-            "--handle-background: ${3:#ffffff};",
-            "--handle-background-checked: ${4:#3880ff};"
+            "${1:ion-toggle} {",
+            "\t--background: ${2:#ffffff};",
+            "\t--background-checked: ${3:#3880ff};",
+            "\t--handle-background: ${4:#ffffff};",
+            "\t--handle-background-checked: ${5:#3880ff};",
+            "}"
         ],
         "description": "Toggle CSS custom properties"
     },
     "ion-toolbar-props": {
         "prefix": "i-toolbar-props",
         "body": [
-            "--background: ${1:#ffffff};",
-            "--border-color: ${2:#3880ff};",
-            "--border-style: ${3:solid};",
-            "--border-width: ${4:8px};",
-            "--color: ${5:#3880ff};",
-            "--min-height: ${6:56px};",
-            "--opacity: ${7:56px};",
-            "--padding-bottom: ${8:4px};",
-            "--padding-end: ${9:4px};",
-            "--padding-start: ${10:4px};",
-            "--padding-top: ${11:4px};"
+            "${1:ion-toolbar} {",
+            "\t--background: ${2:#ffffff};",
+            "\t--border-color: ${3:#3880ff};",
+            "\t--border-style: ${4:solid};",
+            "\t--border-width: ${5:8px};",
+            "\t--color: ${6:#3880ff};",
+            "\t--min-height: ${7:56px};",
+            "\t--opacity: ${8:1};",
+            "\t--padding-bottom: ${9:4px};",
+            "\t--padding-end: ${10:4px};",
+            "\t--padding-start: ${11:4px};",
+            "\t--padding-top: ${12:4px};",
+            "}"
         ],
         "description": "Toolbar CSS custom properties"
     }
