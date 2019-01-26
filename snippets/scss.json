@@ -9,6 +9,32 @@
         ],
         "description": "Anchor CSS custom properties"
     },
+    "ion-button-props": {
+        "prefix": "i-button-props",
+        "body": [
+            "${1:ion-button} {",
+            "\t--background: ${2:#3880ff};",
+            "\t--background-activated: ${3:#3880ff}",
+            "\t--background-focused: ${4:#3880ff}",
+            "\t--border-color: ${5:#3880ff};",
+            "\t--border-radius: ${6:8px};",
+            "\t--border-style: ${7:solid};",
+            "\t--border-width: ${8:8px};",
+            "\t--box-shadow: ${9:10px 10px};",
+            "\t--color: ${10:#ffffff};",
+            "\t--color-activated: ${11:#ffffff}",
+            "\t--color-focused ${12:#ffffff}",
+            "\t--opacity: ${13:1};",
+            "\t--padding-bottom: ${14:4px};",
+            "\t--padding-end: ${15:4px};",
+            "\t--padding-start: ${16:4px};",
+            "\t--padding-top: ${17:4px};",
+            "\t--ripple-color: ${18:#1e1e1e}",
+            "\t--transition: ${19:background-color 15ms linear}",
+            "}"
+        ],
+        "description": "Button CSS custom properties"
+    },
     "ion-card-props": {
         "prefix": "i-card-props",
         "body": [
@@ -201,14 +227,14 @@
             "\t--border-radius: ${4:15px};",
             "\t--border-style: ${5:solid};",
             "\t--border-width: ${6:8px};",
-            "\t--box-shadow: ${7:10px} ${8:10px};",
-            "\t--color: ${9:#3880ff};",
-            "\t--height: ${10:42px};",
-            "\t--max-height: ${11:64px};",
-            "\t--max-width: ${12:192px};",
-            "\t--min-height: ${13:24px};",
-            "\t--min-width: ${14:92px};",
-            "\t--width: ${15:124px};",
+            "\t--box-shadow: ${7:10px 10px};",
+            "\t--color: ${8:#3880ff};",
+            "\t--height: ${9:42px};",
+            "\t--max-height: ${10:64px};",
+            "\t--max-width: ${11:192px};",
+            "\t--min-height: ${12:24px};",
+            "\t--min-width: ${13:92px};",
+            "\t--width: ${14:124px};",
             "}"
         ],
         "description": "Toast CSS custom properties"

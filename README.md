@@ -162,6 +162,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | Snippet                      | Purpose                                                      |
 | ---------------------------- | ------------------------------------------------------------ |
 | `i-anchor-props`                | Anchor CSS custom properties                                                    |
+| `i-button-props`                | Button CSS custom properties                                                    |
 | `i-card-props`                | Card CSS custom properties                                                    |
 | `i-card-subtitle-props`                | Card Subtitle CSS custom properties                                                    |
 | `i-card-title-props`                | Card Title CSS custom properties                                                    |
