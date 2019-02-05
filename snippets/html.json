@@ -642,7 +642,7 @@
             "\t\t<ion-label>${1:Peperoni}</ion-label>",
             "\t</ion-item>",
             "\t<ion-item>",
-            "\t\t<ion-label>${1:Hawaii}</ion-label>",
+            "\t\t<ion-label>${2:Hawaii}</ion-label>",
             "\t</ion-item>",
             "</ion-list>"
         ],
