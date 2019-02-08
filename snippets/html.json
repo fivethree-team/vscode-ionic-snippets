@@ -113,6 +113,15 @@
         ],
         "description": "<ion-card>"
     },
+    "ion-card-loop": {
+        "prefix": "i-card-loop",
+        "body": [
+            "<ion-card *ngFor=\"let ${3:item} of ${4:items}\">",
+            "\t$0",
+            "</ion-card>"
+        ],
+        "description": "<ion-card> w/ *ngFor"
+    },
     "ion-card-full": {
         "prefix": "i-card-full",
         "body": [

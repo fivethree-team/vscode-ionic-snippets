@@ -42,7 +42,8 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-button-w-icon`                | `<ion-button>` w/ icon                                                    |
 | `i-buttons`                | `<ion-buttons>`                                                    |
 | `i-card`                | `<ion-card>`                                                    |
-| `i-card`                | `<ion-card>` w/ `<ion-card-header>` and `<ion-card-content>`                                                    |
+| `i-card-loop`                | `<ion-card *ngFor>`                                                |
+| `i-card-full`                | `<ion-card>` w/ `<ion-card-header>` and `<ion-card-content>`                                                    |
 | `i-card-content`                | `<ion-card-content>`                                                    |
 | `i-card-header`                | `<ion-card-header>`                                                    |
 | `i-card-subtitle`                | `<ion-card-subtitle>`                                                    |
