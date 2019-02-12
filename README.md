@@ -129,6 +129,8 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-tabs`                | `<ion-tabs>`                                              |
 | `i-text`                | `<ion-text>`                                              |
 | `i-textarea`                | `<ion-textarea>`                                              |
+| `i-textarea-w-placeholder`                | `<ion-textarea>` w/ placeholder                                              |
+| `i-textarea-w-label`                | `<ion-textarea>` w/ `<ion-label>`                                              |
 | `i-thumbnail`                | `<ion-thumbnail>`                                              |
 | `i-title`                | `<ion-title>`                                              |
 | `i-toggle`                | `<ion-toggle>`                                              |

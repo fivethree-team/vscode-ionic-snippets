@@ -1024,6 +1024,25 @@
         ],
         "description": "<ion-textarea>"
     },
+    "ion-textarea-w-placeholder": {
+        "prefix": "i-textarea-w-placeholder",
+        "body": [
+            "<ion-item>",
+            "\t<ion-textarea placeholder=\"${1:Enter more information here...}\"></ion-textarea>",
+            "</ion-item>"
+        ],
+        "description": "<ion-textarea> w/ placeholder"
+    },
+    "ion-textarea-w-label": {
+        "prefix": "i-textarea-w-placeholder",
+        "body": [
+            "<ion-item>",
+            "<ion-label position=\"${1|floating,stacked|}\">Description</ion-label>",
+            "\t<ion-textarea></ion-textarea>",
+            "</ion-item>"
+        ],
+        "description": "<ion-textarea> w/ placeholder"
+    },
     "ion-thumbnail": {
         "prefix": "i-thumbnail",
         "body": [
