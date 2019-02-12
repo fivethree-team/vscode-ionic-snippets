@@ -1,3 +1,19 @@
+# [0.15.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.14.0...v0.15.0) (2019-02-12)
+
+
+### Bug Fixes
+
+* **list:** update ion-label template ([e29d5c4](https://github.com/fivethree-team/vscode-ionic-snippets/commit/e29d5c4))
+
+
+### Features
+
+* **button:** add ion-button css custom props ([5ab12eb](https://github.com/fivethree-team/vscode-ionic-snippets/commit/5ab12eb))
+* **card:** add loop snippet ([e9780f5](https://github.com/fivethree-team/vscode-ionic-snippets/commit/e9780f5))
+* **textarea:** add snippet w/ placeholder and label ([14fe1c7](https://github.com/fivethree-team/vscode-ionic-snippets/commit/14fe1c7))
+
+
+
 # [0.14.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.13.0...v0.14.0) (2019-01-25)
 
 
