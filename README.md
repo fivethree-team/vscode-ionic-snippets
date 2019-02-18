@@ -175,6 +175,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-color-custom-root`                | Custom Color add to `:root` in variables.scss                                                   |
 | `i-dark-mode`                | Dark mode example for Mac OS                                                   |
 | `i-dark-mode-media-query`                | Dark mode media query for Mac OS                                                   |
+| `i-item-props`                | Item CSS custom properties                                |
 | `i-root`                | `:root { }`                                                    |
 | `i-stepped-color`                | Stepped colors add to `:root`                                                  |
 | `i-textarea-props`                | Textarea CSS custom properties                                                  |
