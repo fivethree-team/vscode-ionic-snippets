@@ -83,6 +83,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-item-checkbox`                | `<ion-item>` w/ `<ion-checkbox>`                                                    |
 | `i-item-divider`                | `<ion-item-divider>` w/ `<ion-label>`                                                    |
 | `i-item-group`                | `<ion-item-group>` w/ `<ion-item-divider>` and `<ion-item>`                                                    |
+| `i-item-icon`                | `<ion-item>` w/ `<ion-icon>`                                                    |
 | `i-item-input`                | `<ion-item>` w/ `<ion-input>`                                                    |
 | `i-item-option`                | `<ion-item-option>`                                                  |
 | `i-item-option-w-icon`                | `<ion-item-option>` w/ icon                                                |

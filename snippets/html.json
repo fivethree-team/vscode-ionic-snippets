@@ -537,6 +537,16 @@
         ],
         "description": "<ion-item-divider> w/ <ion-label>"
     },
+    "ion-item-icon": {
+        "prefix": "i-item-icon",
+        "body": [
+            "<ion-item>",
+            "\t<ion-icon name=\"${1:pizza}\" slot=\"${2|start,end|}\"></ion-icon>",
+            "\t<ion-label>${3:Pizza}</ion-label>",
+            "</ion-item>"
+        ],
+        "description": "<ion-item> w/ <ion-icon>"
+    },
     "ion-item-input": {
         "prefix": "i-item-input",
         "body": [
