@@ -1,3 +1,12 @@
+# [0.16.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.15.0...v0.16.0) (2019-02-18)
+
+
+### Features
+
+* **item:** new snippet item with icon ([f014a12](https://github.com/fivethree-team/vscode-ionic-snippets/commit/f014a12))
+
+
+
 # [0.15.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.14.0...v0.15.0) (2019-02-12)
 
 
