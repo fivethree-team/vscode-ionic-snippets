@@ -455,7 +455,7 @@
     "ion-infinite-scroll": {
         "prefix": "i-infinite-scroll",
         "body": [
-            "<ion-infinite-scroll threshold=\"${1:25}${2|%,px|}\" (ionInfinite)=\"${3:loadData}($event)\">",
+            "<ion-infinite-scroll threshold=\"${1:25}${2|%,px|}\" (ionInfinite)=\"${3:loadData}(\\$event)\">",
             "\t<ion-infinite-scroll-content loadingSpinner=\"${4|crescent,lines,lines-small,bubbles,circles,dots|}\" loadingText=\"${5:Loading more data...}\">",
             "\t</ion-infinite-scroll-content>",
             "</ion-infinite-scroll>"
@@ -837,7 +837,7 @@
         "prefix": "i-select-loop",
         "body": [
             "<ion-select multiple=\"${1|true,false|}\" placeholder=\"${2:Select Pizza}\">",
-            "\t<ion-select-option *ngFor=\"let ${3:pizza} of ${4:pizzas}\" value=\"${3:pizza}.${5:id}\">{{${3:pizza}.${6:name}}}</ion-select-option>",
+            "\t<ion-select-option *ngFor=\"let ${3:pizza} of ${4:pizzas}\" [value]=\"${3:pizza}.${5:id}\">{{${3:pizza}.${6:name}}}</ion-select-option>",
             "</ion-select>"
         ],
         "description": "<ion-select> w/ *ngFor"
@@ -856,7 +856,7 @@
         "prefix": "i-select-interface-options-loop",
         "body": [
             "<ion-select [interfaceOptions]=\"${1:customOptions}\" interface=\"${2|action-sheet,alert,popover|}\" placeholder=\"${3:Select Pizza}\">",
-            "\t<ion-select-option *ngFor=\"let ${4:pizza} of ${5:pizzas}\" value=\"${4:pizza}.${6:id}\">{{${4:pizza}.${7:name}}}</ion-select-option>",
+            "\t<ion-select-option *ngFor=\"let ${4:pizza} of ${5:pizzas}\" [value]=\"${4:pizza}.${6:id}\">{{${4:pizza}.${7:name}}}</ion-select-option>",
             "</ion-select>"
         ],
         "description": "<ion-select> w/ interfaceOptions"
