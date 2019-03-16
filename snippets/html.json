@@ -438,6 +438,48 @@
         ],
         "description": "<ion-header>"
     },
+    "ion-hide": {
+        "prefix": "i-hide",
+        "body": [
+            "class=\"ion-hide\""
+        ],
+        "description": "CSS Utilities Hide Element"
+    },
+    "ion-hide-breakpoints": {
+        "prefix": "i-hide-breakpoints",
+        "body": [
+            "class=\"ion-hide-${1|sm,md,lg,xl|}-${2|up,down|}\""
+        ],
+        "description": "CSS Utilities Hide Element with Display Breakpoints"
+    },
+    "ion-hide-sm": {
+        "prefix": "i-hide-sm",
+        "body": [
+            "class=\"ion-hide-sm-${1|up,down|}\""
+        ],
+        "description": "CSS Utilities Hide Element sm. Applies the modifier to the element when min-width: 576px (up) or max-width: 576px (down)."
+    },
+    "ion-hide-md": {
+        "prefix": "i-hide-md",
+        "body": [
+            "class=\"ion-hide-md-${1|up,down|}\""
+        ],
+        "description": "CSS Utilities Hide Element md. Applies the modifier to the element when min-width: 768px (up) or max-width: 768px (down)."
+    },
+    "ion-hide-lg": {
+        "prefix": "i-hide-lg",
+        "body": [
+            "class=\"ion-hide-lg-${1|up,down|}\""
+        ],
+        "description": "CSS Utilities Hide Element lg. Applies the modifier to the element when min-width: 992px (up) or max-width: 992px (down)."
+    },
+    "ion-hide-xl": {
+        "prefix": "i-hide-xl",
+        "body": [
+            "class=\"ion-hide-xl-${1|up,down|}\""
+        ],
+        "description": "CSS Utilities Hide Element xl. Applies the modifier to the element when min-width: 1200px (up) or max-width: 1200px (down)."
+    },
     "ion-icon": {
         "prefix": "i-icon",
         "body": [
@@ -1025,7 +1067,7 @@
         "body": [
             "text-${1|left,right,start,end,center,justify,wrap,nowrap|}"
         ],
-        "description": "text alignment"
+        "description": "CSS Utilities Text Alignment"
     },
     "ion-textarea": {
         "prefix": "i-textarea",

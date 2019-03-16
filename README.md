@@ -157,6 +157,12 @@ Type part of a snippet, press enter, and the snippet unfolds.
 
 | Snippet                      | Purpose                                                      |
 | ---------------------------- | ------------------------------------------------------------ |
+| `i-hide`                | CSS Utilities Hide Element                                                  |
+| `i-hide-breakpoints`                | CSS Utilities Hide Element with Display Breakpoints                                                  |
+| `i-hide-sm`                | CSS Utilities Hide Element sm. Applies the modifier to the element when min-width: 576px (up) or max-width: 576px (down).                                                  |
+| `i-hide-md`                | CSS Utilities Hide Element md. Applies the modifier to the element when min-width: 768px (up) or max-width: 768px (down).                                                 |
+| `i-hide-lg`                | CSS Utilities Hide Element lg. Applies the modifier to the element when min-width: 992px (up) or max-width: 992px (down).                                                 |
+| `i-hide-xl`                | CSS Utilities Hide Element xl. Applies the modifier to the element when min-width: 1200px (up) or max-width: 1200px (down).                                                  |
 | `i-text-alignment`                | Text alignment such as left, right, center                                                   |
 
 **[⬆ back to top](#overview)**
