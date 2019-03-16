@@ -1,3 +1,17 @@
+# [0.17.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.16.1...v0.17.0) (2019-03-16)
+
+
+### Bug Fixes
+
+* **select:** value must be in [] ([c0e30f1](https://github.com/fivethree-team/vscode-ionic-snippets/commit/c0e30f1))
+
+
+### Features
+
+* **hide:** add ion-hide snippets ([46011de](https://github.com/fivethree-team/vscode-ionic-snippets/commit/46011de))
+
+
+
 ## [0.16.1](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.15.0...v0.16.1) (2019-02-18)
 
 
