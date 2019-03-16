@@ -1,3 +1,12 @@
+## [0.17.1](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.17.0...v0.17.1) (2019-03-16)
+
+
+### Features
+
+* **margin,padding:** add margin and padding snippets ([6c831cb](https://github.com/fivethree-team/vscode-ionic-snippets/commit/6c831cb))
+
+
+
 # [0.17.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.16.1...v0.17.0) (2019-03-16)
 
 
