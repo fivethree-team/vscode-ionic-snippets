@@ -441,44 +441,44 @@
     "ion-hide": {
         "prefix": "i-hide",
         "body": [
-            "class=\"ion-hide\""
+            "ion-hide"
         ],
-        "description": "CSS Utilities Hide Element"
+        "description": "CSS Utilities Hide Element Class - must be added to class"
     },
     "ion-hide-breakpoints": {
         "prefix": "i-hide-breakpoints",
         "body": [
-            "class=\"ion-hide-${1|sm,md,lg,xl|}-${2|up,down|}\""
+            "ion-hide-${1|sm,md,lg,xl|}-${2|up,down|}"
         ],
-        "description": "CSS Utilities Hide Element with Display Breakpoints"
+        "description": "CSS Utilities Hide Element with Display Breakpoints - must be added to class"
     },
     "ion-hide-sm": {
         "prefix": "i-hide-sm",
         "body": [
-            "class=\"ion-hide-sm-${1|up,down|}\""
+            "ion-hide-sm-${1|up,down|}"
         ],
-        "description": "CSS Utilities Hide Element sm. Applies the modifier to the element when min-width: 576px (up) or max-width: 576px (down)."
+        "description": "CSS Utilities Hide Element sm - must be added to class. Applies the modifier to the element when min-width: 576px (up) or max-width: 576px (down)."
     },
     "ion-hide-md": {
         "prefix": "i-hide-md",
         "body": [
-            "class=\"ion-hide-md-${1|up,down|}\""
+            "ion-hide-md-${1|up,down|}"
         ],
-        "description": "CSS Utilities Hide Element md. Applies the modifier to the element when min-width: 768px (up) or max-width: 768px (down)."
+        "description": "CSS Utilities Hide Element md - must be added to class. Applies the modifier to the element when min-width: 768px (up) or max-width: 768px (down)."
     },
     "ion-hide-lg": {
         "prefix": "i-hide-lg",
         "body": [
-            "class=\"ion-hide-lg-${1|up,down|}\""
+            "ion-hide-lg-${1|up,down|}"
         ],
-        "description": "CSS Utilities Hide Element lg. Applies the modifier to the element when min-width: 992px (up) or max-width: 992px (down)."
+        "description": "CSS Utilities Hide Element lg - must be added to class. Applies the modifier to the element when min-width: 992px (up) or max-width: 992px (down)."
     },
     "ion-hide-xl": {
         "prefix": "i-hide-xl",
         "body": [
-            "class=\"ion-hide-xl-${1|up,down|}\""
+            "ion-hide-xl-${1|up,down|}"
         ],
-        "description": "CSS Utilities Hide Element xl. Applies the modifier to the element when min-width: 1200px (up) or max-width: 1200px (down)."
+        "description": "CSS Utilities Hide Element xl - must be added to class. Applies the modifier to the element when min-width: 1200px (up) or max-width: 1200px (down)."
     },
     "ion-icon": {
         "prefix": "i-icon",
@@ -742,6 +742,27 @@
         ],
         "description": "<ion-list>"
     },
+    "ion-margin": {
+        "prefix": "i-margin",
+        "body": [
+            "ion-margin"
+        ],
+        "description": "CSS Utilities Element Margin - must be added to class"
+    },
+    "ion-margin-type": {
+        "prefix": "i-margin-type",
+        "body": [
+            "ion-margin-${1|top,start,end,bottom,vertical,horizontal|}"
+        ],
+        "description": "CSS Utilities Element Margin Type - must be added to class"
+    },
+    "ion-no-margin": {
+        "prefix": "i-no-margin",
+        "body": [
+            "ion-no-margin"
+        ],
+        "description": "CSS Utilities Element No Margin - must be added to class"
+    },
     "ion-menu": {
         "prefix": "i-menu",
         "body": [
@@ -792,6 +813,27 @@
             "<ion-note>${1:42}</ion-note>"
         ],
         "description": "<ion-note>"
+    },
+    "ion-padding": {
+        "prefix": "i-padding",
+        "body": [
+            "ion-padding"
+        ],
+        "description": "CSS Utilities Element Padding - must be added to class"
+    },
+    "ion-padding-type": {
+        "prefix": "i-padding-type",
+        "body": [
+            "ion-padding-${1|top,start,end,bottom,vertical,horizontal|}"
+        ],
+        "description": "CSS Utilities Element Padding Type - must be added to class"
+    },
+    "ion-no-padding": {
+        "prefix": "i-no-padding",
+        "body": [
+            "ion-no-padding"
+        ],
+        "description": "CSS Utilities Element No Padding - must be added to class"
     },
     "ion-radio": {
         "prefix": "i-radio",
