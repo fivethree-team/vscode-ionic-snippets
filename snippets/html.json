@@ -868,6 +868,38 @@
         ],
         "description": "<ion-radio-group>"
     },
+    "ion-refresher": {
+        "prefix": "i-refresher",
+        "body": [
+            "<ion-refresher slot=\"fixed\" (ionRefresh)=\"${1:doRefresh}(\\$event)\">",
+            "\t<ion-refresher-content></ion-refresher-content>",
+            "</ion-refresher>"
+        ],
+        "description": "<ion-refresher>"
+    },
+    "ion-refresher-content": {
+        "prefix": "i-refresher-content",
+        "body": [
+            "<ion-refresher slot=\"fixed\" (ionRefresh)=\"${1:doRefresh}(\\$event)\">",
+            "\t<ion-refresher-content",
+            "\t\tpullingIcon=\"${2:arrow-dropdown}\"",
+            "\t\tpullingText=\"${3:Pull to refresh}\"",
+            "\t\trefreshingSpinner=\"${4|bubbles,circles,crescent,dots,lines,lines-small|}\"",
+            "\t\trefreshingText=\"${5:Refreshing...}\">",
+            "\t</ion-refresher-content>",
+            "</ion-refresher>"
+        ],
+        "description": "<ion-refresher> w/ <ion-refresher-content> options"
+    },
+    "ion-refresher-events": {
+        "prefix": "i-refresher-events",
+        "body": [
+            "<ion-refresher slot=\"fixed\" (ionRefresh)=\"${1:doRefresh}(\\$event)\" (ionPull)=\"${2:onPull}(\\$event)\" (ionStart)=\"${3:onStart}(\\$event)\">",
+            "\t<ion-refresher-content></ion-refresher-content>",
+            "</ion-refresher>"
+        ],
+        "description": "<ion-refresher> w/ all events"
+    },
     "ion-row": {
         "prefix": "i-row",
         "body": [

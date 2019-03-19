@@ -105,6 +105,9 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-radio`                | `<ion-radio>`                                                    |
 | `i-radio-checked`                | `<ion-radio>` checked                                                    |
 | `i-radio-group`                | `<ion-radio-group>`                                                    |
+| `i-refresher`                | `<ion-refresher>`                                                   |
+| `i-refresher-content`                | `<ion-refresher>` w/ `<ion-refresher-content>` options                                                   |
+| `i-refresher-events`                | `<ion-refresher>` w/ all events                                                   |
 | `i-row`                | `<ion-row>` w/ `<ion-col>`                                                   |
 | `i-searchbar`                | `<ion-searchbar>`                                                   |
 | `i-segment`                | `<ion-segment>`                                                   |
@@ -229,6 +232,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-on-did-dismiss-data`                | Ionic `onDidDismiss` for dialogs returning data                                                 |
 | `i-on-will-dismiss`                | Ionic `onWillDismiss` for dialogs                                                 |
 | `i-on-will-dismiss-data`                | Ionic `onWillDismiss` for dialogs returning data                                                |
+| `i-refresher-do-refresh`                | `<ion-refesher ionRefresh>`  output handler method                                                 |
 | `i-toast`                | Ionic toast notification method                                                 |
 | `i-toast-ctrl`                | Ionic ToastController                                                 |
 | `i-view-will-enter`                | `ionViewWillEnter` (1st) - Fired when entering a page (also if it’s come back from stack), subscribe to `Observables` here or in `ionViewDidEnter`                                                |

@@ -281,6 +281,20 @@
         ],
         "description": "`onWillDismiss`"
     },
+    "ion-refresher-do-refresh": {
+        "prefix": "i-refresher-do-refresh",
+        "body": [
+            "${1:doRefresh}(${2:event}) {",
+            "\tconsole.log('Begin async operation');",
+            "\t",
+            "\tsetTimeout(() => {",
+            "\t\tconsole.log('Async operation has ended');",
+            "\t\t${2:event}.target.complete();",
+            "\t}, 2000);",
+            "}"
+        ],
+        "description": "<ion-refesher ionRefresh>  output handler method"
+    },
     "ion-toast": {
         "prefix": "i-toast",
         "body": [
