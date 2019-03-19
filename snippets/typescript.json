@@ -293,7 +293,7 @@
             "\t}, 2000);",
             "}"
         ],
-        "description": "<ion-refesher ionRefresh>  output handler method"
+        "description": "<ion-refesher ionRefresh> output handler method"
     },
     "ion-toast": {
         "prefix": "i-toast",
