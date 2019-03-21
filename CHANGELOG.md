@@ -1,3 +1,12 @@
+# [0.19.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.18.0...v0.19.0) (2019-03-21)
+
+
+### Features
+
+* **select:** wrap select with ion-item ([eca6f1a](https://github.com/fivethree-team/vscode-ionic-snippets/commit/eca6f1a))
+
+
+
 # [0.18.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.17.0...v0.18.0) (2019-03-19)
 
 
