@@ -1,53 +1,58 @@
 {
-    "name": "vscode-ionic-snippets",
-    "displayName": "Ionic 4 Snippets",
-    "description": "Ionic 4 snippets for VS Code",
-    "version": "0.19.0",
-    "author": "Marc Stammerjohann",
-    "license": "MIT",
-    "publisher": "fivethree",
-    "galleryBanner": {
-        "color": "#3880ff",
-        "theme": "dark"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/fivethree-team/vscode-ionic-snippets.git"
-    },
-    "bugs": {
-        "url": "https://github.com/fivethree-team/vscode-ionic-snippets/issues"
-    },
-    "engines": {
-        "vscode": "^1.26.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "keywords": [
-        "Ionic",
-        "Ionic v4",
-        "TypeScript",
-        "HTML",
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "html",
-                "path": "./snippets/html.json"
-            },
-            {
-                "language": "scss",
-                "path": "./snippets/scss.json"
-            },
-            {
-                "language": "typescript",
-                "path": "./snippets/typescript.json"
-            }
-        ]
-    },
-    "scripts": {
-        "vscode:publish": "vsce publish",
-        "version": "conventional-changelog -p angular -i ./CHANGELOG.md -s"
-    }
+  "name": "vscode-ionic-snippets",
+  "displayName": "Ionic 4 Snippets",
+  "description": "Ionic 4 snippets for VS Code",
+  "version": "0.19.0",
+  "author": "Marc Stammerjohann",
+  "license": "MIT",
+  "publisher": "fivethree",
+  "galleryBanner": {
+    "color": "#3880ff",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fivethree-team/vscode-ionic-snippets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fivethree-team/vscode-ionic-snippets/issues"
+  },
+  "engines": {
+    "vscode": "^1.26.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "Ionic",
+    "Ionic v4",
+    "TypeScript",
+    "HTML",
+    "Vue",
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/html.json"
+      },
+      {
+        "language": "scss",
+        "path": "./snippets/scss.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/typescript.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/vue.json"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:publish": "vsce publish",
+    "version": "conventional-changelog -p angular -i ./CHANGELOG.md -s"
+  }
 }
