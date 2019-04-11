@@ -1,3 +1,14 @@
+# [0.20.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.18.0...v0.20.0) (2019-04-11)
+
+
+### Features
+
+* **chip:** add css custom props ([3983d0f](https://github.com/fivethree-team/vscode-ionic-snippets/commit/3983d0f))
+* **content:** add css custom props ([fba9a89](https://github.com/fivethree-team/vscode-ionic-snippets/commit/fba9a89))
+* **select:** wrap select with ion-item ([eca6f1a](https://github.com/fivethree-team/vscode-ionic-snippets/commit/eca6f1a))
+
+
+
 # [0.19.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.18.0...v0.19.0) (2019-03-21)
 
 
