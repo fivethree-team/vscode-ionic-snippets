@@ -185,6 +185,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-card-props`                | Card CSS custom properties                                                    |
 | `i-card-subtitle-props`                | Card Subtitle CSS custom properties                                                    |
 | `i-card-title-props`                | Card Title CSS custom properties                                                    |
+| `i-chip-props`                | Chip CSS custom properties                                                    |
 | `i-color`                | Ionic scss color variables w/ color selection                                                    |
 | `i-color-custom`                | Custom Color can be used as color property `color='favorite'`, add to variables.scss                                                    |
 | `i-color-custom-root`                | Custom Color add to `:root` in variables.scss                                                   |

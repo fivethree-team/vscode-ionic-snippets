@@ -45,7 +45,7 @@
         ],
         "description": "Card CSS custom properties"
     },
-    "ion-card-subtitle": {
+    "ion-card-subtitle-props": {
         "prefix": "i-card-subtitle-props",
         "body": [
             "${1:ion-card-subtitle} {",
@@ -54,7 +54,7 @@
         ],
         "description": "Card Subtitle CSS custom properties"
     },
-    "ion-card-title": {
+    "ion-card-title-props": {
         "prefix": "i-card-title-props",
         "body": [
             "${1:ion-card-title} {",
@@ -62,6 +62,16 @@
             "}"
         ],
         "description": "Card Title CSS custom properties"
+    },
+    "ion-chip-props": {
+        "prefix": "i-chip-props",
+        "body": [
+            "${1:ion-chip} {",
+            "\t--background: ${2:#ffffff};",
+            "\t--color: ${3:#3880ff};",
+            "}"
+        ],
+        "description": "Chip CSS custom properties"
     },
     "ion-color": {
         "prefix": "i-color",
@@ -100,16 +110,16 @@
         "prefix": "i-content-props",
         "body": [
             "${1:ion-content} {",
-                "\t--background: ${2:#ffffff};",
-                "\t--color: ${3:#3880ff};",
-                "\t--keyboard-offset: ${4:0px};",
-                "\t--offset-bottom: ${5:0px};",
-                "\t--offset-top: ${6:0px};",
-                "\t--padding-bottom: ${7:0px};",
-                "\t--padding-end: ${8:0px};",
-                "\t--padding-start: ${9:0px};",
-                "\t--padding-top: ${10:0px};",
-                "}"
+            "\t--background: ${2:#ffffff};",
+            "\t--color: ${3:#3880ff};",
+            "\t--keyboard-offset: ${4:0px};",
+            "\t--offset-bottom: ${5:0px};",
+            "\t--offset-top: ${6:0px};",
+            "\t--padding-bottom: ${7:0px};",
+            "\t--padding-end: ${8:0px};",
+            "\t--padding-start: ${9:0px};",
+            "\t--padding-top: ${10:0px};",
+            "}"
         ],
         "description": "Content CSS custom properties"
     },
