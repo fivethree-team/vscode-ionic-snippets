@@ -96,6 +96,23 @@
         ],
         "description": "Custom Color add to :root in variables.scss"
     },
+    "ion-content-props": {
+        "prefix": "i-content-props",
+        "body": [
+            "${1:ion-content} {",
+                "\t--background: ${2:#ffffff};",
+                "\t--color: ${3:#3880ff};",
+                "\t--keyboard-offset: ${4:0px};",
+                "\t--offset-bottom: ${5:0px};",
+                "\t--offset-top: ${6:0px};",
+                "\t--padding-bottom: ${7:0px};",
+                "\t--padding-end: ${8:0px};",
+                "\t--padding-start: ${9:0px};",
+                "\t--padding-top: ${10:0px};",
+                "}"
+        ],
+        "description": "Content CSS custom properties"
+    },
     "ion-dark-mode": {
         "prefix": "i-dark-mode",
         "body": [

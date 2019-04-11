@@ -188,6 +188,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-color`                | Ionic scss color variables w/ color selection                                                    |
 | `i-color-custom`                | Custom Color can be used as color property `color='favorite'`, add to variables.scss                                                    |
 | `i-color-custom-root`                | Custom Color add to `:root` in variables.scss                                                   |
+| `i-content-props`                | Content CSS custom properties                                                   |
 | `i-dark-mode`                | Dark mode example for Mac OS                                                   |
 | `i-dark-mode-media-query`                | Dark mode media query for Mac OS                                                   |
 | `i-item-props`                | Item CSS custom properties                                |
