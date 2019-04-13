@@ -328,12 +328,12 @@
         "body": [
             "<form [formGroup]=\"${1:loginForm}\" (ngSubmit)=\"${2:onSubmit}()\">",
             "\t<ion-item>",
-            "\t\t<ion-label position=\"${3|floating,inline,fixed,stacked|}\">${4:E-Mail}</ion-label>",
-            "\t\t<ion-input formControlName=\"${5:email}\" type=\"${6|text,password,email,number,tel,url|}\"></ion-input>",
+            "\t\t<ion-label position=\"${3|floating,inline,fixed,stacked|}\">${4:E-Mail} <ion-text color=\"danger\">*</ion-text></ion-label>",
+            "\t\t<ion-input required formControlName=\"${5:email}\" type=\"${6|text,password,email,number,tel,url|}\"></ion-input>",
             "\t</ion-item>",
             "\t<ion-item>",
-            "\t\t<ion-label position=\"${3|floating,inline,fixed,stacked|}\">${7:Password}</ion-label>",
-            "\t\t<ion-input formControlName=\"${8:password}\" type=\"${9|text,password,email,number,tel,url|}\"></ion-input>",
+            "\t\t<ion-label position=\"${3|floating,inline,fixed,stacked|}\">${7:Password} <ion-text color=\"danger\">*</ion-text></ion-label>",
+            "\t\t<ion-input required formControlName=\"${8:password}\" type=\"${9|text,password,email,number,tel,url|}\"></ion-input>",
             "\t</ion-item>",
             "\t<ion-button block color=\"${10|primary,secondary,tertiary|}\" type=\"submit\" [disabled]=\"${1:loginForm}.invalid\">",
             "\t\t${11:Login}",
@@ -347,8 +347,8 @@
         "body": [
             "<form [formGroup]=\"${1:loginForm}\" (ngSubmit)=\"${2:onSubmit}()\">",
             "\t<ion-item>",
-            "\t\t<ion-label position=\"${3|floating,inline,fixed,stacked|}\">${4:E-Mail}</ion-label>",
-            "\t\t<ion-input formControlName=\"${5:email}\" type=\"${6|text,password,email,number,tel,url|}\"></ion-input>",
+            "\t\t<ion-label position=\"${3|floating,inline,fixed,stacked|}\">${4:E-Mail} <ion-text color=\"danger\">*</ion-text></ion-label>",
+            "\t\t<ion-input required formControlName=\"${5:email}\" type=\"${6|text,password,email,number,tel,url|}\"></ion-input>",
             "\t</ion-item>",
             "\t<ion-item *ngIf=\"${5:email}.invalid && ${5:email}.touched\">",
             "\t\t<ion-text color=\"${7:danger}\" class=\"${8:form-error}\">",
@@ -372,6 +372,16 @@
         ],
         "description": "<ion-item> w/ <ion-input> and formControlName"
     },
+    "ion-form-input-required": {
+        "prefix": "i-form-input-required",
+        "body": [
+            "<ion-item>",
+            "\t<ion-label position=\"${1|floating,inline,fixed,stacked|}\">${2:E-Mail} <ion-text color=\"danger\">*</ion-text></ion-label>",
+            "\t<ion-input required formControlName=\"${3:email}\" type=\"${4|text,password,email,number,tel,url|}\"></ion-input>",
+            "</ion-item>"
+        ],
+        "description": "<ion-item> w/ <ion-input>, required and formControlName"
+    },
     "ion-form-input-error": {
         "prefix": "i-form-input-error",
         "body": [
@@ -386,6 +396,21 @@
             "</ion-item>"
         ],
         "description": "<ion-item> w/ <ion-input> and formControlName including error text"
+    },
+    "ion-form-input-required-error": {
+        "prefix": "i-form-input-required-error",
+        "body": [
+            "<ion-item>",
+            "\t<ion-label position=\"${1|floating,inline,fixed,stacked|}\">${2:E-Mail} <ion-text color=\"danger\">*</ion-text></ion-label>",
+            "\t<ion-input required formControlName=\"${3:email}\" type=\"${4|text,password,email,number,tel,url|}\"></ion-input>",
+            "</ion-item>",
+            "<ion-item *ngIf=\"${3:email}.invalid && ${3:email}.touched\">",
+            "\t<ion-text color=\"${5:danger}\" class=\"${6:form-error}\">",
+            "\t\t${7:Please enter a valid email address.}",
+            "\t</ion-text>",
+            "</ion-item>"
+        ],
+        "description": "<ion-item> w/ <ion-input>, required and formControlName including error text"
     },
     "ion-grid": {
         "prefix": "i-grid",
@@ -550,6 +575,16 @@
         ],
         "description": "<ion-item> w/ <ion-input>"
     },
+    "ion-item-input-required": {
+        "prefix": "i-item-input-required",
+        "body": [
+            "<ion-item>",
+            "\t<ion-label>${1:Input} <ion-text color=\"danger\">*</ion-text></ion-label>",
+            "\t<ion-input required></ion-input>",
+            "</ion-item>"
+        ],
+        "description": "<ion-item> w/ <ion-input>"
+    },
     "ion-item-option": {
         "prefix": "i-item-option",
         "body": [
@@ -655,6 +690,13 @@
             "<ion-label position=\"${1|inline,fixed,stacked,floating|}\">${2:Label}</ion-label>"
         ],
         "description": "<ion-label>"
+    },
+    "ion-label-required": {
+        "prefix": "i-label-required",
+        "body": [
+            "<ion-label position=\"${1|inline,fixed,stacked,floating|}\">${2:Label} <ion-text color=\"danger\">*</ion-text></ion-label>"
+        ],
+        "description": "<ion-label> w/ required hint"
     },
     "ion-list": {
         "prefix": "i-list",
@@ -1062,12 +1104,12 @@
         ],
         "description": "<ion-text> to style the color of any element"
     },
-    "ion-text-alignment": {
-        "prefix": "i-text-alignment",
+    "ion-text-required": {
+        "prefix": "i-text",
         "body": [
-            "text-${1|left,right,start,end,center,justify,wrap,nowrap|}"
+            "<ion-text color=\"danger\">*</ion-text>"
         ],
-        "description": "CSS Utilities Text Alignment"
+        "description": "<ion-text> w/ required hint"
     },
     "ion-textarea": {
         "prefix": "i-textarea",

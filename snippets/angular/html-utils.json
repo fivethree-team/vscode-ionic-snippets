@@ -138,5 +138,12 @@
             "slot=\"${1|start,end,primary,secondary|}\""
         ],
         "description": "Ionic slot property"
+    },
+    "ion-text-alignment": {
+        "prefix": "i-text-alignment",
+        "body": [
+            "text-${1|left,right,start,end,center,justify,wrap,nowrap|}"
+        ],
+        "description": "CSS Utilities Text Alignment"
     }
 }
