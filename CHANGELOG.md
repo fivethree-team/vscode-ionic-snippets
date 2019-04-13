@@ -1,3 +1,13 @@
+# [0.21.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.20.0...v0.21.0) (2019-04-13)
+
+
+### Features
+
+* **html:** floating label in item and as label ([e195147](https://github.com/fivethree-team/vscode-ionic-snippets/commit/e195147))
+* **searchbar:** add change event and debounce ([0bcfb92](https://github.com/fivethree-team/vscode-ionic-snippets/commit/0bcfb92))
+
+
+
 # [0.20.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.18.0...v0.20.0) (2019-04-11)
 
 
