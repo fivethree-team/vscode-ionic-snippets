@@ -34,7 +34,11 @@
         "snippets": [
             {
                 "language": "html",
-                "path": "./snippets/html.json"
+                "path": "./snippets/angular/html.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/angular/html-utils.json"
             },
             {
                 "language": "scss",
@@ -42,7 +46,7 @@
             },
             {
                 "language": "typescript",
-                "path": "./snippets/typescript.json"
+                "path": "./snippets/angular/typescript.json"
             }
         ]
     },

@@ -291,8 +291,8 @@
         "prefix": "i-datetime",
         "body": [
             "<ion-item>",
-            "<ion-label>${1:Date}</ion-label>",
-            "<ion-datetime display-format=\"${2:DD.MM.YYYY} ${3:HH:mm}\"></ion-datetime>",
+            "\t<ion-label>${1:Date}</ion-label>",
+            "\t<ion-datetime display-format=\"${2:DD.MM.YYYY} ${3:HH:mm}\"></ion-datetime>",
             "</ion-item>"
         ],
         "description": "<ion-datetime>"
@@ -438,48 +438,6 @@
         ],
         "description": "<ion-header>"
     },
-    "ion-hide": {
-        "prefix": "i-hide",
-        "body": [
-            "ion-hide"
-        ],
-        "description": "CSS Utilities Hide Element Class - must be added to class"
-    },
-    "ion-hide-breakpoints": {
-        "prefix": "i-hide-breakpoints",
-        "body": [
-            "ion-hide-${1|sm,md,lg,xl|}-${2|up,down|}"
-        ],
-        "description": "CSS Utilities Hide Element with Display Breakpoints - must be added to class"
-    },
-    "ion-hide-sm": {
-        "prefix": "i-hide-sm",
-        "body": [
-            "ion-hide-sm-${1|up,down|}"
-        ],
-        "description": "CSS Utilities Hide Element sm - must be added to class. Applies the modifier to the element when min-width: 576px (up) or max-width: 576px (down)."
-    },
-    "ion-hide-md": {
-        "prefix": "i-hide-md",
-        "body": [
-            "ion-hide-md-${1|up,down|}"
-        ],
-        "description": "CSS Utilities Hide Element md - must be added to class. Applies the modifier to the element when min-width: 768px (up) or max-width: 768px (down)."
-    },
-    "ion-hide-lg": {
-        "prefix": "i-hide-lg",
-        "body": [
-            "ion-hide-lg-${1|up,down|}"
-        ],
-        "description": "CSS Utilities Hide Element lg - must be added to class. Applies the modifier to the element when min-width: 992px (up) or max-width: 992px (down)."
-    },
-    "ion-hide-xl": {
-        "prefix": "i-hide-xl",
-        "body": [
-            "ion-hide-xl-${1|up,down|}"
-        ],
-        "description": "CSS Utilities Hide Element xl - must be added to class. Applies the modifier to the element when min-width: 1200px (up) or max-width: 1200px (down)."
-    },
     "ion-icon": {
         "prefix": "i-icon",
         "body": [
@@ -542,6 +500,15 @@
         ],
         "description": "<ion-item> w/ <ion-avatar>"
     },
+    "ion-item-button": {
+        "prefix": "i-item-button",
+        "body": [
+            "<ion-item button>",
+            "\t<ion-label>${3:Click me}</ion-label>",
+            "</ion-item>"
+        ],
+        "description": "<ion-item> w/ <ion-avatar>"
+    },
     "ion-item-checkbox": {
         "prefix": "i-item-checkbox",
         "body": [
@@ -560,6 +527,18 @@
             "</ion-item-divider>"
         ],
         "description": "<ion-item-divider> w/ <ion-label>"
+    },
+    "ion-item-floating-label": {
+        "prefix": "i-item-floating-label",
+        "body": [
+            "<ion-item>",
+            "\t<ion-label>",
+            "\t\t<p>${1:Pizza}<p>",
+            "\t\t<h2>${2:Hawaii}</h2>",
+            "\t</ion-label>",
+            "</ion-item>"
+        ],
+        "description": "<ion-item> w/ <p> and <h2> wrapped by <ion-label>"
     },
     "ion-item-group": {
         "prefix": "i-item-group",
@@ -688,6 +667,16 @@
         ],
         "description": "<ion-label>"
     },
+    "ion-label-floating": {
+        "prefix": "i-label-floating",
+        "body": [
+            "<ion-label>",
+            "\t<p>${1:Pizza}<p>",
+            "\t<h2>${2:Hawaii}</h2>",
+            "</ion-label>"
+        ],
+        "description": "<ion-label> w/ <p> and <h2>"
+    },
     "ion-label-position": {
         "prefix": "i-label-position",
         "body": [
@@ -699,15 +688,10 @@
         "prefix": "i-list",
         "body": [
             "<ion-list>",
-            "\t<ion-item>",
-            "\t\t<ion-label>${1:Peperoni}</ion-label>",
-            "\t</ion-item>",
-            "\t<ion-item>",
-            "\t\t<ion-label>${2:Hawaii}</ion-label>",
-            "\t</ion-item>",
+            "\t$0",
             "</ion-list>"
         ],
-        "description": "<ion-item> w/ two <ion-item>"
+        "description": "<ion-list>"
     },
     "ion-list-header": {
         "prefix": "i-list-header",
@@ -741,27 +725,6 @@
             "</ion-list>"
         ],
         "description": "<ion-list>"
-    },
-    "ion-margin": {
-        "prefix": "i-margin",
-        "body": [
-            "ion-margin"
-        ],
-        "description": "CSS Utilities Element Margin - must be added to class"
-    },
-    "ion-margin-type": {
-        "prefix": "i-margin-type",
-        "body": [
-            "ion-margin-${1|top,start,end,bottom,vertical,horizontal|}"
-        ],
-        "description": "CSS Utilities Element Margin Type - must be added to class"
-    },
-    "ion-no-margin": {
-        "prefix": "i-no-margin",
-        "body": [
-            "ion-no-margin"
-        ],
-        "description": "CSS Utilities Element No Margin - must be added to class"
     },
     "ion-menu": {
         "prefix": "i-menu",
@@ -813,27 +776,6 @@
             "<ion-note>${1:42}</ion-note>"
         ],
         "description": "<ion-note>"
-    },
-    "ion-padding": {
-        "prefix": "i-padding",
-        "body": [
-            "ion-padding"
-        ],
-        "description": "CSS Utilities Element Padding - must be added to class"
-    },
-    "ion-padding-type": {
-        "prefix": "i-padding-type",
-        "body": [
-            "ion-padding-${1|top,start,end,bottom,vertical,horizontal|}"
-        ],
-        "description": "CSS Utilities Element Padding Type - must be added to class"
-    },
-    "ion-no-padding": {
-        "prefix": "i-no-padding",
-        "body": [
-            "ion-no-padding"
-        ],
-        "description": "CSS Utilities Element No Padding - must be added to class"
     },
     "ion-radio": {
         "prefix": "i-radio",
@@ -1250,33 +1192,5 @@
             "</ion-virtual-scroll>"
         ],
         "description": "<ion-virtual-scroll> with header function"
-    },
-    "click": {
-        "prefix": "i-click",
-        "body": [
-            "(click)=\"${1:onClick()}\""
-        ],
-        "description": "(click) event"
-    },
-    "color": {
-        "prefix": "i-color",
-        "body": [
-            "color=\"${1|primary,secondary,tertiary,success,warning,danger,light,medium,dark|}\""
-        ],
-        "description": "(click) event"
-    },
-    "scrollEvents": {
-        "prefix": "i-scrollEvents",
-        "body": [
-            "[scrollEvents]=\"${1|true,false|}\""
-        ],
-        "description": "Ionic [scrollEvents] binding for <ion-content>"
-    },
-    "slot": {
-        "prefix": "i-slot",
-        "body": [
-            "slot=\"${1|start,end,primary,secondary|}\""
-        ],
-        "description": "Ionic slot property"
     }
 }

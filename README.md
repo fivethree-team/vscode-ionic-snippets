@@ -82,6 +82,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-item-badge`                | `<ion-item>` w/ `<ion-badge>`                                                    |
 | `i-item-checkbox`                | `<ion-item>` w/ `<ion-checkbox>`                                                    |
 | `i-item-divider`                | `<ion-item-divider>` w/ `<ion-label>`                                                    |
+| `i-item-floating-label`                | `<ion-item>` w/ `<p>` and `<h2>` wrapped by `<ion-label>`                                                    |
 | `i-item-group`                | `<ion-item-group>` w/ `<ion-item-divider>` and `<ion-item>`                                                    |
 | `i-item-icon`                | `<ion-item>` w/ `<ion-icon>`                                                    |
 | `i-item-input`                | `<ion-item>` w/ `<ion-input>`                                                    |
@@ -94,8 +95,9 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-item-radio`                | `<ion-item>` w/ `<ion-radio>`                                                    |
 | `i-item-toggle`                | `<ion-item>` w/ `<ion-toggle>`                                                    |
 | `i-label`                | `<ion-label>`                                                    |
+| `i-label-floating`                | `<ion-label>` w/ `<p>` and `<h2>`                                                  |
 | `i-label-position`                | `<ion-label>` w/ position selection                                                  |
-| `i-list`                | `<ion-list>` w/ two `<ion-item>`                                                    |
+| `i-list`                | `<ion-list>`                                                   |
 | `i-list-header`                | `<ion-list-header>`                                                    |
 | `i-list-input`                | `<ion-item>` w/ two `<ion-item>`                                                    |
 | `i-menu`                | `<ion-menu>` w/ `<ion-header>` and `<ion-content>`                                                   |
