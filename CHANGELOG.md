@@ -1,3 +1,12 @@
+# [0.22.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.21.0...v0.22.0) (2019-04-13)
+
+
+### Features
+
+* **label:** add required hint with * asterisk ([e172768](https://github.com/fivethree-team/vscode-ionic-snippets/commit/e172768))
+
+
+
 # [0.21.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.20.0...v0.21.0) (2019-04-13)
 
 
