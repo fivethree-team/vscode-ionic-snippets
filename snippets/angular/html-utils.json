@@ -13,6 +13,34 @@
         ],
         "description": "(click) event"
     },
+    "ion-col-offset": {
+        "prefix": "i-col-offset",
+        "body": [
+            "${1|offset,offsetXs,offsetSm,offsetMd,offsetLg,offsetXl|}=\"${2:2}\""
+        ],
+        "description": "Ionic col [offset] property selection"
+    },
+    "ion-col-pull": {
+        "prefix": "i-col-pull",
+        "body": [
+            "${1|pull,pullXs,pullSm,pullMd,pullLg,pullXl|}=\"${2:}\""
+        ],
+        "description": "Ionic col [pull] property selection"
+    },
+    "ion-col-push": {
+        "prefix": "i-col-push",
+        "body": [
+            "${1|push,pushXs,pushSm,pushMd,pushLg,pushXl|}=\"${2:12}\""
+        ],
+        "description": "Ionic col [push] property selection"
+    },
+    "ion-col-size": {
+        "prefix": "i-col-size",
+        "body": [
+            "${1|size,sizeXs,sizeSm,sizeMd,sizeLg,sizeXl|}=\"${2:12}\""
+        ],
+        "description": "Ionic col [size] property selection"
+    },
     "ion-hide": {
         "prefix": "i-hide",
         "body": [
