@@ -1105,7 +1105,7 @@
         "description": "<ion-text> to style the color of any element"
     },
     "ion-text-required": {
-        "prefix": "i-text",
+        "prefix": "i-text-required",
         "body": [
             "<ion-text color=\"danger\">*</ion-text>"
         ],
