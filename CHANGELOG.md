@@ -1,3 +1,17 @@
+## [0.22.1](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.21.0...v0.22.1) (2019-04-14)
+
+
+### Bug Fixes
+
+* **text:** prefix for i-text-required ([4046b43](https://github.com/fivethree-team/vscode-ionic-snippets/commit/4046b43))
+
+
+### Features
+
+* **label:** add required hint with * asterisk ([e172768](https://github.com/fivethree-team/vscode-ionic-snippets/commit/e172768))
+
+
+
 # [0.22.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.21.0...v0.22.0) (2019-04-13)
 
 
