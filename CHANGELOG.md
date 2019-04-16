@@ -1,3 +1,18 @@
+## [0.22.3](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.22.0...v0.22.3) (2019-04-16)
+
+
+### Bug Fixes
+
+* **label:** close p tag ([e4fe469](https://github.com/fivethree-team/vscode-ionic-snippets/commit/e4fe469))
+* **text:** prefix for i-text-required ([4046b43](https://github.com/fivethree-team/vscode-ionic-snippets/commit/4046b43))
+
+
+### Features
+
+* **form:** set lines to none for error text ([57e7bc2](https://github.com/fivethree-team/vscode-ionic-snippets/commit/57e7bc2))
+
+
+
 ## [0.22.2](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.22.0...v0.22.2) (2019-04-15)
 
 

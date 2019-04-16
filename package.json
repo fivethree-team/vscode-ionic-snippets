@@ -2,7 +2,7 @@
     "name": "vscode-ionic-snippets",
     "displayName": "Ionic 4 Snippets",
     "description": "Ionic 4 snippets for VS Code",
-    "version": "0.22.2",
+    "version": "0.22.3",
     "author": "Marc Stammerjohann",
     "license": "MIT",
     "publisher": "fivethree",
