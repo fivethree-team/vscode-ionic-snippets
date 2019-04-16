@@ -530,7 +530,7 @@
         "body": [
             "<ion-item>",
             "\t<ion-label>",
-            "\t\t<p>${1:Pizza}<p>",
+            "\t\t<p>${1:Pizza}</p>",
             "\t\t<h2>${2:Hawaii}</h2>",
             "\t</ion-label>",
             "</ion-item>"
@@ -678,7 +678,7 @@
         "prefix": "i-label-floating",
         "body": [
             "<ion-label>",
-            "\t<p>${1:Pizza}<p>",
+            "\t<p>${1:Pizza}</p>",
             "\t<h2>${2:Hawaii}</h2>",
             "</ion-label>"
         ],
