@@ -282,6 +282,26 @@
         ],
         "description": "Item CSS custom properties"
     },
+    "ion-picker-props": {
+        "prefix": "i-picker-props",
+        "body": [
+            "${1:ion-picker} {",
+            "\t--background: ${2:#3880ff};",
+            "\t--background-rgb: ${3:56, 128, 255};",
+            "\t--border-color: ${4:#3880ff};",
+            "\t--border-radius: ${5:8px};",
+            "\t--border-style: ${6:solid};",
+            "\t--border-width: ${7:8px};",
+            "\t--height: ${8:100%};",
+            "\t--max-height: ${9:100%};",
+            "\t--max-width: ${10:100%};",
+            "\t--min-height: ${11:100%};",
+            "\t--min-width: ${12:100%};",
+            "\t--width: ${13:100%};",
+            "}"
+        ],
+        "description": "Picker CSS custom properties"
+    },
     "ion-root": {
         "prefix": "i-root",
         "body": [
