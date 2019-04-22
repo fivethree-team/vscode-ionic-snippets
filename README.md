@@ -55,8 +55,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-checkbox`                | `<ion-checkbox>`                                                    |
 | `i-chip`                | `<ion-chip>`                                                    |
 | `i-chip-avatar`                | `<ion-chip>` w/ `<ion-avatar>`                                                    |
-| `i-chip-button`                | `<ion-chip-button>`                                                    |
-| `i-chip-icon`                | `<ion-chip>` w/ `<ion-icon>` at the start                                                    |
+| `i-chip-icon-start`                | `<ion-chip>` w/ `<ion-icon>` at the start                                                    |
 | `i-chip-icon-end`                | `<ion-chip>` w/ `<ion-icon>` at the end                                                  |
 | `i-col`                | `<ion-col>`                                                    |
 | `i-col-offset`                | Ionic `<ion-col>` `[offset]` property selection                                 |
@@ -195,6 +194,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-card-props`                | Card CSS custom properties                                                    |
 | `i-card-subtitle-props`                | Card Subtitle CSS custom properties                                                    |
 | `i-card-title-props`                | Card Title CSS custom properties                                                    |
+| `i-checkbox-props`                | Checkbox CSS custom properties                                                    |
 | `i-chip-props`                | Chip CSS custom properties                                                    |
 | `i-color`                | Ionic scss color variables w/ color selection                                                    |
 | `i-color-custom`                | Custom Color can be used as color property `color='favorite'`, add to variables.scss                                                    |

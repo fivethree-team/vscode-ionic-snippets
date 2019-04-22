@@ -180,8 +180,8 @@
     "ion-chip": {
         "prefix": "i-chip",
         "body": [
-            "<ion-chip>",
-            "\t<ion-label>${1:Default}</ion-label>",
+            "<ion-chip color=\"${1|primary,secondary,tertiary|}\" mode=\"${2|ios,md|}\" outline=\"${3|true,false|}\">",
+            "\t<ion-label>${4:Default}</ion-label>",
             "</ion-chip>"
         ],
         "description": "<ion-chip>"
@@ -189,33 +189,21 @@
     "ion-chip-avatar": {
         "prefix": "i-chip-avatar",
         "body": [
-            "<ion-chip>",
+            "<ion-chip color=\"${1|primary,secondary,tertiary|}\" mode=\"${2|ios,md|}\" outline=\"${3|true,false|}\">",
             "\t<ion-avatar>",
-            "\t\t<img [src]=\"${1:image}\">",
+            "\t\t<img [src]=\"${4:image}\">",
             "\t</ion-avatar>",
-            "\t<ion-label>${2:Chip Avatar}</ion-label>",
+            "\t<ion-label>${5:Chip Avatar}</ion-label>",
             "</ion-chip>"
         ],
         "description": "<ion-chip> w/ <ion-avatar>"
     },
-    "ion-chip-button": {
-        "prefix": "i-chip-button",
+    "ion-chip-icon-start": {
+        "prefix": "i-chip-icon-start",
         "body": [
-            "<ion-chip>",
-            "\t<ion-label>${1:Default}</ion-label>",
-            "\t<ion-chip-button fill=\"${2:clear}\" color=\"${3:light}\">",
-            "\t\t<ion-icon name=\"${4:close-circle}\"></ion-icon>",
-            "\t</ion-chip-button>",
-            "</ion-chip>"
-        ],
-        "description": "<ion-chip-button>"
-    },
-    "ion-chip-icon": {
-        "prefix": "i-chip-icon",
-        "body": [
-            "<ion-chip>",
-            "\t<ion-icon name=\"${1:pin}\"></ion-icon>",
-            "\t<ion-label>${2:Default}</ion-label>",
+            "<ion-chip color=\"${1|primary,secondary,tertiary|}\" mode=\"${2|ios,md|}\" outline=\"${3|true,false|}\">",
+            "\t<ion-icon name=\"${4:pin}\"></ion-icon>",
+            "\t<ion-label>${5:Default}</ion-label>",
             "</ion-chip>"
         ],
         "description": "<ion-chip> w/ <ion-icon> at the start"
@@ -223,9 +211,9 @@
     "ion-chip-icon-end": {
         "prefix": "i-chip-icon-end",
         "body": [
-            "<ion-chip>",
-            "\t<ion-label>${1:Default}</ion-label>",
-            "\t<ion-icon name=\"${2:pin}\"></ion-icon>",
+            "<ion-chip color=\"${1|primary,secondary,tertiary|}\" mode=\"${2|ios,md|}\" outline=\"${3|true,false|}\">",
+            "\t<ion-label>${4:Default}</ion-label>",
+            "\t<ion-icon name=\"${5:close-circle}\"></ion-icon>",
             "</ion-chip>"
         ],
         "description": "<ion-chip> w/ <ion-icon> at the end"
