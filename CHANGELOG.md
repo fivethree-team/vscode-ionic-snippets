@@ -1,3 +1,27 @@
+# [0.23.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.22.0...v0.23.0) (2019-04-22)
+
+
+### Bug Fixes
+
+* **label:** close p tag ([e4fe469](https://github.com/fivethree-team/vscode-ionic-snippets/commit/e4fe469))
+* **text:** prefix for i-text-required ([4046b43](https://github.com/fivethree-team/vscode-ionic-snippets/commit/4046b43))
+
+
+### Features
+
+* **badge:** add mode option ([8ac1fbc](https://github.com/fivethree-team/vscode-ionic-snippets/commit/8ac1fbc))
+* **checkbox:** add checkbox css custom props ([2229545](https://github.com/fivethree-team/vscode-ionic-snippets/commit/2229545))
+* **chip:** add options to chip snippets ([65b760f](https://github.com/fivethree-team/vscode-ionic-snippets/commit/65b760f))
+* **css:** add action-sheet, alert and badge css props ([2a8ed32](https://github.com/fivethree-team/vscode-ionic-snippets/commit/2a8ed32))
+* **datetime:** add datetime css props ([8a35539](https://github.com/fivethree-team/vscode-ionic-snippets/commit/8a35539))
+* **form:** set lines to none for error text ([57e7bc2](https://github.com/fivethree-team/vscode-ionic-snippets/commit/57e7bc2))
+* **picker:** add picker css props ([32d346c](https://github.com/fivethree-team/vscode-ionic-snippets/commit/32d346c))
+* **picker:** new picker snippets ([d223c51](https://github.com/fivethree-team/vscode-ionic-snippets/commit/d223c51))
+* **ripple-effect:** new ripple-effect snippet ([81851a4](https://github.com/fivethree-team/vscode-ionic-snippets/commit/81851a4))
+* **toast:** new toast buttons snippets ([5484b83](https://github.com/fivethree-team/vscode-ionic-snippets/commit/5484b83))
+
+
+
 ## [0.22.3](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.22.0...v0.22.3) (2019-04-16)
 
 
