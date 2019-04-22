@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="https://marketplace.visualstudio.com/items?itemName=fivethree.vscode-ionic-snippets" target="blank"><img src="images/banner.png" width="320" alt="Ionic 4 VS Code Snippets" /></a>
+</p>
+
 # Ionic Snippets for VS Code
 
 [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version-short/fivethree.vscode-ionic-snippets.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=fivethree.vscode-ionic-snippets)
