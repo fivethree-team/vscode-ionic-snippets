@@ -6,6 +6,7 @@
     "author": "Marc Stammerjohann",
     "license": "MIT",
     "publisher": "fivethree",
+    "icon": "images/icon.png",
     "galleryBanner": {
         "color": "#3880ff",
         "theme": "dark"
