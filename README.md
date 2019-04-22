@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=fivethree.vscode-ionic-snippets" target="blank"><img src="images/banner.png" max-height="320" width="auto" alt="Ionic 4 VS Code Snippets" /></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=fivethree.vscode-ionic-snippets" target="blank"><img src="images/banner.png" width="460px" alt="Ionic 4 VS Code Snippets" /></a>
 </p>
 
 # Ionic Snippets for VS Code
