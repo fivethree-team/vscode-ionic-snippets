@@ -110,6 +110,24 @@
         ],
         "description": "Card Title CSS custom properties"
     },
+    "ion-checkbox-props": {
+        "prefix": "i-checkbox-props",
+        "body": [
+            "${1:ion-checkbox} {",
+            "\t--background: ${2:#ffffff};",
+            "\t--background-checked: ${3:#3880ff};",
+            "\t--border-color: ${4:#3880ff};",
+            "\t--border-color-checked: ${5:#3880ff};",
+            "\t--border-radius: ${6:4px};",
+            "\t--border-style: ${7:solid};",
+            "\t--border-width: ${8:1px};",
+            "\t--checkmark-color-width: ${9:#3880ff};",
+            "\t--size: ${10:18px};",
+            "\t--transition: ${11:background-color 15ms linear};",
+            "}"
+        ],
+        "description": "Checkbox CSS custom properties"
+    },
     "ion-chip-props": {
         "prefix": "i-chip-props",
         "body": [
