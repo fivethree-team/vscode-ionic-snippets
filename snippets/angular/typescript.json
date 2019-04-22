@@ -1,5 +1,5 @@
 {
-    "action-sheet": {
+    "ion-action-sheet": {
         "prefix": "i-action-sheet",
         "body": [
             "async ${1:presentActionSheet}() {",
@@ -31,16 +31,16 @@
             "\tawait ${2:actionSheet}.present();",
             "}"
         ],
-        "description": "Ionic alert dialog"
+        "description": "Ionic action sheet"
     },
-    "action-sheet-ctrl": {
+    "ion-action-sheet-ctrl": {
         "prefix": "i-action-sheet-ctrl",
         "body": [
             "public ${1:actionSheetController}: ActionSheetController"
         ],
         "description": "Ionic ActionSheetController"
     },
-    "alert": {
+    "ion-alert": {
         "prefix": "i-alert",
         "body": [
             "async ${1:presentAlert}() {",
@@ -56,7 +56,7 @@
         ],
         "description": "Ionic alert dialog"
     },
-    "alert-confirm": {
+    "ion-alert-confirm": {
         "prefix": "i-alert-confirm",
         "body": [
             "async ${1:presentAlertConfirm}() {",
@@ -85,7 +85,7 @@
         ],
         "description": "Ionic alert confirm dialog"
     },
-    "alert-ctrl": {
+    "ion-alert-ctrl": {
         "prefix": "i-alert-ctrl",
         "body": [
             "public ${1:alertController}: AlertController"
