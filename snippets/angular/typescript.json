@@ -130,7 +130,7 @@
     "ion-ctrl-import": {
         "prefix": "i-ctrl-import",
         "body": [
-            "import { ${1|ActionSheetController,AlertController,LoadingController,ModalController,ToastController,PopoverController|} } from '@ionic/angular';"
+            "import { ${1|ActionSheetController,AlertController,LoadingController,ModalController,ToastController,PopoverController,PickerController|} } from '@ionic/angular';"
         ],
         "description": "Imports from @ionic/angular package"
     },
@@ -224,6 +224,85 @@
             "public ${1:modalController}: ModalController"
         ],
         "description": "Ionic ModalController"
+    },
+    "ion-picker": {
+        "prefix": "i-picker",
+        "body": [
+            "async ${1:presentPicker}() {",
+            "\tconst ${2:picker} = await this.${3:pickerController}.create({",
+            "\tanimated: ${4:true},",
+            "\tbuttons: [{",
+            "\t\ttext: '${5:Save}',",
+            "\t\thandler: () => console.log('Clicked Save!')",
+            "\t}, {",
+            "\t\ttext: '${6:Log}',",
+            "\t\thandler: (val) => {",
+            "\t\t\tconsole.log('Clicked Log. Do not Dismiss.', val);",
+            "\t\t\treturn false;",
+            "\t\t}",
+            "\t}],",
+            "\tcolumns: [",
+            "\t\t{",
+            "\t\t\tname: '${7:hours}',",
+            "\t\t\tprefix: '${8:total}',",
+            "\t\t\tsuffix: '${9:hours}',",
+            "\t\t\toptions: [",
+            "\t\t\t\t{",
+            "\t\t\t\t\ttext: '${10:1}',",
+            "\t\t\t\t\tvalue: '${11:01}'",
+            "\t\t\t\t},",
+            "\t\t\t\t{",
+            "\t\t\t\t\ttext: '${12:2}',",
+            "\t\t\t\t\tvalue: '${13:02}'",
+            "\t\t\t\t}",
+            "\t\t\t]",
+            "\t\t}",
+            "\t],",
+            "\tcssClass: '${14:picker-hours}',",
+            "\tmode: '${15|ios,md|}',",
+            "\t});",
+            "\t${2:picker}.present();",
+            "}"
+        ],
+        "description": "Ionic Picker"
+    },
+    "ion-picker-column": {
+        "prefix": "i-picker-column",
+        "body": [
+            "{",
+            "\tname: '${1:hours}',",
+            "\tprefix: '${2:total}',",
+            "\tsuffix: '${3:hours}',",
+            "\toptions: [",
+            "\t\t{",
+            "\t\t\ttext: '${4:1}',",
+            "\t\t\tvalue: '${5:01}'",
+            "\t\t},",
+            "\t\t{",
+            "\t\t\ttext: '${6:2}',",
+            "\t\t\tvalue: '${7:02}'",
+            "\t\t}",
+            "\t]",
+            "}"
+        ],
+        "description": "Ionic Picker Column"
+    },
+    "ion-picker-options": {
+        "prefix": "i-picker-options",
+        "body": [
+            "{",
+            "\ttext: '${1:1}',",
+            "\tvalue: '${2:01}'",
+            "}"
+        ],
+        "description": "Ionic Picker Options"
+    },
+    "ion-picker-ctrl": {
+        "prefix": "i-picker-ctrl",
+        "body": [
+            "public ${1:pickerController}: PickerController"
+        ],
+        "description": "Ionic PickerController"
     },
     "ion-popover": {
         "prefix": "i-popover",

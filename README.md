@@ -239,6 +239,10 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-modal`                | Ionic modal dialog method                                                 |
 | `i-modal-will-dismiss`                | Ionic modal dialog method wit `onWillDismiss`                                              |
 | `i-modal-ctrl`                | Ionic ModalController                                                 |
+| `i-picker`                | Ionic Picker                                                 |
+| `i-picker-colum`                | Ionic Picker Column                                        |
+| `i-picker-option`                | Ionic Picker Option                                        |
+| `i-picker-ctrl`                | Ionic PickerController                                        |
 | `i-popover`                | Ionic popover dialog method                                                 |
 | `i-popover-ctrl`                | Ionic PopoverController                                                 |
 | `i-on-did-dismiss`                | Ionic `onDidDismiss` for dialogs                                                 |
