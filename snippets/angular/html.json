@@ -245,7 +245,7 @@
             "\t(ionScrollEnd)=\"${4:logScrollEnd}()\">",
             "</ion-content>"
         ],
-        "description": "<ion-content>"
+        "description": "<ion-content> w/ eventss"
     },
     "ion-datetime": {
         "prefix": "i-datetime",
