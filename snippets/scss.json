@@ -234,6 +234,19 @@
         ],
         "description": "Dark mode media query for Mac OS"
     },
+    "ion-datetime-props": {
+        "prefix": "i-datetime-props",
+        "body": [
+            "${1:ion-datetime} {",
+            "\t--padding-bottom: ${2:4px};",
+            "\t--padding-end: ${3:4px};",
+            "\t--padding-start: ${4:4px};",
+            "\t--padding-top: ${5:4px};",
+            "\t--placeholder-color: ${6:#3880ff};",
+            "}"
+        ],
+        "description": "Datetime CSS custom properties"
+    },
     "ion-item-props": {
         "prefix": "i-item-props",
         "body": [

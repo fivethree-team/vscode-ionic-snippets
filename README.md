@@ -202,6 +202,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-content-props`                | Content CSS custom properties                                                   |
 | `i-dark-mode`                | Dark mode example for Mac OS                                                   |
 | `i-dark-mode-media-query`                | Dark mode media query for Mac OS                                                   |
+| `i-datetime-props`                | Datetime CSS custom properties                                                   |
 | `i-item-props`                | Item CSS custom properties                                |
 | `i-root`                | `:root { }`                                                    |
 | `i-stepped-color`                | Stepped colors add to `:root`                                                  |
