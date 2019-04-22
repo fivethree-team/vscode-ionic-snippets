@@ -187,7 +187,10 @@ Type part of a snippet, press enter, and the snippet unfolds.
 
 | Snippet                      | Purpose                                                      |
 | ---------------------------- | ------------------------------------------------------------ |
+| `i-action-sheet-props`                | Action Sheet CSS custom properties                                                    |
+| `i-alert-props`                | Alert CSS custom properties                                                    |
 | `i-anchor-props`                | Anchor CSS custom properties                                                    |
+| `i-badge-props`                | Badge CSS custom properties                                                    |
 | `i-button-props`                | Button CSS custom properties                                                    |
 | `i-card-props`                | Card CSS custom properties                                                    |
 | `i-card-subtitle-props`                | Card Subtitle CSS custom properties                                                    |
@@ -217,7 +220,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 
 | Snippet                      | Purpose                                                      |
 | ---------------------------- | ------------------------------------------------------------ |
-| `i-action-sheet`                | Ionic action sheet dialog method                                                  |
+| `i-action-sheet`                | Ionic action sheet method                                                  |
 | `i-action-sheet-ctrl`                | Ionic ActionSheetController    |
 | `i-alert`                | Ionic alert dialog method                                                  |
 | `i-alert-confirm`                | Ionic alert confirm dialog method                                                  |

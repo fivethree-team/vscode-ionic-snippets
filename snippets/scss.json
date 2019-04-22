@@ -1,4 +1,37 @@
 {
+    "ion-action-sheet-props": {
+        "prefix": "i-action-sheet-props",
+        "body": [
+            "${1:ion-action-sheet} {",
+            "\t--background: ${2:#ffffff};",
+            "\t--background-activated: ${3:#3880ff}",
+            "\t--background-selected: ${4:#3880ff};",
+            "\t--color: ${5:#3880ff};",
+            "\t--height: ${6:100%};",
+            "\t--max-height: ${7:100%};",
+            "\t--max-width: ${8:100%};",
+            "\t--min-height: ${9:100%};",
+            "\t--min-width: ${10:100%};",
+            "\t--width: ${11:100%};",
+            "}"
+        ],
+        "description": "Action Sheet CSS custom properties"
+    },
+    "ion-alert-props": {
+        "prefix": "i-alert-props",
+        "body": [
+            "${1:ion-alert} {",
+            "\t--background: ${2:#ffffff};",
+            "\t--height: ${3:100%};",
+            "\t--max-height: ${4:100%};",
+            "\t--max-width: ${5:100%};",
+            "\t--min-height: ${6:100%};",
+            "\t--min-width: ${7:100%};",
+            "\t--width: ${8:100%};",
+            "}"
+        ],
+        "description": "Alert CSS custom properties"
+    },
     "ion-anchor-props": {
         "prefix": "i-anchor-props",
         "body": [
@@ -8,6 +41,20 @@
             "}"
         ],
         "description": "Anchor CSS custom properties"
+    },
+    "ion-badge-props": {
+        "prefix": "i-badge-props",
+        "body": [
+            "${1:ion-badge} {",
+            "\t--background: ${2:#ffffff};",
+            "\t--color: ${3:#3880ff};",
+            "\t--padding-bottom: ${4:4px};",
+            "\t--padding-end: ${5:4px};",
+            "\t--padding-start: ${6:4px};",
+            "\t--padding-top: ${7:4px};",
+            "}"
+        ],
+        "description": "Badge CSS custom properties"
     },
     "ion-button-props": {
         "prefix": "i-button-props",
