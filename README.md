@@ -242,6 +242,9 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-on-will-dismiss-data`                | Ionic `onWillDismiss` for dialogs returning data                                                |
 | `i-refresher-do-refresh`                | `<ion-refesher ionRefresh>` output handler method                                                 |
 | `i-toast`                | Ionic toast notification method                                                 |
+| `i-toast-button`                | Ionic toast button                                                 |
+| `i-toast-w-buttons`                | Ionic toast notification w/ buttons                                                 |
+| `i-toast-w-options`                | Ionic toast notification w/ options                                                 |
 | `i-toast-ctrl`                | Ionic ToastController                                                 |
 | `i-view-will-enter`                | `ionViewWillEnter` (1st) - Fired when entering a page (also if it’s come back from stack), subscribe to `Observables` here or in `ionViewDidEnter`                                                |
 | `i-view-did-enter`                | `ionViewDidEnter` (2nd) - Fired after entering (also if it’s come back from stack), subscribe to `Observables` here or in `ionViewWillEnter`                                                |

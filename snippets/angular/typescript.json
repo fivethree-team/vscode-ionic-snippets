@@ -308,6 +308,81 @@
         ],
         "description": "Ionic toast notification"
     },
+    "ion-toast-button": {
+        "prefix": "i-toast-button",
+        "body": [
+            "{",
+            "\tside: '${1|start,end|}',",
+            "\ticon: '${2:star}',",
+            "\ttext: '${3:Favorite}',",
+            "\tcssClass: '${4:toast-button-fav}',",
+            "\thandler: () => {",
+            "\t\t$0console.log('Favorite clicked');",
+            "\t}",
+            "}"
+        ],
+        "description": "Ionic ToastController"
+    },
+    "ion-toast-w-buttons": {
+        "prefix": "i-toast-w-buttons",
+        "body": [
+            "async ${1:presentToastWithButtons}() {",
+            "\tconst ${2:toast} = await this.${3:toastController}.create({",
+            "\t\tanimated: ${4|true,false|},",
+            "\t\tbuttons: [",
+            "\t\t\t{",
+            "\t\t\t\tside: '${5|start,end|}',",
+            "\t\t\t\ticon: '${6:star}',",
+            "\t\t\t\ttext: '${7:Favorite}',",
+            "\t\t\t\thandler: () => {",
+            "\t\t\t\t\tconsole.log('Favorite clicked');",
+            "\t\t\t\t}",
+            "\t\t\t}, {",
+            "\t\t\t\ttext: '${8:Done}',",
+            "\t\t\t\trole: 'cancel',",
+            "\t\t\t\thandler: () => {",
+            "\t\t\t\t\tconsole.log('Cancel clicked');",
+            "\t\t\t\t}",
+            "\t\t\t}",
+            "\t\t],",
+            "\t\tcolor: '${9|primary,secondary,tertiary|}',",
+            "\t\tcssClass: '${10:toast-success}',",
+            "\t\tduration: ${11:2000},",
+            "\t\theader: '${12:Toast header}',",
+            "\t\tkeyboardClose: ${13|true,false|},",
+            "\t\tmessage: '${14:Click to Close}',",
+            "\t\tmode: '${15|ios,md|}',",
+            "\t\tposition: '${16|bottom,middle,top|}',",
+            "\t\ttranslucent: ${17|true,false|}",
+            "\t});",
+            "\t${2:toast}.present();",
+            "}"
+        ],
+        "description": "Ionic toast notification w/ buttons"
+    },
+    "ion-toast-w-options": {
+        "prefix": "i-toast-w-options",
+        "body": [
+            "async ${1:presentToastWithOptions}() {",
+            "\tconst ${2:toast} = await this.${3:toastController}.create({",
+            "\t\tanimated: ${4|true,false|},",
+            "\t\tcloseButtonText: '${5:Cancel}',",
+            "\t\tcolor: '${6|primary,secondary,tertiary|}',",
+            "\t\tcssClass: '${7:toast-success}',",
+            "\t\tduration: ${8:2000},",
+            "\t\theader: '${9:Toast header}',",
+            "\t\tkeyboardClose: ${10|true,false|},",
+            "\t\tmessage: '${11:Click to Close}',",
+            "\t\tmode: '${12|ios,md|}',",
+            "\t\tposition: '${13|bottom,middle,top|}',",
+            "\t\tshowCloseButton: ${14|true,false|},",
+            "\t\ttranslucent: ${15|true,false|}",
+            "\t});",
+            "\t${2:toast}.present();",
+            "}"
+        ],
+        "description": "Ionic toast notification w/ options"
+    },
     "ion-toast-ctrl": {
         "prefix": "i-toast-ctrl",
         "body": [
