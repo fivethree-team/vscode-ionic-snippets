@@ -51,7 +51,7 @@
     "ion-badge": {
         "prefix": "i-badge",
         "body": [
-            "<ion-badge color=\"${1|primary,secondary,tertiary|}\">${2:42}</ion-badge>"
+            "<ion-badge color=\"${1|primary,secondary,tertiary|}\" mode=\"${2|ios,md|}\">${3:42}</ion-badge>"
         ],
         "description": "<ion-badge>"
     },
