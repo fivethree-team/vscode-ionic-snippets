@@ -114,6 +114,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-refresher`                | `<ion-refresher>`                                                   |
 | `i-refresher-content`                | `<ion-refresher>` w/ `<ion-refresher-content>` options                                                   |
 | `i-refresher-events`                | `<ion-refresher>` w/ all events                                                   |
+| `i-ripple-effect`                | `<ion-ripple-effect>`                                                |
 | `i-row`                | `<ion-row>` w/ `<ion-col>`                                                   |
 | `i-searchbar`                | `<ion-searchbar>`                                                   |
 | `i-segment`                | `<ion-segment>`                                                   |

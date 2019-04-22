@@ -856,6 +856,13 @@
         ],
         "description": "<ion-refresher> w/ all events"
     },
+    "ion-ripple-effect": {
+        "prefix": "i-ripple-effect",
+        "body": [
+            "<ion-ripple-effect type=\"${1|bounded,unbounded|}\"></ion-ripple-effect>"
+        ],
+        "description": "<ion-ripple-effect>"
+    },
     "ion-row": {
         "prefix": "i-row",
         "body": [
