@@ -127,6 +127,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-skeleton-text`                | `<ion-skeleton-text>`                                                   |
 | `i-slide`                | `<ion-slide>`                                                   |
 | `i-slides`                | `<ion-slides>` w/ `<ion-slide>`                                                |
+| `i-slides-options`                | `<ion-slides>` w/ options                                                |
 | `i-spinner`                | `<ion-spinner>`                                              |
 | `i-split-pane`                | `<ion-split-pane>`                                              |
 | `i-split-pane-advanced`                | `<ion-split-pane>` w/ a menu including `<ion-header>`, `<ion-content>` and `<ion-footer>`                                           |
@@ -251,6 +252,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-on-will-dismiss`                | Ionic `onWillDismiss` for dialogs                                                 |
 | `i-on-will-dismiss-data`                | Ionic `onWillDismiss` for dialogs returning data                                                |
 | `i-refresher-do-refresh`                | `<ion-refesher ionRefresh>` output handler method                                                 |
+| `i-slides-options`                | Ionic slides options                                                 |
 | `i-toast`                | Ionic toast notification method                                                 |
 | `i-toast-button`                | Ionic toast button                                                 |
 | `i-toast-w-buttons`                | Ionic toast notification w/ buttons                                                 |

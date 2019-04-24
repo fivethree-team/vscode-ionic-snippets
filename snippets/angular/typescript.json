@@ -374,6 +374,22 @@
         ],
         "description": "<ion-refesher ionRefresh> output handler method"
     },
+    "ion-slides-options": {
+        "prefix": "i-slides-options",
+        "body": [
+            "${1:slidesOptions} = {",
+            "\tinitialSlide: ${2:0},",
+            "\tdirection: '${3|horizontal,vertical|}',",
+            "\tspeed: ${4:300},",
+            "\teffect: ${5|slide,fade,cube,coverflow,flip|},",
+            "\tspaceBetween: ${6:8},",
+            "\tslidesPerView: ${7:1.5},",
+            "\tfreeMode: ${8|true,false|},",
+            "\tloop: ${8|true,false|}",
+            "};"
+        ],
+        "description": "Ionic Slides options"
+    },
     "ion-toast": {
         "prefix": "i-toast",
         "body": [

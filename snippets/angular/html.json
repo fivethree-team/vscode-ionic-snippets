@@ -973,13 +973,24 @@
     "ion-slides": {
         "prefix": "i-slides",
         "body": [
-            "<ion-slides pager=\"${1:true}\">",
+            "<ion-slides mode=\"${1|ios,md|}\" pager=\"${1|true,false|}\" scrollbar=\"${1|true,false|}\">",
             "\t<ion-slide>",
             "\t\t<${2:h1}>${3:Awesome Slide Content}</${2:h1}>",
             "\t</ion-slide>",
             "</ion-slides>"
         ],
         "description": "<ion-slides> w/ <ion-slide>"
+    },
+    "ion-slides-options": {
+        "prefix": "i-slides-options",
+        "body": [
+            "<ion-slides mode=\"${1|ios,md|}\" pager=\"${1|true,false|}\" scrollbar=\"${1|true,false|}\" [options]=\"${1:slidesOptions}\">",
+            "\t<ion-slide>",
+            "\t\t<${2:h1}>${3:Awesome Slide Content}</${2:h1}>",
+            "\t</ion-slide>",
+            "</ion-slides>"
+        ],
+        "description": "<ion-slides> w/ options"
     },
     "ion-spinner": {
         "prefix": "i-spinner",
