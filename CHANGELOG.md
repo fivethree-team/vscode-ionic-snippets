@@ -1,3 +1,12 @@
+# [0.24.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.23.0...v0.24.0) (2019-04-24)
+
+
+### Features
+
+* **slides:** add slides with options ([147c56d](https://github.com/fivethree-team/vscode-ionic-snippets/commit/147c56d))
+
+
+
 # [0.23.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.22.0...v0.23.0) (2019-04-22)
 
 
