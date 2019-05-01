@@ -1,0 +1,149 @@
+{
+    "click": {
+        "prefix": "i-click",
+        "body": [
+            "@click=\"${1:onClick()}\""
+        ],
+        "description": "click event"
+    },
+    "color": {
+        "prefix": "i-color",
+        "body": [
+            "color=\"${1|primary,secondary,tertiary,success,warning,danger,light,medium,dark|}\""
+        ],
+        "description": "color property"
+    },
+    "ion-col-offset": {
+        "prefix": "i-col-offset",
+        "body": [
+            "${1|offset,offsetXs,offsetSm,offsetMd,offsetLg,offsetXl|}=\"${2:2}\""
+        ],
+        "description": "Ionic col [offset] property selection"
+    },
+    "ion-col-pull": {
+        "prefix": "i-col-pull",
+        "body": [
+            "${1|pull,pullXs,pullSm,pullMd,pullLg,pullXl|}=\"${2:}\""
+        ],
+        "description": "Ionic col [pull] property selection"
+    },
+    "ion-col-push": {
+        "prefix": "i-col-push",
+        "body": [
+            "${1|push,pushXs,pushSm,pushMd,pushLg,pushXl|}=\"${2:12}\""
+        ],
+        "description": "Ionic col [push] property selection"
+    },
+    "ion-col-size": {
+        "prefix": "i-col-size",
+        "body": [
+            "${1|size,sizeXs,sizeSm,sizeMd,sizeLg,sizeXl|}=\"${2:12}\""
+        ],
+        "description": "Ionic col [size] property selection"
+    },
+    "ion-hide": {
+        "prefix": "i-hide",
+        "body": [
+            "ion-hide"
+        ],
+        "description": "CSS Utilities Hide Element Class - must be added to class"
+    },
+    "ion-hide-breakpoints": {
+        "prefix": "i-hide-breakpoints",
+        "body": [
+            "ion-hide-${1|sm,md,lg,xl|}-${2|up,down|}"
+        ],
+        "description": "CSS Utilities Hide Element with Display Breakpoints - must be added to class"
+    },
+    "ion-hide-sm": {
+        "prefix": "i-hide-sm",
+        "body": [
+            "ion-hide-sm-${1|up,down|}"
+        ],
+        "description": "CSS Utilities Hide Element sm - must be added to class. Applies the modifier to the element when min-width: 576px (up) or max-width: 576px (down)."
+    },
+    "ion-hide-md": {
+        "prefix": "i-hide-md",
+        "body": [
+            "ion-hide-md-${1|up,down|}"
+        ],
+        "description": "CSS Utilities Hide Element md - must be added to class. Applies the modifier to the element when min-width: 768px (up) or max-width: 768px (down)."
+    },
+    "ion-hide-lg": {
+        "prefix": "i-hide-lg",
+        "body": [
+            "ion-hide-lg-${1|up,down|}"
+        ],
+        "description": "CSS Utilities Hide Element lg - must be added to class. Applies the modifier to the element when min-width: 992px (up) or max-width: 992px (down)."
+    },
+    "ion-hide-xl": {
+        "prefix": "i-hide-xl",
+        "body": [
+            "ion-hide-xl-${1|up,down|}"
+        ],
+        "description": "CSS Utilities Hide Element xl - must be added to class. Applies the modifier to the element when min-width: 1200px (up) or max-width: 1200px (down)."
+    },
+    "ion-margin": {
+        "prefix": "i-margin",
+        "body": [
+            "ion-margin"
+        ],
+        "description": "CSS Utilities Element Margin - must be added to class"
+    },
+    "ion-margin-type": {
+        "prefix": "i-margin-type",
+        "body": [
+            "ion-margin-${1|top,start,end,bottom,vertical,horizontal|}"
+        ],
+        "description": "CSS Utilities Element Margin Type - must be added to class"
+    },
+    "ion-no-margin": {
+        "prefix": "i-no-margin",
+        "body": [
+            "ion-no-margin"
+        ],
+        "description": "CSS Utilities Element No Margin - must be added to class"
+    },
+    "ion-padding": {
+        "prefix": "i-padding",
+        "body": [
+            "ion-padding"
+        ],
+        "description": "CSS Utilities Element Padding - must be added to class"
+    },
+    "ion-padding-type": {
+        "prefix": "i-padding-type",
+        "body": [
+            "ion-padding-${1|top,start,end,bottom,vertical,horizontal|}"
+        ],
+        "description": "CSS Utilities Element Padding Type - must be added to class"
+    },
+    "ion-no-padding": {
+        "prefix": "i-no-padding",
+        "body": [
+            "ion-no-padding"
+        ],
+        "description": "CSS Utilities Element No Padding - must be added to class"
+    },
+    "scrollEvents": {
+        "prefix": "i-scrollEvents",
+        "body": [
+            "[scrollEvents]=\"${1|true,false|}\""
+        ],
+        "description": "Ionic [scrollEvents] binding for <ion-content>"
+    },
+    "slot": {
+        "prefix": "i-slot",
+        "body": [
+            "slot=\"${1|start,end,primary,secondary|}\""
+        ],
+        "description": "Ionic slot property"
+    },
+    "ion-text-alignment": {
+        "prefix": "i-text-alignment",
+        "body": [
+            "text-${1|left,right,start,end,center,justify,wrap,nowrap|}"
+        ],
+        "description": "CSS Utilities Text Alignment"
+    }
+}

@@ -44,6 +44,18 @@
             {
                 "language": "typescript",
                 "path": "./snippets/angular/typescript.json"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/vue/html.json"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/vue/html-utils.json"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/vue/typescript.json"
             }
         ]
     },
