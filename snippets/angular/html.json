@@ -18,7 +18,7 @@
         "prefix": "i-avatar",
         "body": [
             "<ion-avatar>",
-            "\t<img [src]=\"${1:image}\">",
+            "\t<img [src]=\"${1:image}\" />",
             "</ion-avatar>"
         ],
         "description": "<ion-avatar>"
@@ -191,7 +191,7 @@
         "body": [
             "<ion-chip color=\"${1|primary,secondary,tertiary|}\" mode=\"${2|ios,md|}\" outline=\"${3|true,false|}\">",
             "\t<ion-avatar>",
-            "\t\t<img [src]=\"${4:image}\">",
+            "\t\t<img [src]=\"${4:image}\" />",
             "\t</ion-avatar>",
             "\t<ion-label>${5:Chip Avatar}</ion-label>",
             "</ion-chip>"
@@ -468,7 +468,7 @@
         "body": [
             "<ion-item>",
             "\t<ion-avatar slot=\"${1|start,end|}\">",
-            "\t\t<img [src]=\"${2:image}\">",
+            "\t\t<img [src]=\"${2:image}\" />",
             "\t</ion-avatar>",
             "\t<ion-label>${3:Item Avatar}</ion-label>",
             "</ion-item>"
@@ -1147,7 +1147,7 @@
         "prefix": "i-thumbnail",
         "body": [
             "<ion-thumbnail>",
-            "\t<img src=\"${1:image}\">",
+            "\t<img src=\"${1:image}\" />",
             "</ion-thumbnail>"
         ],
         "description": "<ion-thumbnail>"
