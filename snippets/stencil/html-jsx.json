@@ -1,0 +1,1085 @@
+{
+    "ion-anchor": {
+        "prefix": "i-anchor",
+        "body": [
+            "<ion-anchor href=\"${1:#}\" color=\"${2|primary,secondary,tertiary|}\">${3:Anchor}</ion-anchor>"
+        ],
+        "description": "<ion-anchor>"
+    },
+    "ion-app": {
+        "prefix": "i-app",
+        "body": [
+            "<ion-app>",
+            "</ion-app>"
+        ],
+        "description": "<ion-app>"
+    },
+    "ion-avatar": {
+        "prefix": "i-avatar",
+        "body": [
+            "<ion-avatar>",
+            "\t<img src=\"${1:image}\" />",
+            "</ion-avatar>"
+        ],
+        "description": "<ion-avatar>"
+    },
+    "ion-back-button": {
+        "prefix": "i-back-button",
+        "body": [
+            "<ion-buttons slot=\"${1|start,end,primary,secondary|}\">",
+            "\t<ion-back-button></ion-back-button>",
+            "</ion-buttons>"
+        ],
+        "description": "<ion-back-button>"
+    },
+    "ion-back-button-default": {
+        "prefix": "i-back-button-default",
+        "body": [
+            "<ion-buttons slot=\"${1|start,end,primary,secondary|}\">",
+            "\t<ion-back-button defaultHref=\"${2:home}\"></ion-back-button>",
+            "</ion-buttons>"
+        ],
+        "description": "<ion-back-button> w/ defaultHref"
+    },
+    "ion-backdrop": {
+        "prefix": "i-backdrop",
+        "body": [
+            "<ion-backdrop></ion-backdrop>"
+        ],
+        "description": "<ion-backdrop>"
+    },
+    "ion-badge": {
+        "prefix": "i-badge",
+        "body": [
+            "<ion-badge color=\"${1|primary,secondary,tertiary|}\" mode=\"${2|ios,md|}\">${3:42}</ion-badge>"
+        ],
+        "description": "<ion-badge>"
+    },
+    "ion-button": {
+        "prefix": "i-button",
+        "body": [
+            "<ion-button href=\"${1:home}\">${2:Click me}</ion-button>"
+        ],
+        "description": "<ion-button> w/ href"
+    },
+    "ion-button-props": {
+        "prefix": "i-button-props",
+        "body": [
+            "<ion-button href=\"${1:home}\" fill=\"${2|solid,outline,clear|}\" shape=\"${3:round}\">",
+            "\t${4:Click me}",
+            "</ion-button>"
+        ],
+        "description": "<ion-button> w/ href"
+    },
+    "ion-button-icon-only": {
+        "prefix": "i-button-icon-only",
+        "body": [
+            "<ion-button href=\"${1:home}\">",
+            "\t<ion-icon slot=\"icon-only\" name=\"${2:add}\"></ion-icon>",
+            "</ion-button>"
+        ],
+        "description": "<ion-button> w/ icon only"
+    },
+    "ion-button-w-icon": {
+        "prefix": "i-button-w-icon",
+        "body": [
+            "<ion-button href=\"${1:home}\">",
+            "\t<ion-icon slot=\"${2|start,end,primary,secondary,icon-only|}\" name=\"${3:add}\"></ion-icon>",
+            "\t${4:Click me}",
+            "</ion-button>"
+        ],
+        "description": "<ion-button> w/ <ion-icon>"
+    },
+    "ion-buttons": {
+        "prefix": "i-buttons",
+        "body": [
+            "<ion-buttons slot=\"${1|start,end,primary,secondary|}\">",
+            "\t<ion-button href=\"${2:home}\">",
+            "\t\t<ion-icon slot=\"${3|start,end,primary,secondary,icon-only|}\" name=\"${4:add}\"></ion-icon>",
+            "\t\t${5:Click me}",
+            "\t</ion-button>",
+            "</ion-buttons>"
+        ],
+        "description": "<ion-buttons>"
+    },
+    "ion-card": {
+        "prefix": "i-card",
+        "body": [
+            "<ion-card>",
+            "\t$0",
+            "</ion-card>"
+        ],
+        "description": "<ion-card>"
+    },
+    "ion-card-full": {
+        "prefix": "i-card-full",
+        "body": [
+            "<ion-card>",
+            "\t<ion-card-header>",
+            "\t\t<ion-card-subtitle>${1:Awesome Subtitle}</ion-card-subtitle>",
+            "\t\t<ion-card-title>${2:Awesome Title}</ion-card-title>",
+            "\t</ion-card-header>",
+            "\t<ion-card-content>",
+            "\t\t${3:Awesome content}",
+            "\t</ion-card-content>",
+            "</ion-card>"
+        ],
+        "description": "<ion-card> w/ <ion-card-header> and <ion-card-content>"
+    },
+    "ion-card-content": {
+        "prefix": "i-card-content",
+        "body": [
+            "<ion-card-content>",
+            "\t${1:Awesome content}",
+            "</ion-card-content>"
+        ],
+        "description": "<ion-card-content>"
+    },
+    "ion-card-header": {
+        "prefix": "i-card-header",
+        "body": [
+            "<ion-card-header>",
+            "\t<ion-card-subtitle>${1:Awesome Subtitle}</ion-card-subtitle>",
+            "\t<ion-card-title>${2:Awesome Title}</ion-card-title>",
+            "</ion-card-header>"
+        ],
+        "description": "<ion-card-header>"
+    },
+    "ion-card-subtitle": {
+        "prefix": "i-card-subtitle",
+        "body": [
+            "<ion-card-subtitle>${1:Awesome Subtitle}</ion-card-subtitle>"
+        ],
+        "description": "<ion-card-subtitle>"
+    },
+    "ion-card-title": {
+        "prefix": "i-card-title",
+        "body": [
+            "<ion-card-title>${1:Awesome Title}</ion-card-title>"
+        ],
+        "description": "<ion-card-title>"
+    },
+    "ion-checkbox": {
+        "prefix": "i-checkbox",
+        "body": [
+            "<ion-checkbox></ion-checkbox>"
+        ],
+        "description": "<ion-checkbox>"
+    },
+    "ion-chip": {
+        "prefix": "i-chip",
+        "body": [
+            "<ion-chip color=\"${1|primary,secondary,tertiary|}\" mode=\"${2|ios,md|}\" outline=\"${3|true,false|}\">",
+            "\t<ion-label>${4:Default}</ion-label>",
+            "</ion-chip>"
+        ],
+        "description": "<ion-chip>"
+    },
+    "ion-chip-avatar": {
+        "prefix": "i-chip-avatar",
+        "body": [
+            "<ion-chip color=\"${1|primary,secondary,tertiary|}\" mode=\"${2|ios,md|}\" outline=\"${3|true,false|}\">",
+            "\t<ion-avatar>",
+            "\t\t<img src=\"${4:image}\" />",
+            "\t</ion-avatar>",
+            "\t<ion-label>${5:Chip Avatar}</ion-label>",
+            "</ion-chip>"
+        ],
+        "description": "<ion-chip> w/ <ion-avatar>"
+    },
+    "ion-chip-icon-start": {
+        "prefix": "i-chip-icon-start",
+        "body": [
+            "<ion-chip color=\"${1|primary,secondary,tertiary|}\" mode=\"${2|ios,md|}\" outline=\"${3|true,false|}\">",
+            "\t<ion-icon name=\"${4:pin}\"></ion-icon>",
+            "\t<ion-label>${5:Default}</ion-label>",
+            "</ion-chip>"
+        ],
+        "description": "<ion-chip> w/ <ion-icon> at the start"
+    },
+    "ion-chip-icon-end": {
+        "prefix": "i-chip-icon-end",
+        "body": [
+            "<ion-chip color=\"${1|primary,secondary,tertiary|}\" mode=\"${2|ios,md|}\" outline=\"${3|true,false|}\">",
+            "\t<ion-label>${4:Default}</ion-label>",
+            "\t<ion-icon name=\"${5:close-circle}\"></ion-icon>",
+            "</ion-chip>"
+        ],
+        "description": "<ion-chip> w/ <ion-icon> at the end"
+    },
+    "ion-col": {
+        "prefix": "i-col",
+        "body": [
+            "<ion-col ${1|size,sizeXs,sizeSm,sizeMd,sizeLg,sizeXl|}=\"${2:12}\">",
+            "\t$0",
+            "</ion-col>"
+        ],
+        "description": "<ion-col> with size"
+    },
+    "ion-content": {
+        "prefix": "i-content",
+        "body": [
+            "<ion-content>",
+            "</ion-content>"
+        ],
+        "description": "<ion-content>"
+    },
+    "ion-content-events": {
+        "prefix": "i-content-events",
+        "body": [
+            "<ion-content",
+            "\tscrollEvents=\"${1:true}\"",
+            "\tonIonScrollEnd={ev => console.log(ev)}\"",
+            "\tonIonScroll={ev => console.log(ev)}\"",
+            "\tonIonScrollStart={ev => console.log(ev)}\">",
+            "</ion-content>"
+        ],
+        "description": "<ion-content> w/ eventss"
+    },
+    "ion-datetime": {
+        "prefix": "i-datetime",
+        "body": [
+            "<ion-item>",
+            "\t<ion-label>${1:Date}</ion-label>",
+            "\t<ion-datetime display-format=\"${2:DD.MM.YYYY} ${3:HH:mm}\"></ion-datetime>",
+            "</ion-item>"
+        ],
+        "description": "<ion-datetime>"
+    },
+    "ion-fab": {
+        "prefix": "i-fab",
+        "body": [
+            "<ion-fab vertical=\"${1|top,center,bottom|}\" horizontal=\"${2|center,start,end|}\" slot=\"${3:fixed}\">",
+            "\t<ion-fab-button>",
+            "\t\t<ion-icon name=\"${4:add}\"></ion-icon>",
+            "\t</ion-fab-button>",
+            "</ion-fab>"
+        ],
+        "description": "<ion-fab>"
+    },
+    "ion-fab-button": {
+        "prefix": "i-fab-button",
+        "body": [
+            "<ion-fab-button>",
+            "\t<ion-icon name=\"${1:add}\"></ion-icon>",
+            "</ion-fab-button>"
+        ],
+        "description": "<ion-fab-button>"
+    },
+    "ion-fab-list": {
+        "prefix": "i-fab-list",
+        "body": [
+            "<ion-fab-list side=\"${1|start,end,top,bottom|}\">",
+            "\t<ion-fab-button><ion-icon name=\"${2:logo-ionic}\"></ion-icon></ion-fab-button>",
+            "\t<ion-fab-button><ion-icon name=\"${3:logo-angular}\"></ion-icon></ion-fab-button>",
+            "</ion-fab-list>"
+        ],
+        "description": "<ion-fab-list>"
+    },
+    "ion-fab-list-full": {
+        "prefix": "i-fab-list-full",
+        "body": [
+            "<ion-fab vertical=\"${1|top,center,bottom|}\" horizontal=\"${2|center,start,end|}\" slot=\"${3:fixed}\">",
+            "\t<ion-fab-button><ion-icon name=\"${4:code}\"></ion-icon></ion-fab-button>",
+            "\t<ion-fab-list side=\"${5|start,end,top,bottom|}\">",
+            "\t\t<ion-fab-button><ion-icon name=\"${6:logo-ionic}\"></ion-icon></ion-fab-button>",
+            "\t\t<ion-fab-button><ion-icon name=\"${7:logo-angular}\"></ion-icon></ion-fab-button>",
+            "\t</ion-fab-list>",
+            "</ion-fab>"
+        ],
+        "description": "<ion-fab> w/ <ion-fab-list>"
+    },
+    "ion-footer": {
+        "prefix": "i-footer",
+        "body": [
+            "<ion-footer>",
+            "\t<ion-toolbar>",
+            "\t\t<ion-title>${1:Footer}</ion-title>",
+            "\t</ion-toolbar>",
+            "</ion-footer>"
+        ],
+        "description": "<ion-footer>"
+    },
+    "ion-grid": {
+        "prefix": "i-grid",
+        "body": [
+            "<ion-grid ${1|fixed,no-padding|}>",
+            "\t<ion-row>",
+            "\t\t<ion-col size=\"${2:6}\"></ion-col>",
+            "\t\t<ion-col size=\"${3:6}\"></ion-col>",
+            "\t</ion-row>",
+            "</ion-grid>"
+        ],
+        "description": "<ion-grid> w/ <ion-row> and <ion-col>"
+    },
+    "ion-header": {
+        "prefix": "i-header",
+        "body": [
+            "<ion-header>",
+            "\t<ion-toolbar>",
+            "\t\t<ion-title>${1:Header}</ion-title>",
+            "\t</ion-toolbar>",
+            "</ion-header>"
+        ],
+        "description": "<ion-header>"
+    },
+    "ion-icon": {
+        "prefix": "i-icon",
+        "body": [
+            "<ion-icon slot=\"${1|start,end,primary,secondary,icon-only|}\" name=\"${2:add}\"></ion-icon>"
+        ],
+        "description": "<ion-icon>"
+    },
+    "ion-img": {
+        "prefix": "i-img",
+        "body": [
+            "<ion-img src=\"${1:image}\"></ion-img>"
+        ],
+        "description": "<ion-img> lazyily load an image"
+    },
+    "ion-infinite-scroll": {
+        "prefix": "i-infinite-scroll",
+        "body": [
+            "<ion-infinite-scroll threshold=\"${1:25}${2|%,px|}\" onIonInfinite={ev => console.log(ev)}>",
+            "\t<ion-infinite-scroll-content loadingSpinner=\"${4|crescent,lines,lines-small,bubbles,circles,dots|}\" loadingText=\"${5:Loading more data...}\">",
+            "\t</ion-infinite-scroll-content>",
+            "</ion-infinite-scroll>"
+        ],
+        "description": "<ion-infinite-scroll> w/ <ion-infinite-scroll-content>"
+    },
+    "ion-input": {
+        "prefix": "i-input",
+        "body": [
+            "<ion-input type=\"${1|text,password,email,search,number,tel,url|}\" placeholder=\"${2:Awesome Input}\"></ion-input>"
+        ],
+        "description": "<ion-input> w/ type and placeholder"
+    },
+    "ion-item": {
+        "prefix": "i-item",
+        "body": [
+            "<ion-item>",
+            "\t<ion-label>${1:Awesome Label}</ion-label>",
+            "</ion-item>"
+        ],
+        "description": "<ion-item>"
+    },
+    "ion-item-avatar": {
+        "prefix": "i-item-avatar",
+        "body": [
+            "<ion-item>",
+            "\t<ion-avatar slot=\"${1|start,end|}\">",
+            "\t\t<img [src]=\"${2:image}\" />",
+            "\t</ion-avatar>",
+            "\t<ion-label>${3:Item Avatar}</ion-label>",
+            "</ion-item>"
+        ],
+        "description": "<ion-item> w/ <ion-avatar>"
+    },
+    "ion-item-badge": {
+        "prefix": "i-item-badge",
+        "body": [
+            "<ion-item>",
+            "\t<ion-badge slot=\"${1|start,end|}\">${2:42}</ion-badge>",
+            "\t<ion-label>${3:Item Avatar}</ion-label>",
+            "</ion-item>"
+        ],
+        "description": "<ion-item> w/ <ion-avatar>"
+    },
+    "ion-item-href": {
+        "prefix": "i-item-href",
+        "body": [
+            "<ion-item href=\"${1:home}\">",
+            "\t<ion-label>${2:Click me}</ion-label>",
+            "</ion-item>"
+        ],
+        "description": "<ion-item> w/ href"
+    },
+    "ion-item-checkbox": {
+        "prefix": "i-item-checkbox",
+        "body": [
+            "<ion-item>",
+            "\t<ion-label>${1:Checkbox}</ion-label>",
+            "\t<ion-checkbox slot=\"${2|start,end|}\"></ion-checkbox>",
+            "</ion-item>"
+        ],
+        "description": "<ion-item> w/ <ion-checkbox>"
+    },
+    "ion-item-divider": {
+        "prefix": "i-item-divider",
+        "body": [
+            "<ion-item-divider>",
+            "\t<ion-label>${1:Label}</ion-label>",
+            "</ion-item-divider>"
+        ],
+        "description": "<ion-item-divider> w/ <ion-label>"
+    },
+    "ion-item-floating-label": {
+        "prefix": "i-item-floating-label",
+        "body": [
+            "<ion-item>",
+            "\t<ion-label>",
+            "\t\t<p>${1:Pizza}</p>",
+            "\t\t<h2>${2:Hawaii}</h2>",
+            "\t</ion-label>",
+            "</ion-item>"
+        ],
+        "description": "<ion-item> w/ <p> and <h2> wrapped by <ion-label>"
+    },
+    "ion-item-group": {
+        "prefix": "i-item-group",
+        "body": [
+            "<ion-item-group>",
+            "\t<ion-item-divider>",
+            "\t\t<ion-label>${1:Label}</ion-label>",
+            "\t</ion-item-divider>",
+            "",
+            "\t<ion-item>",
+            "\t\t<ion-label>${1:Awesome Label}</ion-label>",
+            "\t</ion-item>",
+            "\t<ion-item>",
+            "\t\t<ion-label>${1:Awesome Label}</ion-label>",
+            "\t</ion-item>",
+            "</ion-item-group>"
+        ],
+        "description": "<ion-item-divider> w/ <ion-label>"
+    },
+    "ion-item-icon": {
+        "prefix": "i-item-icon",
+        "body": [
+            "<ion-item>",
+            "\t<ion-icon name=\"${1:pizza}\" slot=\"${2|start,end|}\"></ion-icon>",
+            "\t<ion-label>${3:Pizza}</ion-label>",
+            "</ion-item>"
+        ],
+        "description": "<ion-item> w/ <ion-icon>"
+    },
+    "ion-item-input": {
+        "prefix": "i-item-input",
+        "body": [
+            "<ion-item>",
+            "\t<ion-label position=\"${1|floating,inline,fixed,stacked|}\">${2:E-Mail}</ion-label>",
+            "\t<ion-input type=\"${4|text,password,email,number,tel,url|}\"></ion-input>",
+            "</ion-item>"
+        ],
+        "description": "<ion-item> w/ <ion-input>"
+    },
+    "ion-item-input-required": {
+        "prefix": "i-item-input-required",
+        "body": [
+            "<ion-item>",
+            "\t<ion-label position=\"${1|floating,inline,fixed,stacked|}\">${2:E-Mail} <ion-text color=\"danger\">*</ion-text></ion-label>",
+            "\t<ion-input required type=\"${4|text,password,email,number,tel,url|}\"></ion-input>",
+            "</ion-item>"
+        ],
+        "description": "<ion-item> w/ <ion-input> w/ required asterix"
+    },
+    "ion-item-option": {
+        "prefix": "i-item-option",
+        "body": [
+            "<ion-item-option color=\"${1|primary,secondary,danger|}\">${4:Favorite}</ion-item-option>"
+        ],
+        "description": "<ion-item-option>"
+    },
+    "ion-item-option-w-icon": {
+        "prefix": "i-item-option-w-icon",
+        "body": [
+            "<ion-item-option color=\"${1|primary,secondary,danger|}\">",
+            "\t<ion-icon name=\"${4:star}\"></ion-icon>${5:Favorite}",
+            "</ion-item-option>"
+        ],
+        "description": "<ion-item-option> w/ icon"
+    },
+    "ion-item-option-icon-only": {
+        "prefix": "i-item-option-icon-only",
+        "body": [
+            "<ion-item-option color=\"${1|primary,secondary,danger|}\">",
+            "\t<ion-icon slot=\"icon-only\" name=\"${4:star}\"></ion-icon>",
+            "</ion-item-option>"
+        ],
+        "description": "<ion-item-option> w/ icon only"
+    },
+    "ion-item-option-expandable": {
+        "prefix": "i-item-option-expandable",
+        "body": [
+            "<ion-item-option color=\"${1|primary,secondary,danger|}\" expandable>${4:Delete}</ion-item-option>"
+        ],
+        "description": "<ion-item-option> w/ expandable option"
+    },
+    "ion-item-options": {
+        "prefix": "i-item-options",
+        "body": [
+            "<ion-item-options side=\"${1|start,end|}\">",
+            "\t<ion-item-option color=\"${2|primary,secondary,danger|}\">${5:Favorite}</ion-item-option>",
+            "</ion-item-options>"
+        ],
+        "description": "<ion-item-options>"
+    },
+    "ion-item-sliding": {
+        "prefix": "i-item-sliding",
+        "body": [
+            "<ion-list>",
+            "\t<ion-item-sliding>",
+            "\t\t<ion-item>",
+            "\t\t\t<ion-label>${1:Item}</ion-label>",
+            "\t\t</ion-item>",
+            "\t\t<ion-item-options side=\"${2|start,end|}\">",
+            "\t\t\t<ion-item-option>${5:Favorite}</ion-item-option>",
+            "\t\t\t<ion-item-option color=\"${6|primary,secondary,danger|}\">${8:Share}</ion-item-option>",
+            "\t\t</ion-item-options>",
+            "",
+            "\t\t<ion-item-options side=\"${9|start,end|}\">",
+            "\t\t\t<ion-item-option>${10:Unread}</ion-item-option>",
+            "\t\t</ion-item-options>",
+            "\t</ion-item-sliding>",
+            "</ion-list>"
+        ],
+        "description": "<ion-item-sliding>"
+    },
+    "ion-item-radio": {
+        "prefix": "i-item-radio",
+        "body": [
+            "<ion-item>",
+            "\t<ion-label>${1:Radio}</ion-label>",
+            "\t<ion-radio slot=\"${2|end,start|}\"></ion-radio>",
+            "</ion-item>"
+        ],
+        "description": "<ion-item> w/ <ion-radio>"
+    },
+    "ion-item-toggle": {
+        "prefix": "i-item-toggle",
+        "body": [
+            "<ion-item>",
+            "\t<ion-label>${1:Toggle}</ion-label>",
+            "\t<ion-toggle slot=\"${2|end,start|}\"></ion-toggle>",
+            "</ion-item>"
+        ],
+        "description": "<ion-item> w/ <ion-toggle>"
+    },
+    "ion-label": {
+        "prefix": "i-label",
+        "body": [
+            "<ion-label>${1:Label}</ion-label>"
+        ],
+        "description": "<ion-label>"
+    },
+    "ion-label-floating": {
+        "prefix": "i-label-floating",
+        "body": [
+            "<ion-label>",
+            "\t<p>${1:Pizza}</p>",
+            "\t<h2>${2:Hawaii}</h2>",
+            "</ion-label>"
+        ],
+        "description": "<ion-label> w/ <p> and <h2>"
+    },
+    "ion-label-position": {
+        "prefix": "i-label-position",
+        "body": [
+            "<ion-label position=\"${1|inline,fixed,stacked,floating|}\">${2:Label}</ion-label>"
+        ],
+        "description": "<ion-label>"
+    },
+    "ion-label-required": {
+        "prefix": "i-label-required",
+        "body": [
+            "<ion-label position=\"${1|inline,fixed,stacked,floating|}\">${2:Label} <ion-text color=\"danger\">*</ion-text></ion-label>"
+        ],
+        "description": "<ion-label> w/ required hint"
+    },
+    "ion-list": {
+        "prefix": "i-list",
+        "body": [
+            "<ion-list>",
+            "\t$0",
+            "</ion-list>"
+        ],
+        "description": "<ion-list>"
+    },
+    "ion-list-header": {
+        "prefix": "i-list-header",
+        "body": [
+            "<ion-list-header>",
+            "\t<ion-label>${1:Title}</ion-label>",
+            "</ion-list-header>"
+        ],
+        "description": "<ion-list-header>"
+    },
+    "ion-list-input": {
+        "prefix": "i-list-input",
+        "body": [
+            "<ion-list>",
+            "\t<ion-item>",
+            "\t\t<ion-label>${1:Input}</ion-label>",
+            "\t\t<ion-input></ion-input>",
+            "\t</ion-item>",
+            "\t<ion-item>",
+            "\t\t<ion-label>${2:Toggle}</ion-label>",
+            "\t\t<ion-toggle slot=\"${4|end,start|}\"></ion-toggle>",
+            "\t</ion-item>",
+            "\t<ion-item>",
+            "\t\t<ion-label>${5:Radio}</ion-label>",
+            "\t\t<ion-radio slot=\"${6|end,start|}\"></ion-radio>",
+            "\t</ion-item>",
+            "\t<ion-item>",
+            "\t\t<ion-label>${7:Checkbox}</ion-label>",
+            "\t\t<ion-checkbox slot=\"${8|start,end|}\"></ion-checkbox>",
+            "\t</ion-item>",
+            "</ion-list>"
+        ],
+        "description": "<ion-list>"
+    },
+    "ion-menu": {
+        "prefix": "i-menu",
+        "body": [
+            "<ion-menu menuId=\"${1:avocadoMenu}\" side=\"${2|start,end|}\" type=\"${3|overlay,push,reveal|}\">",
+            "\t<ion-header>",
+            "\t\t<ion-toolbar>",
+            "\t\t\t<ion-title>${4:Awesome avocado menu}</ion-title>",
+            "\t\t</ion-toolbar>",
+            "\t</ion-header>",
+            "\t<ion-content>",
+            "\t\t${5:Awesome avocado content}",
+            "\t</ion-content>",
+            "</ion-menu>"
+        ],
+        "description": "<ion-menu> w/ <ion-header> and <ion-content>"
+    },
+    "ion-menu-advanced": {
+        "prefix": "i-menu-advanced",
+        "body": [
+            "<ion-menu menuId=\"${1:pizzaMenu}\" side=\"${2|start,end|}\" type=\"${3|overlay,push,reveal|}\">",
+            "\t<ion-header>",
+            "\t\t<ion-toolbar>",
+            "\t\t\t<ion-title>${4:Awesome pizza menu}</ion-title>",
+            "\t\t</ion-toolbar>",
+            "\t</ion-header>",
+            "\t<ion-content>",
+            "\t\t${5:Awesome pizza content}",
+            "\t</ion-content>",
+            "\t<ion-footer>",
+            "\t\t${6:Awesome pizza footer}",
+            "\t</ion-footer>",
+            "</ion-menu>"
+        ],
+        "description": "<ion-menu> w/ <ion-header>, <ion-content> and <ion-footer>"
+    },
+    "ion-menu-button": {
+        "prefix": "i-menu-button",
+        "body": [
+            "<ion-buttons slot=\"${1|start,end,primary,secondary|}\">",
+            "\t<ion-menu-button menu=\"${2|menuId,start,end|}\"></ion-menu-button>",
+            "</ion-buttons>"
+        ],
+        "description": "<ion-menu-button>"
+    },
+    "ion-note": {
+        "prefix": "i-note",
+        "body": [
+            "<ion-note>${1:42}</ion-note>"
+        ],
+        "description": "<ion-note>"
+    },
+    "ion-radio": {
+        "prefix": "i-radio",
+        "body": [
+            "<ion-radio value=\"${1:ford}\"></ion-radio>"
+        ],
+        "description": "<ion-radio>"
+    },
+    "ion-radio-checked": {
+        "prefix": "i-radio-checked",
+        "body": [
+            "<ion-radio value=\"${1:ford}\" checked></ion-radio>"
+        ],
+        "description": "<ion-radio> checked"
+    },
+    "ion-radio-group": {
+        "prefix": "i-radio-group",
+        "body": [
+            "<ion-list>",
+            "\t<ion-radio-group name=\"${1:auto}\">",
+            "\t\t<ion-list-header>${2:Auto Manufacturers}</ion-list-header>",
+            "\t\t<ion-item>",
+            "\t\t\t<ion-label>${3:Tesla}</ion-label>",
+            "\t\t\t<ion-radio value=\"${4:tesla}\"></ion-radio>",
+            "\t\t</ion-item>",
+            "\t\t<ion-item>",
+            "\t\t\t<ion-label>${5:Ford}</ion-label>",
+            "\t\t\t<ion-radio value=\"${6:ford}\"></ion-radio>",
+            "\t\t</ion-item>",
+            "\t</ion-radio-group>",
+            "</ion-list>"
+        ],
+        "description": "<ion-radio-group>"
+    },
+    "ion-refresher": {
+        "prefix": "i-refresher",
+        "body": [
+            "<ion-refresher slot=\"fixed\" onIonRefresh={ev => console.log(ev)}>",
+            "\t<ion-refresher-content></ion-refresher-content>",
+            "</ion-refresher>"
+        ],
+        "description": "<ion-refresher>"
+    },
+    "ion-refresher-content": {
+        "prefix": "i-refresher-content",
+        "body": [
+            "<ion-refresher slot=\"fixed\" onIonRefresh{ev => console.log(ev)}>",
+            "\t<ion-refresher-content",
+            "\t\tpullingIcon=\"${2:arrow-dropdown}\"",
+            "\t\tpullingText=\"${3:Pull to refresh}\"",
+            "\t\trefreshingSpinner=\"${4|bubbles,circles,crescent,dots,lines,lines-small|}\"",
+            "\t\trefreshingText=\"${5:Refreshing...}\">",
+            "\t</ion-refresher-content>",
+            "</ion-refresher>"
+        ],
+        "description": "<ion-refresher> w/ <ion-refresher-content> options"
+    },
+    "ion-refresher-events": {
+        "prefix": "i-refresher-events",
+        "body": [
+            "<ion-refresher slot=\"fixed\" onIonRefresh{ev => console.log(ev)} onIonPull{ev => console.log(ev)} onIonStart{ev => console.log(ev)}>",
+            "\t<ion-refresher-content></ion-refresher-content>",
+            "</ion-refresher>"
+        ],
+        "description": "<ion-refresher> w/ all events"
+    },
+    "ion-ripple-effect": {
+        "prefix": "i-ripple-effect",
+        "body": [
+            "<ion-ripple-effect type=\"${1|bounded,unbounded|}\"></ion-ripple-effect>"
+        ],
+        "description": "<ion-ripple-effect>"
+    },
+    "ion-row": {
+        "prefix": "i-row",
+        "body": [
+            "<ion-row>",
+            "\t<ion-col size=\"${1:12}\"></ion-col>",
+            "</ion-row>"
+        ],
+        "description": "<ion-row> w/ <ion-col>"
+    },
+    "ion-searchbar": {
+        "prefix": "i-searchbar",
+        "body": [
+            "<ion-searchbar placeholder=\"${1:Filter Pizza}\" onIonChange={ev => console.log(ev)} debounce=\"${3:250}\"></ion-searchbar>"
+        ],
+        "description": "<ion-searchbar>"
+    },
+    "ion-segment": {
+        "prefix": "i-segment",
+        "body": [
+            "<ion-segment onIonChange=\"${1:segmentChanged}(\\$event)\">",
+            "\t<ion-segment-button>",
+            "\t\t<ion-label>${2:Pizza}</ion-label>",
+            "\t</ion-segment-button>",
+            "\t<ion-segment-button>",
+            "\t\t<ion-label>${3:Pasta}</ion-label>",
+            "\t</ion-segment-button>",
+            "</ion-segment>"
+        ],
+        "description": "<ion-segment>"
+    },
+    "ion-segment-button": {
+        "prefix": "i-segment-button",
+        "body": [
+            "<ion-segment-button>",
+            "\t<ion-label>${1:Pizza}</ion-label>",
+            "</ion-segment-button>"
+        ],
+        "description": "<ion-segment-button>"
+    },
+    "ion-select": {
+        "prefix": "i-select",
+        "body": [
+            "<ion-item>",
+            "\t<ion-label>${1:Pizza}</ion-label>",
+            "\t<ion-select multiple=\"${2|true,false|}\" placeholder=\"${3:Select Pizza}\">",
+            "\t\t<ion-select-option value=\"${4:peperoni}\">${5:Peperoni}</ion-select-option>",
+            "\t\t<ion-select-option value=\"${6:hawaii}\">${7:Hawaii}</ion-select-option>",
+            "\t</ion-select>",
+            "</ion-item>"
+        ],
+        "description": "<ion-select> w/ <ion-select-option>"
+    },
+    "ion-select-interface-options": {
+        "prefix": "i-select-interface-options",
+        "body": [
+            "<ion-item>",
+            "\t<ion-label>${1:Pizza}</ion-label>",
+            "\t<ion-select [interfaceOptions]=\"${2:customOptions}\" interface=\"${3|action-sheet,alert,popover|}\" placeholder=\"${4:Select Pizza}\">",
+            "\t\t<ion-select-option value=\"${5:peperoni}\">${6:Peperoni}</ion-select-option>",
+            "\t\t<ion-select-option value=\"${7:hawaii}\">${8:Hawaii}</ion-select-option>",
+            "\t</ion-select>",
+            "</ion-item>"
+        ],
+        "description": "<ion-select> w/ interfaceOptions"
+    },
+    "ion-select-option": {
+        "prefix": "i-select-option",
+        "body": [
+            "\t<ion-select-option value=\"${1:peperoni}\">${2:Peperoni}</ion-select-option>"
+        ],
+        "description": "<ion-select-option>"
+    },
+    "ion-skeleton-text": {
+        "prefix": "i-skeleton-text",
+        "body": [
+            "<ion-skeleton-text width=\"${1:80}%\"></ion-skeleton-text>"
+        ],
+        "description": "<ion-skeleton-text>"
+    },
+    "ion-slide": {
+        "prefix": "i-slide",
+        "body": [
+            "<ion-slide>",
+            "\t<${2:h1}>${3:Awesome Slide Content}</${2:h1}>",
+            "</ion-slide>"
+        ],
+        "description": "<ion-slide>"
+    },
+    "ion-slides": {
+        "prefix": "i-slides",
+        "body": [
+            "<ion-slides mode=\"${1|ios,md|}\" pager=\"${1|true,false|}\" scrollbar=\"${1|true,false|}\">",
+            "\t<ion-slide>",
+            "\t\t<${2:h1}>${3:Awesome Slide Content}</${2:h1}>",
+            "\t</ion-slide>",
+            "</ion-slides>"
+        ],
+        "description": "<ion-slides> w/ <ion-slide>"
+    },
+    "ion-slides-options": {
+        "prefix": "i-slides-options",
+        "body": [
+            "<ion-slides mode=\"${1|ios,md|}\" pager=\"${1|true,false|}\" scrollbar=\"${1|true,false|}\" [options]=\"${1:slidesOptions}\">",
+            "\t<ion-slide>",
+            "\t\t<${2:h1}>${3:Awesome Slide Content}</${2:h1}>",
+            "\t</ion-slide>",
+            "</ion-slides>"
+        ],
+        "description": "<ion-slides> w/ options"
+    },
+    "ion-spinner": {
+        "prefix": "i-spinner",
+        "body": [
+            "<ion-spinner name=\"${1|crescent,lines,lines-small,bubbles,circles,dots|}\"></ion-spinner>"
+        ],
+        "description": "<ion-spinner>"
+    },
+    "ion-split-pane": {
+        "prefix": "i-split-pane",
+        "body": [
+            "<ion-split-pane>",
+            "\t<ion-menu menuId=\"${1:avocadoMenu}\" side=\"${2|start,end|}\" type=\"${3|overlay,push,reveal|}\">",
+            "\t\t<ion-header>",
+            "\t\t\t<ion-toolbar>",
+            "\t\t\t\t<ion-title>${4:Awesome avocado menu}</ion-title>",
+            "\t\t\t</ion-toolbar>",
+            "\t\t</ion-header>",
+            "\t\t<ion-content>",
+            "\t\t\t${5:Awesome avocado content}",
+            "\t\t</ion-content>",
+            "\t</ion-menu>",
+            "\t<ion-router-outlet main></ion-router-outlet>",
+            "</ion-split-pane>"
+        ],
+        "description": "<ion-split-pane>"
+    },
+    "ion-split-pane-advanced": {
+        "prefix": "i-split-pane-advanced",
+        "body": [
+            "<ion-split-pane>",
+            "\t<ion-menu menuId=\"${1:avocadoMenu}\" side=\"${2|start,end|}\" type=\"${3|overlay,push,reveal|}\">",
+            "\t\t<ion-header>",
+            "\t\t\t<ion-toolbar>",
+            "\t\t\t\t<ion-title>${4:Awesome avocado menu}</ion-title>",
+            "\t\t\t</ion-toolbar>",
+            "\t\t</ion-header>",
+            "\t\t<ion-content>",
+            "\t\t\t${5:Awesome avocado content}",
+            "\t\t</ion-content>",
+            "\t\t<ion-footer>",
+            "\t\t\t${6:Awesome avocado footer}",
+            "\t\t</ion-footer>",
+            "\t</ion-menu>",
+            "\t<ion-router-outlet main></ion-router-outlet>",
+            "</ion-split-pane>"
+        ],
+        "description": "<ion-split-pane> w/ one complete menu"
+    },
+    "ion-tab-bar": {
+        "prefix": "i-tab-bar",
+        "body": [
+            "<ion-tab-bar slot=\"${1|bottom,top|}\">",
+            "\t$0",
+            "</ion-tab-bar>"
+        ],
+        "description": "<ion-tab-bar>"
+    },
+    "ion-tab-button": {
+        "prefix": "i-tab-button",
+        "body": [
+            "<ion-tab-button tab=\"${1:home}\">",
+            "\t<ion-icon name=\"${2:home}\"></ion-icon>",
+            "\t<ion-label>${3:Home}</ion-label>",
+            "</ion-tab-button>"
+        ],
+        "description": "<ion-tab-button>"
+    },
+    "ion-tab-button-only-button": {
+        "prefix": "i-tab-button-only-button",
+        "body": [
+            "<ion-tab-button>",
+            "\t<ion-icon name=\"${2:camera}\"></ion-icon>",
+            "\t<ion-label>${3:Photo}</ion-label>",
+            "</ion-tab-button>"
+        ],
+        "description": "<ion-tab-button> just a button"
+    },
+    "ion-tab-button-only-link": {
+        "prefix": "i-tab-button-only-link",
+        "body": [
+            "<ion-tab-button href=\"${1:https://example.com}\">",
+            "\t<ion-icon name=\"${2:globe}\"></ion-icon>",
+            "\t<ion-label>${3:Search}</ion-label>",
+            "</ion-tab-button>"
+        ],
+        "description": "<ion-tab-button> just a link"
+    },
+    "ion-tabs": {
+        "prefix": "i-tabs",
+        "body": [
+            "<ion-tabs>",
+            "\t<ion-tab-bar slot=\"bottom\">",
+            "\t\t<ion-tab-button tab=\"${1:tab1}\">",
+            "\t\t\t<ion-icon name=\"${2:flash}\"></ion-icon>",
+            "\t\t\t<ion-label>${3:Tab One}</ion-label>",
+            "\t\t</ion-tab-button>",
+            "\t\t<ion-tab-button tab=\"${4:tab2}\">",
+            "\t\t\t<ion-icon name=\"${5:apps}\"></ion-icon>",
+            "\t\t\t<ion-label>${6:Tab Two}</ion-label>",
+            "\t\t</ion-tab-button>",
+            "\t\t<ion-tab-button tab=\"${7:tab3}\">",
+            "\t\t\t<ion-icon name=\"${8:send}\"></ion-icon>",
+            "\t\t\t<ion-label>${9:Tab Three}</ion-label>",
+            "\t\t</ion-tab-button>",
+            "\t</ion-tab-bar>",
+            "</ion-tabs>"
+        ],
+        "description": "<ion-tabs>"
+    },
+    "ion-text": {
+        "prefix": "i-text",
+        "body": [
+            "<ion-text color=\"${1|primary,secondary,tertiary|}\">",
+            "\t<${2:h1}>${3:Awesome text}</${2:h1}>",
+            "</ion-text>"
+        ],
+        "description": "<ion-text> to style the color of any element"
+    },
+    "ion-text-required": {
+        "prefix": "i-text-required",
+        "body": [
+            "<ion-text color=\"danger\">*</ion-text>"
+        ],
+        "description": "<ion-text> w/ required hint"
+    },
+    "ion-textarea": {
+        "prefix": "i-textarea",
+        "body": [
+            "<ion-textarea></ion-textarea>"
+        ],
+        "description": "<ion-textarea>"
+    },
+    "ion-textarea-w-placeholder": {
+        "prefix": "i-textarea-w-placeholder",
+        "body": [
+            "<ion-item>",
+            "\t<ion-textarea placeholder=\"${1:Enter more information here...}\"></ion-textarea>",
+            "</ion-item>"
+        ],
+        "description": "<ion-textarea> w/ placeholder"
+    },
+    "ion-textarea-w-label": {
+        "prefix": "i-textarea-w-placeholder",
+        "body": [
+            "<ion-item>",
+            "<ion-label position=\"${1|floating,stacked|}\">Description</ion-label>",
+            "\t<ion-textarea></ion-textarea>",
+            "</ion-item>"
+        ],
+        "description": "<ion-textarea> w/ placeholder"
+    },
+    "ion-thumbnail": {
+        "prefix": "i-thumbnail",
+        "body": [
+            "<ion-thumbnail>",
+            "\t<img src=\"${1:image}\" />",
+            "</ion-thumbnail>"
+        ],
+        "description": "<ion-thumbnail>"
+    },
+    "ion-title": {
+        "prefix": "i-title",
+        "body": [
+            "<ion-title>${1:Title}</ion-title>"
+        ],
+        "description": "<ion-title>"
+    },
+    "ion-toggle": {
+        "prefix": "i-toggle",
+        "body": [
+            "<ion-toggle></ion-toggle>"
+        ],
+        "description": "<ion-toggle>"
+    },
+    "ion-toolbar": {
+        "prefix": "i-toolbar",
+        "body": [
+            "<ion-toolbar>",
+            "\t<ion-title>${1:Title}</ion-title>",
+            "</ion-toolbar>"
+        ],
+        "description": "<ion-toolbar>"
+    },
+    "ion-virtual-scroll": {
+        "prefix": "i-virtual-scroll",
+        "body": [
+            "<ion-virtual-scroll items=\"${1:items}\">",
+            "\t<ion-item *virtualItem=\"let item\">",
+            "\t\t$0{{ item }}",
+            "\t</ion-item>",
+            "</ion-virtual-scroll>"
+        ],
+        "description": "<ion-virtual-scroll>"
+    },
+    "ion-virtual-scroll-w-custom-component": {
+        "prefix": "i-virtual-scroll-w-custom-component",
+        "body": [
+            "<ion-virtual-scroll items=\"${1:items}\">",
+            "\t<div *virtualItem=\"let item\">",
+            "\t\t<${2:my-custom-item} item=\"item\">",
+            "\t\t\t{{ item }}",
+            "\t\t</${2:my-custom-item}>",
+            "\t</div>",
+            "</ion-virtual-scroll>"
+        ],
+        "description": "<ion-virtual-scroll> with <div> wrapping a custom component"
+    },
+    "ion-virtual-scroll-w-header": {
+        "prefix": "i-virtual-scroll-w-header",
+        "body": [
+            "<ion-virtual-scroll items=\"${1:items}\" headerFn=\"${2:myHeaderFn}\">",
+            "\t<ion-item-divider *virtualHeader=\"let header\">",
+            "\t\t$0{{ header }}",
+            "\t</ion-item-divider>",
+            "\t<ion-item *virtualItem=\"let item\">",
+            "\t\tItem: {{ item }}",
+            "\t</ion-item>",
+            "</ion-virtual-scroll>"
+        ],
+        "description": "<ion-virtual-scroll> with header function"
+    }
+}

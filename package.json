@@ -30,6 +30,10 @@
     "contributes": {
         "snippets": [
             {
+                "language": "scss",
+                "path": "./snippets/scss.json"
+            },
+            {
                 "language": "html",
                 "path": "./snippets/angular/html.json"
             },
@@ -38,12 +42,12 @@
                 "path": "./snippets/angular/html-utils.json"
             },
             {
-                "language": "scss",
-                "path": "./snippets/scss.json"
-            },
-            {
                 "language": "typescript",
                 "path": "./snippets/angular/typescript.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/stencil/html-jsx.json"
             }
         ]
     },
