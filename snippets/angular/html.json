@@ -489,10 +489,19 @@
         "prefix": "i-item-button",
         "body": [
             "<ion-item button>",
-            "\t<ion-label>${3:Click me}</ion-label>",
+            "\t<ion-label>${2:Click me}</ion-label>",
             "</ion-item>"
         ],
-        "description": "<ion-item> w/ <ion-avatar>"
+        "description": "<ion-item> as button"
+    },
+    "ion-item-href": {
+        "prefix": "i-item-href",
+        "body": [
+            "<ion-item href=\"${1:home}\">",
+            "\t<ion-label>${2:Click me}</ion-label>",
+            "</ion-item>"
+        ],
+        "description": "<ion-item> w/ href"
     },
     "ion-item-checkbox": {
         "prefix": "i-item-checkbox",
