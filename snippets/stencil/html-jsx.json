@@ -18,7 +18,7 @@
         "prefix": "i-avatar",
         "body": [
             "<ion-avatar>",
-            "\t<img [src]=\"${1:image}\" />",
+            "\t<img src=\"${1:image}\" />",
             "</ion-avatar>"
         ],
         "description": "<ion-avatar>"
@@ -58,25 +58,23 @@
     "ion-button": {
         "prefix": "i-button",
         "body": [
-            "<ion-button (click)=\"${1:onClick()}\">",
-            "\t${2:Click me}",
-            "</ion-button>"
+            "<ion-button href=\"${1:home}\">${2:Click me}</ion-button>"
         ],
-        "description": "<ion-button> w/ click event"
+        "description": "<ion-button> w/ href"
     },
     "ion-button-props": {
         "prefix": "i-button-props",
         "body": [
-            "<ion-button (click)=\"${1:onClick()}\" fill=\"${2|solid,outline,clear|}\" shape=\"${3:round}\">",
+            "<ion-button href=\"${1:home}\" fill=\"${2|solid,outline,clear|}\" shape=\"${3:round}\">",
             "\t${4:Click me}",
             "</ion-button>"
         ],
-        "description": "<ion-button> w/ click event"
+        "description": "<ion-button> w/ href"
     },
     "ion-button-icon-only": {
         "prefix": "i-button-icon-only",
         "body": [
-            "<ion-button (click)=\"${1:onClick()}\">",
+            "<ion-button href=\"${1:home}\">",
             "\t<ion-icon slot=\"icon-only\" name=\"${2:add}\"></ion-icon>",
             "</ion-button>"
         ],
@@ -85,7 +83,7 @@
     "ion-button-w-icon": {
         "prefix": "i-button-w-icon",
         "body": [
-            "<ion-button (click)=\"${1:onClick()}\">",
+            "<ion-button href=\"${1:home}\">",
             "\t<ion-icon slot=\"${2|start,end,primary,secondary,icon-only|}\" name=\"${3:add}\"></ion-icon>",
             "\t${4:Click me}",
             "</ion-button>"
@@ -96,7 +94,7 @@
         "prefix": "i-buttons",
         "body": [
             "<ion-buttons slot=\"${1|start,end,primary,secondary|}\">",
-            "\t<ion-button (click)=\"${2:onClick()}\">",
+            "\t<ion-button href=\"${2:home}\">",
             "\t\t<ion-icon slot=\"${3|start,end,primary,secondary,icon-only|}\" name=\"${4:add}\"></ion-icon>",
             "\t\t${5:Click me}",
             "\t</ion-button>",
@@ -112,15 +110,6 @@
             "</ion-card>"
         ],
         "description": "<ion-card>"
-    },
-    "ion-card-loop": {
-        "prefix": "i-card-loop",
-        "body": [
-            "<ion-card *ngFor=\"let ${3:item} of ${4:items}\">",
-            "\t$0",
-            "</ion-card>"
-        ],
-        "description": "<ion-card> w/ *ngFor"
     },
     "ion-card-full": {
         "prefix": "i-card-full",
@@ -191,7 +180,7 @@
         "body": [
             "<ion-chip color=\"${1|primary,secondary,tertiary|}\" mode=\"${2|ios,md|}\" outline=\"${3|true,false|}\">",
             "\t<ion-avatar>",
-            "\t\t<img [src]=\"${4:image}\" />",
+            "\t\t<img src=\"${4:image}\" />",
             "\t</ion-avatar>",
             "\t<ion-label>${5:Chip Avatar}</ion-label>",
             "</ion-chip>"
@@ -239,10 +228,10 @@
         "prefix": "i-content-events",
         "body": [
             "<ion-content",
-            "\t[scrollEvents]=\"${1:true}\"",
-            "\t(ionScrollStart)=\"${2:logScrollStart}()\"",
-            "\t(ionScroll)=\"${3:logScrolling}(\\$event)\"",
-            "\t(ionScrollEnd)=\"${4:logScrollEnd}()\">",
+            "\tscrollEvents=\"${1:true}\"",
+            "\tonIonScrollEnd={ev => console.log(ev)}\"",
+            "\tonIonScroll={ev => console.log(ev)}\"",
+            "\tonIonScrollStart={ev => console.log(ev)}\">",
             "</ion-content>"
         ],
         "description": "<ion-content> w/ eventss"
@@ -311,95 +300,6 @@
         ],
         "description": "<ion-footer>"
     },
-    "ion-form": {
-        "prefix": "i-form",
-        "body": [
-            "<form [formGroup]=\"${1:loginForm}\" (ngSubmit)=\"${2:onSubmit}()\">",
-            "\t<ion-item>",
-            "\t\t<ion-label position=\"${3|floating,inline,fixed,stacked|}\">${4:E-Mail} <ion-text color=\"danger\">*</ion-text></ion-label>",
-            "\t\t<ion-input required formControlName=\"${5:email}\" type=\"${6|text,password,email,number,tel,url|}\"></ion-input>",
-            "\t</ion-item>",
-            "\t<ion-item>",
-            "\t\t<ion-label position=\"${3|floating,inline,fixed,stacked|}\">${7:Password} <ion-text color=\"danger\">*</ion-text></ion-label>",
-            "\t\t<ion-input required formControlName=\"${8:password}\" type=\"${9|text,password,email,number,tel,url|}\"></ion-input>",
-            "\t</ion-item>",
-            "\t<ion-button block color=\"${10|primary,secondary,tertiary|}\" type=\"submit\" [disabled]=\"${1:loginForm}.invalid\">",
-            "\t\t${11:Login}",
-            "\t</ion-button>",
-            "</form>"
-        ],
-        "description": "<ion-form> w/ <ion-input> and formGroup"
-    },
-    "ion-form-error": {
-        "prefix": "i-form-error",
-        "body": [
-            "<form [formGroup]=\"${1:loginForm}\" (ngSubmit)=\"${2:onSubmit}()\">",
-            "\t<ion-item>",
-            "\t\t<ion-label position=\"${3|floating,inline,fixed,stacked|}\">${4:E-Mail} <ion-text color=\"danger\">*</ion-text></ion-label>",
-            "\t\t<ion-input required formControlName=\"${5:email}\" type=\"${6|text,password,email,number,tel,url|}\"></ion-input>",
-            "\t</ion-item>",
-            "\t<ion-item *ngIf=\"${5:email}.invalid && ${5:email}.touched\" lines=\"none\">",
-            "\t\t<ion-text color=\"${7:danger}\" class=\"${8:form-error}\">",
-            "\t\t\t${9:Please enter a valid email address.}",
-            "\t\t</ion-text>",
-            "\t</ion-item>",
-            "\t<ion-button block color=\"${10|primary,secondary,tertiary|}\" type=\"submit\" [disabled]=\"${1:loginForm}.invalid\">",
-            "\t\t${11:Login}",
-            "\t</ion-button>",
-            "</form>"
-        ],
-        "description": "<ion-form> w/ <ion-input> and formGroup including error text"
-    },
-    "ion-form-input": {
-        "prefix": "i-form-input",
-        "body": [
-            "<ion-item>",
-            "\t<ion-label position=\"${1|floating,inline,fixed,stacked|}\">${2:E-Mail}</ion-label>",
-            "\t<ion-input formControlName=\"${3:email}\" type=\"${4|text,password,email,number,tel,url|}\"></ion-input>",
-            "</ion-item>"
-        ],
-        "description": "<ion-item> w/ <ion-input> and formControlName"
-    },
-    "ion-form-input-required": {
-        "prefix": "i-form-input-required",
-        "body": [
-            "<ion-item>",
-            "\t<ion-label position=\"${1|floating,inline,fixed,stacked|}\">${2:E-Mail} <ion-text color=\"danger\">*</ion-text></ion-label>",
-            "\t<ion-input required formControlName=\"${3:email}\" type=\"${4|text,password,email,number,tel,url|}\"></ion-input>",
-            "</ion-item>"
-        ],
-        "description": "<ion-item> w/ <ion-input>, required and formControlName"
-    },
-    "ion-form-input-error": {
-        "prefix": "i-form-input-error",
-        "body": [
-            "<ion-item>",
-            "\t<ion-label position=\"${1|floating,inline,fixed,stacked|}\">${2:E-Mail}</ion-label>",
-            "\t<ion-input formControlName=\"${3:email}\" type=\"${4|text,password,email,number,tel,url|}\"></ion-input>",
-            "</ion-item>",
-            "<ion-item *ngIf=\"${3:email}.invalid && ${3:email}.touched\" lines=\"none\">",
-            "\t<ion-text color=\"${5:danger}\" class=\"${6:form-error}\">",
-            "\t\t${7:Please enter a valid email address.}",
-            "\t</ion-text>",
-            "</ion-item>"
-        ],
-        "description": "<ion-item> w/ <ion-input> and formControlName including error text"
-    },
-    "ion-form-input-required-error": {
-        "prefix": "i-form-input-required-error",
-        "body": [
-            "<ion-item>",
-            "\t<ion-label position=\"${1|floating,inline,fixed,stacked|}\">${2:E-Mail} <ion-text color=\"danger\">*</ion-text></ion-label>",
-            "\t<ion-input required formControlName=\"${3:email}\" type=\"${4|text,password,email,number,tel,url|}\"></ion-input>",
-            "</ion-item>",
-            "<ion-item *ngIf=\"${3:email}.invalid && ${3:email}.touched\" lines=\"none\">",
-            "\t<ion-text color=\"${5:danger}\" class=\"${6:form-error}\">",
-            "\t\t${7:Please enter a valid email address.}",
-            "\t</ion-text>",
-            "</ion-item>"
-        ],
-        "description": "<ion-item> w/ <ion-input>, required and formControlName including error text"
-    },
     "ion-grid": {
         "prefix": "i-grid",
         "body": [
@@ -433,14 +333,14 @@
     "ion-img": {
         "prefix": "i-img",
         "body": [
-            "<ion-img [src]=\"${1:image}\"></ion-img>"
+            "<ion-img src=\"${1:image}\"></ion-img>"
         ],
         "description": "<ion-img> lazyily load an image"
     },
     "ion-infinite-scroll": {
         "prefix": "i-infinite-scroll",
         "body": [
-            "<ion-infinite-scroll threshold=\"${1:25}${2|%,px|}\" (ionInfinite)=\"${3:loadData}(\\$event)\">",
+            "<ion-infinite-scroll threshold=\"${1:25}${2|%,px|}\" onIonInfinite={ev => console.log(ev)}>",
             "\t<ion-infinite-scroll-content loadingSpinner=\"${4|crescent,lines,lines-small,bubbles,circles,dots|}\" loadingText=\"${5:Loading more data...}\">",
             "\t</ion-infinite-scroll-content>",
             "</ion-infinite-scroll>"
@@ -484,15 +384,6 @@
             "</ion-item>"
         ],
         "description": "<ion-item> w/ <ion-avatar>"
-    },
-    "ion-item-button": {
-        "prefix": "i-item-button",
-        "body": [
-            "<ion-item button>",
-            "\t<ion-label>${2:Click me}</ion-label>",
-            "</ion-item>"
-        ],
-        "description": "<ion-item> as button"
     },
     "ion-item-href": {
         "prefix": "i-item-href",
@@ -566,8 +457,8 @@
         "prefix": "i-item-input",
         "body": [
             "<ion-item>",
-            "\t<ion-label>${1:Input}</ion-label>",
-            "\t<ion-input></ion-input>",
+            "\t<ion-label position=\"${1|floating,inline,fixed,stacked|}\">${2:E-Mail}</ion-label>",
+            "\t<ion-input type=\"${4|text,password,email,number,tel,url|}\"></ion-input>",
             "</ion-item>"
         ],
         "description": "<ion-item> w/ <ion-input>"
@@ -576,23 +467,23 @@
         "prefix": "i-item-input-required",
         "body": [
             "<ion-item>",
-            "\t<ion-label>${1:Input} <ion-text color=\"danger\">*</ion-text></ion-label>",
-            "\t<ion-input required></ion-input>",
+            "\t<ion-label position=\"${1|floating,inline,fixed,stacked|}\">${2:E-Mail} <ion-text color=\"danger\">*</ion-text></ion-label>",
+            "\t<ion-input required type=\"${4|text,password,email,number,tel,url|}\"></ion-input>",
             "</ion-item>"
         ],
-        "description": "<ion-item> w/ <ion-input>"
+        "description": "<ion-item> w/ <ion-input> w/ required asterix"
     },
     "ion-item-option": {
         "prefix": "i-item-option",
         "body": [
-            "<ion-item-option color=\"${1|primary,secondary,danger|}\" (click)=\"${2:favorite}(${3:item})\">${4:Favorite}</ion-item-option>"
+            "<ion-item-option color=\"${1|primary,secondary,danger|}\">${4:Favorite}</ion-item-option>"
         ],
         "description": "<ion-item-option>"
     },
     "ion-item-option-w-icon": {
         "prefix": "i-item-option-w-icon",
         "body": [
-            "<ion-item-option color=\"${1|primary,secondary,danger|}\" (click)=\"${2:favorite}(${3:item})\">",
+            "<ion-item-option color=\"${1|primary,secondary,danger|}\">",
             "\t<ion-icon name=\"${4:star}\"></ion-icon>${5:Favorite}",
             "</ion-item-option>"
         ],
@@ -601,7 +492,7 @@
     "ion-item-option-icon-only": {
         "prefix": "i-item-option-icon-only",
         "body": [
-            "<ion-item-option color=\"${1|primary,secondary,danger|}\" (click)=\"${2:favorite}(${3:item})\">",
+            "<ion-item-option color=\"${1|primary,secondary,danger|}\">",
             "\t<ion-icon slot=\"icon-only\" name=\"${4:star}\"></ion-icon>",
             "</ion-item-option>"
         ],
@@ -610,7 +501,7 @@
     "ion-item-option-expandable": {
         "prefix": "i-item-option-expandable",
         "body": [
-            "<ion-item-option color=\"${1|primary,secondary,danger|}\" expandable (click)=\"${2:favorite}(${3:item})\">${4:Delete}</ion-item-option>"
+            "<ion-item-option color=\"${1|primary,secondary,danger|}\" expandable>${4:Delete}</ion-item-option>"
         ],
         "description": "<ion-item-option> w/ expandable option"
     },
@@ -618,7 +509,7 @@
         "prefix": "i-item-options",
         "body": [
             "<ion-item-options side=\"${1|start,end|}\">",
-            "\t<ion-item-option color=\"${2|primary,secondary,danger|}\" (click)=\"${3:favorite}(${4:item})\">${5:Favorite}</ion-item-option>",
+            "\t<ion-item-option color=\"${2|primary,secondary,danger|}\">${5:Favorite}</ion-item-option>",
             "</ion-item-options>"
         ],
         "description": "<ion-item-options>"
@@ -632,12 +523,12 @@
             "\t\t\t<ion-label>${1:Item}</ion-label>",
             "\t\t</ion-item>",
             "\t\t<ion-item-options side=\"${2|start,end|}\">",
-            "\t\t\t<ion-item-option (click)=\"${3:favorite}(${4:item})\">${5:Favorite}</ion-item-option>",
-            "\t\t\t<ion-item-option color=\"${6|primary,secondary,danger|}\" (click)=\"${7:share}(${4:item})\">${8:Share}</ion-item-option>",
+            "\t\t\t<ion-item-option>${5:Favorite}</ion-item-option>",
+            "\t\t\t<ion-item-option color=\"${6|primary,secondary,danger|}\">${8:Share}</ion-item-option>",
             "\t\t</ion-item-options>",
             "",
             "\t\t<ion-item-options side=\"${9|start,end|}\">",
-            "\t\t\t<ion-item-option (click)=\"unread(${4:item})\">${10:Unread}</ion-item-option>",
+            "\t\t\t<ion-item-option>${10:Unread}</ion-item-option>",
             "\t\t</ion-item-options>",
             "\t</ion-item-sliding>",
             "</ion-list>"
@@ -824,7 +715,7 @@
     "ion-refresher": {
         "prefix": "i-refresher",
         "body": [
-            "<ion-refresher slot=\"fixed\" (ionRefresh)=\"${1:doRefresh}(\\$event)\">",
+            "<ion-refresher slot=\"fixed\" onIonRefresh={ev => console.log(ev)}>",
             "\t<ion-refresher-content></ion-refresher-content>",
             "</ion-refresher>"
         ],
@@ -833,7 +724,7 @@
     "ion-refresher-content": {
         "prefix": "i-refresher-content",
         "body": [
-            "<ion-refresher slot=\"fixed\" (ionRefresh)=\"${1:doRefresh}(\\$event)\">",
+            "<ion-refresher slot=\"fixed\" onIonRefresh{ev => console.log(ev)}>",
             "\t<ion-refresher-content",
             "\t\tpullingIcon=\"${2:arrow-dropdown}\"",
             "\t\tpullingText=\"${3:Pull to refresh}\"",
@@ -847,7 +738,7 @@
     "ion-refresher-events": {
         "prefix": "i-refresher-events",
         "body": [
-            "<ion-refresher slot=\"fixed\" (ionRefresh)=\"${1:doRefresh}(\\$event)\" (ionPull)=\"${2:onPull}(\\$event)\" (ionStart)=\"${3:onStart}(\\$event)\">",
+            "<ion-refresher slot=\"fixed\" onIonRefresh{ev => console.log(ev)} onIonPull{ev => console.log(ev)} onIonStart{ev => console.log(ev)}>",
             "\t<ion-refresher-content></ion-refresher-content>",
             "</ion-refresher>"
         ],
@@ -872,14 +763,14 @@
     "ion-searchbar": {
         "prefix": "i-searchbar",
         "body": [
-            "<ion-searchbar placeholder=\"${1:Filter Pizza}\" (ionChange)=\"${2:onSearchChange}(\\$event)\" [debounce]=\"${3:250}\"></ion-searchbar>"
+            "<ion-searchbar placeholder=\"${1:Filter Pizza}\" onIonChange={ev => console.log(ev)} debounce=\"${3:250}\"></ion-searchbar>"
         ],
         "description": "<ion-searchbar>"
     },
     "ion-segment": {
         "prefix": "i-segment",
         "body": [
-            "<ion-segment (ionChange)=\"${1:segmentChanged}(\\$event)\">",
+            "<ion-segment onIonChange=\"${1:segmentChanged}(\\$event)\">",
             "\t<ion-segment-button>",
             "\t\t<ion-label>${2:Pizza}</ion-label>",
             "\t</ion-segment-button>",
@@ -912,18 +803,6 @@
         ],
         "description": "<ion-select> w/ <ion-select-option>"
     },
-    "ion-select-loop": {
-        "prefix": "i-select-loop",
-        "body": [
-            "<ion-item>",
-            "\t<ion-label>${1:Pizza}</ion-label>",
-            "\t<ion-select multiple=\"${2|true,false|}\" placeholder=\"${3:Select Pizza}\">",
-            "\t\t<ion-select-option *ngFor=\"let ${4:pizza} of ${5:pizzas}\" [value]=\"${4:pizza}.${6:id}\">{{${4:pizza}.${7:name}}}</ion-select-option>",
-            "\t</ion-select>",
-            "</ion-item>"
-        ],
-        "description": "<ion-select> w/ *ngFor"
-    },
     "ion-select-interface-options": {
         "prefix": "i-select-interface-options",
         "body": [
@@ -937,31 +816,12 @@
         ],
         "description": "<ion-select> w/ interfaceOptions"
     },
-    "ion-select-interface-options-loop": {
-        "prefix": "i-select-interface-options-loop",
-        "body": [
-            "<ion-item>",
-            "\t<ion-label>${1:Pizza}</ion-label>",
-            "\t<ion-select [interfaceOptions]=\"${2:customOptions}\" interface=\"${3|action-sheet,alert,popover|}\" placeholder=\"${4:Select Pizza}\">",
-            "\t\t<ion-select-option *ngFor=\"let ${5:pizza} of ${6:pizzas}\" [value]=\"${5:pizza}.${7:id}\">{{${5:pizza}.${8:name}}}</ion-select-option>",
-            "\t</ion-select>",
-            "</ion-item>"
-        ],
-        "description": "<ion-select> w/ interfaceOptions"
-    },
     "ion-select-option": {
         "prefix": "i-select-option",
         "body": [
             "\t<ion-select-option value=\"${1:peperoni}\">${2:Peperoni}</ion-select-option>"
         ],
         "description": "<ion-select-option>"
-    },
-    "ion-select-option-loop": {
-        "prefix": "i-select-option-loop",
-        "body": [
-            "\t<ion-select-option *ngFor=\"let ${1:pizza} of ${2:pizzas}\" value=\"${1:pizza}.${3:id}\">{{${1:pizza}.${4:name}}}</ion-select-option>"
-        ],
-        "description": "<ion-select-option> w/ *ngFor"
     },
     "ion-skeleton-text": {
         "prefix": "i-skeleton-text",
@@ -1071,7 +931,7 @@
     "ion-tab-button-only-button": {
         "prefix": "i-tab-button-only-button",
         "body": [
-            "<ion-tab-button (click)=\"${1:openCamera()}\">",
+            "<ion-tab-button>",
             "\t<ion-icon name=\"${2:camera}\"></ion-icon>",
             "\t<ion-label>${3:Photo}</ion-label>",
             "</ion-tab-button>"
@@ -1187,7 +1047,7 @@
     "ion-virtual-scroll": {
         "prefix": "i-virtual-scroll",
         "body": [
-            "<ion-virtual-scroll [items]=\"${1:items}\">",
+            "<ion-virtual-scroll items=\"${1:items}\">",
             "\t<ion-item *virtualItem=\"let item\">",
             "\t\t$0{{ item }}",
             "\t</ion-item>",
@@ -1198,9 +1058,9 @@
     "ion-virtual-scroll-w-custom-component": {
         "prefix": "i-virtual-scroll-w-custom-component",
         "body": [
-            "<ion-virtual-scroll [items]=\"${1:items}\">",
+            "<ion-virtual-scroll items=\"${1:items}\">",
             "\t<div *virtualItem=\"let item\">",
-            "\t\t<${2:my-custom-item} [item]=\"item\">",
+            "\t\t<${2:my-custom-item} item=\"item\">",
             "\t\t\t{{ item }}",
             "\t\t</${2:my-custom-item}>",
             "\t</div>",
@@ -1211,7 +1071,7 @@
     "ion-virtual-scroll-w-header": {
         "prefix": "i-virtual-scroll-w-header",
         "body": [
-            "<ion-virtual-scroll [items]=\"${1:items}\" [headerFn]=\"${2:myHeaderFn}\">",
+            "<ion-virtual-scroll items=\"${1:items}\" headerFn=\"${2:myHeaderFn}\">",
             "\t<ion-item-divider *virtualHeader=\"let header\">",
             "\t\t$0{{ header }}",
             "\t</ion-item-divider>",

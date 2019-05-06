@@ -2,7 +2,7 @@
     "name": "vscode-ionic-snippets",
     "displayName": "Ionic 4 Snippets",
     "description": "Ionic 4 snippets for VS Code",
-    "version": "0.24.0",
+    "version": "0.25.0",
     "author": "Marc Stammerjohann",
     "license": "MIT",
     "publisher": "fivethree",
@@ -30,16 +30,16 @@
     "contributes": {
         "snippets": [
             {
+                "language": "scss",
+                "path": "./snippets/scss.json"
+            },
+            {
                 "language": "html",
                 "path": "./snippets/angular/html.json"
             },
             {
                 "language": "html",
                 "path": "./snippets/angular/html-utils.json"
-            },
-            {
-                "language": "scss",
-                "path": "./snippets/scss.json"
             },
             {
                 "language": "typescript",
@@ -56,6 +56,10 @@
             {
                 "language": "vue",
                 "path": "./snippets/vue/typescript.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/stencil/html-jsx.json"
             }
         ]
     },

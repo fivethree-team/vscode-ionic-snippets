@@ -23,7 +23,7 @@
     "ion-col-pull": {
         "prefix": "i-col-pull",
         "body": [
-            "${1|pull,pullXs,pullSm,pullMd,pullLg,pullXl|}=\"${2:}\""
+            "${1|pull,pullXs,pullSm,pullMd,pullLg,pullXl|}=\"${2:2}\""
         ],
         "description": "Ionic col [pull] property selection"
     },

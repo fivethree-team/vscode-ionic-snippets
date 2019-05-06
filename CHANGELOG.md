@@ -1,3 +1,19 @@
+# [0.25.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.24.0...v0.25.0) (2019-05-03)
+
+
+### Bug Fixes
+
+* **img:** close img tag ([6ce1a6e](https://github.com/fivethree-team/vscode-ionic-snippets/commit/6ce1a6e))
+* **pull:** pull default value ([4e6a8bd](https://github.com/fivethree-team/vscode-ionic-snippets/commit/4e6a8bd))
+
+
+### Features
+
+* **item:** item with href ([2d04db4](https://github.com/fivethree-team/vscode-ionic-snippets/commit/2d04db4))
+* **stencil:** add typescriptreact support for html snippets ([5c9a6d8](https://github.com/fivethree-team/vscode-ionic-snippets/commit/5c9a6d8))
+
+
+
 # [0.24.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.23.0...v0.24.0) (2019-04-24)
 
 
