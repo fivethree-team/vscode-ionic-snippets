@@ -1,3 +1,13 @@
+# [0.26.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.25.0...v0.26.0) (2019-05-16)
+
+
+### Features
+
+* **card:** add button and href snippet ([1db8695](https://github.com/fivethree-team/vscode-ionic-snippets/commit/1db8695))
+* **refresher:** add properties pullFactor, pullMin and pullMax ([1750787](https://github.com/fivethree-team/vscode-ionic-snippets/commit/1750787))
+
+
+
 # [0.25.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.24.0...v0.25.0) (2019-05-03)
 
 
