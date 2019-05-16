@@ -113,6 +113,24 @@
         ],
         "description": "<ion-card>"
     },
+    "ion-card-button": {
+        "prefix": "i-card-button",
+        "body": [
+            "<ion-card button (click)=\"${1:cardClick}()\">",
+            "\t$0",
+            "</ion-card>"
+        ],
+        "description": "<ion-card> as button"
+    },
+    "ion-card-href": {
+        "prefix": "i-card-href",
+        "body": [
+            "<ion-card href=\"${1:home}\">",
+            "\t$0",
+            "</ion-card>"
+        ],
+        "description": "<ion-card> w/ href"
+    },
     "ion-card-loop": {
         "prefix": "i-card-loop",
         "body": [
