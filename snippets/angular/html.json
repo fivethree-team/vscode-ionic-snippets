@@ -824,7 +824,7 @@
     "ion-refresher": {
         "prefix": "i-refresher",
         "body": [
-            "<ion-refresher slot=\"fixed\" (ionRefresh)=\"${1:doRefresh}(\\$event)\">",
+            "<ion-refresher slot=\"fixed\" (ionRefresh)=\"${1:doRefresh}(\\$event)\" pullFactor=\"${2:0.8}\" pullMin=\"${3:60}\" pullMax=\"${4:120}\">",
             "\t<ion-refresher-content></ion-refresher-content>",
             "</ion-refresher>"
         ],
