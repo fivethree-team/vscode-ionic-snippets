@@ -1,3 +1,16 @@
+# [1.0.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.26.0...v1.0.0) (2019-05-30)
+
+
+### Features
+
+* **backdrop:** add backdrop with props ([47d3c7c](https://github.com/fivethree-team/vscode-ionic-snippets/commit/47d3c7c))
+* **range:** add range snippets ([75cfda6](https://github.com/fivethree-team/vscode-ionic-snippets/commit/75cfda6))
+* **reorder:** new reorder and reorder-group snippets ([fc4af8f](https://github.com/fivethree-team/vscode-ionic-snippets/commit/fc4af8f))
+* **rgba:** add opacity to Ionic colors using rgba ([3cbddb6](https://github.com/fivethree-team/vscode-ionic-snippets/commit/3cbddb6))
+* **scss:** add remaining css custom properties snippets ([bba799c](https://github.com/fivethree-team/vscode-ionic-snippets/commit/bba799c))
+
+
+
 # [0.26.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.25.0...v0.26.0) (2019-05-16)
 
 
