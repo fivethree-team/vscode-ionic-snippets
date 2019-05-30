@@ -302,6 +302,15 @@
         ],
         "description": "Picker CSS custom properties"
     },
+    "ion-rgba": {
+        "prefix": "i-rgba",
+        "body": [
+            "${1:ion-item:hover} {",
+            "\t--background: rgba(var(--ion-color-${2|primary,secondary,tertiary,success,warning,danger,dark,medium,light|}-rgb), ${3:0.25});",
+            "}"
+        ],
+        "description": "Add opacity to Ionic colors using `rgba(...)`"
+    },
     "ion-root": {
         "prefix": "i-root",
         "body": [

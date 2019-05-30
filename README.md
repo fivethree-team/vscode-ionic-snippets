@@ -206,6 +206,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-datetime-props`                | Datetime CSS custom properties                                                   |
 | `i-item-props`                | Item CSS custom properties                                |
 | `i-picker`                | Picker CSS custom properties                                                   |
+| `i-rgba`                | Add opacity to Ionic colors using `rgba(...)`                                                    |
 | `i-root`                | `:root { }`                                                    |
 | `i-stepped-color`                | Stepped colors add to `:root`                                                  |
 | `i-textarea-props`                | Textarea CSS custom properties                                                  |
