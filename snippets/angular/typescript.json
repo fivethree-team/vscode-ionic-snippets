@@ -372,7 +372,16 @@
             "\t}, 2000);",
             "}"
         ],
-        "description": "<ion-refesher ionRefresh> output handler method"
+        "description": "<ion-refesher (ionRefresh)> output handler method"
+    },
+    "ion-reorder-do-reorder": {
+        "prefix": "i-reorder-do-reorder",
+        "body": [
+            "${1:doReorder}(${2:ev}: any) {",
+            "\tthis.${3:items} = ${2:ev}.detail.complete(this.${3:items});",
+            "}"
+        ],
+        "description": "<ion-reorder (ionItemReorder)> output handler method"
     },
     "ion-slides-options": {
         "prefix": "i-slides-options",

@@ -117,6 +117,10 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-refresher`                | `<ion-refresher>`                                                   |
 | `i-refresher-content`                | `<ion-refresher>` w/ `<ion-refresher-content>` options                                                   |
 | `i-refresher-events`                | `<ion-refresher>` w/ all events                                                   |
+| `i-reorder`                | `<ion-reorder>`                                                |
+| `i-reorder-icon`                | `<ion-reorder>` w/ `<ion-icon>`                                             |
+| `i-reorder-item`                | `<ion-reorder>` entire `<ion-item>`'s                                             |
+| `i-reorder-group`                | `<ion-reorder-group>`                                             |
 | `i-ripple-effect`                | `<ion-ripple-effect>`                                                |
 | `i-row`                | `<ion-row>` w/ `<ion-col>`                                                   |
 | `i-searchbar`                | `<ion-searchbar>`                                                   |

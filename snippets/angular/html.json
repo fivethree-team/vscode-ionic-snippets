@@ -859,7 +859,7 @@
             "\tsnaps=\"${5|true,false|}\" step=\"${6:1}\"",
             "\tticks=\"${7|true,false|}\" value=\"${8:0}\"",
             "\tcolor=\"${9|primary,secondary,tertiary,success,warning,danger|}\"",
-            "\t(ionChange)=\"${10:rangeChange}($event)\">",
+            "\t(ionChange)=\"${10:rangeChange}(\\$event)\">",
             "</ion-range>"
         ],
         "description": "<ion-range>"
@@ -873,7 +873,7 @@
             "\tsnaps=\"${5|true,false|}\" step=\"${6:1}\"",
             "\tticks=\"${7|true,false|}\" value=\"${8:0}\"",
             "\tcolor=\"${9|primary,secondary,tertiary,success,warning,danger|}\"",
-            "\t(ionChange)=\"${10:rangeChange}($event)\">",
+            "\t(ionChange)=\"${10:rangeChange}(\\$event)\">",
             "\t\t<ion-icon size=\"small\" slot=\"start\" name=\"${11:sunny}\"></ion-icon>",
             "\t\t<ion-icon slot=\"end\" name=\"${11:sunny}\"></ion-icon>",
             "</ion-range>"
@@ -889,7 +889,7 @@
             "\tsnaps=\"${5|true,false|}\" step=\"${6:1}\"",
             "\tticks=\"${7|true,false|}\" value=\"${8:0}\"",
             "\tcolor=\"${9|primary,secondary,tertiary,success,warning,danger|}\"",
-            "\t(ionChange)=\"${10:rangeChange}($event)\">",
+            "\t(ionChange)=\"${10:rangeChange}(\\$event)\">",
             "\t\t<ion-label slot=\"start\">${1:0}</ion-label>",
             "\t\t<ion-label slot=\"end\">${2:100}</ion-label>",
             "</ion-range>"
@@ -927,6 +927,54 @@
             "</ion-refresher>"
         ],
         "description": "<ion-refresher> w/ all events"
+    },
+    "ion-reorder": {
+        "prefix": "i-reorder",
+        "body": [
+            "<ion-item>",
+            "\t<ion-label>",
+            "\t\t${1:Item 1}",
+            "\t</ion-label>",
+            "\t<ion-reorder slot=\"${2|end,start|}\"></ion-reorder>",
+            "</ion-item>"
+        ],
+        "description": "<ion-reorder>"
+    },
+    "ion-reorder-icon": {
+        "prefix": "i-reorder-icon",
+        "body": [
+            "<ion-item>",
+            "\t<ion-label>",
+            "\t\t${1:Item 1}",
+            "\t</ion-label>",
+            "\t<ion-reorder slot=\"${2|end,start|}\">",
+            "\t\t<ion-icon name=\"${3:pizza}\"></ion-icon>",
+            "\t</ion-reorder>",
+            "</ion-item>"
+        ],
+        "description": "<ion-reorder> w/ <ion-icon>"
+    },
+    "ion-reorder-item": {
+        "prefix": "i-reorder-item",
+        "body": [
+            "<ion-reorder>",
+            "\t<ion-item>",
+            "\t\t<ion-label>",
+            "\t\t\t${1:Item 1}",
+            "\t\t</ion-label>",
+            "\t</ion-item>",
+            "</ion-reorder>"
+        ],
+        "description": "<ion-reorder> entire <ion-item>'s"
+    },
+    "ion-reorder-group": {
+        "prefix": "i-reorder-group",
+        "body": [
+            "<ion-reorder-group (ionItemReorder)=\"${1:doReorder}(\\$event)\" disabled=\"${2|true,false}\">",
+            "\t$0",
+            "</ion-reorder-group>"
+        ],
+        "description": "<ion-reorder-group>"
     },
     "ion-ripple-effect": {
         "prefix": "i-ripple-effect",
