@@ -712,6 +712,52 @@
         ],
         "description": "<ion-radio-group>"
     },
+    "ion-range": {
+        "prefix": "i-range",
+        "body": [
+            "<ion-range",
+            "\tmin=\"${1:0}\" max=\"${2:100}\"",
+            "\tdualKnobs=\"${3|true,false|}\" pin=\"${4|true,false|}\"",
+            "\tsnaps=\"${5|true,false|}\" step=\"${6:1}\"",
+            "\tticks=\"${7|true,false|}\" value=\"${8:0}\"",
+            "\tcolor=\"${9|primary,secondary,tertiary,success,warning,danger|}\"",
+            "\tonIonChange={ev => console.log(ev)}>",
+            "</ion-range>"
+        ],
+        "description": "<ion-range>"
+    },
+    "ion-range-icon": {
+        "prefix": "i-range-icon",
+        "body": [
+            "<ion-range",
+            "\tmin=\"${1:0}\" max=\"${2:100}\"",
+            "\tdualKnobs=\"${3|true,false|}\" pin=\"${4|true,false|}\"",
+            "\tsnaps=\"${5|true,false|}\" step=\"${6:1}\"",
+            "\tticks=\"${7|true,false|}\" value=\"${8:0}\"",
+            "\tcolor=\"${9|primary,secondary,tertiary,success,warning,danger|}\"",
+            "\tonIonChange={ev => console.log(ev)}>",
+            "\t\t<ion-icon size=\"small\" slot=\"start\" name=\"${11:sunny}\"></ion-icon>",
+            "\t\t<ion-icon slot=\"end\" name=\"${11:sunny}\"></ion-icon>",
+            "</ion-range>"
+        ],
+        "description": "<ion-range> w/ <ion-icon>"
+    },
+    "ion-range-label": {
+        "prefix": "i-range-label",
+        "body": [
+            "<ion-range",
+            "\tmin=\"${1:0}\" max=\"${2:100}\"",
+            "\tdualKnobs=\"${3|true,false|}\" pin=\"${4|true,false|}\"",
+            "\tsnaps=\"${5|true,false|}\" step=\"${6:1}\"",
+            "\tticks=\"${7|true,false|}\" value=\"${8:0}\"",
+            "\tcolor=\"${9|primary,secondary,tertiary,success,warning,danger|}\"",
+            "\tonIonChange={ev => console.log(ev)}>",
+            "\t\t<ion-label slot=\"start\">${1:0}</ion-label>",
+            "\t\t<ion-label slot=\"end\">${2:100}</ion-label>",
+            "</ion-range>"
+        ],
+        "description": "<ion-range> w/ <ion-label>"
+    },
     "ion-refresher": {
         "prefix": "i-refresher",
         "body": [

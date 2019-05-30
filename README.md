@@ -110,6 +110,9 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-radio`                | `<ion-radio>`                                                    |
 | `i-radio-checked`                | `<ion-radio>` checked                                                    |
 | `i-radio-group`                | `<ion-radio-group>`                                                    |
+| `i-range`                | `<ion-range>`                                                    |
+| `i-range-icon`                | `<ion-range>` w/ `<ion-icon>`                                                  |
+| `i-range-label`                | `<ion-range>` w/ `<ion-label>`                                                  |
 | `i-refresher`                | `<ion-refresher>`                                                   |
 | `i-refresher-content`                | `<ion-refresher>` w/ `<ion-refresher-content>` options                                                   |
 | `i-refresher-events`                | `<ion-refresher>` w/ all events                                                   |
