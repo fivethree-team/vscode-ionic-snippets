@@ -39,6 +39,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-back-button`                | `<ion-back-button>`                                                    |
 | `i-back-button-default`                | `<ion-back-button>` w/ defaultHref                                                |
 | `i-backdrop`                | `<ion-backdrop>`                                                    |
+| `i-backdrop-props`                | `<ion-backdrop>` w/ properties                                                    |
 | `i-badge`                | `<ion-badge>`                                                    |
 | `i-button`                | `<ion-button>`                                                    |
 | `i-button-props`                | `<ion-button>` with fill and shape properties                                                    |

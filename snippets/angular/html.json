@@ -48,6 +48,17 @@
         ],
         "description": "<ion-backdrop>"
     },
+    "ion-backdrop-props": {
+        "prefix": "i-backdrop-props",
+        "body": [
+            "<ion-backdrop",
+            "\t[tappable]=\"${1:enableBackdropDismiss}\"",
+            "\t[visible]=\"${2:showBackdrop}\"",
+            "\t[stopPropagation]=\"${3:shouldPropagate}\">",
+            "</ion-backdrop>"
+        ],
+        "description": "<ion-backdrop> w/ properties"
+    },
     "ion-badge": {
         "prefix": "i-badge",
         "body": [
