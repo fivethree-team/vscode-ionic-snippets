@@ -1,12 +1,26 @@
 {
-    "click": {
+    "ion-align-items": {
+        "prefix": "i-align-items",
+        "body": [
+            "class=\"ion-align-items-${1|start,end,center,baseline,stretch|}\""
+        ],
+        "description": "CSS Utilities Flex Container Align Items"
+    },
+    "ion-align-self": {
+        "prefix": "i-align-self",
+        "body": [
+            "class=\"ion-align-self-${1|start,end,center,baseline,stretch,auto|}\""
+        ],
+        "description": "CSS Utilities Flex Container Align Self"
+    },
+    "ion-click": {
         "prefix": "i-click",
         "body": [
             "(click)=\"${1:onClick()}\""
         ],
         "description": "(click) event"
     },
-    "color": {
+    "ion-color": {
         "prefix": "i-color",
         "body": [
             "color=\"${1|primary,secondary,tertiary,success,warning,danger,light,medium,dark|}\""
@@ -41,89 +55,117 @@
         ],
         "description": "Ionic col [size] property selection"
     },
+    "ion-flex-wrap": {
+        "prefix": "i-flex-wrap",
+        "body": [
+            "class=\"ion-${1|nowrap,wrap,wrap-reverse|}\""
+        ],
+        "description": "CSS Utilities Flex Container Flex Wrap"
+    },
+    "ion-float-element": {
+        "prefix": "i-float-element",
+        "body": [
+            "class=\"ion-float-${1|left,right,end,start|}\""
+        ],
+        "description": "CSS Utilities Float Elements"
+    },
+    "ion-float-element-responsive": {
+        "prefix": "i-float-element-responsive",
+        "body": [
+            "class=\"ion-float-${1|sm,md,lg,xl|}-${2|left,right,end,start|}\""
+        ],
+        "description": "CSS Utilities Responsive Float Elements"
+    },
+    "ion-justify-container": {
+        "prefix": "i-justity-content",
+        "body": [
+            "class=\"ion-justify-content-${1|start,end,center,around,between,evenly|}\""
+        ],
+        "description": "CSS Utilities Flex Container Justify Content"
+    },
     "ion-hide": {
         "prefix": "i-hide",
         "body": [
-            "ion-hide"
+            "class=\"ion-hide\""
         ],
-        "description": "CSS Utilities Hide Element Class - must be added to class"
+        "description": "CSS Utilities Hide Element Class"
     },
     "ion-hide-breakpoints": {
         "prefix": "i-hide-breakpoints",
         "body": [
-            "ion-hide-${1|sm,md,lg,xl|}-${2|up,down|}"
+            "class=\"ion-hide-${1|sm,md,lg,xl|}-${2|up,down|}\""
         ],
-        "description": "CSS Utilities Hide Element with Display Breakpoints - must be added to class"
+        "description": "CSS Utilities Hide Element with Display Breakpoints"
     },
     "ion-hide-sm": {
         "prefix": "i-hide-sm",
         "body": [
-            "ion-hide-sm-${1|up,down|}"
+            "class=\"ion-hide-sm-${1|up,down|}\""
         ],
-        "description": "CSS Utilities Hide Element sm - must be added to class. Applies the modifier to the element when min-width: 576px (up) or max-width: 576px (down)."
+        "description": "CSS Utilities Hide Element sm. Applies the modifier to the element when min-width: 576px (up) or max-width: 576px (down)."
     },
     "ion-hide-md": {
         "prefix": "i-hide-md",
         "body": [
-            "ion-hide-md-${1|up,down|}"
+            "class=\"ion-hide-md-${1|up,down|}\""
         ],
-        "description": "CSS Utilities Hide Element md - must be added to class. Applies the modifier to the element when min-width: 768px (up) or max-width: 768px (down)."
+        "description": "CSS Utilities Hide Element md. Applies the modifier to the element when min-width: 768px (up) or max-width: 768px (down)."
     },
     "ion-hide-lg": {
         "prefix": "i-hide-lg",
         "body": [
-            "ion-hide-lg-${1|up,down|}"
+            "class=\"ion-hide-lg-${1|up,down|}\""
         ],
-        "description": "CSS Utilities Hide Element lg - must be added to class. Applies the modifier to the element when min-width: 992px (up) or max-width: 992px (down)."
+        "description": "CSS Utilities Hide Element lg. Applies the modifier to the element when min-width: 992px (up) or max-width: 992px (down)."
     },
     "ion-hide-xl": {
         "prefix": "i-hide-xl",
         "body": [
-            "ion-hide-xl-${1|up,down|}"
+            "class=\"ion-hide-xl-${1|up,down|}\""
         ],
-        "description": "CSS Utilities Hide Element xl - must be added to class. Applies the modifier to the element when min-width: 1200px (up) or max-width: 1200px (down)."
+        "description": "CSS Utilities Hide Element xl. Applies the modifier to the element when min-width: 1200px (up) or max-width: 1200px (down)."
     },
     "ion-margin": {
         "prefix": "i-margin",
         "body": [
-            "ion-margin"
+            "class=\"ion-margin\""
         ],
-        "description": "CSS Utilities Element Margin - must be added to class"
+        "description": "CSS Utilities Element Margin"
     },
     "ion-margin-type": {
         "prefix": "i-margin-type",
         "body": [
-            "ion-margin-${1|top,start,end,bottom,vertical,horizontal|}"
+            "class=\"ion-margin-${1|top,start,end,bottom,vertical,horizontal|}\""
         ],
-        "description": "CSS Utilities Element Margin Type - must be added to class"
+        "description": "CSS Utilities Element Margin Type"
     },
     "ion-no-margin": {
         "prefix": "i-no-margin",
         "body": [
-            "ion-no-margin"
+            "class=\"ion-no-margin\""
         ],
-        "description": "CSS Utilities Element No Margin - must be added to class"
+        "description": "CSS Utilities Element No Margin"
     },
     "ion-padding": {
         "prefix": "i-padding",
         "body": [
-            "ion-padding"
+            "class=\"ion-padding\""
         ],
-        "description": "CSS Utilities Element Padding - must be added to class"
+        "description": "CSS Utilities Element Padding"
     },
     "ion-padding-type": {
         "prefix": "i-padding-type",
         "body": [
-            "ion-padding-${1|top,start,end,bottom,vertical,horizontal|}"
+            "class=\"ion-padding-${1|top,start,end,bottom,vertical,horizontal|}\""
         ],
-        "description": "CSS Utilities Element Padding Type - must be added to class"
+        "description": "CSS Utilities Element Padding Type"
     },
     "ion-no-padding": {
         "prefix": "i-no-padding",
         "body": [
-            "ion-no-padding"
+            "class=\"ion-no-padding\""
         ],
-        "description": "CSS Utilities Element No Padding - must be added to class"
+        "description": "CSS Utilities Element No Padding"
     },
     "scrollEvents": {
         "prefix": "i-scrollEvents",
@@ -142,8 +184,22 @@
     "ion-text-alignment": {
         "prefix": "i-text-alignment",
         "body": [
-            "text-${1|left,right,start,end,center,justify,wrap,nowrap|}"
+            "class=\"ion-text-${1|left,right,start,end,center,justify,wrap,nowrap|}\""
         ],
         "description": "CSS Utilities Text Alignment"
+    },
+    "ion-text-responsive": {
+        "prefix": "i-text-responsive",
+        "body": [
+            "class=\"ion-text-${1|sm,md,lg,xl|}-${2|left,right,start,end,center,justify,wrap,nowrap,uppercase,lowercase,capitalize|}\""
+        ],
+        "description": "CSS Utilities Responsive Text Classes for alignment and transformation"
+    },
+    "ion-text-transformation": {
+        "prefix": "i-text-transformation",
+        "body": [
+            "class=\"ion-text-${1|uppercase,lowercase,capitalize|}\""
+        ],
+        "description": "CSS Utilities Text Transformation"
     }
 }
