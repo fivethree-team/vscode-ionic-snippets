@@ -76,13 +76,6 @@
         ],
         "description": "CSS Utilities Responsive Float Elements"
     },
-    "ion-justify-container": {
-        "prefix": "i-justity-content",
-        "body": [
-            "class=\"ion-justify-content-${1|start,end,center,around,between,evenly|}\""
-        ],
-        "description": "CSS Utilities Flex Container Justify Content"
-    },
     "ion-hide": {
         "prefix": "i-hide",
         "body": [
@@ -124,6 +117,13 @@
             "class=\"ion-hide-xl-${1|up,down|}\""
         ],
         "description": "CSS Utilities Hide Element xl. Applies the modifier to the element when min-width: 1200px (up) or max-width: 1200px (down)."
+    },
+    "ion-justify-container": {
+        "prefix": "i-justity-content",
+        "body": [
+            "class=\"ion-justify-content-${1|start,end,center,around,between,evenly|}\""
+        ],
+        "description": "CSS Utilities Flex Container Justify Content"
     },
     "ion-margin": {
         "prefix": "i-margin",

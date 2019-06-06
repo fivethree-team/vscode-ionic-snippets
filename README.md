@@ -175,19 +175,27 @@ Type part of a snippet, press enter, and the snippet unfolds.
 
 | Snippet                      | Purpose                                                      |
 | ---------------------------- | ------------------------------------------------------------ |
-| `i-hide`                | CSS Utilities Hide Element - must be added to class                                          |
-| `i-hide-breakpoints`                | CSS Utilities Hide Element with Display - must be added to class Breakpoints                                                  |
-| `i-hide-sm`                | CSS Utilities Hide Element sm - must be added to class. Applies the modifier to the element when min-width: 576px (up) or max-width: 576px (down).                                                  |
-| `i-hide-md`                | CSS Utilities Hide Element md - must be added to class . Applies the modifier to the element when min-width: 768px (up) or max-width: 768px (down).                                                 |
-| `i-hide-lg`                | CSS Utilities Hide Element lg - must be added to class . Applies the modifier to the element when min-width: 992px (up) or max-width: 992px (down).                                                 |
-| `i-hide-xl`                | CSS Utilities Hide Element xl - must be added to class . Applies the modifier to the element when min-width: 1200px (up) or max-width: 1200px (down).                                                  |
-| `i-margin`                | CSS Utilities Element Margin - must be added to class                                                |
-| `i-margin-type`                | CSS Utilities Element Margin Type - must be added to class                                                |
-| `i-no-margin`                | CSS Utilities Element No Margin - must be added to class                                                |
-| `i-padding`                | CSS Utilities Element Padding - must be added to class                                                |
-| `i-padding-type`                | CSS Utilities Element Padding Type - must be added to class                                                |
-| `i-no-padding`                | CSS Utilities Element No Padding - must be added to class                                                |
-| `i-text-alignment`                | Text alignment such as left, right, center                                                   |
+| `i-align-items`                | CSS Utilities Flex Container Align Items                                          |
+| `i-align-self`                | CSS Utilities Flex Container Align Self                                          |
+| `i-flex-wrap`                | CSS Utilities Flex Container Flex Wrap                                          |
+| `i-float-element`                | CSS Utilities Float Elements                                          |
+| `i-float-element-responsive`                | CSS Utilities Responsive Float Classes                                          |
+| `i-hide`                | CSS Utilities Hide Element                                           |
+| `i-hide-breakpoints`                | CSS Utilities Hide Element with Display  Breakpoints                                                  |
+| `i-hide-sm`                | CSS Utilities Hide Element sm. Applies the modifier to the element when min-width: 576px (up) or max-width: 576px (down).                                                  |
+| `i-hide-md`                | CSS Utilities Hide Element md . Applies the modifier to the element when min-width: 768px (up) or max-width: 768px (down).                                                 |
+| `i-hide-lg`                | CSS Utilities Hide Element lg. Applies the modifier to the element when min-width: 992px (up) or max-width: 992px (down).                                                 |
+| `i-hide-xl`                | CSS Utilities Hide Element xl. Applies the modifier to the element when min-width: 1200px (up) or max-width: 1200px (down).                                                  |
+| `i-justity-content`                | CSS Utilities Flex Container Justify Content                                                 |
+| `i-margin`                | CSS Utilities Element Margin                                                 |
+| `i-margin-type`                | CSS Utilities Element Margin Type                                                 |
+| `i-no-margin`                | CSS Utilities Element No Margin                                                 |
+| `i-padding`                | CSS Utilities Element Padding                                                 |
+| `i-padding-type`                | CSS Utilities Element Padding Type                                                 |
+| `i-no-padding`                | CSS Utilities Element No Padding                                              |
+| `i-text-alignment`                | CSS Utilities Text Alignment                                                   |
+| `i-text-responsive`                | CSS Utilities Responsive Text Classes for Alignment and Transformations                                                   |
+| `i-text-transformation`                | CSS Utilities Text Transformation                                                   |
 
 **[⬆ back to top](#overview)**
 
