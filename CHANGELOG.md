@@ -1,3 +1,13 @@
+# [1.1.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v1.0.0...v1.1.0) (2019-06-06)
+
+
+### Features
+
+* **css-utils:** wrap css utils with class ([d480ea4](https://github.com/fivethree-team/vscode-ionic-snippets/commit/d480ea4))
+* **grid:** update grid utils size, offset, pull and push ([48b2139](https://github.com/fivethree-team/vscode-ionic-snippets/commit/48b2139))
+
+
+
 # [1.0.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v0.26.0...v1.0.0) (2019-05-30)
 
 
