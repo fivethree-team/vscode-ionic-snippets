@@ -60,9 +60,13 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-chip-icon-end`                | `<ion-chip>` w/ `<ion-icon>` at the end                                                  |
 | `i-col`                | `<ion-col>`                                                    |
 | `i-col-offset`                | Ionic `<ion-col>` `[offset]` property selection                                 |
+| `i-col-offset-responsive`                | Ionic `<ion-col>` `[offset]` property selection w/ breakpoints                                |
 | `i-col-pull`                | Ionic `<ion-col>` `[pull]` property selection                                 |
+| `i-col-pull-responsive`                | Ionic `<ion-col>` `[pull]` property selection w/ breakpoints                                 |
 | `i-col-push`                | Ionic `<ion-col>` `[push]` property selection                                 |
+| `i-col-push-responsive`                | Ionic `<ion-col>` `[push]` property selection w/ breakpoints                                |
 | `i-col-size`                | Ionic `<ion-col>` `[size]` property selection                                 |
+| `i-col-size-responsive`                | Ionic `<ion-col>` `[size]` property selection w/ breakpoints                               |
 | `i-content`                | `<ion-content>`                                                    |
 | `i-content-events`                | `<ion-content>` w/ events                                                    |
 | `i-datetime`                | `<ion-datetime>`                                                |
