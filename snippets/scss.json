@@ -412,10 +412,14 @@
       "${1:ion-item-divider} {",
       "\t--background: ${2:#3880ff};",
       "\t--color: ${3:#ffffff};",
-      "\t--padding-bottom: ${4:4px};",
-      "\t--padding-end: ${5:4px};",
-      "\t--padding-start: ${6:4px};",
-      "\t--padding-top: ${7:4px};",
+      "\t--inner-padding-bottom: ${4:4px};",
+      "\t--inner-padding-end: ${5:4px};",
+      "\t--inner-padding-start: ${6:4px};",
+      "\t--inner-padding-top: ${7:4px};",
+      "\t--padding-bottom: ${8:4px};",
+      "\t--padding-end: ${9:4px};",
+      "\t--padding-start: ${10:4px};",
+      "\t--padding-top: ${11:4px};",
       "}"
     ],
     "description": "Item Divider CSS custom properties"
