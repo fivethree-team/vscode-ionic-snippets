@@ -48,6 +48,10 @@
       {
         "language": "typescriptreact",
         "path": "./snippets/stencil/html-jsx.json"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets/vue/html.json"
       }
     ]
   },
