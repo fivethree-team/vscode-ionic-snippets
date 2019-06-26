@@ -1,3 +1,17 @@
+# [1.2.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v1.1.0...v1.2.0) (2019-06-26)
+
+
+### Features
+
+* **button:** add hover props ([1aa7c3d](https://github.com/fivethree-team/vscode-ionic-snippets/commit/1aa7c3d))
+* **fab-button:** new hover props ([fe3f33b](https://github.com/fivethree-team/vscode-ionic-snippets/commit/fe3f33b))
+* **item:** add hover props ([e5fc4fc](https://github.com/fivethree-team/vscode-ionic-snippets/commit/e5fc4fc))
+* **item-divider:** add inner padding props ([843104c](https://github.com/fivethree-team/vscode-ionic-snippets/commit/843104c))
+* **menu-button:** add hover props ([d662f77](https://github.com/fivethree-team/vscode-ionic-snippets/commit/d662f77))
+* **routing:** new routing snippets ([84a0700](https://github.com/fivethree-team/vscode-ionic-snippets/commit/84a0700))
+
+
+
 # [1.1.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v1.0.0...v1.1.0) (2019-06-06)
 
 
