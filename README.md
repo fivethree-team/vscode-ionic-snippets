@@ -15,7 +15,7 @@ All code snippets are based on and follow the [Ionic 4 Api](https://ionicframewo
 
 Type part of a snippet, press enter, and the snippet unfolds.
 
-## Supports
+## Framework
 
 * Angular ✅
 * Stenciljs ✅
@@ -23,7 +23,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 * Vue 🚧
 * React 🚧
 
-✅ — Supported
+✅ — Supported  
 🚧 — Under development
 
 ### Overview
