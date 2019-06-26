@@ -1,887 +1,841 @@
 {
-    "ion-action-sheet-props": {
-        "prefix": "i-action-sheet-props",
-        "body": [
-            "${1:ion-action-sheet} {",
-            "\t--background: ${2:#ffffff};",
-            "\t--background-activated: ${3:#3880ff}",
-            "\t--background-selected: ${4:#3880ff};",
-            "\t--color: ${5:#3880ff};",
-            "\t--height: ${6:100%};",
-            "\t--max-height: ${7:100%};",
-            "\t--max-width: ${8:100%};",
-            "\t--min-height: ${9:100%};",
-            "\t--min-width: ${10:100%};",
-            "\t--width: ${11:100%};",
-            "}"
-        ],
-        "description": "Action Sheet CSS custom properties"
-    },
-    "ion-alert-props": {
-        "prefix": "i-alert-props",
-        "body": [
-            "${1:ion-alert} {",
-            "\t--background: ${2:#ffffff};",
-            "\t--height: ${3:100%};",
-            "\t--max-height: ${4:100%};",
-            "\t--max-width: ${5:100%};",
-            "\t--min-height: ${6:100%};",
-            "\t--min-width: ${7:100%};",
-            "\t--width: ${8:100%};",
-            "}"
-        ],
-        "description": "Alert CSS custom properties"
-    },
-    "ion-anchor-props": {
-        "prefix": "i-anchor-props",
-        "body": [
-            "${1:ion-anchor} {",
-            "\t--background: ${2:#ffffff};",
-            "\t--color: ${3:#3880ff};",
-            "}"
-        ],
-        "description": "Anchor CSS custom properties"
-    },
-    "ion-avatar-props": {
-        "prefix": "i-avatar-props",
-        "body": [
-            "${1:ion-avatar} {",
-            "\t--border-radius: ${2:4px};",
-            "}"
-        ],
-        "description": "Avatar CSS custom properties"
-    },
-    "ion-back-button-props": {
-        "prefix": "i-back-button-props",
-        "body": [
-            "${1:ion-back-button} {",
-            "\t--background: ${2:#ffffff};",
-            "\t--border-radius: ${3:4px};",
-            "\t--color: ${4:#3880ff};",
-            "\t--icon-font-size: ${5:16px};",
-            "\t--icon-font-weight: ${6:normal};",
-            "\t--icon-margin-bottom: ${7:4px};",
-            "\t--icon-margin-end: ${8:4px};",
-            "\t--icon-margin-start: ${9:4px};",
-            "\t--icon-margin-top: ${10:4px};",
-            "\t--icon-padding-bottom: ${11:4px};",
-            "\t--icon-padding-end: ${12:4px};",
-            "\t--icon-padding-start: ${13:4px};",
-            "\t--icon-padding-top: ${14:4px};",
-            "\t--margin-bottom: ${15:4px};",
-            "\t--margin-end: ${16:4px};",
-            "\t--margin-start: ${17:4px};",
-            "\t--margin-top: ${28:4px};",
-            "\t--min-height: ${19:32px};",
-            "\t--min-width: ${20:44px};",
-            "\t--opacity: ${21:1};",
-            "\t--padding-bottom: ${22:4px};",
-            "\t--padding-end: ${23:4px};",
-            "\t--padding-start: ${24:4px};",
-            "\t--padding-top: ${25:4px};",
-            "\t--ripple-color: ${26:#1e1e1e};",
-            "\t--transition: ${27:background-color 15ms linear};",
-            "}"
-        ],
-        "description": "Back Button CSS custom properties"
-    },
-    "ion-badge-props": {
-        "prefix": "i-badge-props",
-        "body": [
-            "${1:ion-badge} {",
-            "\t--background: ${2:#ffffff};",
-            "\t--color: ${3:#3880ff};",
-            "\t--padding-bottom: ${4:4px};",
-            "\t--padding-end: ${5:4px};",
-            "\t--padding-start: ${6:4px};",
-            "\t--padding-top: ${7:4px};",
-            "}"
-        ],
-        "description": "Badge CSS custom properties"
-    },
-    "ion-button-props": {
-        "prefix": "i-button-props",
-        "body": [
-            "${1:ion-button} {",
-            "\t--background: ${2:#3880ff};",
-            "\t--background-activated: ${3:#3880ff};",
-            "\t--background-focused: ${4:#3880ff};",
-            "\t--border-color: ${5:#3880ff};",
-            "\t--border-radius: ${6:8px};",
-            "\t--border-style: ${7:solid};",
-            "\t--border-width: ${8:8px};",
-            "\t--box-shadow: ${9:10px 10px};",
-            "\t--color: ${10:#ffffff};",
-            "\t--color-activated: ${11:#ffffff};",
-            "\t--color-focused ${12:#ffffff};",
-            "\t--opacity: ${13:1};",
-            "\t--padding-bottom: ${14:4px};",
-            "\t--padding-end: ${15:4px};",
-            "\t--padding-start: ${16:4px};",
-            "\t--padding-top: ${17:4px};",
-            "\t--ripple-color: ${18:#1e1e1e};",
-            "\t--transition: ${19:background-color 15ms linear};",
-            "}"
-        ],
-        "description": "Button CSS custom properties"
-    },
-    "ion-card-props": {
-        "prefix": "i-card-props",
-        "body": [
-            "${1:ion-card} {",
-            "\t--background: ${2:#ffffff};",
-            "\t--color: ${3:#3880ff};",
-            "}"
-        ],
-        "description": "Card CSS custom properties"
-    },
-    "ion-card-subtitle-props": {
-        "prefix": "i-card-subtitle-props",
-        "body": [
-            "${1:ion-card-subtitle} {",
-            "\t--color: ${2:#3880ff};",
-            "}"
-        ],
-        "description": "Card Subtitle CSS custom properties"
-    },
-    "ion-card-title-props": {
-        "prefix": "i-card-title-props",
-        "body": [
-            "${1:ion-card-title} {",
-            "\t--color: ${2:#3880ff};",
-            "}"
-        ],
-        "description": "Card Title CSS custom properties"
-    },
-    "ion-checkbox-props": {
-        "prefix": "i-checkbox-props",
-        "body": [
-            "${1:ion-checkbox} {",
-            "\t--background: ${2:#ffffff};",
-            "\t--background-checked: ${3:#3880ff};",
-            "\t--border-color: ${4:#3880ff};",
-            "\t--border-color-checked: ${5:#3880ff};",
-            "\t--border-radius: ${6:4px};",
-            "\t--border-style: ${7:solid};",
-            "\t--border-width: ${8:1px};",
-            "\t--checkmark-color-width: ${9:#3880ff};",
-            "\t--size: ${10:18px};",
-            "\t--transition: ${11:background-color 15ms linear};",
-            "}"
-        ],
-        "description": "Checkbox CSS custom properties"
-    },
-    "ion-chip-props": {
-        "prefix": "i-chip-props",
-        "body": [
-            "${1:ion-chip} {",
-            "\t--background: ${2:#ffffff};",
-            "\t--color: ${3:#3880ff};",
-            "}"
-        ],
-        "description": "Chip CSS custom properties"
-    },
-    "ion-col-props": {
-        "prefix": "i-col-props",
-        "body": [
-            "${1:ion-col} {",
-            "\t--ion-grid-column-padding: ${2:5px};",
-            "\t--ion-grid-column-padding-xs: ${3:5px};",
-            "\t--ion-grid-column-padding-sm: ${4:5px};",
-            "\t--ion-grid-column-padding-md: ${5:5px};",
-            "\t--ion-grid-column-padding-lg: ${6:5px};",
-            "\t--ion-grid-column-padding-xl: ${7:5px};",
-            "\t--ion-grid-columns: ${8:12};",
-            "}"
-        ],
-        "description": "Col CSS custom properties"
-    },
-    "ion-color": {
-        "prefix": "i-color",
-        "body": [
-            "var(--ion-color-${1|primary,secondary,tertiary,success,warning,danger,dark,medium,light|});"
-        ],
-        "description": "Ionic scss variables w/ color selection"
-    },
-    "ion-color-custom": {
-        "prefix": "i-color-custom",
-        "body": [
-            ".ion-color-${1:favorite} {",
-            "\t--ion-color-base: #${2:69bb7b};",
-            "\t--ion-color-base-rgb: ${3:105,187,123};",
-            "\t--ion-color-contrast: #${4:ffffff};",
-            "\t--ion-color-contrast-rgb: ${5:255,255,255};",
-            "\t--ion-color-shade: #${6:5ca56c};",
-            "\t--ion-color-tint: #${7:78c288};",
-            "}"
-        ],
-        "description": "Custom Color can be used as color property color='favorite', add to variables.scss"
-    },
-    "ion-color-custom-root": {
-        "prefix": "i-color-custom-root",
-        "body": [
-            "--ion-color-${1:favorite}: #${2:69bb7b};",
-            "--ion-color-${1:favorite}-rgb: ${3:105,187,123};",
-            "--ion-color-${1:favorite}-contrast: #${4:ffffff};",
-            "--ion-color-${1:favorite}-contrast-rgb: ${5:255,255,255};",
-            "--ion-color-${1:favorite}-shade: #${6:5ca56c};",
-            "--ion-color-${1:favorite}-tint: #${7:78c288};"
-        ],
-        "description": "Custom Color add to :root in variables.scss"
-    },
-    "ion-content-props": {
-        "prefix": "i-content-props",
-        "body": [
-            "${1:ion-content} {",
-            "\t--background: ${2:#ffffff};",
-            "\t--color: ${3:#3880ff};",
-            "\t--keyboard-offset: ${4:0px};",
-            "\t--offset-bottom: ${5:0px};",
-            "\t--offset-top: ${6:0px};",
-            "\t--padding-bottom: ${7:0px};",
-            "\t--padding-end: ${8:0px};",
-            "\t--padding-start: ${9:0px};",
-            "\t--padding-top: ${10:0px};",
-            "}"
-        ],
-        "description": "Content CSS custom properties"
-    },
-    "ion-dark-mode": {
-        "prefix": "i-dark-mode",
-        "body": [
-            "@media(prefers-color-scheme: dark) {",
-            "\t:root {",
-            "\t\t--ion-border-color: #2A2A2A;",
-            "\t\t--ion-toolbar-background: #1A1A1A;",
-            "\t\t--ion-tab-bar-background: #1A1A1A;",
-            "\t\t--ion-background-color: #171717;",
-            "\t\t--ion-text-color: #ffffff;",
-            "\t\t--ion-text-color-step-150: #ffffff;",
-            "\t\t--ion-color-step-50: #353535;",
-            "\t\t--ion-color-step-100: #3f3f3f;",
-            "\t\t--ion-color-step-150: #4a4a4a;",
-            "\t\t--ion-color-step-200: #555555;",
-            "\t\t--ion-color-step-250: #5f5f5f;",
-            "\t\t--ion-color-step-300: #6a6a6a;",
-            "\t\t--ion-color-step-350: #757575;",
-            "\t\t--ion-color-step-400: #7f7f7f;",
-            "\t\t--ion-color-step-450: #8a8a8a;",
-            "\t\t--ion-color-step-500: #959595;",
-            "\t\t--ion-color-step-550: #9f9f9f;",
-            "\t\t--ion-color-step-600: #aaaaaa;",
-            "\t\t--ion-color-step-650: #b4b4b4;",
-            "\t\t--ion-color-step-700: #bfbfbf;",
-            "\t\t--ion-color-step-750: #cacaca;",
-            "\t\t--ion-color-step-800: #d4d4d4;",
-            "\t\t--ion-color-step-850: #dfdfdf;",
-            "\t\t--ion-color-step-900: #eaeaea;",
-            "\t\t--ion-color-step-950: #f4f4f4;",
-            "\t}",
-            "}"
-        ],
-        "description": "Dark mode example for Mac OS"
-    },
-    "ion-dark-mode-media-query": {
-        "prefix": "i-dark-mode-media-query",
-        "body": [
-            "@media(prefers-color-scheme: dark) {",
-            "\t:root {",
-            "\t\t$0",
-            "\t}",
-            "}"
-        ],
-        "description": "Dark mode media query for Mac OS"
-    },
-    "ion-datetime-props": {
-        "prefix": "i-datetime-props",
-        "body": [
-            "${1:ion-datetime} {",
-            "\t--padding-bottom: ${2:4px};",
-            "\t--padding-end: ${3:4px};",
-            "\t--padding-start: ${4:4px};",
-            "\t--padding-top: ${5:4px};",
-            "\t--placeholder-color: ${6:#3880ff};",
-            "}"
-        ],
-        "description": "Datetime CSS custom properties"
-    },
-    "ion-fab-button-props": {
-        "prefix": "i-fab-button-props",
-        "body": [
-            "${1:ion-fab-button} {",
-            "\t--background: ${2:#3880ff};",
-            "\t--background-activated: ${3:#3880ff}",
-            "\t--background-focused: ${4:#3880ff};",
-            "\t--border-color: ${5:#3880ff};",
-            "\t--border-radius: ${6:8px};",
-            "\t--border-style: ${7:solid};",
-            "\t--border-width: ${8:2px};",
-            "\t--box-shadow: ${9:10px 10px};",
-            "\t--color: ${10:#ffffff};",
-            "\t--color-activated: ${11:#3880ff};",
-            "\t--color-focused ${12:#3880ff};",
-            "\t--padding-bottom: ${13:4px};",
-            "\t--padding-end: ${14:4px};",
-            "\t--padding-start: ${15:4px};",
-            "\t--padding-top: ${16:4px};",
-            "\t--ripple-color: ${17:#1e1e1e};",
-            "\t--transition: ${18:background-color 15ms linear};",
-            "}"
-        ],
-        "description": "Fab-Button CSS custom properties"
-    },
-    "ion-grid-props": {
-        "prefix": "i-grid-props",
-        "body": [
-            "${1:ion-grid} {",
-            "\t--ion-grid-padding: ${2:5px};",
-            "\t--ion-grid-padding-xs: ${3:5px};",
-            "\t--ion-grid-padding-sm: ${4:5px};",
-            "\t--ion-grid-padding-md: ${5:5px};",
-            "\t--ion-grid-padding-lg: ${6:5px};",
-            "\t--ion-grid-padding-xl: ${7:5px};",
-            "\t--ion-grid-width: ${8:100%};",
-            "\t--ion-grid-width-xs: ${9:100%};",
-            "\t--ion-grid-width-sm: ${10:540px};",
-            "\t--ion-grid-width-md: ${11:720px};",
-            "\t--ion-grid-width-lg: ${12:960px};",
-            "\t--ion-grid-width-xl: ${13:1140px};",
-            "}"
-        ],
-        "description": "Datetime CSS custom properties"
-    },
-    "ion-icon-props": {
-        "prefix": "i-icon-props",
-        "body": [
-            "${1:ion-icon} {",
-            "\tbackground: ${2:#3880ff};",
-            "\tcolor: ${3:#ffffff};",
-            "\tfont-size: ${4:24px};",
-            "\ttransform: ${5:rotate}(${6:90}deg);",
-            "}"
-        ],
-        "description": "Icon CSS properties"
-    },
-    "ion-input-props": {
-        "prefix": "i-input-props",
-        "body": [
-            "${1:ion-input} {",
-            "\t--background: ${2:#3880ff};",
-            "\t--color: ${3:#ffffff};",
-            "\t--padding-bottom: ${4:4px};",
-            "\t--padding-end: ${5:4px};",
-            "\t--padding-start: ${6:4px};",
-            "\t--padding-top: ${7:4px};",
-            "\t--placeholder-color: ${8:#3880ff};",
-            "\t--placeholder-font-style: ${9:initial}",
-            "\t--placeholder-font-weight ${10:initial}",
-            "\t--placeholder-opacity ${11:0.5}",
-            "}"
-        ],
-        "description": "Input CSS custom properties"
-    },
-    "ion-item-props": {
-        "prefix": "i-item-props",
-        "body": [
-            "${1:ion-item} {",
-            "\t--background: ${2:#3880ff};",
-            "\t--background-activated: ${3:#3880ff}",
-            "\t--border-color: ${4:#3880ff};",
-            "\t--border-radius: ${5:8px};",
-            "\t--border-style: ${6:solid};",
-            "\t--border-width: ${7:8px};",
-            "\t--box-shadow: ${8:10px 10px};",
-            "\t--color: ${9:#ffffff};",
-            "\t--detail-icon-color: ${10:#989aa2};",
-            "\t--detail-icon-font-size: ${11:16px};",
-            "\t--detail-icon-opacity: ${12:1};",
-            "\t--highlight-color-focused: ${13:#0cd1e8};",
-            "\t--highlight-color-invalid: ${14:#f04141};",
-            "\t--highlight-color-valid: ${15:#10dc60};",
-            "\t--highlight-height: ${16:32px};",
-            "\t--inner-border-width: ${17:8px};",
-            "\t--inner-box-shadow: ${18:4px 4px};",
-            "\t--inner-padding-bottom: ${19:4px};",
-            "\t--inner-padding-end: ${20:4px};",
-            "\t--inner-padding-start: ${21:4px};",
-            "\t--inner-padding-top: ${22:4px};",
-            "\t--min-height: ${23:24px};",
-            "\t--padding-bottom: ${24:4px};",
-            "\t--padding-end: ${25:4px};",
-            "\t--padding-start: ${26:4px};",
-            "\t--padding-top: ${27:4px};",
-            "\t--transition: ${28:background-color 15ms linear};",
-            "}"
-        ],
-        "description": "Item CSS custom properties"
-    },
-    "ion-item-divider-props": {
-        "prefix": "i-item-divider-props",
-        "body": [
-            "${1:ion-item-divider} {",
-            "\t--background: ${2:#3880ff};",
-            "\t--color: ${3:#ffffff};",
-            "\t--padding-bottom: ${4:4px};",
-            "\t--padding-end: ${5:4px};",
-            "\t--padding-start: ${6:4px};",
-            "\t--padding-top: ${7:4px};",
-            "}"
-        ],
-        "description": "Item Divider CSS custom properties"
-    },
-    "ion-item-option-props": {
-        "prefix": "i-item-option-props",
-        "body": [
-            "${1:ion-item-option} {",
-            "\t--background: ${2:#3880ff};",
-            "\t--color: ${3:#ffffff};",
-            "}"
-        ],
-        "description": "Item Option CSS custom properties"
-    },
-    "ion-label-props": {
-        "prefix": "i-label-props",
-        "body": [
-            "${1:ion-label} {",
-            "\t--color: ${2:#3880ff};",
-            "}"
-        ],
-        "description": "Label CSS custom properties"
-    },
-    "ion-list-header-props": {
-        "prefix": "i-list-header-props",
-        "body": [
-            "${1:ion-list-header} {",
-            "\t--background: ${2:#ffffff};",
-            "\t--color: ${3:#3880ff};",
-            "}"
-        ],
-        "description": "List Header CSS custom properties"
-    },
-    "ion-loading-props": {
-        "prefix": "i-loading-props",
-        "body": [
-            "${1:ion-loading} {",
-            "\t--background: ${2:#ffffff};",
-            "\t--height: ${3:100%};",
-            "\t--max-height: ${4:100%};",
-            "\t--max-width: ${5:100%};",
-            "\t--min-height: ${6:100%};",
-            "\t--min-width: ${7:100%};",
-            "\t--spinner-color: ${8:#3880ff};",
-            "\t--width: ${9:100%};",
-            "}"
-        ],
-        "description": "Loading CSS custom properties"
-    },
-    "ion-menu-props": {
-        "prefix": "i-menu-props",
-        "body": [
-            "${1:ion-menu} {",
-            "\t--background: ${2:#ffffff};",
-            "\t--height: ${3:100%};",
-            "\t--max-height: ${4:100%};",
-            "\t--max-width: ${5:100%};",
-            "\t--min-height: ${6:100%};",
-            "\t--min-width: ${7:100%};",
-            "\t--width: ${8:100%};",
-            "}"
-        ],
-        "description": "Menu CSS custom properties"
-    },
-    "ion-menu-button-props": {
-        "prefix": "i-menu-button-props",
-        "body": [
-            "${1:ion-menu-button} {",
-            "\t--color: ${2:#3880ff};",
-            "\t--padding-bottom: ${3:4px};",
-            "\t--padding-end: ${4:4px};",
-            "\t--padding-start: ${5:4px};",
-            "\t--padding-top: ${6:4px};",
-            "}"
-        ],
-        "description": "Menu Button CSS custom properties"
-    },
-    "ion-modal-props": {
-        "prefix": "i-modal-props",
-        "body": [
-            "${1:ion-modal} {",
-            "\t--background: ${2:#ffffff};",
-            "\t--border-color: ${3:#3880ff};",
-            "\t--border-radius: ${4:4px};",
-            "\t--border-style: ${5:solid};",
-            "\t--border-width: ${6:8px};",
-            "\t--height: ${7:100%};",
-            "\t--max-height: ${8:100%};",
-            "\t--max-width: ${9:100%};",
-            "\t--min-height: ${10:100%};",
-            "\t--min-width: ${11:100%};",
-            "\t--width: ${12:100%};",
-            "}"
-        ],
-        "description": "Modal CSS custom properties"
-    },
-    "ion-note-props": {
-        "prefix": "i-note-props",
-        "body": [
-            "${1:ion-note} {",
-            "\t--color: ${2:#3880ff};",
-            "}"
-        ],
-        "description": "Note CSS custom properties"
-    },
-    "ion-picker-props": {
-        "prefix": "i-picker-props",
-        "body": [
-            "${1:ion-picker} {",
-            "\t--background: ${2:#3880ff};",
-            "\t--background-rgb: ${3:56, 128, 255};",
-            "\t--border-color: ${4:#3880ff};",
-            "\t--border-radius: ${5:8px};",
-            "\t--border-style: ${6:solid};",
-            "\t--border-width: ${7:8px};",
-            "\t--height: ${8:100%};",
-            "\t--max-height: ${9:100%};",
-            "\t--max-width: ${10:100%};",
-            "\t--min-height: ${11:100%};",
-            "\t--min-width: ${12:100%};",
-            "\t--width: ${13:100%};",
-            "}"
-        ],
-        "description": "Picker CSS custom properties"
-    },
-    "ion-popover-props": {
-        "prefix": "i-popover-props",
-        "body": [
-            "${1:ion-popover} {",
-            "\t--background: ${2:#3880ff};",
-            "\t--box-shadow: ${3:10px 10px};",
-            "\t--height: ${4:100%};",
-            "\t--max-height: ${5:100%};",
-            "\t--max-width: ${6:100%};",
-            "\t--min-height: ${7:100%};",
-            "\t--min-width: ${8:100%};",
-            "\t--width: ${9:100%};",
-            "}"
-        ],
-        "description": "Popover CSS custom properties"
-    },
-    "ion-progress-bar-props": {
-        "prefix": "i-progress-bar-props",
-        "body": [
-            "${1:ion-progress-bar} {",
-            "\t--background: ${2:#3880ff};",
-            "\t--buffer-background: ${3:#3880ff};",
-            "\t--progress-background: ${4:#3880ff};",
-            "}"
-        ],
-        "description": "Progress Bar CSS custom properties"
-    },
-    "ion-radio-props": {
-        "prefix": "i-radio-props",
-        "body": [
-            "${1:ion-radio} {",
-            "\t--color: ${2:#3880ff};",
-            "\t--color-checked: ${3:#3880ff};",
-            "}"
-        ],
-        "description": "Radio CSS custom properties"
-    },
-    "ion-range-props": {
-        "prefix": "i-range-props",
-        "body": [
-            "${1:ion-range} {",
-            "\t--bar-background: ${2:#3880ff};",
-            "\t--bar-background-active: ${2:#3880ff};",
-            "\t--bar-border-radius: ${2:4px};",
-            "\t--bar-height: ${11:2px};",
-            "\t--height: ${11:42px};",
-            "\t--knob-background: ${11:#3880ff};",
-            "\t--knob-border-radius: ${11:50%};",
-            "\t--knob-box-shadow: ${11:none};",
-            "\t--knob-size: ${11:18px};",
-            "}"
-        ],
-        "description": "Range CSS custom properties"
-    },
-    "ion-rgba": {
-        "prefix": "i-rgba",
-        "body": [
-            "${1:ion-item:hover} {",
-            "\t--background: rgba(var(--ion-color-${2|primary,secondary,tertiary,success,warning,danger,dark,medium,light|}-rgb), ${3:0.25});",
-            "}"
-        ],
-        "description": "Add opacity to Ionic colors using `rgba(...)`"
-    },
-    "ion-root": {
-        "prefix": "i-root",
-        "body": [
-            "${1::root} {",
-            "\t--ion-color-primary: #${2:00ff00};",
-            "}"
-        ],
-        "description": "Ionic root"
-    },
-    "ion-searchbar-props": {
-        "prefix": "i-searchbar-props",
-        "body": [
-            "${1:ion-searchbar} {",
-            "\t--background: ${2:#3880ff};",
-            "\t--cancel-button-color: ${3:#3880ff};",
-            "\t--clear-button-color: ${4:#3880ff};",
-            "\t--color: ${5:#3880ff};",
-            "\t--icon-color: ${6:#3880ff};",
-            "\t--placeholder-color: ${7:#3880ff};",
-            "\t--placeholder-font-style: ${8:initial}",
-            "\t--placeholder-font-weight ${9:initial}",
-            "\t--placeholder-opacity ${10:0.5}",
-            "}"
-        ],
-        "description": "Searchbar CSS custom properties"
-    },
-    "ion-segment-button-props": {
-        "prefix": "i-segment-button-props",
-        "body": [
-            "${1:ion-segment-button} {",
-            "\t--background: ${2:#3880ff};",
-            "\t--background-activated: ${3:#3880ff}",
-            "\t--background-checked: ${4:#3880ff};",
-            "\t--background-hover: ${5:#3880ff};",
-            "\t--border-color: ${6:#3880ff};",
-            "\t--border-radius: ${7:4px};",
-            "\t--border-style: ${8:solid};",
-            "\t--border-width: ${9:8px};",
-            "\t--color: ${10:#3880ff};",
-            "\t--color-activated: ${11:#3880ff};",
-            "\t--color-checked: ${12:#3880ff};",
-            "\t--color-checked-disabled: ${13:#3880ff};",
-            "\t--color-disabled: ${14:#3880ff};",
-            "\t--indicator-color: ${15:#3880ff};",
-            "\t--indicator-color-checked: ${16:#3880ff};",
-            "\t--margin-bottom: ${17:4px};",
-            "\t--margin-end: ${18:4px};",
-            "\t--margin-start: ${19:4px};",
-            "\t--margin-top: ${20:4px};",
-            "\t--padding-bottom: ${21:4px};",
-            "\t--padding-end: ${22:4px};",
-            "\t--padding-start: ${23:4px};",
-            "\t--padding-top: ${24:4px};",
-            "\t--transition: ${25:background-color 15ms linear};",
-            "}"
-        ],
-        "description": "Searchbar CSS custom properties"
-    },
-    "ion-select-props": {
-        "prefix": "i-select-props",
-        "body": [
-            "${1:ion-select} {",
-            "\t--padding-bottom: ${2:4px};",
-            "\t--padding-end: ${3:4px};",
-            "\t--padding-start: ${4:4px};",
-            "\t--padding-top: ${5:4px};",
-            "}"
-        ],
-        "description": "Select CSS custom properties"
-    },
-    "ion-skeleton-text-props": {
-        "prefix": "i-skeleton-text-props",
-        "body": [
-            "${1:ion-skeleton-text} {",
-            "\t--background: ${2:#3880ff};",
-            "\t--background-rgb: ${3:56, 128, 255};",
-            "\t--border-radius: ${4:4px};",
-            "}"
-        ],
-        "description": "Skeleton Text CSS custom properties"
-    },
-    "ion-slides-props": {
-        "prefix": "i-slides-props",
-        "body": [
-            "${1:ion-slides} {",
-            "\t--bullet-background: ${2:#3880ff};",
-            "\t--bullet-background-active: ${3:#3880ff};",
-            "}"
-        ],
-        "description": "Slides CSS custom properties"
-    },
-    "ion-spinner-props": {
-        "prefix": "i-spinner-props",
-        "body": [
-            "${1:ion-spinner} {",
-            "\t--color: ${2:#3880ff};",
-            "}"
-        ],
-        "description": "Spinner CSS custom properties"
-    },
-    "ion-split-pane-props": {
-        "prefix": "i-split-pane-props",
-        "body": [
-            "${1:ion-split-pane} {",
-            "\t--border: ${2:1px solid}",
-            "}"
-        ],
-        "description": "Split Pane CSS custom properties"
-    },
-    "ion-stepped-color": {
-        "prefix": "i-stepped-color",
-        "body": [
-            "--ion-background-color: #ffffff;",
-            "--ion-background-color-rgb: 255,255,255;",
-            "--ion-text-color: #000000;",
-            "--ion-text-color-rgb: 0,0,0;",
-            "--ion-color-step-50: #f2f2f2;",
-            "--ion-color-step-100: #e6e6e6;",
-            "--ion-color-step-150: #d9d9d9;",
-            "--ion-color-step-200: #cccccc;",
-            "--ion-color-step-250: #bfbfbf;",
-            "--ion-color-step-300: #b3b3b3;",
-            "--ion-color-step-350: #a6a6a6;",
-            "--ion-color-step-400: #999999;",
-            "--ion-color-step-450: #8c8c8c;",
-            "--ion-color-step-500: #808080;",
-            "--ion-color-step-550: #737373;",
-            "--ion-color-step-600: #666666;",
-            "--ion-color-step-650: #595959;",
-            "--ion-color-step-700: #4d4d4d;",
-            "--ion-color-step-750: #404040;",
-            "--ion-color-step-800: #333333;",
-            "--ion-color-step-850: #262626;",
-            "--ion-color-step-900: #191919;",
-            "--ion-color-step-950: #0d0d0d;"
-        ],
-        "description": "Stepped colors add to :root"
-    },
-    "ion-tab-bar-props": {
-        "prefix": "i-tab-bar-props",
-        "body": [
-            "${1:ion-tab-bar} {",
-            "\t--background: ${2:#3880ff};",
-            "\t--border-radius: ${3:8px};",
-            "\t--color: ${4:#3880ff};",
-            "}"
-        ],
-        "description": "Tab Bar CSS custom properties"
-    },
-    "ion-tab-button-props": {
-        "prefix": "i-tab-button-props",
-        "body": [
-            "${1:ion-tab-button} {",
-            "\t--background: ${2:#3880ff};",
-            "\t--background-focused: ${3:#3880ff};",
-            "\t--color: ${4:#3880ff};",
-            "\t--color-selected: ${5:#3880ff};",
-            "\t--padding-bottom: ${6:4px};",
-            "\t--padding-end: ${7:4px};",
-            "\t--padding-start: ${8:4px};",
-            "\t--padding-top: ${9:4px};",
-            "\t--ripple-color: ${10:#1e1e1e};",
-            "}"
-        ],
-        "description": "Tab Button CSS custom properties"
-    },
-    "ion-textarea-props": {
-        "prefix": "i-textarea-props",
-        "body": [
-            "${1:ion-textarea} {",
-            "\t--background: ${2:#3880ff};",
-            "\t--border-radius: ${3:8px};",
-            "\t--color: ${4:#3880ff};",
-            "\t--padding-bottom: ${5:4px};",
-            "\t--padding-end: ${6:4px};",
-            "\t--padding-start: ${7:4px};",
-            "\t--padding-top: ${8:4px};",
-            "\t--placeholder-color: ${9:c5c5c5}",
-            "\t--placeholder-font-style: ${10:initial}",
-            "\t--placeholder-font-weight ${11:initial}",
-            "\t--placeholder-opacity ${12:0.5}",
-            "}"
-        ],
-        "description": "Textarea CSS custom properties"
-    },
-    "ion-thumbnail-props": {
-        "prefix": "i-thumbnail-props",
-        "body": [
-            "${1:ion-thumbnail} {",
-            "\t--border-radius: ${2:8px};",
-            "\t--size: ${3:64px};",
-            "}"
-        ],
-        "description": "Thumbnail CSS custom properties"
-    },
-    "ion-title-props": {
-        "prefix": "i-title-props",
-        "body": [
-            "${1:ion-toast} {",
-            "\t--color: ${2:#3880ff};",
-            "}"
-        ],
-        "description": "Title CSS custom properties"
-    },
-    "ion-toast-props": {
-        "prefix": "i-toast-props",
-        "body": [
-            "${1:ion-toast} {",
-            "\t--background: ${2:#3880ff};",
-            "\t--border-color: ${3:#3880ff};",
-            "\t--border-radius: ${4:15px};",
-            "\t--border-style: ${5:solid};",
-            "\t--border-width: ${6:8px};",
-            "\t--box-shadow: ${7:none};",
-            "\t--button-color: ${8:#3880ff};",
-            "\t--color: ${9:#3880ff};",
-            "\t--end: ${10:8px}",
-            "\t--height: ${11:42px};",
-            "\t--max-height: ${12:64px};",
-            "\t--max-width: ${13:192px};",
-            "\t--min-height: ${14:24px};",
-            "\t--min-width: ${15:92px};",
-            "\t--start: ${16:8px}",
-            "\t--width: ${17:124px};",
-            "}"
-        ],
-        "description": "Toast CSS custom properties"
-    },
-    "ion-toast-example": {
-        "prefix": "i-toast-example",
-        "body": [
-            ".toast-${1|success,warning,danger|} {",
-            "\t--background: var(--ion-color-${1|success,warning,danger|}-tint);",
-            "\t--border-color: var(--ion-color-${1|success,warning,danger|}-shade);",
-            "\t--border-style: none none none solid;",
-            "\t--border-width: 8px;",
-            "}"
-        ],
-        "description": "Toast CSS custom example style for success, warning or danger toasts"
-    },
-    "ion-toggle-props": {
-        "prefix": "i-toggle-props",
-        "body": [
-            "${1:ion-toggle} {",
-            "\t--background: ${2:#ffffff};",
-            "\t--background-checked: ${3:#3880ff};",
-            "\t--handle-background: ${4:#ffffff};",
-            "\t--handle-background-checked: ${5:#3880ff};",
-            "}"
-        ],
-        "description": "Toggle CSS custom properties"
-    },
-    "ion-toolbar-props": {
-        "prefix": "i-toolbar-props",
-        "body": [
-            "${1:ion-toolbar} {",
-            "\t--background: ${2:#ffffff};",
-            "\t--border-color: ${3:#3880ff};",
-            "\t--border-style: ${4:solid};",
-            "\t--border-width: ${5:8px};",
-            "\t--color: ${6:#3880ff};",
-            "\t--min-height: ${7:56px};",
-            "\t--opacity: ${8:1};",
-            "\t--padding-bottom: ${9:4px};",
-            "\t--padding-end: ${10:4px};",
-            "\t--padding-start: ${11:4px};",
-            "\t--padding-top: ${12:4px};",
-            "}"
-        ],
-        "description": "Toolbar CSS custom properties"
-    }
+  "ion-action-sheet-props": {
+    "prefix": "i-action-sheet-props",
+    "body": [
+      "${1:ion-action-sheet} {",
+      "\t--background: ${2:#ffffff};",
+      "\t--background-activated: ${3:#3880ff}",
+      "\t--background-selected: ${4:#3880ff};",
+      "\t--color: ${5:#3880ff};",
+      "\t--height: ${6:100%};",
+      "\t--max-height: ${7:100%};",
+      "\t--max-width: ${8:100%};",
+      "\t--min-height: ${9:100%};",
+      "\t--min-width: ${10:100%};",
+      "\t--width: ${11:100%};",
+      "}"
+    ],
+    "description": "Action Sheet CSS custom properties"
+  },
+  "ion-alert-props": {
+    "prefix": "i-alert-props",
+    "body": [
+      "${1:ion-alert} {",
+      "\t--background: ${2:#ffffff};",
+      "\t--height: ${3:100%};",
+      "\t--max-height: ${4:100%};",
+      "\t--max-width: ${5:100%};",
+      "\t--min-height: ${6:100%};",
+      "\t--min-width: ${7:100%};",
+      "\t--width: ${8:100%};",
+      "}"
+    ],
+    "description": "Alert CSS custom properties"
+  },
+  "ion-avatar-props": {
+    "prefix": "i-avatar-props",
+    "body": ["${1:ion-avatar} {", "\t--border-radius: ${2:4px};", "}"],
+    "description": "Avatar CSS custom properties"
+  },
+  "ion-back-button-props": {
+    "prefix": "i-back-button-props",
+    "body": [
+      "${1:ion-back-button} {",
+      "\t--background: ${2:#ffffff};",
+      "\t--border-radius: ${3:4px};",
+      "\t--color: ${4:#3880ff};",
+      "\t--icon-font-size: ${5:16px};",
+      "\t--icon-font-weight: ${6:normal};",
+      "\t--icon-margin-bottom: ${7:4px};",
+      "\t--icon-margin-end: ${8:4px};",
+      "\t--icon-margin-start: ${9:4px};",
+      "\t--icon-margin-top: ${10:4px};",
+      "\t--icon-padding-bottom: ${11:4px};",
+      "\t--icon-padding-end: ${12:4px};",
+      "\t--icon-padding-start: ${13:4px};",
+      "\t--icon-padding-top: ${14:4px};",
+      "\t--margin-bottom: ${15:4px};",
+      "\t--margin-end: ${16:4px};",
+      "\t--margin-start: ${17:4px};",
+      "\t--margin-top: ${28:4px};",
+      "\t--min-height: ${19:32px};",
+      "\t--min-width: ${20:44px};",
+      "\t--opacity: ${21:1};",
+      "\t--padding-bottom: ${22:4px};",
+      "\t--padding-end: ${23:4px};",
+      "\t--padding-start: ${24:4px};",
+      "\t--padding-top: ${25:4px};",
+      "\t--ripple-color: ${26:#1e1e1e};",
+      "\t--transition: ${27:background-color 15ms linear};",
+      "}"
+    ],
+    "description": "Back Button CSS custom properties"
+  },
+  "ion-badge-props": {
+    "prefix": "i-badge-props",
+    "body": [
+      "${1:ion-badge} {",
+      "\t--background: ${2:#ffffff};",
+      "\t--color: ${3:#3880ff};",
+      "\t--padding-bottom: ${4:4px};",
+      "\t--padding-end: ${5:4px};",
+      "\t--padding-start: ${6:4px};",
+      "\t--padding-top: ${7:4px};",
+      "}"
+    ],
+    "description": "Badge CSS custom properties"
+  },
+  "ion-button-props": {
+    "prefix": "i-button-props",
+    "body": [
+      "${1:ion-button} {",
+      "\t--background: ${2:#3880ff};",
+      "\t--background-activated: ${3:#3880ff};",
+      "\t--background-focused: ${4:#3880ff};",
+      "\t--border-color: ${5:#3880ff};",
+      "\t--border-radius: ${6:8px};",
+      "\t--border-style: ${7:solid};",
+      "\t--border-width: ${8:8px};",
+      "\t--box-shadow: ${9:10px 10px};",
+      "\t--color: ${10:#ffffff};",
+      "\t--color-activated: ${11:#ffffff};",
+      "\t--color-focused ${12:#ffffff};",
+      "\t--opacity: ${13:1};",
+      "\t--padding-bottom: ${14:4px};",
+      "\t--padding-end: ${15:4px};",
+      "\t--padding-start: ${16:4px};",
+      "\t--padding-top: ${17:4px};",
+      "\t--ripple-color: ${18:#1e1e1e};",
+      "\t--transition: ${19:background-color 15ms linear};",
+      "}"
+    ],
+    "description": "Button CSS custom properties"
+  },
+  "ion-card-props": {
+    "prefix": "i-card-props",
+    "body": [
+      "${1:ion-card} {",
+      "\t--background: ${2:#ffffff};",
+      "\t--color: ${3:#3880ff};",
+      "}"
+    ],
+    "description": "Card CSS custom properties"
+  },
+  "ion-card-subtitle-props": {
+    "prefix": "i-card-subtitle-props",
+    "body": ["${1:ion-card-subtitle} {", "\t--color: ${2:#3880ff};", "}"],
+    "description": "Card Subtitle CSS custom properties"
+  },
+  "ion-card-title-props": {
+    "prefix": "i-card-title-props",
+    "body": ["${1:ion-card-title} {", "\t--color: ${2:#3880ff};", "}"],
+    "description": "Card Title CSS custom properties"
+  },
+  "ion-checkbox-props": {
+    "prefix": "i-checkbox-props",
+    "body": [
+      "${1:ion-checkbox} {",
+      "\t--background: ${2:#ffffff};",
+      "\t--background-checked: ${3:#3880ff};",
+      "\t--border-color: ${4:#3880ff};",
+      "\t--border-color-checked: ${5:#3880ff};",
+      "\t--border-radius: ${6:4px};",
+      "\t--border-style: ${7:solid};",
+      "\t--border-width: ${8:1px};",
+      "\t--checkmark-color-width: ${9:#3880ff};",
+      "\t--size: ${10:18px};",
+      "\t--transition: ${11:background-color 15ms linear};",
+      "}"
+    ],
+    "description": "Checkbox CSS custom properties"
+  },
+  "ion-chip-props": {
+    "prefix": "i-chip-props",
+    "body": [
+      "${1:ion-chip} {",
+      "\t--background: ${2:#ffffff};",
+      "\t--color: ${3:#3880ff};",
+      "}"
+    ],
+    "description": "Chip CSS custom properties"
+  },
+  "ion-col-props": {
+    "prefix": "i-col-props",
+    "body": [
+      "${1:ion-col} {",
+      "\t--ion-grid-column-padding: ${2:5px};",
+      "\t--ion-grid-column-padding-xs: ${3:5px};",
+      "\t--ion-grid-column-padding-sm: ${4:5px};",
+      "\t--ion-grid-column-padding-md: ${5:5px};",
+      "\t--ion-grid-column-padding-lg: ${6:5px};",
+      "\t--ion-grid-column-padding-xl: ${7:5px};",
+      "\t--ion-grid-columns: ${8:12};",
+      "}"
+    ],
+    "description": "Col CSS custom properties"
+  },
+  "ion-color": {
+    "prefix": "i-color",
+    "body": [
+      "var(--ion-color-${1|primary,secondary,tertiary,success,warning,danger,dark,medium,light|});"
+    ],
+    "description": "Ionic scss variables w/ color selection"
+  },
+  "ion-color-custom": {
+    "prefix": "i-color-custom",
+    "body": [
+      ".ion-color-${1:favorite} {",
+      "\t--ion-color-base: #${2:69bb7b};",
+      "\t--ion-color-base-rgb: ${3:105,187,123};",
+      "\t--ion-color-contrast: #${4:ffffff};",
+      "\t--ion-color-contrast-rgb: ${5:255,255,255};",
+      "\t--ion-color-shade: #${6:5ca56c};",
+      "\t--ion-color-tint: #${7:78c288};",
+      "}"
+    ],
+    "description": "Custom Color can be used as color property color='favorite', add to variables.scss"
+  },
+  "ion-color-custom-root": {
+    "prefix": "i-color-custom-root",
+    "body": [
+      "--ion-color-${1:favorite}: #${2:69bb7b};",
+      "--ion-color-${1:favorite}-rgb: ${3:105,187,123};",
+      "--ion-color-${1:favorite}-contrast: #${4:ffffff};",
+      "--ion-color-${1:favorite}-contrast-rgb: ${5:255,255,255};",
+      "--ion-color-${1:favorite}-shade: #${6:5ca56c};",
+      "--ion-color-${1:favorite}-tint: #${7:78c288};"
+    ],
+    "description": "Custom Color add to :root in variables.scss"
+  },
+  "ion-content-props": {
+    "prefix": "i-content-props",
+    "body": [
+      "${1:ion-content} {",
+      "\t--background: ${2:#ffffff};",
+      "\t--color: ${3:#3880ff};",
+      "\t--keyboard-offset: ${4:0px};",
+      "\t--offset-bottom: ${5:0px};",
+      "\t--offset-top: ${6:0px};",
+      "\t--padding-bottom: ${7:0px};",
+      "\t--padding-end: ${8:0px};",
+      "\t--padding-start: ${9:0px};",
+      "\t--padding-top: ${10:0px};",
+      "}"
+    ],
+    "description": "Content CSS custom properties"
+  },
+  "ion-dark-mode": {
+    "prefix": "i-dark-mode",
+    "body": [
+      "@media(prefers-color-scheme: dark) {",
+      "\t:root {",
+      "\t\t--ion-border-color: #2A2A2A;",
+      "\t\t--ion-toolbar-background: #1A1A1A;",
+      "\t\t--ion-tab-bar-background: #1A1A1A;",
+      "\t\t--ion-background-color: #171717;",
+      "\t\t--ion-text-color: #ffffff;",
+      "\t\t--ion-text-color-step-150: #ffffff;",
+      "\t\t--ion-color-step-50: #353535;",
+      "\t\t--ion-color-step-100: #3f3f3f;",
+      "\t\t--ion-color-step-150: #4a4a4a;",
+      "\t\t--ion-color-step-200: #555555;",
+      "\t\t--ion-color-step-250: #5f5f5f;",
+      "\t\t--ion-color-step-300: #6a6a6a;",
+      "\t\t--ion-color-step-350: #757575;",
+      "\t\t--ion-color-step-400: #7f7f7f;",
+      "\t\t--ion-color-step-450: #8a8a8a;",
+      "\t\t--ion-color-step-500: #959595;",
+      "\t\t--ion-color-step-550: #9f9f9f;",
+      "\t\t--ion-color-step-600: #aaaaaa;",
+      "\t\t--ion-color-step-650: #b4b4b4;",
+      "\t\t--ion-color-step-700: #bfbfbf;",
+      "\t\t--ion-color-step-750: #cacaca;",
+      "\t\t--ion-color-step-800: #d4d4d4;",
+      "\t\t--ion-color-step-850: #dfdfdf;",
+      "\t\t--ion-color-step-900: #eaeaea;",
+      "\t\t--ion-color-step-950: #f4f4f4;",
+      "\t}",
+      "}"
+    ],
+    "description": "Dark mode example for Mac OS"
+  },
+  "ion-dark-mode-media-query": {
+    "prefix": "i-dark-mode-media-query",
+    "body": [
+      "@media(prefers-color-scheme: dark) {",
+      "\t:root {",
+      "\t\t$0",
+      "\t}",
+      "}"
+    ],
+    "description": "Dark mode media query for Mac OS"
+  },
+  "ion-datetime-props": {
+    "prefix": "i-datetime-props",
+    "body": [
+      "${1:ion-datetime} {",
+      "\t--padding-bottom: ${2:4px};",
+      "\t--padding-end: ${3:4px};",
+      "\t--padding-start: ${4:4px};",
+      "\t--padding-top: ${5:4px};",
+      "\t--placeholder-color: ${6:#3880ff};",
+      "}"
+    ],
+    "description": "Datetime CSS custom properties"
+  },
+  "ion-fab-button-props": {
+    "prefix": "i-fab-button-props",
+    "body": [
+      "${1:ion-fab-button} {",
+      "\t--background: ${2:#3880ff};",
+      "\t--background-activated: ${3:#3880ff}",
+      "\t--background-focused: ${4:#3880ff};",
+      "\t--border-color: ${5:#3880ff};",
+      "\t--border-radius: ${6:8px};",
+      "\t--border-style: ${7:solid};",
+      "\t--border-width: ${8:2px};",
+      "\t--box-shadow: ${9:10px 10px};",
+      "\t--color: ${10:#ffffff};",
+      "\t--color-activated: ${11:#3880ff};",
+      "\t--color-focused ${12:#3880ff};",
+      "\t--padding-bottom: ${13:4px};",
+      "\t--padding-end: ${14:4px};",
+      "\t--padding-start: ${15:4px};",
+      "\t--padding-top: ${16:4px};",
+      "\t--ripple-color: ${17:#1e1e1e};",
+      "\t--transition: ${18:background-color 15ms linear};",
+      "}"
+    ],
+    "description": "Fab-Button CSS custom properties"
+  },
+  "ion-grid-props": {
+    "prefix": "i-grid-props",
+    "body": [
+      "${1:ion-grid} {",
+      "\t--ion-grid-padding: ${2:5px};",
+      "\t--ion-grid-padding-xs: ${3:5px};",
+      "\t--ion-grid-padding-sm: ${4:5px};",
+      "\t--ion-grid-padding-md: ${5:5px};",
+      "\t--ion-grid-padding-lg: ${6:5px};",
+      "\t--ion-grid-padding-xl: ${7:5px};",
+      "\t--ion-grid-width: ${8:100%};",
+      "\t--ion-grid-width-xs: ${9:100%};",
+      "\t--ion-grid-width-sm: ${10:540px};",
+      "\t--ion-grid-width-md: ${11:720px};",
+      "\t--ion-grid-width-lg: ${12:960px};",
+      "\t--ion-grid-width-xl: ${13:1140px};",
+      "}"
+    ],
+    "description": "Datetime CSS custom properties"
+  },
+  "ion-icon-props": {
+    "prefix": "i-icon-props",
+    "body": [
+      "${1:ion-icon} {",
+      "\tbackground: ${2:#3880ff};",
+      "\tcolor: ${3:#ffffff};",
+      "\tfont-size: ${4:24px};",
+      "\ttransform: ${5:rotate}(${6:90}deg);",
+      "}"
+    ],
+    "description": "Icon CSS properties"
+  },
+  "ion-input-props": {
+    "prefix": "i-input-props",
+    "body": [
+      "${1:ion-input} {",
+      "\t--background: ${2:#3880ff};",
+      "\t--color: ${3:#ffffff};",
+      "\t--padding-bottom: ${4:4px};",
+      "\t--padding-end: ${5:4px};",
+      "\t--padding-start: ${6:4px};",
+      "\t--padding-top: ${7:4px};",
+      "\t--placeholder-color: ${8:#3880ff};",
+      "\t--placeholder-font-style: ${9:initial}",
+      "\t--placeholder-font-weight ${10:initial}",
+      "\t--placeholder-opacity ${11:0.5}",
+      "}"
+    ],
+    "description": "Input CSS custom properties"
+  },
+  "ion-item-props": {
+    "prefix": "i-item-props",
+    "body": [
+      "${1:ion-item} {",
+      "\t--background: ${2:#3880ff};",
+      "\t--background-activated: ${3:#3880ff}",
+      "\t--border-color: ${4:#3880ff};",
+      "\t--border-radius: ${5:8px};",
+      "\t--border-style: ${6:solid};",
+      "\t--border-width: ${7:8px};",
+      "\t--box-shadow: ${8:10px 10px};",
+      "\t--color: ${9:#ffffff};",
+      "\t--detail-icon-color: ${10:#989aa2};",
+      "\t--detail-icon-font-size: ${11:16px};",
+      "\t--detail-icon-opacity: ${12:1};",
+      "\t--highlight-color-focused: ${13:#0cd1e8};",
+      "\t--highlight-color-invalid: ${14:#f04141};",
+      "\t--highlight-color-valid: ${15:#10dc60};",
+      "\t--highlight-height: ${16:32px};",
+      "\t--inner-border-width: ${17:8px};",
+      "\t--inner-box-shadow: ${18:4px 4px};",
+      "\t--inner-padding-bottom: ${19:4px};",
+      "\t--inner-padding-end: ${20:4px};",
+      "\t--inner-padding-start: ${21:4px};",
+      "\t--inner-padding-top: ${22:4px};",
+      "\t--min-height: ${23:24px};",
+      "\t--padding-bottom: ${24:4px};",
+      "\t--padding-end: ${25:4px};",
+      "\t--padding-start: ${26:4px};",
+      "\t--padding-top: ${27:4px};",
+      "\t--transition: ${28:background-color 15ms linear};",
+      "}"
+    ],
+    "description": "Item CSS custom properties"
+  },
+  "ion-item-divider-props": {
+    "prefix": "i-item-divider-props",
+    "body": [
+      "${1:ion-item-divider} {",
+      "\t--background: ${2:#3880ff};",
+      "\t--color: ${3:#ffffff};",
+      "\t--padding-bottom: ${4:4px};",
+      "\t--padding-end: ${5:4px};",
+      "\t--padding-start: ${6:4px};",
+      "\t--padding-top: ${7:4px};",
+      "}"
+    ],
+    "description": "Item Divider CSS custom properties"
+  },
+  "ion-item-option-props": {
+    "prefix": "i-item-option-props",
+    "body": [
+      "${1:ion-item-option} {",
+      "\t--background: ${2:#3880ff};",
+      "\t--color: ${3:#ffffff};",
+      "}"
+    ],
+    "description": "Item Option CSS custom properties"
+  },
+  "ion-label-props": {
+    "prefix": "i-label-props",
+    "body": ["${1:ion-label} {", "\t--color: ${2:#3880ff};", "}"],
+    "description": "Label CSS custom properties"
+  },
+  "ion-list-header-props": {
+    "prefix": "i-list-header-props",
+    "body": [
+      "${1:ion-list-header} {",
+      "\t--background: ${2:#ffffff};",
+      "\t--color: ${3:#3880ff};",
+      "}"
+    ],
+    "description": "List Header CSS custom properties"
+  },
+  "ion-loading-props": {
+    "prefix": "i-loading-props",
+    "body": [
+      "${1:ion-loading} {",
+      "\t--background: ${2:#ffffff};",
+      "\t--height: ${3:100%};",
+      "\t--max-height: ${4:100%};",
+      "\t--max-width: ${5:100%};",
+      "\t--min-height: ${6:100%};",
+      "\t--min-width: ${7:100%};",
+      "\t--spinner-color: ${8:#3880ff};",
+      "\t--width: ${9:100%};",
+      "}"
+    ],
+    "description": "Loading CSS custom properties"
+  },
+  "ion-menu-props": {
+    "prefix": "i-menu-props",
+    "body": [
+      "${1:ion-menu} {",
+      "\t--background: ${2:#ffffff};",
+      "\t--height: ${3:100%};",
+      "\t--max-height: ${4:100%};",
+      "\t--max-width: ${5:100%};",
+      "\t--min-height: ${6:100%};",
+      "\t--min-width: ${7:100%};",
+      "\t--width: ${8:100%};",
+      "}"
+    ],
+    "description": "Menu CSS custom properties"
+  },
+  "ion-menu-button-props": {
+    "prefix": "i-menu-button-props",
+    "body": [
+      "${1:ion-menu-button} {",
+      "\t--color: ${2:#3880ff};",
+      "\t--padding-bottom: ${3:4px};",
+      "\t--padding-end: ${4:4px};",
+      "\t--padding-start: ${5:4px};",
+      "\t--padding-top: ${6:4px};",
+      "}"
+    ],
+    "description": "Menu Button CSS custom properties"
+  },
+  "ion-modal-props": {
+    "prefix": "i-modal-props",
+    "body": [
+      "${1:ion-modal} {",
+      "\t--background: ${2:#ffffff};",
+      "\t--border-color: ${3:#3880ff};",
+      "\t--border-radius: ${4:4px};",
+      "\t--border-style: ${5:solid};",
+      "\t--border-width: ${6:8px};",
+      "\t--height: ${7:100%};",
+      "\t--max-height: ${8:100%};",
+      "\t--max-width: ${9:100%};",
+      "\t--min-height: ${10:100%};",
+      "\t--min-width: ${11:100%};",
+      "\t--width: ${12:100%};",
+      "}"
+    ],
+    "description": "Modal CSS custom properties"
+  },
+  "ion-note-props": {
+    "prefix": "i-note-props",
+    "body": ["${1:ion-note} {", "\t--color: ${2:#3880ff};", "}"],
+    "description": "Note CSS custom properties"
+  },
+  "ion-picker-props": {
+    "prefix": "i-picker-props",
+    "body": [
+      "${1:ion-picker} {",
+      "\t--background: ${2:#3880ff};",
+      "\t--background-rgb: ${3:56, 128, 255};",
+      "\t--border-color: ${4:#3880ff};",
+      "\t--border-radius: ${5:8px};",
+      "\t--border-style: ${6:solid};",
+      "\t--border-width: ${7:8px};",
+      "\t--height: ${8:100%};",
+      "\t--max-height: ${9:100%};",
+      "\t--max-width: ${10:100%};",
+      "\t--min-height: ${11:100%};",
+      "\t--min-width: ${12:100%};",
+      "\t--width: ${13:100%};",
+      "}"
+    ],
+    "description": "Picker CSS custom properties"
+  },
+  "ion-popover-props": {
+    "prefix": "i-popover-props",
+    "body": [
+      "${1:ion-popover} {",
+      "\t--background: ${2:#3880ff};",
+      "\t--box-shadow: ${3:10px 10px};",
+      "\t--height: ${4:100%};",
+      "\t--max-height: ${5:100%};",
+      "\t--max-width: ${6:100%};",
+      "\t--min-height: ${7:100%};",
+      "\t--min-width: ${8:100%};",
+      "\t--width: ${9:100%};",
+      "}"
+    ],
+    "description": "Popover CSS custom properties"
+  },
+  "ion-progress-bar-props": {
+    "prefix": "i-progress-bar-props",
+    "body": [
+      "${1:ion-progress-bar} {",
+      "\t--background: ${2:#3880ff};",
+      "\t--buffer-background: ${3:#3880ff};",
+      "\t--progress-background: ${4:#3880ff};",
+      "}"
+    ],
+    "description": "Progress Bar CSS custom properties"
+  },
+  "ion-radio-props": {
+    "prefix": "i-radio-props",
+    "body": [
+      "${1:ion-radio} {",
+      "\t--color: ${2:#3880ff};",
+      "\t--color-checked: ${3:#3880ff};",
+      "}"
+    ],
+    "description": "Radio CSS custom properties"
+  },
+  "ion-range-props": {
+    "prefix": "i-range-props",
+    "body": [
+      "${1:ion-range} {",
+      "\t--bar-background: ${2:#3880ff};",
+      "\t--bar-background-active: ${2:#3880ff};",
+      "\t--bar-border-radius: ${2:4px};",
+      "\t--bar-height: ${11:2px};",
+      "\t--height: ${11:42px};",
+      "\t--knob-background: ${11:#3880ff};",
+      "\t--knob-border-radius: ${11:50%};",
+      "\t--knob-box-shadow: ${11:none};",
+      "\t--knob-size: ${11:18px};",
+      "}"
+    ],
+    "description": "Range CSS custom properties"
+  },
+  "ion-rgba": {
+    "prefix": "i-rgba",
+    "body": [
+      "${1:ion-item:hover} {",
+      "\t--background: rgba(var(--ion-color-${2|primary,secondary,tertiary,success,warning,danger,dark,medium,light|}-rgb), ${3:0.25});",
+      "}"
+    ],
+    "description": "Add opacity to Ionic colors using `rgba(...)`"
+  },
+  "ion-root": {
+    "prefix": "i-root",
+    "body": ["${1::root} {", "\t--ion-color-primary: #${2:00ff00};", "}"],
+    "description": "Ionic root"
+  },
+  "ion-searchbar-props": {
+    "prefix": "i-searchbar-props",
+    "body": [
+      "${1:ion-searchbar} {",
+      "\t--background: ${2:#3880ff};",
+      "\t--cancel-button-color: ${3:#3880ff};",
+      "\t--clear-button-color: ${4:#3880ff};",
+      "\t--color: ${5:#3880ff};",
+      "\t--icon-color: ${6:#3880ff};",
+      "\t--placeholder-color: ${7:#3880ff};",
+      "\t--placeholder-font-style: ${8:initial}",
+      "\t--placeholder-font-weight ${9:initial}",
+      "\t--placeholder-opacity ${10:0.5}",
+      "}"
+    ],
+    "description": "Searchbar CSS custom properties"
+  },
+  "ion-segment-button-props": {
+    "prefix": "i-segment-button-props",
+    "body": [
+      "${1:ion-segment-button} {",
+      "\t--background: ${2:#3880ff};",
+      "\t--background-activated: ${3:#3880ff}",
+      "\t--background-checked: ${4:#3880ff};",
+      "\t--background-hover: ${5:#3880ff};",
+      "\t--border-color: ${6:#3880ff};",
+      "\t--border-radius: ${7:4px};",
+      "\t--border-style: ${8:solid};",
+      "\t--border-width: ${9:8px};",
+      "\t--color: ${10:#3880ff};",
+      "\t--color-activated: ${11:#3880ff};",
+      "\t--color-checked: ${12:#3880ff};",
+      "\t--color-checked-disabled: ${13:#3880ff};",
+      "\t--color-disabled: ${14:#3880ff};",
+      "\t--indicator-color: ${15:#3880ff};",
+      "\t--indicator-color-checked: ${16:#3880ff};",
+      "\t--margin-bottom: ${17:4px};",
+      "\t--margin-end: ${18:4px};",
+      "\t--margin-start: ${19:4px};",
+      "\t--margin-top: ${20:4px};",
+      "\t--padding-bottom: ${21:4px};",
+      "\t--padding-end: ${22:4px};",
+      "\t--padding-start: ${23:4px};",
+      "\t--padding-top: ${24:4px};",
+      "\t--transition: ${25:background-color 15ms linear};",
+      "}"
+    ],
+    "description": "Searchbar CSS custom properties"
+  },
+  "ion-select-props": {
+    "prefix": "i-select-props",
+    "body": [
+      "${1:ion-select} {",
+      "\t--padding-bottom: ${2:4px};",
+      "\t--padding-end: ${3:4px};",
+      "\t--padding-start: ${4:4px};",
+      "\t--padding-top: ${5:4px};",
+      "}"
+    ],
+    "description": "Select CSS custom properties"
+  },
+  "ion-skeleton-text-props": {
+    "prefix": "i-skeleton-text-props",
+    "body": [
+      "${1:ion-skeleton-text} {",
+      "\t--background: ${2:#3880ff};",
+      "\t--background-rgb: ${3:56, 128, 255};",
+      "\t--border-radius: ${4:4px};",
+      "}"
+    ],
+    "description": "Skeleton Text CSS custom properties"
+  },
+  "ion-slides-props": {
+    "prefix": "i-slides-props",
+    "body": [
+      "${1:ion-slides} {",
+      "\t--bullet-background: ${2:#3880ff};",
+      "\t--bullet-background-active: ${3:#3880ff};",
+      "}"
+    ],
+    "description": "Slides CSS custom properties"
+  },
+  "ion-spinner-props": {
+    "prefix": "i-spinner-props",
+    "body": ["${1:ion-spinner} {", "\t--color: ${2:#3880ff};", "}"],
+    "description": "Spinner CSS custom properties"
+  },
+  "ion-split-pane-props": {
+    "prefix": "i-split-pane-props",
+    "body": ["${1:ion-split-pane} {", "\t--border: ${2:1px solid}", "}"],
+    "description": "Split Pane CSS custom properties"
+  },
+  "ion-stepped-color": {
+    "prefix": "i-stepped-color",
+    "body": [
+      "--ion-background-color: #ffffff;",
+      "--ion-background-color-rgb: 255,255,255;",
+      "--ion-text-color: #000000;",
+      "--ion-text-color-rgb: 0,0,0;",
+      "--ion-color-step-50: #f2f2f2;",
+      "--ion-color-step-100: #e6e6e6;",
+      "--ion-color-step-150: #d9d9d9;",
+      "--ion-color-step-200: #cccccc;",
+      "--ion-color-step-250: #bfbfbf;",
+      "--ion-color-step-300: #b3b3b3;",
+      "--ion-color-step-350: #a6a6a6;",
+      "--ion-color-step-400: #999999;",
+      "--ion-color-step-450: #8c8c8c;",
+      "--ion-color-step-500: #808080;",
+      "--ion-color-step-550: #737373;",
+      "--ion-color-step-600: #666666;",
+      "--ion-color-step-650: #595959;",
+      "--ion-color-step-700: #4d4d4d;",
+      "--ion-color-step-750: #404040;",
+      "--ion-color-step-800: #333333;",
+      "--ion-color-step-850: #262626;",
+      "--ion-color-step-900: #191919;",
+      "--ion-color-step-950: #0d0d0d;"
+    ],
+    "description": "Stepped colors add to :root"
+  },
+  "ion-tab-bar-props": {
+    "prefix": "i-tab-bar-props",
+    "body": [
+      "${1:ion-tab-bar} {",
+      "\t--background: ${2:#3880ff};",
+      "\t--border-radius: ${3:8px};",
+      "\t--color: ${4:#3880ff};",
+      "}"
+    ],
+    "description": "Tab Bar CSS custom properties"
+  },
+  "ion-tab-button-props": {
+    "prefix": "i-tab-button-props",
+    "body": [
+      "${1:ion-tab-button} {",
+      "\t--background: ${2:#3880ff};",
+      "\t--background-focused: ${3:#3880ff};",
+      "\t--color: ${4:#3880ff};",
+      "\t--color-selected: ${5:#3880ff};",
+      "\t--padding-bottom: ${6:4px};",
+      "\t--padding-end: ${7:4px};",
+      "\t--padding-start: ${8:4px};",
+      "\t--padding-top: ${9:4px};",
+      "\t--ripple-color: ${10:#1e1e1e};",
+      "}"
+    ],
+    "description": "Tab Button CSS custom properties"
+  },
+  "ion-textarea-props": {
+    "prefix": "i-textarea-props",
+    "body": [
+      "${1:ion-textarea} {",
+      "\t--background: ${2:#3880ff};",
+      "\t--border-radius: ${3:8px};",
+      "\t--color: ${4:#3880ff};",
+      "\t--padding-bottom: ${5:4px};",
+      "\t--padding-end: ${6:4px};",
+      "\t--padding-start: ${7:4px};",
+      "\t--padding-top: ${8:4px};",
+      "\t--placeholder-color: ${9:c5c5c5}",
+      "\t--placeholder-font-style: ${10:initial}",
+      "\t--placeholder-font-weight ${11:initial}",
+      "\t--placeholder-opacity ${12:0.5}",
+      "}"
+    ],
+    "description": "Textarea CSS custom properties"
+  },
+  "ion-thumbnail-props": {
+    "prefix": "i-thumbnail-props",
+    "body": [
+      "${1:ion-thumbnail} {",
+      "\t--border-radius: ${2:8px};",
+      "\t--size: ${3:64px};",
+      "}"
+    ],
+    "description": "Thumbnail CSS custom properties"
+  },
+  "ion-title-props": {
+    "prefix": "i-title-props",
+    "body": ["${1:ion-toast} {", "\t--color: ${2:#3880ff};", "}"],
+    "description": "Title CSS custom properties"
+  },
+  "ion-toast-props": {
+    "prefix": "i-toast-props",
+    "body": [
+      "${1:ion-toast} {",
+      "\t--background: ${2:#3880ff};",
+      "\t--border-color: ${3:#3880ff};",
+      "\t--border-radius: ${4:15px};",
+      "\t--border-style: ${5:solid};",
+      "\t--border-width: ${6:8px};",
+      "\t--box-shadow: ${7:none};",
+      "\t--button-color: ${8:#3880ff};",
+      "\t--color: ${9:#3880ff};",
+      "\t--end: ${10:8px}",
+      "\t--height: ${11:42px};",
+      "\t--max-height: ${12:64px};",
+      "\t--max-width: ${13:192px};",
+      "\t--min-height: ${14:24px};",
+      "\t--min-width: ${15:92px};",
+      "\t--start: ${16:8px}",
+      "\t--width: ${17:124px};",
+      "}"
+    ],
+    "description": "Toast CSS custom properties"
+  },
+  "ion-toast-example": {
+    "prefix": "i-toast-example",
+    "body": [
+      ".toast-${1|success,warning,danger|} {",
+      "\t--background: var(--ion-color-${1|success,warning,danger|}-tint);",
+      "\t--border-color: var(--ion-color-${1|success,warning,danger|}-shade);",
+      "\t--border-style: none none none solid;",
+      "\t--border-width: 8px;",
+      "}"
+    ],
+    "description": "Toast CSS custom example style for success, warning or danger toasts"
+  },
+  "ion-toggle-props": {
+    "prefix": "i-toggle-props",
+    "body": [
+      "${1:ion-toggle} {",
+      "\t--background: ${2:#ffffff};",
+      "\t--background-checked: ${3:#3880ff};",
+      "\t--handle-background: ${4:#ffffff};",
+      "\t--handle-background-checked: ${5:#3880ff};",
+      "}"
+    ],
+    "description": "Toggle CSS custom properties"
+  },
+  "ion-toolbar-props": {
+    "prefix": "i-toolbar-props",
+    "body": [
+      "${1:ion-toolbar} {",
+      "\t--background: ${2:#ffffff};",
+      "\t--border-color: ${3:#3880ff};",
+      "\t--border-style: ${4:solid};",
+      "\t--border-width: ${5:8px};",
+      "\t--color: ${6:#3880ff};",
+      "\t--min-height: ${7:56px};",
+      "\t--opacity: ${8:1};",
+      "\t--padding-bottom: ${9:4px};",
+      "\t--padding-end: ${10:4px};",
+      "\t--padding-start: ${11:4px};",
+      "\t--padding-top: ${12:4px};",
+      "}"
+    ],
+    "description": "Toolbar CSS custom properties"
+  }
 }

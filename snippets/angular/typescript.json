@@ -1,554 +1,505 @@
 {
-    "ion-action-sheet": {
-        "prefix": "i-action-sheet",
-        "body": [
-            "async ${1:presentActionSheet}() {",
-            "\tconst ${2:actionSheet} = await this.${3:actionSheetController}.create({",
-            "\t\theader: '${4:Albums}',",
-            "\t\tbuttons: [{",
-            "\t\t\ttext: '${5:Delete}',",
-            "\t\t\trole: '${6:destructive}',",
-            "\t\t\ticon: '${7:trash}',",
-            "\t\t\thandler: () => {",
-            "\t\t\t\t${8:console.log('Delete clicked');}",
-            "\t\t\t}",
-            "\t\t}, {",
-            "\t\t\ttext: '${9:Share}',",
-            "\t\t\ticon: '${10:share}',",
-            "\t\t\thandler: () => {",
-            "\t\t\t\t${11:console.log('Share clicked');}",
-            "\t\t\t}",
-            "\t\t}, {",
-            "\t\t\ttext: '${12:Cancel}',",
-            "\t\t\ticon: '${13:close}',",
-            "\t\t\trole: '${14:cancel}',",
-            "\t\t\thandler: () => {",
-            "\t\t\t\t${15:console.log('Cancel clicked');}",
-            "\t\t\t}",
-            "\t\t}]",
-            "\t});",
-            "",
-            "\tawait ${2:actionSheet}.present();",
-            "}"
-        ],
-        "description": "Ionic action sheet"
-    },
-    "ion-action-sheet-ctrl": {
-        "prefix": "i-action-sheet-ctrl",
-        "body": [
-            "public ${1:actionSheetController}: ActionSheetController"
-        ],
-        "description": "Ionic ActionSheetController"
-    },
-    "ion-alert": {
-        "prefix": "i-alert",
-        "body": [
-            "async ${1:presentAlert}() {",
-            "\tconst ${2:alert} = await this.${3:alertController}.create({",
-            "\t\theader: '${4:Alert}',",
-            "\t\tsubHeader: '${5:Subtitle}',",
-            "\t\tmessage: '${6:This is an alert message.}',",
-            "\t\tbuttons: ['${7:OK}']",
-            "\t});",
-            "",
-            "\tawait ${2:alert}.present();",
-            "}"
-        ],
-        "description": "Ionic alert dialog"
-    },
-    "ion-alert-confirm": {
-        "prefix": "i-alert-confirm",
-        "body": [
-            "async ${1:presentAlertConfirm}() {",
-            "\tconst ${2:alert} = await this.${3:alertController}.create({",
-            "\t\theader: '${4:Confirm!}',",
-            "\t\tmessage: '${5:Message <strong>text</strong>!!!}',",
-            "\t\tbuttons: [",
-            "\t\t\t{",
-            "\t\t\t\ttext: '${6:Cancel}',",
-            "\t\t\t\trole: '${7:cancel}',",
-            "\t\t\t\tcssClass: '${8:secondary}',",
-            "\t\t\t\thandler: () => {",
-            "\t\t\t\t\t${9:console.log('Confirm Cancel: blah');}",
-            "\t\t\t\t}",
-            "\t\t\t}, {",
-            "\t\t\t\ttext: '${10:Okay}',",
-            "\t\t\t\thandler: () => {",
-            "\t\t\t\t\t${11:console.log('Confirm Okay');}",
-            "\t\t\t\t}",
-            "\t\t\t}",
-            "\t\t]",
-            "\t});",
-            "",
-            "\tawait ${2:alert}.present();",
-            "}"
-        ],
-        "description": "Ionic alert confirm dialog"
-    },
-    "ion-alert-ctrl": {
-        "prefix": "i-alert-ctrl",
-        "body": [
-            "public ${1:alertController}: AlertController"
-        ],
-        "description": "Ionic AlertController"
-    },
-    "form": {
-        "prefix": "i-form",
-        "body": [
-            "${1:setupForm}() {",
-            "\tthis.${2:loginForm} = this.${3:formBuilder}.group({",
-            "\t\t${4:email}: ['', [Validators.email, Validators.required]],",
-            "\t\t${5:password}: ['', [Validators.minLength(6), Validators.required]],",
-            "\t});",
-            "}"
-        ],
-        "description": "Simple form"
-    },
-    "form-builder": {
-        "prefix": "i-form-builder",
-        "body": [
-            "public ${1:formBuilder}: FormBuilder"
-        ],
-        "description": "FormBuilder"
-    },
-    "form-group": {
-        "prefix": "i-form-group",
-        "body": [
-            "${1:loginForm}: FormGroup;"
-        ],
-        "description": "FormGroup instance"
-    },
-    "form-value": {
-        "prefix": "i-form-value",
-        "body": [
-            "get ${1:email}(): AbstractControl {",
-            "\treturn this.${2:loginForm}.get('${1:email}');",
-            "}"
-        ],
-        "description": "FormBuilder"
-    },
-    "ion-ctrl-import": {
-        "prefix": "i-ctrl-import",
-        "body": [
-            "import { ${1|ActionSheetController,AlertController,LoadingController,ModalController,ToastController,PopoverController,PickerController|} } from '@ionic/angular';"
-        ],
-        "description": "Imports from @ionic/angular package"
-    },
-    "ion-infinite-scroll-load-data": {
-        "prefix": "i-infinite-scroll-load-data",
-        "body": [
-            "${1:loadData}(event) {",
-            "\tsetTimeout(() => {",
-            "\t\tevent.target.complete();",
-            "\t\t",
-            "\t\tif (data.length == 1000) {",
-            "\t\t\tevent.target.disabled = true;",
-            "\t\t}",
-            "\t}, 500);",
-            "}"
-        ],
-        "description": "Method to load more data with `complete` and `disabled` call"
-    },
-    "ion-infinite-scroll-toggle": {
-        "prefix": "i-infinite-scroll-toggle",
-        "body": [
-            "${1:toggleInfiniteScroll}() {",
-            "\t${2:infiniteScroll}.disabled = !${2:infiniteScroll}.disabled;",
-            "}"
-        ],
-        "description": "Method to toggle InfiniteScroll"
-    },
-    "ion-infinite-scroll-viewchild": {
-        "prefix": "i-infinite-scroll-viewchild",
-        "body": [
-            "@ViewChild(InfiniteScroll) ${1:infiniteScroll}: InfiniteScroll;"
-        ],
-        "description": "Viewchild for InfiniteScroll"
-    },
-    "ion-loading": {
-        "prefix": "i-loading",
-        "body": [
-            "async ${1:presentLoading}() {",
-            "\tconst ${2:loading} = await this.${3:loadingController}.create({",
-            "\t\tmessage: '${4:Hellooo}',",
-            "\t\tduration: ${5:2000}",
-            "\t});",
-            "\tawait ${2:loading}.present();",
-            "}"
-        ],
-        "description": "Ionic loading dialog"
-    },
-    "ion-loading-ctrl": {
-        "prefix": "i-loading-ctrl",
-        "body": [
-            "public ${1:loadingController}: LoadingController"
-        ],
-        "description": "Ionic LoadingController"
-    },
-    "ion-modal": {
-        "prefix": "i-modal",
-        "body": [
-            "async ${1:presentModal}() {",
-            "\tconst ${2:modal} = await this.${3:modalController}.create({",
-            "\tcomponent: ${4:ModalPage},",
-            "\tcomponentProps: { ${5:value}: ${6:123} }",
-            "\t});",
-            "",
-            "\tawait ${2:modal}.present();",
-            "",
-            "}"
-        ],
-        "description": "Ionic modal dialog"
-    },
-    "ion-modal-will-dismiss": {
-        "prefix": "i-modal-will-dismiss",
-        "body": [
-            "async ${1:presentModal}() {",
-            "\tconst ${2:modal} = await this.${3:modalController}.create({",
-            "\tcomponent: ${4:ModalPage},",
-            "\tcomponentProps: { ${5:value}: ${6:123} }",
-            "\t});",
-            "",
-            "\tawait ${2:modal}.present();",
-            "",
-            "\tawait ${2:modal}.onWillDismiss();",
-            "\t${7:// TODO do something after dismiss}",
-            "",
-            "}"
-        ],
-        "description": "Ionic modal dialog with `onWillDismiss()`"
-    },
-    "ion-modal-ctrl": {
-        "prefix": "i-modal-ctrl",
-        "body": [
-            "public ${1:modalController}: ModalController"
-        ],
-        "description": "Ionic ModalController"
-    },
-    "ion-picker": {
-        "prefix": "i-picker",
-        "body": [
-            "async ${1:presentPicker}() {",
-            "\tconst ${2:picker} = await this.${3:pickerController}.create({",
-            "\tanimated: ${4:true},",
-            "\tbuttons: [{",
-            "\t\ttext: '${5:Save}',",
-            "\t\thandler: () => console.log('Clicked Save!')",
-            "\t}, {",
-            "\t\ttext: '${6:Log}',",
-            "\t\thandler: (val) => {",
-            "\t\t\tconsole.log('Clicked Log. Do not Dismiss.', val);",
-            "\t\t\treturn false;",
-            "\t\t}",
-            "\t}],",
-            "\tcolumns: [",
-            "\t\t{",
-            "\t\t\tname: '${7:hours}',",
-            "\t\t\tprefix: '${8:total}',",
-            "\t\t\tsuffix: '${9:hours}',",
-            "\t\t\toptions: [",
-            "\t\t\t\t{",
-            "\t\t\t\t\ttext: '${10:1}',",
-            "\t\t\t\t\tvalue: '${11:01}'",
-            "\t\t\t\t},",
-            "\t\t\t\t{",
-            "\t\t\t\t\ttext: '${12:2}',",
-            "\t\t\t\t\tvalue: '${13:02}'",
-            "\t\t\t\t}",
-            "\t\t\t]",
-            "\t\t}",
-            "\t],",
-            "\tcssClass: '${14:picker-hours}',",
-            "\tmode: '${15|ios,md|}',",
-            "\t});",
-            "\t${2:picker}.present();",
-            "}"
-        ],
-        "description": "Ionic Picker"
-    },
-    "ion-picker-column": {
-        "prefix": "i-picker-column",
-        "body": [
-            "{",
-            "\tname: '${1:hours}',",
-            "\tprefix: '${2:total}',",
-            "\tsuffix: '${3:hours}',",
-            "\toptions: [",
-            "\t\t{",
-            "\t\t\ttext: '${4:1}',",
-            "\t\t\tvalue: '${5:01}'",
-            "\t\t},",
-            "\t\t{",
-            "\t\t\ttext: '${6:2}',",
-            "\t\t\tvalue: '${7:02}'",
-            "\t\t}",
-            "\t]",
-            "}"
-        ],
-        "description": "Ionic Picker Column"
-    },
-    "ion-picker-options": {
-        "prefix": "i-picker-options",
-        "body": [
-            "{",
-            "\ttext: '${1:1}',",
-            "\tvalue: '${2:01}'",
-            "}"
-        ],
-        "description": "Ionic Picker Options"
-    },
-    "ion-picker-ctrl": {
-        "prefix": "i-picker-ctrl",
-        "body": [
-            "public ${1:pickerController}: PickerController"
-        ],
-        "description": "Ionic PickerController"
-    },
-    "ion-popover": {
-        "prefix": "i-popover",
-        "body": [
-            "async ${1:presentPopover}(${2:ev}: ${3:any}) {",
-            "\tconst ${4:popover} = await this.${5:popoverController}.create({",
-            "\t\tcomponent: ${6:PopoverComponent},",
-            "\t\tevent: ${2:ev},",
-            "\t\ttranslucent: ${7:false}",
-            "\t});",
-            "",
-            "\tawait ${4:popover}.present();",
-            "}"
-        ],
-        "description": "Ionic popover dialog"
-    },
-    "ion-popover-ctrl": {
-        "prefix": "i-popover-ctrl",
-        "body": [
-            "public ${1:popoverController}: PopoverController"
-        ],
-        "description": "Ionic PopoverController"
-    },
-    "ion-on-did-dismiss": {
-        "prefix": "i-on-did-dismiss",
-        "body": [
-            "await ${1:alert}.onDidDismiss();"
-        ],
-        "description": "`onDidDismiss`"
-    },
-    "ion-on-did-dismiss-data": {
-        "prefix": "i-on-did-dismiss-data",
-        "body": [
-            "const { data } = await ${1:alert}.onDidDismiss();",
-            "if (data) {",
-            "\t${2:// TODO do something}",
-            "}"
-        ],
-        "description": "`onDidDismiss`"
-    },
-    "ion-on-will-dismiss": {
-        "prefix": "i-on-will-dismiss",
-        "body": [
-            "await ${1:alert}.onWillDismiss();"
-        ],
-        "description": "`onWillDismiss`"
-    },
-    "ion-on-will-dismiss-data": {
-        "prefix": "i-on-will-dismiss-data",
-        "body": [
-            "const { data } = await ${1:alert}.onWillDismiss();",
-            "if (data) {",
-            "\t${2:// TODO do something}",
-            "}"
-        ],
-        "description": "`onWillDismiss`"
-    },
-    "ion-refresher-do-refresh": {
-        "prefix": "i-refresher-do-refresh",
-        "body": [
-            "${1:doRefresh}(${2:event}) {",
-            "\tconsole.log('Begin async operation');",
-            "\t",
-            "\tsetTimeout(() => {",
-            "\t\tconsole.log('Async operation has ended');",
-            "\t\t${2:event}.target.complete();",
-            "\t}, 2000);",
-            "}"
-        ],
-        "description": "<ion-refesher (ionRefresh)> output handler method"
-    },
-    "ion-reorder-do-reorder": {
-        "prefix": "i-reorder-do-reorder",
-        "body": [
-            "${1:doReorder}(${2:ev}: any) {",
-            "\tthis.${3:items} = ${2:ev}.detail.complete(this.${3:items});",
-            "}"
-        ],
-        "description": "<ion-reorder (ionItemReorder)> output handler method"
-    },
-    "ion-slides-options": {
-        "prefix": "i-slides-options",
-        "body": [
-            "${1:slidesOptions} = {",
-            "\tinitialSlide: ${2:0},",
-            "\tdirection: '${3|horizontal,vertical|}',",
-            "\tspeed: ${4:300},",
-            "\teffect: ${5|slide,fade,cube,coverflow,flip|},",
-            "\tspaceBetween: ${6:8},",
-            "\tslidesPerView: ${7:1.5},",
-            "\tfreeMode: ${8|true,false|},",
-            "\tloop: ${8|true,false|}",
-            "};"
-        ],
-        "description": "Ionic Slides options"
-    },
-    "ion-toast": {
-        "prefix": "i-toast",
-        "body": [
-            "async ${1:presentToast}() {",
-            "\tconst ${2:toast} = await this.${3:toastController}.create({",
-            "\t\tmessage: '${4:Your settings have been saved.}',",
-            "\t\tduration: ${5:2000}",
-            "\t});",
-            "\t${2:toast}.present();",
-            "}"
-        ],
-        "description": "Ionic toast notification"
-    },
-    "ion-toast-button": {
-        "prefix": "i-toast-button",
-        "body": [
-            "{",
-            "\tside: '${1|start,end|}',",
-            "\ticon: '${2:star}',",
-            "\ttext: '${3:Favorite}',",
-            "\tcssClass: '${4:toast-button-fav}',",
-            "\thandler: () => {",
-            "\t\t$0console.log('Favorite clicked');",
-            "\t}",
-            "}"
-        ],
-        "description": "Ionic ToastController"
-    },
-    "ion-toast-w-buttons": {
-        "prefix": "i-toast-w-buttons",
-        "body": [
-            "async ${1:presentToastWithButtons}() {",
-            "\tconst ${2:toast} = await this.${3:toastController}.create({",
-            "\t\tanimated: ${4|true,false|},",
-            "\t\tbuttons: [",
-            "\t\t\t{",
-            "\t\t\t\tside: '${5|start,end|}',",
-            "\t\t\t\ticon: '${6:star}',",
-            "\t\t\t\ttext: '${7:Favorite}',",
-            "\t\t\t\thandler: () => {",
-            "\t\t\t\t\tconsole.log('Favorite clicked');",
-            "\t\t\t\t}",
-            "\t\t\t}, {",
-            "\t\t\t\ttext: '${8:Done}',",
-            "\t\t\t\trole: 'cancel',",
-            "\t\t\t\thandler: () => {",
-            "\t\t\t\t\tconsole.log('Cancel clicked');",
-            "\t\t\t\t}",
-            "\t\t\t}",
-            "\t\t],",
-            "\t\tcolor: '${9|primary,secondary,tertiary|}',",
-            "\t\tcssClass: '${10:toast-success}',",
-            "\t\tduration: ${11:2000},",
-            "\t\theader: '${12:Toast header}',",
-            "\t\tkeyboardClose: ${13|true,false|},",
-            "\t\tmessage: '${14:Click to Close}',",
-            "\t\tmode: '${15|ios,md|}',",
-            "\t\tposition: '${16|bottom,middle,top|}',",
-            "\t\ttranslucent: ${17|true,false|}",
-            "\t});",
-            "\t${2:toast}.present();",
-            "}"
-        ],
-        "description": "Ionic toast notification w/ buttons"
-    },
-    "ion-toast-w-options": {
-        "prefix": "i-toast-w-options",
-        "body": [
-            "async ${1:presentToastWithOptions}() {",
-            "\tconst ${2:toast} = await this.${3:toastController}.create({",
-            "\t\tanimated: ${4|true,false|},",
-            "\t\tcloseButtonText: '${5:Cancel}',",
-            "\t\tcolor: '${6|primary,secondary,tertiary|}',",
-            "\t\tcssClass: '${7:toast-success}',",
-            "\t\tduration: ${8:2000},",
-            "\t\theader: '${9:Toast header}',",
-            "\t\tkeyboardClose: ${10|true,false|},",
-            "\t\tmessage: '${11:Click to Close}',",
-            "\t\tmode: '${12|ios,md|}',",
-            "\t\tposition: '${13|bottom,middle,top|}',",
-            "\t\tshowCloseButton: ${14|true,false|},",
-            "\t\ttranslucent: ${15|true,false|}",
-            "\t});",
-            "\t${2:toast}.present();",
-            "}"
-        ],
-        "description": "Ionic toast notification w/ options"
-    },
-    "ion-toast-ctrl": {
-        "prefix": "i-toast-ctrl",
-        "body": [
-            "public ${1:toastController}: ToastController"
-        ],
-        "description": "Ionic ToastController"
-    },
-    "ion-view-will-enter": {
-        "prefix": "i-view-will-enter",
-        "body": [
-            "ionViewWillEnter() {",
-            "\t$0",
-            "}"
-        ],
-        "description": "ionViewWillEnter (1st) - Fired when entering a page (also if it’s come back from stack), subscribe to Observables here or in ionViewDidEnter"
-    },
-    "ion-view-did-enter": {
-        "prefix": "i-view-did-enter",
-        "body": [
-            "ionViewDidEnter() {",
-            "\t$0",
-            "}"
-        ],
-        "description": "ionViewDidEnter (2nd) - Fired after entering (also if it’s come back from stack), subscribe to Observables here or in ionViewWillEnter"
-    },
-    "ion-view-will-leave": {
-        "prefix": "i-view-will-leave",
-        "body": [
-            "ionViewWillLeave() {",
-            "\t$0",
-            "}"
-        ],
-        "description": "ionViewWillLeave (3rd) - Fired if the page will leave (also if it’s keep in stack), cancel Observables here or in ionViewDidLeave"
-    },
-    "ion-view-did-leave": {
-        "prefix": "i-view-did-leave",
-        "body": [
-            "ionViewDidLeave() {",
-            "\t$0",
-            "}"
-        ],
-        "description": "ionViewDidLeave (4th) - Fired after the page was left (also if it’s keep in stack), cancel Observables here or in ionViewWillLeave"
-    },
-    "ion-view-will-unload": {
-        "prefix": "i-view-will-unload",
-        "body": [
-            "${1|ionViewWillUnload,ngOnDestroy|}() {",
-            "\t$0",
-            "}"
-        ],
-        "description": "ionViewWillUnload (5th) - In Angular not firing because here you have to use ngOnDestroy"
-    },
-    "ion-virtual-scroll-header-fn": {
-        "prefix": "i-virtual-scroll-header-fn",
-        "body": [
-            "${1:myHeaderFn}(record, recordIndex, records) {",
-            "\tif (recordIndex % 20 === 0) {",
-            "\t\treturn 'Header ' + recordIndex;",
-            "\t}",
-            "\treturn null;",
-            "}"
-        ],
-        "description": "Ionic virtual scroll header function"
-    }
+  "ion-action-sheet": {
+    "prefix": "i-action-sheet",
+    "body": [
+      "async ${1:presentActionSheet}() {",
+      "\tconst ${2:actionSheet} = await this.${3:actionSheetController}.create({",
+      "\t\theader: '${4:Albums}',",
+      "\t\tbuttons: [{",
+      "\t\t\ttext: '${5:Delete}',",
+      "\t\t\trole: '${6:destructive}',",
+      "\t\t\ticon: '${7:trash}',",
+      "\t\t\thandler: () => {",
+      "\t\t\t\t${8:console.log('Delete clicked');}",
+      "\t\t\t}",
+      "\t\t}, {",
+      "\t\t\ttext: '${9:Share}',",
+      "\t\t\ticon: '${10:share}',",
+      "\t\t\thandler: () => {",
+      "\t\t\t\t${11:console.log('Share clicked');}",
+      "\t\t\t}",
+      "\t\t}, {",
+      "\t\t\ttext: '${12:Cancel}',",
+      "\t\t\ticon: '${13:close}',",
+      "\t\t\trole: '${14:cancel}',",
+      "\t\t\thandler: () => {",
+      "\t\t\t\t${15:console.log('Cancel clicked');}",
+      "\t\t\t}",
+      "\t\t}]",
+      "\t});",
+      "",
+      "\tawait ${2:actionSheet}.present();",
+      "}"
+    ],
+    "description": "Ionic action sheet"
+  },
+  "ion-action-sheet-ctrl": {
+    "prefix": "i-action-sheet-ctrl",
+    "body": ["public ${1:actionSheetController}: ActionSheetController"],
+    "description": "Ionic ActionSheetController"
+  },
+  "ion-alert": {
+    "prefix": "i-alert",
+    "body": [
+      "async ${1:presentAlert}() {",
+      "\tconst ${2:alert} = await this.${3:alertController}.create({",
+      "\t\theader: '${4:Alert}',",
+      "\t\tsubHeader: '${5:Subtitle}',",
+      "\t\tmessage: '${6:This is an alert message.}',",
+      "\t\tbuttons: ['${7:OK}']",
+      "\t});",
+      "",
+      "\tawait ${2:alert}.present();",
+      "}"
+    ],
+    "description": "Ionic alert dialog"
+  },
+  "ion-alert-confirm": {
+    "prefix": "i-alert-confirm",
+    "body": [
+      "async ${1:presentAlertConfirm}() {",
+      "\tconst ${2:alert} = await this.${3:alertController}.create({",
+      "\t\theader: '${4:Confirm!}',",
+      "\t\tmessage: '${5:Message <strong>text</strong>!!!}',",
+      "\t\tbuttons: [",
+      "\t\t\t{",
+      "\t\t\t\ttext: '${6:Cancel}',",
+      "\t\t\t\trole: '${7:cancel}',",
+      "\t\t\t\tcssClass: '${8:secondary}',",
+      "\t\t\t\thandler: () => {",
+      "\t\t\t\t\t${9:console.log('Confirm Cancel: blah');}",
+      "\t\t\t\t}",
+      "\t\t\t}, {",
+      "\t\t\t\ttext: '${10:Okay}',",
+      "\t\t\t\thandler: () => {",
+      "\t\t\t\t\t${11:console.log('Confirm Okay');}",
+      "\t\t\t\t}",
+      "\t\t\t}",
+      "\t\t]",
+      "\t});",
+      "",
+      "\tawait ${2:alert}.present();",
+      "}"
+    ],
+    "description": "Ionic alert confirm dialog"
+  },
+  "ion-alert-ctrl": {
+    "prefix": "i-alert-ctrl",
+    "body": ["public ${1:alertController}: AlertController"],
+    "description": "Ionic AlertController"
+  },
+  "form": {
+    "prefix": "i-form",
+    "body": [
+      "${1:setupForm}() {",
+      "\tthis.${2:loginForm} = this.${3:formBuilder}.group({",
+      "\t\t${4:email}: ['', [Validators.email, Validators.required]],",
+      "\t\t${5:password}: ['', [Validators.minLength(6), Validators.required]],",
+      "\t});",
+      "}"
+    ],
+    "description": "Simple form"
+  },
+  "form-builder": {
+    "prefix": "i-form-builder",
+    "body": ["public ${1:formBuilder}: FormBuilder"],
+    "description": "FormBuilder"
+  },
+  "form-group": {
+    "prefix": "i-form-group",
+    "body": ["${1:loginForm}: FormGroup;"],
+    "description": "FormGroup instance"
+  },
+  "form-value": {
+    "prefix": "i-form-value",
+    "body": [
+      "get ${1:email}(): AbstractControl {",
+      "\treturn this.${2:loginForm}.get('${1:email}');",
+      "}"
+    ],
+    "description": "FormBuilder"
+  },
+  "ion-ctrl-import": {
+    "prefix": "i-ctrl-import",
+    "body": [
+      "import { ${1|ActionSheetController,AlertController,LoadingController,ModalController,ToastController,PopoverController,PickerController|} } from '@ionic/angular';"
+    ],
+    "description": "Imports from @ionic/angular package"
+  },
+  "ion-infinite-scroll-load-data": {
+    "prefix": "i-infinite-scroll-load-data",
+    "body": [
+      "${1:loadData}(event) {",
+      "\tsetTimeout(() => {",
+      "\t\tevent.target.complete();",
+      "\t\t",
+      "\t\tif (data.length == 1000) {",
+      "\t\t\tevent.target.disabled = true;",
+      "\t\t}",
+      "\t}, 500);",
+      "}"
+    ],
+    "description": "Method to load more data with `complete` and `disabled` call"
+  },
+  "ion-infinite-scroll-toggle": {
+    "prefix": "i-infinite-scroll-toggle",
+    "body": [
+      "${1:toggleInfiniteScroll}() {",
+      "\t${2:infiniteScroll}.disabled = !${2:infiniteScroll}.disabled;",
+      "}"
+    ],
+    "description": "Method to toggle InfiniteScroll"
+  },
+  "ion-infinite-scroll-viewchild": {
+    "prefix": "i-infinite-scroll-viewchild",
+    "body": ["@ViewChild(InfiniteScroll) ${1:infiniteScroll}: InfiniteScroll;"],
+    "description": "Viewchild for InfiniteScroll"
+  },
+  "ion-loading": {
+    "prefix": "i-loading",
+    "body": [
+      "async ${1:presentLoading}() {",
+      "\tconst ${2:loading} = await this.${3:loadingController}.create({",
+      "\t\tmessage: '${4:Hellooo}',",
+      "\t\tduration: ${5:2000}",
+      "\t});",
+      "\tawait ${2:loading}.present();",
+      "}"
+    ],
+    "description": "Ionic loading dialog"
+  },
+  "ion-loading-ctrl": {
+    "prefix": "i-loading-ctrl",
+    "body": ["public ${1:loadingController}: LoadingController"],
+    "description": "Ionic LoadingController"
+  },
+  "ion-modal": {
+    "prefix": "i-modal",
+    "body": [
+      "async ${1:presentModal}() {",
+      "\tconst ${2:modal} = await this.${3:modalController}.create({",
+      "\tcomponent: ${4:ModalPage},",
+      "\tcomponentProps: { ${5:value}: ${6:123} }",
+      "\t});",
+      "",
+      "\tawait ${2:modal}.present();",
+      "",
+      "}"
+    ],
+    "description": "Ionic modal dialog"
+  },
+  "ion-modal-will-dismiss": {
+    "prefix": "i-modal-will-dismiss",
+    "body": [
+      "async ${1:presentModal}() {",
+      "\tconst ${2:modal} = await this.${3:modalController}.create({",
+      "\tcomponent: ${4:ModalPage},",
+      "\tcomponentProps: { ${5:value}: ${6:123} }",
+      "\t});",
+      "",
+      "\tawait ${2:modal}.present();",
+      "",
+      "\tawait ${2:modal}.onWillDismiss();",
+      "\t${7:// TODO do something after dismiss}",
+      "",
+      "}"
+    ],
+    "description": "Ionic modal dialog with `onWillDismiss()`"
+  },
+  "ion-modal-ctrl": {
+    "prefix": "i-modal-ctrl",
+    "body": ["public ${1:modalController}: ModalController"],
+    "description": "Ionic ModalController"
+  },
+  "ion-picker": {
+    "prefix": "i-picker",
+    "body": [
+      "async ${1:presentPicker}() {",
+      "\tconst ${2:picker} = await this.${3:pickerController}.create({",
+      "\tanimated: ${4:true},",
+      "\tbuttons: [{",
+      "\t\ttext: '${5:Save}',",
+      "\t\thandler: () => console.log('Clicked Save!')",
+      "\t}, {",
+      "\t\ttext: '${6:Log}',",
+      "\t\thandler: (val) => {",
+      "\t\t\tconsole.log('Clicked Log. Do not Dismiss.', val);",
+      "\t\t\treturn false;",
+      "\t\t}",
+      "\t}],",
+      "\tcolumns: [",
+      "\t\t{",
+      "\t\t\tname: '${7:hours}',",
+      "\t\t\tprefix: '${8:total}',",
+      "\t\t\tsuffix: '${9:hours}',",
+      "\t\t\toptions: [",
+      "\t\t\t\t{",
+      "\t\t\t\t\ttext: '${10:1}',",
+      "\t\t\t\t\tvalue: '${11:01}'",
+      "\t\t\t\t},",
+      "\t\t\t\t{",
+      "\t\t\t\t\ttext: '${12:2}',",
+      "\t\t\t\t\tvalue: '${13:02}'",
+      "\t\t\t\t}",
+      "\t\t\t]",
+      "\t\t}",
+      "\t],",
+      "\tcssClass: '${14:picker-hours}',",
+      "\tmode: '${15|ios,md|}',",
+      "\t});",
+      "\t${2:picker}.present();",
+      "}"
+    ],
+    "description": "Ionic Picker"
+  },
+  "ion-picker-column": {
+    "prefix": "i-picker-column",
+    "body": [
+      "{",
+      "\tname: '${1:hours}',",
+      "\tprefix: '${2:total}',",
+      "\tsuffix: '${3:hours}',",
+      "\toptions: [",
+      "\t\t{",
+      "\t\t\ttext: '${4:1}',",
+      "\t\t\tvalue: '${5:01}'",
+      "\t\t},",
+      "\t\t{",
+      "\t\t\ttext: '${6:2}',",
+      "\t\t\tvalue: '${7:02}'",
+      "\t\t}",
+      "\t]",
+      "}"
+    ],
+    "description": "Ionic Picker Column"
+  },
+  "ion-picker-options": {
+    "prefix": "i-picker-options",
+    "body": ["{", "\ttext: '${1:1}',", "\tvalue: '${2:01}'", "}"],
+    "description": "Ionic Picker Options"
+  },
+  "ion-picker-ctrl": {
+    "prefix": "i-picker-ctrl",
+    "body": ["public ${1:pickerController}: PickerController"],
+    "description": "Ionic PickerController"
+  },
+  "ion-popover": {
+    "prefix": "i-popover",
+    "body": [
+      "async ${1:presentPopover}(${2:ev}: ${3:any}) {",
+      "\tconst ${4:popover} = await this.${5:popoverController}.create({",
+      "\t\tcomponent: ${6:PopoverComponent},",
+      "\t\tevent: ${2:ev},",
+      "\t\ttranslucent: ${7:false}",
+      "\t});",
+      "",
+      "\tawait ${4:popover}.present();",
+      "}"
+    ],
+    "description": "Ionic popover dialog"
+  },
+  "ion-popover-ctrl": {
+    "prefix": "i-popover-ctrl",
+    "body": ["public ${1:popoverController}: PopoverController"],
+    "description": "Ionic PopoverController"
+  },
+  "ion-on-did-dismiss": {
+    "prefix": "i-on-did-dismiss",
+    "body": ["await ${1:alert}.onDidDismiss();"],
+    "description": "`onDidDismiss`"
+  },
+  "ion-on-did-dismiss-data": {
+    "prefix": "i-on-did-dismiss-data",
+    "body": [
+      "const { data } = await ${1:alert}.onDidDismiss();",
+      "if (data) {",
+      "\t${2:// TODO do something}",
+      "}"
+    ],
+    "description": "`onDidDismiss`"
+  },
+  "ion-on-will-dismiss": {
+    "prefix": "i-on-will-dismiss",
+    "body": ["await ${1:alert}.onWillDismiss();"],
+    "description": "`onWillDismiss`"
+  },
+  "ion-on-will-dismiss-data": {
+    "prefix": "i-on-will-dismiss-data",
+    "body": [
+      "const { data } = await ${1:alert}.onWillDismiss();",
+      "if (data) {",
+      "\t${2:// TODO do something}",
+      "}"
+    ],
+    "description": "`onWillDismiss`"
+  },
+  "ion-refresher-do-refresh": {
+    "prefix": "i-refresher-do-refresh",
+    "body": [
+      "${1:doRefresh}(${2:event}) {",
+      "\tconsole.log('Begin async operation');",
+      "\t",
+      "\tsetTimeout(() => {",
+      "\t\tconsole.log('Async operation has ended');",
+      "\t\t${2:event}.target.complete();",
+      "\t}, 2000);",
+      "}"
+    ],
+    "description": "<ion-refesher (ionRefresh)> output handler method"
+  },
+  "ion-reorder-do-reorder": {
+    "prefix": "i-reorder-do-reorder",
+    "body": [
+      "${1:doReorder}(${2:ev}: any) {",
+      "\tthis.${3:items} = ${2:ev}.detail.complete(this.${3:items});",
+      "}"
+    ],
+    "description": "<ion-reorder (ionItemReorder)> output handler method"
+  },
+  "ion-slides-options": {
+    "prefix": "i-slides-options",
+    "body": [
+      "${1:slidesOptions} = {",
+      "\tinitialSlide: ${2:0},",
+      "\tdirection: '${3|horizontal,vertical|}',",
+      "\tspeed: ${4:300},",
+      "\teffect: ${5|slide,fade,cube,coverflow,flip|},",
+      "\tspaceBetween: ${6:8},",
+      "\tslidesPerView: ${7:1.5},",
+      "\tfreeMode: ${8|true,false|},",
+      "\tloop: ${8|true,false|}",
+      "};"
+    ],
+    "description": "Ionic Slides options"
+  },
+  "ion-toast": {
+    "prefix": "i-toast",
+    "body": [
+      "async ${1:presentToast}() {",
+      "\tconst ${2:toast} = await this.${3:toastController}.create({",
+      "\t\tmessage: '${4:Your settings have been saved.}',",
+      "\t\tduration: ${5:2000}",
+      "\t});",
+      "\t${2:toast}.present();",
+      "}"
+    ],
+    "description": "Ionic toast notification"
+  },
+  "ion-toast-button": {
+    "prefix": "i-toast-button",
+    "body": [
+      "{",
+      "\tside: '${1|start,end|}',",
+      "\ticon: '${2:star}',",
+      "\ttext: '${3:Favorite}',",
+      "\tcssClass: '${4:toast-button-fav}',",
+      "\thandler: () => {",
+      "\t\t$0console.log('Favorite clicked');",
+      "\t}",
+      "}"
+    ],
+    "description": "Ionic ToastController"
+  },
+  "ion-toast-w-buttons": {
+    "prefix": "i-toast-w-buttons",
+    "body": [
+      "async ${1:presentToastWithButtons}() {",
+      "\tconst ${2:toast} = await this.${3:toastController}.create({",
+      "\t\tanimated: ${4|true,false|},",
+      "\t\tbuttons: [",
+      "\t\t\t{",
+      "\t\t\t\tside: '${5|start,end|}',",
+      "\t\t\t\ticon: '${6:star}',",
+      "\t\t\t\ttext: '${7:Favorite}',",
+      "\t\t\t\thandler: () => {",
+      "\t\t\t\t\tconsole.log('Favorite clicked');",
+      "\t\t\t\t}",
+      "\t\t\t}, {",
+      "\t\t\t\ttext: '${8:Done}',",
+      "\t\t\t\trole: 'cancel',",
+      "\t\t\t\thandler: () => {",
+      "\t\t\t\t\tconsole.log('Cancel clicked');",
+      "\t\t\t\t}",
+      "\t\t\t}",
+      "\t\t],",
+      "\t\tcolor: '${9|primary,secondary,tertiary|}',",
+      "\t\tcssClass: '${10:toast-success}',",
+      "\t\tduration: ${11:2000},",
+      "\t\theader: '${12:Toast header}',",
+      "\t\tkeyboardClose: ${13|true,false|},",
+      "\t\tmessage: '${14:Click to Close}',",
+      "\t\tmode: '${15|ios,md|}',",
+      "\t\tposition: '${16|bottom,middle,top|}',",
+      "\t\ttranslucent: ${17|true,false|}",
+      "\t});",
+      "\t${2:toast}.present();",
+      "}"
+    ],
+    "description": "Ionic toast notification w/ buttons"
+  },
+  "ion-toast-w-options": {
+    "prefix": "i-toast-w-options",
+    "body": [
+      "async ${1:presentToastWithOptions}() {",
+      "\tconst ${2:toast} = await this.${3:toastController}.create({",
+      "\t\tanimated: ${4|true,false|},",
+      "\t\tcloseButtonText: '${5:Cancel}',",
+      "\t\tcolor: '${6|primary,secondary,tertiary|}',",
+      "\t\tcssClass: '${7:toast-success}',",
+      "\t\tduration: ${8:2000},",
+      "\t\theader: '${9:Toast header}',",
+      "\t\tkeyboardClose: ${10|true,false|},",
+      "\t\tmessage: '${11:Click to Close}',",
+      "\t\tmode: '${12|ios,md|}',",
+      "\t\tposition: '${13|bottom,middle,top|}',",
+      "\t\tshowCloseButton: ${14|true,false|},",
+      "\t\ttranslucent: ${15|true,false|}",
+      "\t});",
+      "\t${2:toast}.present();",
+      "}"
+    ],
+    "description": "Ionic toast notification w/ options"
+  },
+  "ion-toast-ctrl": {
+    "prefix": "i-toast-ctrl",
+    "body": ["public ${1:toastController}: ToastController"],
+    "description": "Ionic ToastController"
+  },
+  "ion-view-will-enter": {
+    "prefix": "i-view-will-enter",
+    "body": ["ionViewWillEnter() {", "\t$0", "}"],
+    "description": "ionViewWillEnter (1st) - Fired when entering a page (also if it’s come back from stack), subscribe to Observables here or in ionViewDidEnter"
+  },
+  "ion-view-did-enter": {
+    "prefix": "i-view-did-enter",
+    "body": ["ionViewDidEnter() {", "\t$0", "}"],
+    "description": "ionViewDidEnter (2nd) - Fired after entering (also if it’s come back from stack), subscribe to Observables here or in ionViewWillEnter"
+  },
+  "ion-view-will-leave": {
+    "prefix": "i-view-will-leave",
+    "body": ["ionViewWillLeave() {", "\t$0", "}"],
+    "description": "ionViewWillLeave (3rd) - Fired if the page will leave (also if it’s keep in stack), cancel Observables here or in ionViewDidLeave"
+  },
+  "ion-view-did-leave": {
+    "prefix": "i-view-did-leave",
+    "body": ["ionViewDidLeave() {", "\t$0", "}"],
+    "description": "ionViewDidLeave (4th) - Fired after the page was left (also if it’s keep in stack), cancel Observables here or in ionViewWillLeave"
+  },
+  "ion-view-will-unload": {
+    "prefix": "i-view-will-unload",
+    "body": ["${1|ionViewWillUnload,ngOnDestroy|}() {", "\t$0", "}"],
+    "description": "ionViewWillUnload (5th) - In Angular not firing because here you have to use ngOnDestroy"
+  },
+  "ion-virtual-scroll-header-fn": {
+    "prefix": "i-virtual-scroll-header-fn",
+    "body": [
+      "${1:myHeaderFn}(record, recordIndex, records) {",
+      "\tif (recordIndex % 20 === 0) {",
+      "\t\treturn 'Header ' + recordIndex;",
+      "\t}",
+      "\treturn null;",
+      "}"
+    ],
+    "description": "Ionic virtual scroll header function"
+  }
 }
