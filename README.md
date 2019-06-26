@@ -15,13 +15,24 @@ All code snippets are based on and follow the [Ionic 4 Api](https://ionicframewo
 
 Type part of a snippet, press enter, and the snippet unfolds.
 
+## Supports
+
+* Angular ✅
+* Stenciljs ✅
+* Vanilla Javascript/Html ✅
+* Vue 🚧
+* React 🚧
+
+✅ — Supported
+🚧 — Under development
+
 ### Overview
-* [Snippet Prefix](https://github.com/fivethree-team/vscode-ionic-snippets#snippet-prefix)
-* [HTML Snippets](https://github.com/fivethree-team/vscode-ionic-snippets#html-snippets)
-* [HTML Properties](https://github.com/fivethree-team/vscode-ionic-snippets#html-properties)
-* [CSS Utilities](https://github.com/fivethree-team/vscode-ionic-snippets#css-utilities)
-* [SCSS Snippets](https://github.com/fivethree-team/vscode-ionic-snippets#scss-snippets)
-* [Typescript Snippets](https://github.com/fivethree-team/vscode-ionic-snippets#typescript-snippets)
+* [Snippet Prefix](#snippet-prefix)
+* [HTML Snippets](#html-snippets)
+* [HTML Properties](#html-properties)
+* [CSS Utilities](#css-utilities)
+* [SCSS Snippets](#scss-snippets)
+* [Typescript Snippets](#typescript-snippets)
 
 ### Snippet Prefix
 
@@ -33,7 +44,6 @@ Type part of a snippet, press enter, and the snippet unfolds.
 
 | Snippet                      | Purpose                                                      |
 | ---------------------------- | ------------------------------------------------------------ |
-| `i-anchor`                | `<ion-anchor>`                                                    |
 | `i-app`                | `<ion-app>`                                                    |
 | `i-avatar`                | `<ion-avatar>`                                                    |
 | `i-back-button`                | `<ion-back-button>`                                                    |
@@ -126,6 +136,10 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-reorder-item`                | `<ion-reorder>` entire `<ion-item>`'s                                             |
 | `i-reorder-group`                | `<ion-reorder-group>`                                             |
 | `i-ripple-effect`                | `<ion-ripple-effect>`                                                |
+| `i-route`                | `<i-route>` used inside of `<ion-router>` and should only be used with vanilla and Stencil JavaScript projects                                                |
+| `i-route-redirect`                | `<ion-route-redirect>` can only be use inside of `<ion-router>` and should only be used with vanilla and Stencil JavaScript projects                                             |
+| `i-router`                | `<ion-router>` only once per App and should only be used with vanilla and Stencil JavaScript projects                                           |
+| `i-router-outlet`                | `<i-router-outlet>` should only be used with Angular projects                                              |
 | `i-row`                | `<ion-row>` w/ `<ion-col>`                                                   |
 | `i-searchbar`                | `<ion-searchbar>`                                                   |
 | `i-segment`                | `<ion-segment>`                                                   |

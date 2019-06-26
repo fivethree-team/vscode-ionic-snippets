@@ -752,6 +752,36 @@
     ],
     "description": "<ion-ripple-effect>"
   },
+  "ion-route": {
+    "prefix": "i-route",
+    "body": [
+      "<ion-route url=\"${1:/login}\" component=\"${2:page-login}\"></ion-route>"
+    ],
+    "description": "<ion-route> used inside of <ion-router> and should only be used with vanilla and Stencil JavaScript projects"
+  },
+  "ion-route-redirect": {
+    "prefix": "i-route-redirect",
+    "body": [
+      "<ion-route-redirect from=\"${1:/admin}\" to=\"${2:/login}\"></ion-route-redirect>"
+    ],
+    "description": "<ion-route-redirect> can only be use inside of <ion-router> and should only be used with vanilla and Stencil JavaScript projects"
+  },
+  "ion-router": {
+    "prefix": "i-router",
+    "body": [
+      "<ion-router>",
+      "\t<ion-route url=\"${1:/login}\" component=\"${2:page-login}\"></ion-route>",
+      "</ion-router>"
+    ],
+    "description": "<ion-router> only once per App and should only be used with vanilla and Stencil JavaScript projects"
+  },
+  "ion-router-link": {
+    "prefix": "i-router-link",
+    "body": [
+      "<ion-router-link href=\"${1:/help}\" routerDirection=\"${2|back,forward,root|}\"></ion-router-link>"
+    ],
+    "description": "<ion-router-link> should only be used with vanilla and Stencil JavaScript projects"
+  },
   "ion-row": {
     "prefix": "i-row",
     "body": [
@@ -870,8 +900,8 @@
   "ion-split-pane": {
     "prefix": "i-split-pane",
     "body": [
-      "<ion-split-pane>",
-      "\t<ion-menu menuId=\"${1:avocadoMenu}\" side=\"${2|start,end|}\" type=\"${3|overlay,push,reveal|}\">",
+      "<ion-split-pane content-id=\"menu-content\">",
+      "\t<ion-menu content-id=\"menu-content\" side=\"${2|start,end|}\" type=\"${3|overlay,push,reveal|}\">",
       "\t\t<ion-header>",
       "\t\t\t<ion-toolbar>",
       "\t\t\t\t<ion-title>${4:Awesome avocado menu}</ion-title>",
@@ -881,7 +911,9 @@
       "\t\t\t${5:Awesome avocado content}",
       "\t\t</ion-content>",
       "\t</ion-menu>",
-      "\t<ion-router-outlet main></ion-router-outlet>",
+      "\t<ion-content id=\"menu-content\">",
+      "\t\t<h1>${6:Hello}</h1>",
+      "\t</ion-content>",
       "</ion-split-pane>"
     ],
     "description": "<ion-split-pane>"
@@ -889,8 +921,8 @@
   "ion-split-pane-advanced": {
     "prefix": "i-split-pane-advanced",
     "body": [
-      "<ion-split-pane>",
-      "\t<ion-menu menuId=\"${1:avocadoMenu}\" side=\"${2|start,end|}\" type=\"${3|overlay,push,reveal|}\">",
+      "<ion-split-pane content-id=\"menu-content\">",
+      "\t<ion-menu content-id=\"menu-content\" side=\"${2|start,end|}\" type=\"${3|overlay,push,reveal|}\">",
       "\t\t<ion-header>",
       "\t\t\t<ion-toolbar>",
       "\t\t\t\t<ion-title>${4:Awesome avocado menu}</ion-title>",
@@ -903,7 +935,9 @@
       "\t\t\t${6:Awesome avocado footer}",
       "\t\t</ion-footer>",
       "\t</ion-menu>",
-      "\t<ion-router-outlet main></ion-router-outlet>",
+      "\t<ion-content id=\"menu-content\">",
+      "\t\t<h1>${6:Hello}</h1>",
+      "\t</ion-content>",
       "</ion-split-pane>"
     ],
     "description": "<ion-split-pane> w/ one complete menu"

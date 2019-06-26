@@ -936,6 +936,11 @@
     ],
     "description": "<ion-ripple-effect>"
   },
+  "ion-router-outlet": {
+    "prefix": "i-router-outlet",
+    "body": ["<ion-router-outlet><ion-router-outlet>"],
+    "description": "<ion-router-outlet> should only be used with Angular projects"
+  },
   "ion-row": {
     "prefix": "i-row",
     "body": [
