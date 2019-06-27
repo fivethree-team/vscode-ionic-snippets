@@ -1,3 +1,13 @@
+# [1.3.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v1.2.0...v1.3.0) (2019-06-27)
+
+
+### Features
+
+* **vue:** support vue-html (inputs and outputs must be checked) ([9d7bff7](https://github.com/fivethree-team/vscode-ionic-snippets/commit/9d7bff7))
+* **vue:** use vue input and output syntax ([eec34e2](https://github.com/fivethree-team/vscode-ionic-snippets/commit/eec34e2))
+
+
+
 # [1.2.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v1.1.0...v1.2.0) (2019-06-26)
 
 
