@@ -20,10 +20,11 @@ Type part of a snippet, press enter, and the snippet unfolds.
 * Angular ✅
 * Stenciljs ✅
 * Vanilla Javascript/Html ✅
-* Vue 🚧
+* Vue 🔶
 * React 🚧
 
 ✅ — Supported  
+🔶 — Partial support    
 🚧 — Under development
 
 ### Overview
