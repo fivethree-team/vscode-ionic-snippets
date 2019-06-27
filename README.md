@@ -7,7 +7,7 @@
 [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version-short/fivethree.vscode-ionic-snippets.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=fivethree.vscode-ionic-snippets)
 [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs-short/fivethree.vscode-ionic-snippets.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=fivethree.vscode-ionic-snippets)
 
-Boost your [Ionic](https://ionicframework.com/) 4 development with snippets for [VS Code](https://code.visualstudio.com/)
+Boost your [Ionic 4](https://ionicframework.com/) development with snippets for [VS Code](https://code.visualstudio.com/)
 
 ✅ Fast templates with snippets of ~100 Ionic components  
 ✅ Easy custom theming with CSS properties  
