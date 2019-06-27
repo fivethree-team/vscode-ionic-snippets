@@ -7,7 +7,11 @@
 [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version-short/fivethree.vscode-ionic-snippets.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=fivethree.vscode-ionic-snippets)
 [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs-short/fivethree.vscode-ionic-snippets.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=fivethree.vscode-ionic-snippets)
 
-Visual Studio Code Extension adds TypeScript, HTML and SCSS snippets for Ionic 4.
+Boost your [Ionic](https://ionicframework.com/) 4 development with snippets for [VS Code](https://code.visualstudio.com/)
+
+✅ Fast templates with snippets of ~100 Ionic components  
+✅ Easy custom theming with CSS properties  
+✅ Framework support for [angular](https://angular.io/), [stenciljs](https://stenciljs.com/) and [vuejs](https://vuejs.org/)
 
 All code snippets are based on and follow the [Ionic 4 Api](https://ionicframework.com/docs/api).
 
@@ -28,12 +32,16 @@ Type part of a snippet, press enter, and the snippet unfolds.
 🚧 — Under development
 
 ### Overview
-* [Snippet Prefix](#snippet-prefix)
-* [HTML Snippets](#html-snippets)
-* [HTML Properties](#html-properties)
-* [CSS Utilities](#css-utilities)
-* [SCSS Snippets](#scss-snippets)
-* [Typescript Snippets](#typescript-snippets)
+- [Ionic Snippets for VS Code](#Ionic-Snippets-for-VS-Code)
+  - [Using Snippets for Ionic 4](#Using-Snippets-for-Ionic-4)
+  - [Framework](#Framework)
+    - [Overview](#Overview)
+    - [Snippet Prefix](#Snippet-Prefix)
+    - [HTML Snippets](#HTML-Snippets)
+    - [HTML Properties](#HTML-Properties)
+    - [CSS Utilities](#CSS-Utilities)
+    - [SCSS Snippets](#SCSS-Snippets)
+    - [Typescript Snippets](#Typescript-Snippets)
 
 ### Snippet Prefix
 
