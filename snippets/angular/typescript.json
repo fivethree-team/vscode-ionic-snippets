@@ -188,8 +188,8 @@
     ],
     "description": "Ionic modal dialog"
   },
-  "ion-modal-will-dismiss": {
-    "prefix": "i-modal-will-dismiss",
+  "ion-modal-dismiss": {
+    "prefix": "i-modal-dismiss",
     "body": [
       "async ${1:presentModal}() {",
       "\tconst ${2:modal} = await this.${3:modalController}.create({",
@@ -199,12 +199,12 @@
       "",
       "\tawait ${2:modal}.present();",
       "",
-      "\tawait ${2:modal}.onWillDismiss();",
-      "\t${7:// TODO do something after dismiss}",
+      "\tconst data = await ${2:modal}.${7|onDidDismiss,onWillDismiss|}();",
+      "\t${8:console.log(data)}",
       "",
       "}"
     ],
-    "description": "Ionic modal dialog with `onWillDismiss()`"
+    "description": "Ionic modal dialog with dismiss"
   },
   "ion-modal-ctrl": {
     "prefix": "i-modal-ctrl",

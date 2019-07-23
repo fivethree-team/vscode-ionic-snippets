@@ -312,7 +312,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-loading`                | Ionic loading dialog                                             |
 | `i-loading-ctrl`                | Ionic LoadingController                                             |
 | `i-modal`                | Ionic modal dialog method                                                 |
-| `i-modal-will-dismiss`                | Ionic modal dialog method wit `onWillDismiss`                                              |
+| `i-modal-dismiss`                | Ionic modal dialog with dismiss                                              |
 | `i-modal-ctrl`                | Ionic ModalController                                                 |
 | `i-picker`                | Ionic Picker                                                 |
 | `i-picker-colum`                | Ionic Picker Column                                        |
