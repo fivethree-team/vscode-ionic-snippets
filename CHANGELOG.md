@@ -1,3 +1,13 @@
+# [1.4.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v1.3.0...v1.4.0) (2019-07-23)
+
+
+### Features
+
+* **modal:** get data on dismiss from modal ([3b9076d](https://github.com/fivethree-team/vscode-ionic-snippets/commit/3b9076d))
+* **tabs:** add slot top ([7f891fb](https://github.com/fivethree-team/vscode-ionic-snippets/commit/7f891fb))
+
+
+
 # [1.3.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v1.2.0...v1.3.0) (2019-06-27)
 
 
