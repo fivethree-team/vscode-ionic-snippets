@@ -1,12 +1,19 @@
 {
   "ion-app": {
     "prefix": "i-app",
-    "body": ["<ion-app>", "</ion-app>"],
+    "body": [
+      "<ion-app>",
+      "</ion-app>"
+    ],
     "description": "<ion-app>"
   },
   "ion-avatar": {
     "prefix": "i-avatar",
-    "body": ["<ion-avatar>", "\t<img src=\"${1:image}\" />", "</ion-avatar>"],
+    "body": [
+      "<ion-avatar>",
+      "\t<img src=\"${1:image}\" />",
+      "</ion-avatar>"
+    ],
     "description": "<ion-avatar>"
   },
   "ion-back-button": {
@@ -29,7 +36,9 @@
   },
   "ion-backdrop": {
     "prefix": "i-backdrop",
-    "body": ["<ion-backdrop></ion-backdrop>"],
+    "body": [
+      "<ion-backdrop></ion-backdrop>"
+    ],
     "description": "<ion-backdrop>"
   },
   "ion-badge": {
@@ -41,7 +50,9 @@
   },
   "ion-button": {
     "prefix": "i-button",
-    "body": ["<ion-button href=\"${1:home}\">${2:Click me}</ion-button>"],
+    "body": [
+      "<ion-button href=\"${1:home}\">${2:Click me}</ion-button>"
+    ],
     "description": "<ion-button> w/ href"
   },
   "ion-button-props": {
@@ -86,7 +97,11 @@
   },
   "ion-card": {
     "prefix": "i-card",
-    "body": ["<ion-card>", "\t$0", "</ion-card>"],
+    "body": [
+      "<ion-card>",
+      "\t$0",
+      "</ion-card>"
+    ],
     "description": "<ion-card>"
   },
   "ion-card-full": {
@@ -125,17 +140,23 @@
   },
   "ion-card-subtitle": {
     "prefix": "i-card-subtitle",
-    "body": ["<ion-card-subtitle>${1:Awesome Subtitle}</ion-card-subtitle>"],
+    "body": [
+      "<ion-card-subtitle>${1:Awesome Subtitle}</ion-card-subtitle>"
+    ],
     "description": "<ion-card-subtitle>"
   },
   "ion-card-title": {
     "prefix": "i-card-title",
-    "body": ["<ion-card-title>${1:Awesome Title}</ion-card-title>"],
+    "body": [
+      "<ion-card-title>${1:Awesome Title}</ion-card-title>"
+    ],
     "description": "<ion-card-title>"
   },
   "ion-checkbox": {
     "prefix": "i-checkbox",
-    "body": ["<ion-checkbox></ion-checkbox>"],
+    "body": [
+      "<ion-checkbox></ion-checkbox>"
+    ],
     "description": "<ion-checkbox>"
   },
   "ion-chip": {
@@ -190,7 +211,10 @@
   },
   "ion-content": {
     "prefix": "i-content",
-    "body": ["<ion-content>", "</ion-content>"],
+    "body": [
+      "<ion-content>",
+      "</ion-content>"
+    ],
     "description": "<ion-content>"
   },
   "ion-content-events": {
@@ -301,7 +325,9 @@
   },
   "ion-img": {
     "prefix": "i-img",
-    "body": ["<ion-img src=\"${1:image}\"></ion-img>"],
+    "body": [
+      "<ion-img src=\"${1:image}\"></ion-img>"
+    ],
     "description": "<ion-img> lazyily load an image"
   },
   "ion-infinite-scroll": {
@@ -524,7 +550,9 @@
   },
   "ion-label": {
     "prefix": "i-label",
-    "body": ["<ion-label>${1:Label}</ion-label>"],
+    "body": [
+      "<ion-label>${1:Label}</ion-label>"
+    ],
     "description": "<ion-label>"
   },
   "ion-label-floating": {
@@ -553,7 +581,11 @@
   },
   "ion-list": {
     "prefix": "i-list",
-    "body": ["<ion-list>", "\t$0", "</ion-list>"],
+    "body": [
+      "<ion-list>",
+      "\t$0",
+      "</ion-list>"
+    ],
     "description": "<ion-list>"
   },
   "ion-list-header": {
@@ -635,7 +667,9 @@
   },
   "ion-note": {
     "prefix": "i-note",
-    "body": ["<ion-note>${1:42}</ion-note>"],
+    "body": [
+      "<ion-note>${1:42}</ion-note>"
+    ],
     "description": "<ion-note>"
   },
   "ion-progress": {
@@ -647,12 +681,16 @@
   },
   "ion-radio": {
     "prefix": "i-radio",
-    "body": ["<ion-radio value=\"${1:ford}\"></ion-radio>"],
+    "body": [
+      "<ion-radio value=\"${1:ford}\"></ion-radio>"
+    ],
     "description": "<ion-radio>"
   },
   "ion-radio-checked": {
     "prefix": "i-radio-checked",
-    "body": ["<ion-radio value=\"${1:ford}\" checked></ion-radio>"],
+    "body": [
+      "<ion-radio value=\"${1:ford}\" checked></ion-radio>"
+    ],
     "description": "<ion-radio> checked"
   },
   "ion-radio-group": {
@@ -863,7 +901,9 @@
   },
   "ion-skeleton-text": {
     "prefix": "i-skeleton-text",
-    "body": ["<ion-skeleton-text width=\"${1:80}%\"></ion-skeleton-text>"],
+    "body": [
+      "<ion-skeleton-text width=\"${1:80}%\"></ion-skeleton-text>"
+    ],
     "description": "<ion-skeleton-text>"
   },
   "ion-slide": {
@@ -1021,12 +1061,16 @@
   },
   "ion-text-required": {
     "prefix": "i-text-required",
-    "body": ["<ion-text color=\"danger\">*</ion-text>"],
+    "body": [
+      "<ion-text color=\"danger\">*</ion-text>"
+    ],
     "description": "<ion-text> w/ required hint"
   },
   "ion-textarea": {
     "prefix": "i-textarea",
-    "body": ["<ion-textarea></ion-textarea>"],
+    "body": [
+      "<ion-textarea></ion-textarea>"
+    ],
     "description": "<ion-textarea>"
   },
   "ion-textarea-w-placeholder": {
@@ -1059,12 +1103,16 @@
   },
   "ion-title": {
     "prefix": "i-title",
-    "body": ["<ion-title>${1:Title}</ion-title>"],
+    "body": [
+      "<ion-title>${1:Title}</ion-title>"
+    ],
     "description": "<ion-title>"
   },
   "ion-toggle": {
     "prefix": "i-toggle",
-    "body": ["<ion-toggle></ion-toggle>"],
+    "body": [
+      "<ion-toggle></ion-toggle>"
+    ],
     "description": "<ion-toggle>"
   },
   "ion-toolbar": {
