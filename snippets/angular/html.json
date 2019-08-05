@@ -774,6 +774,13 @@
     "body": ["<ion-note>${1:42}</ion-note>"],
     "description": "<ion-note>"
   },
+  "ion-progress": {
+    "prefix": "i-progress",
+    "body": [
+      "<ion-progress type=\"${1|determinate,indeterminate|}\" value=\"${2:0.42}\" buffer=\"${3:0.5}\" reversed=\"${4|true,false|}\" color=\"${5|primary,secondary,tertiary,success,warning,danger|}\"></ion-progress>"
+    ],
+    "description": "<ion-progress>"
+  },
   "ion-radio": {
     "prefix": "i-radio",
     "body": ["<ion-radio value=\"${1:ford}\"></ion-radio>"],

@@ -132,6 +132,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-menu-advanced`                     | `<ion-menu>` w/ `<ion-header>`, `<ion-content>` and `<ion-footer>`                                                                   |
 | `i-menu-button`                       | `<ion-menu-button>`                                                                                                                  |
 | `i-note`                              | `<ion-note>`                                                                                                                         |
+| `i-progress`                          | `<ion-progress>`                                                                                                                     |
 | `i-radio`                             | `<ion-radio>`                                                                                                                        |
 | `i-radio-checked`                     | `<ion-radio>` checked                                                                                                                |
 | `i-radio-group`                       | `<ion-radio-group>`                                                                                                                  |
