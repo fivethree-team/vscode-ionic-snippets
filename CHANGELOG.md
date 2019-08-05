@@ -1,3 +1,12 @@
+# [1.5.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v1.4.0...v1.5.0) (2019-08-05)
+
+
+### Features
+
+* **progress:** add progress snippets ([b2d2ea8](https://github.com/fivethree-team/vscode-ionic-snippets/commit/b2d2ea8))
+
+
+
 # [1.4.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v1.3.0...v1.4.0) (2019-07-23)
 
 
