@@ -35,7 +35,9 @@
   },
   "ion-action-sheet-ctrl": {
     "prefix": "i-action-sheet-ctrl",
-    "body": ["public ${1:actionSheetController}: ActionSheetController"],
+    "body": [
+      "public ${1:actionSheetController}: ActionSheetController"
+    ],
     "description": "Ionic ActionSheetController"
   },
   "ion-alert": {
@@ -85,7 +87,9 @@
   },
   "ion-alert-ctrl": {
     "prefix": "i-alert-ctrl",
-    "body": ["public ${1:alertController}: AlertController"],
+    "body": [
+      "public ${1:alertController}: AlertController"
+    ],
     "description": "Ionic AlertController"
   },
   "form": {
@@ -102,12 +106,16 @@
   },
   "form-builder": {
     "prefix": "i-form-builder",
-    "body": ["public ${1:formBuilder}: FormBuilder"],
+    "body": [
+      "public ${1:formBuilder}: FormBuilder"
+    ],
     "description": "FormBuilder"
   },
   "form-group": {
     "prefix": "i-form-group",
-    "body": ["${1:loginForm}: FormGroup;"],
+    "body": [
+      "${1:loginForm}: FormGroup;"
+    ],
     "description": "FormGroup instance"
   },
   "form-value": {
@@ -152,7 +160,9 @@
   },
   "ion-infinite-scroll-viewchild": {
     "prefix": "i-infinite-scroll-viewchild",
-    "body": ["@ViewChild(InfiniteScroll) ${1:infiniteScroll}: InfiniteScroll;"],
+    "body": [
+      "@ViewChild(InfiniteScroll) ${1:infiniteScroll}: InfiniteScroll;"
+    ],
     "description": "Viewchild for InfiniteScroll"
   },
   "ion-loading": {
@@ -161,7 +171,8 @@
       "async ${1:presentLoading}() {",
       "\tconst ${2:loading} = await this.${3:loadingController}.create({",
       "\t\tmessage: '${4:Hellooo}',",
-      "\t\tduration: ${5:2000}",
+      "\t\tduration: ${5:2000},",
+      "\t\tspinner: '${6|bubbles,circles,circular,crescent,dots,lines,lines-small|}'",
       "\t});",
       "\tawait ${2:loading}.present();",
       "}"
@@ -170,7 +181,9 @@
   },
   "ion-loading-ctrl": {
     "prefix": "i-loading-ctrl",
-    "body": ["public ${1:loadingController}: LoadingController"],
+    "body": [
+      "public ${1:loadingController}: LoadingController"
+    ],
     "description": "Ionic LoadingController"
   },
   "ion-modal": {
@@ -208,7 +221,9 @@
   },
   "ion-modal-ctrl": {
     "prefix": "i-modal-ctrl",
-    "body": ["public ${1:modalController}: ModalController"],
+    "body": [
+      "public ${1:modalController}: ModalController"
+    ],
     "description": "Ionic ModalController"
   },
   "ion-picker": {
@@ -275,12 +290,19 @@
   },
   "ion-picker-options": {
     "prefix": "i-picker-options",
-    "body": ["{", "\ttext: '${1:1}',", "\tvalue: '${2:01}'", "}"],
+    "body": [
+      "{",
+      "\ttext: '${1:1}',",
+      "\tvalue: '${2:01}'",
+      "}"
+    ],
     "description": "Ionic Picker Options"
   },
   "ion-picker-ctrl": {
     "prefix": "i-picker-ctrl",
-    "body": ["public ${1:pickerController}: PickerController"],
+    "body": [
+      "public ${1:pickerController}: PickerController"
+    ],
     "description": "Ionic PickerController"
   },
   "ion-popover": {
@@ -300,12 +322,16 @@
   },
   "ion-popover-ctrl": {
     "prefix": "i-popover-ctrl",
-    "body": ["public ${1:popoverController}: PopoverController"],
+    "body": [
+      "public ${1:popoverController}: PopoverController"
+    ],
     "description": "Ionic PopoverController"
   },
   "ion-on-did-dismiss": {
     "prefix": "i-on-did-dismiss",
-    "body": ["await ${1:alert}.onDidDismiss();"],
+    "body": [
+      "await ${1:alert}.onDidDismiss();"
+    ],
     "description": "`onDidDismiss`"
   },
   "ion-on-did-dismiss-data": {
@@ -320,7 +346,9 @@
   },
   "ion-on-will-dismiss": {
     "prefix": "i-on-will-dismiss",
-    "body": ["await ${1:alert}.onWillDismiss();"],
+    "body": [
+      "await ${1:alert}.onWillDismiss();"
+    ],
     "description": "`onWillDismiss`"
   },
   "ion-on-will-dismiss-data": {
@@ -462,32 +490,54 @@
   },
   "ion-toast-ctrl": {
     "prefix": "i-toast-ctrl",
-    "body": ["public ${1:toastController}: ToastController"],
+    "body": [
+      "public ${1:toastController}: ToastController"
+    ],
     "description": "Ionic ToastController"
   },
   "ion-view-will-enter": {
     "prefix": "i-view-will-enter",
-    "body": ["ionViewWillEnter() {", "\t$0", "}"],
+    "body": [
+      "ionViewWillEnter() {",
+      "\t$0",
+      "}"
+    ],
     "description": "ionViewWillEnter (1st) - Fired when entering a page (also if it’s come back from stack), subscribe to Observables here or in ionViewDidEnter"
   },
   "ion-view-did-enter": {
     "prefix": "i-view-did-enter",
-    "body": ["ionViewDidEnter() {", "\t$0", "}"],
+    "body": [
+      "ionViewDidEnter() {",
+      "\t$0",
+      "}"
+    ],
     "description": "ionViewDidEnter (2nd) - Fired after entering (also if it’s come back from stack), subscribe to Observables here or in ionViewWillEnter"
   },
   "ion-view-will-leave": {
     "prefix": "i-view-will-leave",
-    "body": ["ionViewWillLeave() {", "\t$0", "}"],
+    "body": [
+      "ionViewWillLeave() {",
+      "\t$0",
+      "}"
+    ],
     "description": "ionViewWillLeave (3rd) - Fired if the page will leave (also if it’s keep in stack), cancel Observables here or in ionViewDidLeave"
   },
   "ion-view-did-leave": {
     "prefix": "i-view-did-leave",
-    "body": ["ionViewDidLeave() {", "\t$0", "}"],
+    "body": [
+      "ionViewDidLeave() {",
+      "\t$0",
+      "}"
+    ],
     "description": "ionViewDidLeave (4th) - Fired after the page was left (also if it’s keep in stack), cancel Observables here or in ionViewWillLeave"
   },
   "ion-view-will-unload": {
     "prefix": "i-view-will-unload",
-    "body": ["${1|ionViewWillUnload,ngOnDestroy|}() {", "\t$0", "}"],
+    "body": [
+      "${1|ionViewWillUnload,ngOnDestroy|}() {",
+      "\t$0",
+      "}"
+    ],
     "description": "ionViewWillUnload (5th) - In Angular not firing because here you have to use ngOnDestroy"
   },
   "ion-virtual-scroll-header-fn": {
