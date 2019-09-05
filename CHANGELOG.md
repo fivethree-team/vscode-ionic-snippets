@@ -1,3 +1,15 @@
+# [1.6.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v1.5.0...v1.6.0) (2019-09-05)
+
+
+### Features
+
+* **circular:** add circular selection ([3446ae8](https://github.com/fivethree-team/vscode-ionic-snippets/commit/3446ae8))
+* **loading:** add spinner property selection ([ee60d50](https://github.com/fivethree-team/vscode-ionic-snippets/commit/ee60d50))
+* **nav,nav-link:** new snippets for nav and nav-link ([2f5e2d1](https://github.com/fivethree-team/vscode-ionic-snippets/commit/2f5e2d1))
+* **searchbar:** add inputmode and type ([32dbcba](https://github.com/fivethree-team/vscode-ionic-snippets/commit/32dbcba))
+
+
+
 # [1.5.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v1.4.0...v1.5.0) (2019-08-05)
 
 
