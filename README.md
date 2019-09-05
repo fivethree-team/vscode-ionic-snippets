@@ -131,6 +131,8 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-menu`                              | `<ion-menu>` w/ `<ion-header>` and `<ion-content>`                                                                                   |
 | `i-menu-advanced`                     | `<ion-menu>` w/ `<ion-header>`, `<ion-content>` and `<ion-footer>`                                                                   |
 | `i-menu-button`                       | `<ion-menu-button>`                                                                                                                  |
+| `i-nav`                               | `<ion-nav>` standalone Nav component                                                                                                 |
+| `i-nav-link`                          | `<ion-nav-link>` navigate to a component                                                                                             |
 | `i-note`                              | `<ion-note>`                                                                                                                         |
 | `i-progress`                          | `<ion-progress>`                                                                                                                     |
 | `i-radio`                             | `<ion-radio>`                                                                                                                        |

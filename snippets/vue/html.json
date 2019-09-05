@@ -725,6 +725,20 @@
     ],
     "description": "<ion-menu-button>"
   },
+  "ion-nav": {
+    "prefix": "i-nav",
+    "body": [
+      "<ion-nav animated=\"${1|true,false|}\" root=\"${2:nav-home}\" swipeGesture=\"${3|true,false|}\"></ion-nav>"
+    ],
+    "description": "<ion-nav> standalone nav component"
+  },
+  "ion-nav-link": {
+    "prefix": "i-nav-link",
+    "body": [
+      "<ion-nav-link routerDirection=\"${1|back,forward,root|}\" component=\"${2:nav-profile}\"></ion-nav-link>"
+    ],
+    "description": "<ion-nav-link> navigate to a component"
+  },
   "ion-note": {
     "prefix": "i-note",
     "body": [
