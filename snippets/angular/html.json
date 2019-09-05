@@ -463,7 +463,7 @@
     "prefix": "i-infinite-scroll",
     "body": [
       "<ion-infinite-scroll threshold=\"${1:25}${2|%,px|}\" (ionInfinite)=\"${3:loadData}(\\$event)\">",
-      "\t<ion-infinite-scroll-content loadingSpinner=\"${4|crescent,lines,lines-small,bubbles,circles,dots|}\" loadingText=\"${5:Loading more data...}\">",
+      "\t<ion-infinite-scroll-content loadingSpinner=\"${4|bubbles,circles,circular,crescent,dots,lines,lines-small|}\" loadingText=\"${5:Loading more data...}\">",
       "\t</ion-infinite-scroll-content>",
       "</ion-infinite-scroll>"
     ],
@@ -926,7 +926,7 @@
       "\t<ion-refresher-content",
       "\t\tpullingIcon=\"${2:arrow-dropdown}\"",
       "\t\tpullingText=\"${3:Pull to refresh}\"",
-      "\t\trefreshingSpinner=\"${4|bubbles,circles,crescent,dots,lines,lines-small|}\"",
+      "\t\trefreshingSpinner=\"${4|bubbles,circles,circular,crescent,dots,lines,lines-small|}\"",
       "\t\trefreshingText=\"${5:Refreshing...}\">",
       "\t</ion-refresher-content>",
       "</ion-refresher>"
@@ -1148,7 +1148,7 @@
   "ion-spinner": {
     "prefix": "i-spinner",
     "body": [
-      "<ion-spinner name=\"${1|crescent,lines,lines-small,bubbles,circles,dots|}\"></ion-spinner>"
+      "<ion-spinner name=\"${1|bubbles,circles,circular,crescent,dots,lines,lines-small|}\"></ion-spinner>"
     ],
     "description": "<ion-spinner>"
   },
