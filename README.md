@@ -232,66 +232,66 @@ Type part of a snippet, press enter, and the snippet unfolds.
 
 ### SCSS Snippets
 
-| Snippet                   | Purpose                                                                              |
-| ------------------------- | ------------------------------------------------------------------------------------ |
-| `i-action-sheet-props`    | Action Sheet CSS custom properties                                                   |
-| `i-alert-props`           | Alert CSS custom properties                                                          |
-| `i-anchor-props`          | Anchor CSS custom properties                                                         |
-| `i-avatar-props`          | Avatar CSS custom properties                                                         |
-| `i-back-button-props`     | Back Button CSS custom properties                                                    |
-| `i-badge-props`           | Badge CSS custom properties                                                          |
-| `i-button-props`          | Button CSS custom properties                                                         |
-| `i-card-props`            | Card CSS custom properties                                                           |
-| `i-card-subtitle-props`   | Card Subtitle CSS custom properties                                                  |
-| `i-card-title-props`      | Card Title CSS custom properties                                                     |
-| `i-checkbox-props`        | Checkbox CSS custom properties                                                       |
-| `i-chip-props`            | Chip CSS custom properties                                                           |
-| `i-col-props`             | Col CSS custom properties                                                            |
-| `i-color`                 | Ionic scss color variables w/ color selection                                        |
-| `i-color-custom`          | Custom Color can be used as color property `color='favorite'`, add to variables.scss |
-| `i-color-custom-root`     | Custom Color add to `:root` in variables.scss                                        |
-| `i-content-props`         | Content CSS custom properties                                                        |
-| `i-dark-mode`             | Dark mode example for Mac OS                                                         |
-| `i-dark-mode-media-query` | Dark mode media query for Mac OS                                                     |
-| `i-datetime-props`        | Datetime CSS custom properties                                                       |
-| `i-fab-button-props`      | Fab-Button CSS custom properties                                                     |
-| `i-grid-props`            | Grid CSS custom properties                                                           |
-| `i-icon-props`            | Icon CSS properties                                                                  |
-| `i-input-props`           | Input CSS custom properties                                                          |
-| `i-item-props`            | Item CSS custom properties                                                           |
-| `i-item-divider-props`    | Item Divider CSS custom properties                                                   |
-| `i-item-option-props`     | Item Option CSS custom properties                                                    |
-| `i-label-props`           | Label CSS custom properties                                                          |
-| `i-list-header-props`     | List Header CSS custom properties                                                    |
-| `i-loading-props`         | Loading CSS custom properties                                                        |
-| `i-menu-props`            | Menu CSS custom properties                                                           |
-| `i-menu-button-props`     | Menu Button CSS custom properties                                                    |
-| `i-modal-props`           | Modal CSS custom properties                                                          |
-| `i-note-props`            | Note CSS custom properties                                                           |
-| `i-picker-props`          | Picker CSS custom properties                                                         |
-| `i-popover-props`         | Popover CSS custom properties                                                        |
-| `i-progress-bar-props`    | Progress Bar CSS custom properties                                                   |
-| `i-radio-props`           | Radio CSS custom properties                                                          |
-| `i-range-props`           | Range CSS custom properties                                                          |
-| `i-rgba`                  | Add opacity to Ionic colors using `rgba(...)`                                        |
-| `i-root`                  | `:root { }`                                                                          |
-| `i-searchbar-props`       | Searchbar CSS custom properties                                                      |
-| `i-segment-button-props`  | Segment Button CSS custom properties                                                 |
-| `i-select-props`          | Select CSS custom properties                                                         |
-| `i-skeleton-text-props`   | Skeleton Text CSS custom properties                                                  |
-| `i-sliders-props`         | Slides CSS custom properties                                                         |
-| `i-spinner-props`         | Spinner CSS custom properties                                                        |
-| `i-split-pane-props`      | Split Pane CSS custom properties                                                     |
-| `i-stepped-color`         | Stepped colors add to `:root`                                                        |
-| `i-tab-bar-props`         | Tab Bar CSS custom properties                                                        |
-| `i-tab-button-props`      | Tab Button CSS custom properties                                                     |
-| `i-textarea-props`        | Textarea CSS custom properties                                                       |
-| `i-thumbnail-props`       | Thumbnail CSS custom properties                                                      |
-| `i-title-props`           | Title CSS custom properties                                                          |
-| `i-toast-props`           | Toast CSS custom properties                                                          |
-| `i-toast-example`         | Toast CSS custom example style for success, warning or danger toasts                 |
-| `i-toggle-props`          | Toggle CSS custom properties                                                         |
-| `i-toolbar-props`         | Toolbar CSS custom properties                                                        |
+| Snippet                  | Purpose                                                                              |
+| ------------------------ | ------------------------------------------------------------------------------------ |
+| `i-action-sheet-props`   | Action Sheet CSS custom properties                                                   |
+| `i-alert-props`          | Alert CSS custom properties                                                          |
+| `i-anchor-props`         | Anchor CSS custom properties                                                         |
+| `i-avatar-props`         | Avatar CSS custom properties                                                         |
+| `i-back-button-props`    | Back Button CSS custom properties                                                    |
+| `i-badge-props`          | Badge CSS custom properties                                                          |
+| `i-button-props`         | Button CSS custom properties                                                         |
+| `i-card-props`           | Card CSS custom properties                                                           |
+| `i-card-subtitle-props`  | Card Subtitle CSS custom properties                                                  |
+| `i-card-title-props`     | Card Title CSS custom properties                                                     |
+| `i-checkbox-props`       | Checkbox CSS custom properties                                                       |
+| `i-chip-props`           | Chip CSS custom properties                                                           |
+| `i-col-props`            | Col CSS custom properties                                                            |
+| `i-color`                | Ionic scss color variables w/ color selection                                        |
+| `i-color-custom`         | Custom Color can be used as color property `color='favorite'`, add to variables.scss |
+| `i-color-custom-root`    | Custom Color add to `:root` in variables.scss                                        |
+| `i-content-props`        | Content CSS custom properties                                                        |
+| `i-dark-mode`            | Dark mode example for Mac OS                                                         |  |
+| `i-datetime-props`       | Datetime CSS custom properties                                                       |
+| `i-fab-button-props`     | Fab-Button CSS custom properties                                                     |
+| `i-grid-props`           | Grid CSS custom properties                                                           |
+| `i-icon-props`           | Icon CSS properties                                                                  |
+| `i-input-props`          | Input CSS custom properties                                                          |
+| `i-item-props`           | Item CSS custom properties                                                           |
+| `i-item-divider-props`   | Item Divider CSS custom properties                                                   |
+| `i-item-option-props`    | Item Option CSS custom properties                                                    |
+| `i-label-props`          | Label CSS custom properties                                                          |
+| `i-list-header-props`    | List Header CSS custom properties                                                    |
+| `i-loading-props`        | Loading CSS custom properties                                                        |
+| `i-menu-props`           | Menu CSS custom properties                                                           |
+| `i-menu-button-props`    | Menu Button CSS custom properties                                                    |
+| `i-modal-props`          | Modal CSS custom properties                                                          |
+| `i-note-props`           | Note CSS custom properties                                                           |
+| `i-picker-props`         | Picker CSS custom properties                                                         |
+| `i-popover-props`        | Popover CSS custom properties                                                        |
+| `i-prefers-color-scheme` | Media query for prefered-color-scheme                                                |
+| `i-progress-bar-props`   | Progress Bar CSS custom properties                                                   |
+| `i-radio-props`          | Radio CSS custom properties                                                          |
+| `i-range-props`          | Range CSS custom properties                                                          |
+| `i-rgba`                 | Add opacity to Ionic colors using `rgba(...)`                                        |
+| `i-root`                 | `:root { }`                                                                          |
+| `i-searchbar-props`      | Searchbar CSS custom properties                                                      |
+| `i-segment-button-props` | Segment Button CSS custom properties                                                 |
+| `i-select-props`         | Select CSS custom properties                                                         |
+| `i-skeleton-text-props`  | Skeleton Text CSS custom properties                                                  |
+| `i-sliders-props`        | Slides CSS custom properties                                                         |
+| `i-spinner-props`        | Spinner CSS custom properties                                                        |
+| `i-split-pane-props`     | Split Pane CSS custom properties                                                     |
+| `i-stepped-color`        | Stepped colors add to `:root`                                                        |
+| `i-tab-bar-props`        | Tab Bar CSS custom properties                                                        |
+| `i-tab-button-props`     | Tab Button CSS custom properties                                                     |
+| `i-textarea-props`       | Textarea CSS custom properties                                                       |
+| `i-thumbnail-props`      | Thumbnail CSS custom properties                                                      |
+| `i-title-props`          | Title CSS custom properties                                                          |
+| `i-toast-props`          | Toast CSS custom properties                                                          |
+| `i-toast-example`        | Toast CSS custom example style for success, warning or danger toasts                 |
+| `i-toggle-props`         | Toggle CSS custom properties                                                         |
+| `i-toolbar-props`        | Toolbar CSS custom properties                                                        |
 
 **[⬆ back to top](#overview)**
 

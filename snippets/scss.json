@@ -579,6 +579,17 @@
     ],
     "description": "Popover CSS custom properties"
   },
+  "ion-prefers-color-scheme": {
+    "prefix": "i-prefers-color-scheme",
+    "body": [
+      "@media(prefers-color-scheme: ${1|dark,light|}) {",
+      "\t:root {",
+      "\t\t$0",
+      "\t}",
+      "}"
+    ],
+    "description": "Detect dark mode in browser using prefers-color-scheme media query"
+  },
   "ion-progress-bar-props": {
     "prefix": "i-progress-bar-props",
     "body": [
