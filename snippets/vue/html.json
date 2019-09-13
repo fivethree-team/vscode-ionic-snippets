@@ -915,7 +915,10 @@
   "ion-ripple-effect": {
     "prefix": "i-ripple-effect",
     "body": [
-      "<ion-ripple-effect type=\"${1|bounded,unbounded|}\"></ion-ripple-effect>"
+      "<${1:div} class=\"ion-activatable\">",
+      "\t$0",
+      "\t<ion-ripple-effect type=\"${2|bounded,unbounded|}\"></ion-ripple-effect>",
+      "</${1:div}>"
     ],
     "description": "<ion-ripple-effect>"
   },

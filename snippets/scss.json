@@ -17,6 +17,16 @@
     ],
     "description": "Action Sheet CSS custom properties"
   },
+  "ion-activatable": {
+    "prefix": "i-activatable",
+    "body": [
+      ".ion-activatable {",
+      "\tposition: relative;",
+      "\toverflow: hidden;",
+      "}"
+    ],
+    "description": "Activatable class for the parent element of <ion-ripple-effect>"
+  },
   "ion-alert-props": {
     "prefix": "i-alert-props",
     "body": [
