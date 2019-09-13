@@ -251,7 +251,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-color-custom`         | Custom Color can be used as color property `color='favorite'`, add to variables.scss |
 | `i-color-custom-root`    | Custom Color add to `:root` in variables.scss                                        |
 | `i-content-props`        | Content CSS custom properties                                                        |
-| `i-dark-mode`            | Dark mode example for Mac OS                                                         |  |
+| `i-dark-theme`           | Ionic Dark Theme                                                                     |
 | `i-datetime-props`       | Datetime CSS custom properties                                                       |
 | `i-fab-button-props`     | Fab-Button CSS custom properties                                                     |
 | `i-grid-props`           | Grid CSS custom properties                                                           |
