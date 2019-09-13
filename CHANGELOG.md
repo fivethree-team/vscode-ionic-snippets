@@ -1,3 +1,14 @@
+# [1.7.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v1.6.0...v1.7.0) (2019-09-13)
+
+
+### Features
+
+* **ripple-effect:** update ripple-effect usage ([c745d84](https://github.com/fivethree-team/vscode-ionic-snippets/commit/c745d84))
+* **scss:** ionic dark theme ([8a88f9c](https://github.com/fivethree-team/vscode-ionic-snippets/commit/8a88f9c))
+* **scss:** media query for prefers-color-scheme ([367ae27](https://github.com/fivethree-team/vscode-ionic-snippets/commit/367ae27))
+
+
+
 # [1.6.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v1.5.0...v1.6.0) (2019-09-05)
 
 
