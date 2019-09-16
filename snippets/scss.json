@@ -4,7 +4,7 @@
     "body": [
       "${1:ion-action-sheet} {",
       "\t--background: ${2:#ffffff};",
-      "\t--background-activated: ${3:#3880ff}",
+      "\t--background-activated: ${3:#3880ff};",
       "\t--background-selected: ${4:#3880ff};",
       "\t--color: ${5:#3880ff};",
       "\t--height: ${6:100%};",
@@ -425,7 +425,7 @@
     "body": [
       "${1:ion-fab-button} {",
       "\t--background: ${2:#3880ff};",
-      "\t--background-activated: ${3:#3880ff}",
+      "\t--background-activated: ${3:#3880ff};",
       "\t--background-focused: ${4:#3880ff};",
       "\t--background-hover: ${5:#3880ff};",
       "\t--border-color: ${6:#3880ff};",
@@ -436,7 +436,7 @@
       "\t--color: ${11:#ffffff};",
       "\t--color-activated: ${12:#3880ff};",
       "\t--color-focused ${13:#3880ff};",
-      "\t--color-hover: ${14:#3880ff}",
+      "\t--color-hover: ${14:#3880ff};",
       "\t--padding-bottom: ${15:4px};",
       "\t--padding-end: ${16:4px};",
       "\t--padding-start: ${17:4px};",
@@ -490,9 +490,9 @@
       "\t--padding-start: ${6:4px};",
       "\t--padding-top: ${7:4px};",
       "\t--placeholder-color: ${8:#3880ff};",
-      "\t--placeholder-font-style: ${9:initial}",
-      "\t--placeholder-font-weight ${10:initial}",
-      "\t--placeholder-opacity ${11:0.5}",
+      "\t--placeholder-font-style: ${9:initial};",
+      "\t--placeholder-font-weight ${10:initial};",
+      "\t--placeholder-opacity ${11:0.5};",
       "}"
     ],
     "description": "Input CSS custom properties"
@@ -502,7 +502,7 @@
     "body": [
       "${1:ion-item} {",
       "\t--background: ${2:#3880ff};",
-      "\t--background-activated: ${3:#3880ff}",
+      "\t--background-activated: ${3:#3880ff};",
       "\t--background-focused: ${4:#3880ff};",
       "\t--background-hover: ${5:#3880ff};",
       "\t--border-color: ${6:#3880ff};",
@@ -787,7 +787,7 @@
     "body": [
       "${1:ion-segment-button} {",
       "\t--background: ${2:#3880ff};",
-      "\t--background-activated: ${3:#3880ff}",
+      "\t--background-activated: ${3:#3880ff};",
       "\t--background-checked: ${4:#3880ff};",
       "\t--background-hover: ${5:#3880ff};",
       "\t--border-color: ${6:#3880ff};",
@@ -860,7 +860,7 @@
     "prefix": "i-split-pane-props",
     "body": [
       "${1:ion-split-pane} {",
-      "\t--border: ${2:1px solid}",
+      "\t--border: ${2:1px solid};",
       "}"
     ],
     "description": "Split Pane CSS custom properties"
@@ -933,10 +933,10 @@
       "\t--padding-end: ${6:4px};",
       "\t--padding-start: ${7:4px};",
       "\t--padding-top: ${8:4px};",
-      "\t--placeholder-color: ${9:c5c5c5}",
-      "\t--placeholder-font-style: ${10:initial}",
-      "\t--placeholder-font-weight ${11:initial}",
-      "\t--placeholder-opacity ${12:0.5}",
+      "\t--placeholder-color: ${9:c5c5c5};",
+      "\t--placeholder-font-style: ${10:initial};",
+      "\t--placeholder-font-weight ${11:initial};",
+      "\t--placeholder-opacity ${12:0.5};",
       "}"
     ],
     "description": "Textarea CSS custom properties"
@@ -972,13 +972,13 @@
       "\t--box-shadow: ${7:none};",
       "\t--button-color: ${8:#3880ff};",
       "\t--color: ${9:#3880ff};",
-      "\t--end: ${10:8px}",
+      "\t--end: ${10:8px};",
       "\t--height: ${11:42px};",
       "\t--max-height: ${12:64px};",
       "\t--max-width: ${13:192px};",
       "\t--min-height: ${14:24px};",
       "\t--min-width: ${15:92px};",
-      "\t--start: ${16:8px}",
+      "\t--start: ${16:8px};",
       "\t--width: ${17:124px};",
       "}"
     ],
