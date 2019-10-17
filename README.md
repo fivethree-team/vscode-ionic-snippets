@@ -21,8 +21,6 @@ Type part of a snippet, press enter, and the snippet unfolds.
 
 ## Framework
 
-### Snippet Prefix
-
 | Framework               | Prefix | Status |
 | ----------------------- | ------ | ------ |
 | Angular                 | `i-`   | ✅     |
@@ -32,7 +30,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | Vue                     | `i-`   | 🔶     |
 
 ✅ — Supported  
-🔶 — Partial support  
+🔶 — Partial support
 🚧 — Under development
 
 ### Overview
@@ -40,7 +38,6 @@ Type part of a snippet, press enter, and the snippet unfolds.
 - [Ionic Snippets for VS Code](#ionic-snippets-for-vs-code)
   - [Using Snippets for Ionic 4](#using-snippets-for-ionic-4)
   - [Framework](#framework)
-    - [Snippet Prefix](#snippet-prefix)
     - [Overview](#overview)
     - [HTML Snippets](#html-snippets)
     - [HTML Properties](#html-properties)
