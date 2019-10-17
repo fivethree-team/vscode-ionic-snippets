@@ -1,0 +1,47 @@
+{
+    "ion-back-button": {
+        "prefix": "ir-back-button",
+        "body": [
+            "<IonButtons slot=\"${1|start,end,primary,secondary|}\">",
+            "\t<IonBackButton defaultHref=\"${1:/home}\" />",
+            "</IonButtons>"
+        ],
+        "description": "<ion-back-button>"
+    },
+    "ion-button": {
+        "prefix": "ir-button",
+        "body": [
+            "<IonButton>${1:Default}</IonButton>"
+        ],
+        "description": "<ion-button>"
+    },
+    "ion-content": {
+        "prefix": "ir-content",
+        "body": [
+            "<IonContent>",
+            "\t$0",
+            "</IonContent>"
+        ],
+        "description": "<ion-content>"
+    },
+    "ion-header": {
+        "prefix": "ir-header",
+        "body": [
+            "<IonHeader>",
+            "\t<IonToolbar>",
+            "\t\t<IonTitle>${1:Title}</IonTitle>",
+            "\t</IonToolbar>",
+            "</IonHeader>"
+        ],
+        "description": "<ion-header>"
+    },
+    "ion-page": {
+        "prefix": "ir-page",
+        "body": [
+            "<IonPage>",
+            "\t$0",
+            "</IonPage>"
+        ],
+        "description": "<ion-page>"
+    }
+}

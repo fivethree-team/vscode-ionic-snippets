@@ -47,7 +47,11 @@
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/stencil/html-jsx.json"
+        "path": "./snippets/stencil/html-tsx.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react/html-tsx.json"
       },
       {
         "language": "vue-html",
