@@ -43,5 +43,45 @@
             "</IonPage>"
         ],
         "description": "<ion-page>"
+    },
+    "ion-page-with-component": {
+        "prefix": "ir-page-component",
+        "body": [
+            "import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';",
+            "import React from 'react';",
+            "",
+            "const ${1:ComponentName}: React.FC = () => {",
+            "",
+            "\treturn (",
+            "\t\t<IonPage>",
+            "\t\t\t<IonHeader>",
+            "\t\t\t\t<IonToolbar>",
+            "\t\t\t\t\t<IonTitle>Home</IonTitle>",
+            "\t\t\t\t</IonToolbar>",
+            "\t\t\t</IonHeader>",
+            "\t\t\t<IonContent className=\"ion-padding\">",
+            "\t\t\t\t${2:Write down here}",
+            "\t\t\t</IonContent>",
+            "\t\t</IonPage>",
+            "\t);",
+            "};",
+            "",
+            "export default ${1:ComponentName};"
+        ],
+        "description": "Page in Function Component's style"
+    },
+    "ion-route": {
+        "prefix": "ir-route",
+        "body": [
+            "<Route path=\"${1:RoutePath}\" component={${2:ComponentName}} exact={3|true,false|} />"
+        ],
+        "description": "Route component to use within <IonRouterOutlet>"
+    },
+    "ion-route-redirect": {
+        "prefix": "ir-route-redirect",
+        "body": [
+            "<Route exact path=\"${1:RoutePath}\" render={() => <Redirect to=\"${2:RedirectToPath}\" /> />"
+        ],
+        "description": "Route component to use within <IonRouterOutlet>, use to redirect to another path"
     }
 }
