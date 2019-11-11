@@ -1,3 +1,21 @@
+# [1.8.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v1.6.0...v1.8.0) (2019-11-11)
+
+
+### Bug Fixes
+
+* **scss:** add missing semicolons ([6cee9ee](https://github.com/fivethree-team/vscode-ionic-snippets/commit/6cee9ee))
+* **searchbar:** add missing semicolons ([7f98ec1](https://github.com/fivethree-team/vscode-ionic-snippets/commit/7f98ec1))
+
+
+### Features
+
+* **react:** first react snippets ([a271a1b](https://github.com/fivethree-team/vscode-ionic-snippets/commit/a271a1b))
+* **ripple-effect:** update ripple-effect usage ([c745d84](https://github.com/fivethree-team/vscode-ionic-snippets/commit/c745d84))
+* **scss:** ionic dark theme ([8a88f9c](https://github.com/fivethree-team/vscode-ionic-snippets/commit/8a88f9c))
+* **scss:** media query for prefers-color-scheme ([367ae27](https://github.com/fivethree-team/vscode-ionic-snippets/commit/367ae27))
+
+
+
 ## [1.7.1](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v1.6.0...v1.7.1) (2019-09-16)
 
 
