@@ -21,14 +21,16 @@ Type part of a snippet, press enter, and the snippet unfolds.
 
 ## Framework
 
-- Angular ✅
-- Stenciljs ✅
-- Vanilla Javascript/Html ✅
-- Vue 🔶
-- React 🚧
+| Framework               | Prefix | Status |
+| ----------------------- | ------ | ------ |
+| Angular                 | `i-`   | ✅     |
+| Stenciljs               | `i-`   | ✅     |
+| Vanilla Javascript/Html | `i-`   | ✅     |
+| React                   | `ir-`  | 🚧     |
+| Vue                     | `i-`   | 🔶     |
 
 ✅ — Supported  
-🔶 — Partial support  
+🔶 — Partial support
 🚧 — Under development
 
 ### Overview
@@ -37,18 +39,11 @@ Type part of a snippet, press enter, and the snippet unfolds.
   - [Using Snippets for Ionic 4](#using-snippets-for-ionic-4)
   - [Framework](#framework)
     - [Overview](#overview)
-    - [Snippet Prefix](#snippet-prefix)
     - [HTML Snippets](#html-snippets)
     - [HTML Properties](#html-properties)
     - [CSS Utilities](#css-utilities)
     - [SCSS Snippets](#scss-snippets)
     - [Typescript Snippets](#typescript-snippets)
-
-### Snippet Prefix
-
-| Prefix | Description    |
-| ------ | -------------- |
-| `i-`   | Ionic Snippets |
 
 ### HTML Snippets
 
