@@ -30,7 +30,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | Vue                     | `i-`   | 🔶     |
 
 ✅ — Supported  
-🔶 — Partial support
+🔶 — Partial support  
 🚧 — Under development
 
 ### Overview
