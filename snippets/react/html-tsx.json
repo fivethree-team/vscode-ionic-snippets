@@ -83,5 +83,24 @@
             "<Route exact path=\"${1:RoutePath}\" render={() => <Redirect to=\"${2:RedirectToPath}\" /> />"
         ],
         "description": "Route component to use within <IonRouterOutlet>, use to redirect to another path"
+    },
+    "ion-split-pane": {
+        "prefix": "ir-split-pane",
+        "body": [
+            "<IonContent>",
+            "\t<IonSplitPane contentId=\"${1:menuContent}\" when=\"${2|xs,sm,md,lg,xl|}\">",
+            "\t\t<IonMenu contentId=\"${1:menuContent}\">",
+            "\t\t\t<IonHeader>",
+            "\t\t\t\t<IonToolbar>",
+            "\t\t\t\t\t<IonTitle>${3:Menu}</IonTitle>",
+            "\t\t\t\t</IonToolbar>",
+            "\t\t\t</IonHeader>",
+            "\t\t</IonMenu>",
+            "",
+            "\t\t<IonPage id=\"${1:menuContent}\"/>",
+            "\t</IonSplitPane>",
+            "</IonContent>"
+        ],
+        "description": "<IonSplitPane>"
     }
 }

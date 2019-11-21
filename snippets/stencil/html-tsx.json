@@ -624,14 +624,14 @@
   "ion-menu": {
     "prefix": "i-menu",
     "body": [
-      "<ion-menu menuId=\"${1:avocadoMenu}\" side=\"${2|start,end|}\" type=\"${3|overlay,push,reveal|}\">",
+      "<ion-menu content-id=\"${1:menu-content}\" menuId=\"${2:avocadoMenu}\" side=\"${3|start,end|}\" type=\"${4|overlay,push,reveal|}\">",
       "\t<ion-header>",
       "\t\t<ion-toolbar>",
-      "\t\t\t<ion-title>${4:Awesome avocado menu}</ion-title>",
+      "\t\t\t<ion-title>${5:Awesome avocado menu}</ion-title>",
       "\t\t</ion-toolbar>",
       "\t</ion-header>",
       "\t<ion-content>",
-      "\t\t${5:Awesome avocado content}",
+      "\t\t${6:Awesome avocado content}",
       "\t</ion-content>",
       "</ion-menu>"
     ],
@@ -964,47 +964,23 @@
   "ion-split-pane": {
     "prefix": "i-split-pane",
     "body": [
-      "<ion-split-pane content-id=\"menu-content\">",
-      "\t<ion-menu content-id=\"menu-content\" side=\"${2|start,end|}\" type=\"${3|overlay,push,reveal|}\">",
+      "<ion-split-pane content-id=\"${1:menu-content}\" when=\"${2|xs,sm,md,lg,xl|}\">",
+      "\t<ion-menu content-id=\"${1:menu-content}\" side=\"${3|start,end|}\" type=\"${4|overlay,push,reveal|}\">",
       "\t\t<ion-header>",
       "\t\t\t<ion-toolbar>",
-      "\t\t\t\t<ion-title>${4:Awesome avocado menu}</ion-title>",
+      "\t\t\t\t<ion-title>${5:Awesome avocado menu}</ion-title>",
       "\t\t\t</ion-toolbar>",
       "\t\t</ion-header>",
       "\t\t<ion-content>",
-      "\t\t\t${5:Awesome avocado content}",
+      "\t\t\t${6:Awesome avocado content}",
       "\t\t</ion-content>",
       "\t</ion-menu>",
-      "\t<ion-content id=\"menu-content\">",
+      "\t<ion-content id=\"${1:menu-content}\">",
       "\t\t<h1>${6:Hello}</h1>",
       "\t</ion-content>",
       "</ion-split-pane>"
     ],
     "description": "<ion-split-pane>"
-  },
-  "ion-split-pane-advanced": {
-    "prefix": "i-split-pane-advanced",
-    "body": [
-      "<ion-split-pane content-id=\"menu-content\">",
-      "\t<ion-menu content-id=\"menu-content\" side=\"${2|start,end|}\" type=\"${3|overlay,push,reveal|}\">",
-      "\t\t<ion-header>",
-      "\t\t\t<ion-toolbar>",
-      "\t\t\t\t<ion-title>${4:Awesome avocado menu}</ion-title>",
-      "\t\t\t</ion-toolbar>",
-      "\t\t</ion-header>",
-      "\t\t<ion-content>",
-      "\t\t\t${5:Awesome avocado content}",
-      "\t\t</ion-content>",
-      "\t\t<ion-footer>",
-      "\t\t\t${6:Awesome avocado footer}",
-      "\t\t</ion-footer>",
-      "\t</ion-menu>",
-      "\t<ion-content id=\"menu-content\">",
-      "\t\t<h1>${6:Hello}</h1>",
-      "\t</ion-content>",
-      "</ion-split-pane>"
-    ],
-    "description": "<ion-split-pane> w/ one complete menu"
   },
   "ion-tab-bar": {
     "prefix": "i-tab-bar",

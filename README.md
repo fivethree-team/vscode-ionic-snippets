@@ -164,7 +164,6 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-slides-options`                    | `<ion-slides>` w/ options                                                                                                            |
 | `i-spinner`                           | `<ion-spinner>`                                                                                                                      |
 | `i-split-pane`                        | `<ion-split-pane>`                                                                                                                   |
-| `i-split-pane-advanced`               | `<ion-split-pane>` w/ a menu including `<ion-header>`, `<ion-content>` and `<ion-footer>`                                            |
 | `i-tab`                               | `<ion-tab>`                                                                                                                          |
 | `i-tab-bar`                           | `<ion-tab-bar>`                                                                                                                      |
 | `i-tab-button`                        | `<ion-tab-button>` connected to `<ion-tab>`                                                                                          |
