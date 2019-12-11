@@ -1,3 +1,12 @@
+# [1.9.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v1.8.0...v1.9.0) (2019-12-11)
+
+
+### Features
+
+* **splitpane,menu:** add contentId ([7713b59](https://github.com/fivethree-team/vscode-ionic-snippets/commit/7713b59))
+
+
+
 # [1.8.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v1.6.0...v1.8.0) (2019-11-11)
 
 
