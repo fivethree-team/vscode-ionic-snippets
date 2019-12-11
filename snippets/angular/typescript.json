@@ -36,7 +36,7 @@
   "ion-action-sheet-ctrl": {
     "prefix": "i-action-sheet-ctrl",
     "body": [
-      "public ${1:actionSheetController}: ActionSheetController"
+      "private ${1:actionSheetController}: ActionSheetController"
     ],
     "description": "Ionic ActionSheetController"
   },
@@ -88,7 +88,7 @@
   "ion-alert-ctrl": {
     "prefix": "i-alert-ctrl",
     "body": [
-      "public ${1:alertController}: AlertController"
+      "private ${1:alertController}: AlertController"
     ],
     "description": "Ionic AlertController"
   },
@@ -107,7 +107,7 @@
   "form-builder": {
     "prefix": "i-form-builder",
     "body": [
-      "public ${1:formBuilder}: FormBuilder"
+      "private ${1:formBuilder}: FormBuilder"
     ],
     "description": "FormBuilder"
   },
@@ -130,7 +130,7 @@
   "ion-ctrl-import": {
     "prefix": "i-ctrl-import",
     "body": [
-      "import { ${1|ActionSheetController,AlertController,LoadingController,ModalController,ToastController,PopoverController,PickerController|} } from '@ionic/angular';"
+      "import { ${1|ActionSheetController,AlertController,LoadingController,MenuController,ModalController,ToastController,PopoverController,PickerController|} } from '@ionic/angular';"
     ],
     "description": "Imports from @ionic/angular package"
   },
@@ -182,9 +182,16 @@
   "ion-loading-ctrl": {
     "prefix": "i-loading-ctrl",
     "body": [
-      "public ${1:loadingController}: LoadingController"
+      "private ${1:loadingController}: LoadingController"
     ],
     "description": "Ionic LoadingController"
+  },
+  "ion-menu-ctrl": {
+    "prefix": "i-menu-ctrl",
+    "body": [
+      "private ${1:menuController}: MenuController"
+    ],
+    "description": "Ionic MenuController"
   },
   "ion-modal": {
     "prefix": "i-modal",
@@ -222,7 +229,7 @@
   "ion-modal-ctrl": {
     "prefix": "i-modal-ctrl",
     "body": [
-      "public ${1:modalController}: ModalController"
+      "private ${1:modalController}: ModalController"
     ],
     "description": "Ionic ModalController"
   },
@@ -301,7 +308,7 @@
   "ion-picker-ctrl": {
     "prefix": "i-picker-ctrl",
     "body": [
-      "public ${1:pickerController}: PickerController"
+      "private ${1:pickerController}: PickerController"
     ],
     "description": "Ionic PickerController"
   },
@@ -323,7 +330,7 @@
   "ion-popover-ctrl": {
     "prefix": "i-popover-ctrl",
     "body": [
-      "public ${1:popoverController}: PopoverController"
+      "private ${1:popoverController}: PopoverController"
     ],
     "description": "Ionic PopoverController"
   },
@@ -491,7 +498,7 @@
   "ion-toast-ctrl": {
     "prefix": "i-toast-ctrl",
     "body": [
-      "public ${1:toastController}: ToastController"
+      "private ${1:toastController}: ToastController"
     ],
     "description": "Ionic ToastController"
   },
