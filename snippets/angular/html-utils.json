@@ -136,6 +136,16 @@
     "body": ["class=\"ion-no-margin\""],
     "description": "CSS Utilities Element No Margin"
   },
+  "ion-no-border": {
+    "prefix": "i-no-border",
+    "body": ["class=\"ion-no-border\""],
+    "description": "CSS Utilities Element No Border for <ion-header> or <ion-footer>"
+  },
+  "ion-no-padding": {
+    "prefix": "i-no-padding",
+    "body": ["class=\"ion-no-padding\""],
+    "description": "CSS Utilities Element No Padding"
+  },
   "ion-padding": {
     "prefix": "i-padding",
     "body": ["class=\"ion-padding\""],
@@ -147,11 +157,6 @@
       "class=\"ion-padding-${1|top,start,end,bottom,vertical,horizontal|}\""
     ],
     "description": "CSS Utilities Element Padding Type"
-  },
-  "ion-no-padding": {
-    "prefix": "i-no-padding",
-    "body": ["class=\"ion-no-padding\""],
-    "description": "CSS Utilities Element No Padding"
   },
   "scrollEvents": {
     "prefix": "i-scrollEvents",

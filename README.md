@@ -214,10 +214,11 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-justity-content`          | CSS Utilities Flex Container Justify Content                                                                                |
 | `i-margin`                   | CSS Utilities Element Margin                                                                                                |
 | `i-margin-type`              | CSS Utilities Element Margin Type                                                                                           |
+| `i-no-border`                | CSS Utilities Element No Border for `<ion-header>` or `<ion-footer>`                                                        |
 | `i-no-margin`                | CSS Utilities Element No Margin                                                                                             |
+| `i-no-padding`               | CSS Utilities Element No Padding                                                                                            |
 | `i-padding`                  | CSS Utilities Element Padding                                                                                               |
 | `i-padding-type`             | CSS Utilities Element Padding Type                                                                                          |
-| `i-no-padding`               | CSS Utilities Element No Padding                                                                                            |
 | `i-text-alignment`           | CSS Utilities Text Alignment                                                                                                |
 | `i-text-responsive`          | CSS Utilities Responsive Text Classes for Alignment and Transformations                                                     |
 | `i-text-transformation`      | CSS Utilities Text Transformation                                                                                           |
