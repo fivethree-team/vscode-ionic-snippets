@@ -1,3 +1,14 @@
+# [1.20.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v1.8.0...v1.20.0) (2020-01-17)
+
+
+### Features
+
+* **infinite-scroll:** add disabled and position ([b21ae65](https://github.com/fivethree-team/vscode-ionic-snippets/commit/b21ae65ae4e1a330978e4d2ab0311304909d5a32))
+* **menu:** add menu controller ([155588e](https://github.com/fivethree-team/vscode-ionic-snippets/commit/155588effdcc0885ea66d37d7ba82462282a7325))
+* **splitpane,menu:** add contentId ([7713b59](https://github.com/fivethree-team/vscode-ionic-snippets/commit/7713b59f8e4db35da5cd471fb3743150f0224e75))
+
+
+
 # [1.9.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v1.8.0...v1.9.0) (2019-12-11)
 
 
