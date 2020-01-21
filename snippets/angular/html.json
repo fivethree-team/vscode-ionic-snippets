@@ -53,20 +53,11 @@
   "ion-button": {
     "prefix": "i-button",
     "body": [
-      "<ion-button (click)=\"${1:onClick()}\">",
+      "<ion-button (click)=\"${1:onClick()}\" expand=\"${2|block,full|}\" fill=\"${3|clear,default,outline,solid|}\" shape=\"${4:round}\">",
       "\t${2:Click me}",
       "</ion-button>"
     ],
-    "description": "<ion-button> w/ click event"
-  },
-  "ion-button-props": {
-    "prefix": "i-button-props",
-    "body": [
-      "<ion-button (click)=\"${1:onClick()}\" fill=\"${2|solid,outline,clear|}\" shape=\"${3:round}\">",
-      "\t${4:Click me}",
-      "</ion-button>"
-    ],
-    "description": "<ion-button> w/ click event"
+    "description": "<ion-button>"
   },
   "ion-button-icon-only": {
     "prefix": "i-button-icon-only",
