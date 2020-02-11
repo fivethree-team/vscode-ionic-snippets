@@ -675,7 +675,9 @@
     "body": [
       "<ion-list>",
       "\t<ion-radio-group name=\"${1:auto}\">",
-      "\t\t<ion-list-header>${2:Auto Manufacturers}</ion-list-header>",
+      "\t\t<ion-list-header>",
+      "\t\t\t<ion-label>${2:Auto Manufacturers}</ion-label>",
+      "\t\t</ion-list-header>",
       "\t\t<ion-item>",
       "\t\t\t<ion-label>${3:Tesla}</ion-label>",
       "\t\t\t<ion-radio value=\"${4:tesla}\"></ion-radio>",
