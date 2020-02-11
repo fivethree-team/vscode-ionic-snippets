@@ -121,7 +121,6 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-label-position`                    | `<ion-label>` w/ position selection                                                                                                  |
 | `i-list`                              | `<ion-list>`                                                                                                                         |
 | `i-list-header`                       | `<ion-list-header>`                                                                                                                  |
-| `i-list-input`                        | `<ion-item>` w/ two `<ion-item>`                                                                                                     |
 | `i-menu`                              | `<ion-menu>` w/ `<ion-header>` and `<ion-content>`                                                                                   |
 | `i-menu-advanced`                     | `<ion-menu>` w/ `<ion-header>`, `<ion-content>` and `<ion-footer>`                                                                   |
 | `i-menu-button`                       | `<ion-menu-button>`                                                                                                                  |
@@ -130,7 +129,6 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-note`                              | `<ion-note>`                                                                                                                         |
 | `i-progress`                          | `<ion-progress>`                                                                                                                     |
 | `i-radio`                             | `<ion-radio>`                                                                                                                        |
-| `i-radio-checked`                     | `<ion-radio>` checked                                                                                                                |
 | `i-radio-group`                       | `<ion-radio-group>`                                                                                                                  |
 | `i-range`                             | `<ion-range>`                                                                                                                        |
 | `i-range-icon`                        | `<ion-range>` w/ `<ion-icon>`                                                                                                        |

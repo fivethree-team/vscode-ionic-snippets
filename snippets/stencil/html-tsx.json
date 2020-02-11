@@ -510,7 +510,7 @@
       "\t<ion-radio slot=\"${2|end,start|}\"></ion-radio>",
       "</ion-item>"
     ],
-    "description": "<ion-item> w/ <ion-radio>"
+    "description": "<ion-item> w/ <ion-radio> must be inside of <ion-radio-group>"
   },
   "ion-item-toggle": {
     "prefix": "i-item-toggle",
@@ -565,30 +565,6 @@
       "</ion-list-header>"
     ],
     "description": "<ion-list-header>"
-  },
-  "ion-list-input": {
-    "prefix": "i-list-input",
-    "body": [
-      "<ion-list>",
-      "\t<ion-item>",
-      "\t\t<ion-label>${1:Input}</ion-label>",
-      "\t\t<ion-input></ion-input>",
-      "\t</ion-item>",
-      "\t<ion-item>",
-      "\t\t<ion-label>${2:Toggle}</ion-label>",
-      "\t\t<ion-toggle slot=\"${4|end,start|}\"></ion-toggle>",
-      "\t</ion-item>",
-      "\t<ion-item>",
-      "\t\t<ion-label>${5:Radio}</ion-label>",
-      "\t\t<ion-radio slot=\"${6|end,start|}\"></ion-radio>",
-      "\t</ion-item>",
-      "\t<ion-item>",
-      "\t\t<ion-label>${7:Checkbox}</ion-label>",
-      "\t\t<ion-checkbox slot=\"${8|start,end|}\"></ion-checkbox>",
-      "\t</ion-item>",
-      "</ion-list>"
-    ],
-    "description": "<ion-list>"
   },
   "ion-menu": {
     "prefix": "i-menu",
@@ -663,18 +639,13 @@
   "ion-radio": {
     "prefix": "i-radio",
     "body": ["<ion-radio value=\"${1:ford}\"></ion-radio>"],
-    "description": "<ion-radio>"
-  },
-  "ion-radio-checked": {
-    "prefix": "i-radio-checked",
-    "body": ["<ion-radio value=\"${1:ford}\" checked></ion-radio>"],
-    "description": "<ion-radio> checked"
+    "description": "<ion-radio> must be inside of <ion-radio-group>"
   },
   "ion-radio-group": {
     "prefix": "i-radio-group",
     "body": [
       "<ion-list>",
-      "\t<ion-radio-group name=\"${1:auto}\">",
+      "\t<ion-radio-group name=\"${1:auto}\" value=\"${4:tesla}\">",
       "\t\t<ion-list-header>",
       "\t\t\t<ion-label>${2:Auto Manufacturers}</ion-label>",
       "\t\t</ion-list-header>",
