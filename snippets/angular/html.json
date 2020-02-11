@@ -687,7 +687,8 @@
     "prefix": "i-list-header",
     "body": [
       "<ion-list-header>",
-      "\t<ion-label>${1:Title}</ion-label>",
+      "\t<ion-label>${1:New This Week}</ion-label>",
+      "\t<ion-button>${2:See All}</ion-button>",
       "</ion-list-header>"
     ],
     "description": "<ion-list-header>"
