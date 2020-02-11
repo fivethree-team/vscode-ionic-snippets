@@ -880,11 +880,11 @@
   "ion-segment": {
     "prefix": "i-segment",
     "body": [
-      "<ion-segment @ionChange=\"${1:segmentChanged}(\\$event)\">",
-      "\t<ion-segment-button>",
+      "<ion-segment value=\"pizza\" @ionChange=\"${1:segmentChanged}(\\$event)\">",
+      "\t<ion-segment-button value=\"pizza\">",
       "\t\t<ion-label>${2:Pizza}</ion-label>",
       "\t</ion-segment-button>",
-      "\t<ion-segment-button>",
+      "\t<ion-segment-button value=\"pasta\">",
       "\t\t<ion-label>${3:Pasta}</ion-label>",
       "\t</ion-segment-button>",
       "</ion-segment>"
