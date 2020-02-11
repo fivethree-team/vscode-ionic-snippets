@@ -833,6 +833,8 @@
       "\t--padding-end: ${3:4px};",
       "\t--padding-start: ${4:4px};",
       "\t--padding-top: ${5:4px};",
+      "\t--placeholder-color: ${6:#3880ff};",
+      "\t--placeholder-color-opacity: ${7:1};",
       "}"
     ],
     "description": "Select CSS custom properties"
