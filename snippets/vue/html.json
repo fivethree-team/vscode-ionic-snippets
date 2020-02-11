@@ -905,8 +905,8 @@
     "body": [
       "<ion-item>",
       "\t<ion-label>${1:Pizza}</ion-label>",
-      "\t<ion-select multiple=\"${2|true,false|}\" placeholder=\"${3:Select Pizza}\">",
-      "\t\t<ion-select-option value=\"${4:peperoni}\">${5:Peperoni}</ion-select-option>",
+      "\t<ion-select value=\"${2:peperoni}\" multiple=\"${3|true,false|}\" placeholder=\"${4:Select Pizza}\">",
+      "\t\t<ion-select-option value=\"${2:peperoni}\">${5:Peperoni}</ion-select-option>",
       "\t\t<ion-select-option value=\"${6:hawaii}\">${7:Hawaii}</ion-select-option>",
       "\t</ion-select>",
       "</ion-item>"
@@ -918,8 +918,8 @@
     "body": [
       "<ion-item>",
       "\t<ion-label>${1:Pizza}</ion-label>",
-      "\t<ion-select :interfaceOptions=\"${2:customOptions}\" interface=\"${3|action-sheet,alert,popover|}\" placeholder=\"${4:Select Pizza}\">",
-      "\t\t<ion-select-option value=\"${5:peperoni}\">${6:Peperoni}</ion-select-option>",
+      "\t<ion-select value=\"${2:peperoni}\" :interfaceOptions=\"${3:customOptions}\" interface=\"${4|action-sheet,alert,popover|}\" placeholder=\"${5:Select Pizza}\">",
+      "\t\t<ion-select-option value=\"${2:peperoni}\">${6:Peperoni}</ion-select-option>",
       "\t\t<ion-select-option value=\"${7:hawaii}\">${8:Hawaii}</ion-select-option>",
       "\t</ion-select>",
       "</ion-item>"
