@@ -268,6 +268,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `i-rgba`                 | Add opacity to Ionic colors using `rgba(...)`                                        |
 | `i-root`                 | `:root { }`                                                                          |
 | `i-searchbar-props`      | Searchbar CSS custom properties                                                      |
+| `i-segment-props`        | Segment CSS custom properties                                                        |
 | `i-segment-button-props` | Segment Button CSS custom properties                                                 |
 | `i-select-props`         | Select CSS custom properties                                                         |
 | `i-skeleton-text-props`  | Skeleton Text CSS custom properties                                                  |

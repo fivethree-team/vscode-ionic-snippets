@@ -784,6 +784,11 @@
     ],
     "description": "Searchbar CSS custom properties"
   },
+  "ion-segment-props": {
+    "prefix": "i-segment-props",
+    "body": ["${1:ion-segment} {", "\t--background: ${2:#3880ff};", "}"],
+    "description": "Segment CSS custom properties"
+  },
   "ion-segment-button-props": {
     "prefix": "i-segment-button-props",
     "body": [
