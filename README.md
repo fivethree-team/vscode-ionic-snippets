@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=fivethree.vscode-ionic-snippets" target="blank"><img src="https://raw.githubusercontent.com/fivethree-team/vscode-ionic-snippets/master/images/banner.png" width="460px" alt="Ionic 4 VS Code Snippets" /></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=fivethree.vscode-ionic-snippets" target="blank"><img src="https://raw.githubusercontent.com/fivethree-team/vscode-ionic-snippets/master/images/banner.png" width="460px" alt="Ionic X VS Code Snippets" /></a>
 </p>
 
 # Ionic Snippets for VS Code
@@ -7,17 +7,34 @@
 [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version-short/fivethree.vscode-ionic-snippets.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=fivethree.vscode-ionic-snippets)
 [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs-short/fivethree.vscode-ionic-snippets.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=fivethree.vscode-ionic-snippets)
 
-Boost your [Ionic 4](https://ionicframework.com/) development with snippets for [VS Code](https://code.visualstudio.com/)
+Boost your [Ionic](https://ionicframework.com/) development with snippets for [VS Code](https://code.visualstudio.com/)
 
 ✅ Fast templates with snippets of ~100 Ionic components  
 ✅ Easy custom theming with CSS properties  
 ✅ Framework support for [angular](https://angular.io/), [stenciljs](https://stenciljs.com/) and [vuejs](https://vuejs.org/)
 
-All code snippets are based on and follow the [Ionic 4 Api](https://ionicframework.com/docs/api).
+All code snippets are based on and follow the [Ionic 5 Api](https://ionicframework.com/docs/api) and [Ionic 4 Api](https://ionicframework.com/docs/v4/api)
 
-## Using Snippets for Ionic 4
+## Overview
+
+- [Ionic Snippets for VS Code](#ionic-snippets-for-vs-code)
+  - [Using Snippets for Ionic (4 and 5)](#using-snippets-for-ionic-4-and-5)
+  - [Framework](#framework)
+  - [Snippets](#snippets)
+    - [HTML Snippets](#html-snippets)
+    - [HTML Properties](#html-properties)
+    - [CSS Utilities](#css-utilities)
+    - [SCSS Snippets](#scss-snippets)
+    - [Typescript Snippets](#typescript-snippets)
+
+## Using Snippets for Ionic (4 and 5)
 
 Type part of a snippet, press enter, and the snippet unfolds.
+
+|  vscode-ionic-snippet | Ionic |
+| --------------------- | ----- |
+| 2.x.x                 | 5.x.x |
+| 1.x.x                 | 4.x.x |
 
 ## Framework
 
@@ -33,17 +50,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 🔶 — Partial support  
 🚧 — Under development
 
-### Overview
-
-- [Ionic Snippets for VS Code](#ionic-snippets-for-vs-code)
-  - [Using Snippets for Ionic 4](#using-snippets-for-ionic-4)
-  - [Framework](#framework)
-    - [Overview](#overview)
-    - [HTML Snippets](#html-snippets)
-    - [HTML Properties](#html-properties)
-    - [CSS Utilities](#css-utilities)
-    - [SCSS Snippets](#scss-snippets)
-    - [Typescript Snippets](#typescript-snippets)
+## Snippets
 
 ### HTML Snippets
 
