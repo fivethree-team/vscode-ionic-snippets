@@ -854,7 +854,7 @@
   },
   "ion-skeleton-text": {
     "prefix": "i-skeleton-text",
-    "body": ["<ion-skeleton-text width=\"${1:80}%\"></ion-skeleton-text>"],
+    "body": ["<ion-skeleton-text animated style=\"width: ${1:50%}\"></ion-skeleton-text>"],
     "description": "<ion-skeleton-text>"
   },
   "ion-slide": {
