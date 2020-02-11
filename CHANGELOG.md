@@ -1,3 +1,34 @@
+# [2.0.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v1.8.0...v2.0.0) (2020-02-11)
+
+
+### Features
+
+* **action-sheet:** add new css props ([7f4e6d1](https://github.com/fivethree-team/vscode-ionic-snippets/commit/7f4e6d1a83e93cc1efd5e69adfc4b6dcefdce7ac))
+* **back-button:** update focus and hover state ([ba5bd1b](https://github.com/fivethree-team/vscode-ionic-snippets/commit/ba5bd1ba874c624e5f7294313b0ebaaa4821836b))
+* **button:** add more button properties ([5fd8d7c](https://github.com/fivethree-team/vscode-ionic-snippets/commit/5fd8d7c37541181a443f38c5d520454c0883dcb5))
+* **button:** update activated, focused and hover state ([5efa5c0](https://github.com/fivethree-team/vscode-ionic-snippets/commit/5efa5c0995bdfbb519acbcf4b191089ceea7cf84))
+* **fab-button:** update activated, focused and hover state ([b491946](https://github.com/fivethree-team/vscode-ionic-snippets/commit/b49194613f4e9c3d875865d71a51b883644642e9))
+* **infinite-scroll:** add disabled and position ([b21ae65](https://github.com/fivethree-team/vscode-ionic-snippets/commit/b21ae65ae4e1a330978e4d2ab0311304909d5a32))
+* **item:** update activated, focused and hover state ([86488f1](https://github.com/fivethree-team/vscode-ionic-snippets/commit/86488f1091d6ab246dbdf95e6dfeb626426e1b19))
+* **list-header:** add button to snippet ([3278ef8](https://github.com/fivethree-team/vscode-ionic-snippets/commit/3278ef8da99ed80dadff4276b20672da9409473d))
+* **list-header:** wrap text with ion-label ([f0b69e7](https://github.com/fivethree-team/vscode-ionic-snippets/commit/f0b69e7542d63bb991dc20835c3ca2fcaac244f3))
+* **menu:** add menu controller ([155588e](https://github.com/fivethree-team/vscode-ionic-snippets/commit/155588effdcc0885ea66d37d7ba82462282a7325))
+* **menu-button:** update focused and hover state ([cca62ff](https://github.com/fivethree-team/vscode-ionic-snippets/commit/cca62ff763bf015ddb76a538db956d925ff19b4c))
+* **no-border:** add ion-no-border util class ([93ff98f](https://github.com/fivethree-team/vscode-ionic-snippets/commit/93ff98fe3f1d32797a207e9ca82a7d3cfd52134a))
+* **radio:** remove checked and add hint that it must be inside of ion-radio-group ([0ef91d1](https://github.com/fivethree-team/vscode-ionic-snippets/commit/0ef91d1851fad78716813902cc99a9b2ed7a360b))
+* **searchbar:** add prop showCancelButton ([ca6095b](https://github.com/fivethree-team/vscode-ionic-snippets/commit/ca6095b7b9c0961906ce410a739f1629f18cd61b))
+* **searchbar:** update inputmode ([e913067](https://github.com/fivethree-team/vscode-ionic-snippets/commit/e91306783d67729fef1bd9b61d4eafaaa3de27a6))
+* **segment:** add segment css props ([ac4d162](https://github.com/fivethree-team/vscode-ionic-snippets/commit/ac4d162f114ca001fecdecfd530f48f350af4e28))
+* **segment:** add values ([0a094f1](https://github.com/fivethree-team/vscode-ionic-snippets/commit/0a094f1e9dd951c41ce25ab27acaa9f22eb050b6))
+* **segment:** update focused and hover state ([9baabb8](https://github.com/fivethree-team/vscode-ionic-snippets/commit/9baabb88d96e5d7ed6aa4fea7e3ea123eb81a174))
+* **select:** add placeholder color props ([30b081c](https://github.com/fivethree-team/vscode-ionic-snippets/commit/30b081c328852421b16f74ac6a4330386208b4e9))
+* **select:** add value to ion-select ([1a6ff07](https://github.com/fivethree-team/vscode-ionic-snippets/commit/1a6ff07cf2f9cf38143d1c01f6139ba535910652))
+* **skeleton-text:** use width as style and add animated ([ef54fda](https://github.com/fivethree-team/vscode-ionic-snippets/commit/ef54fda34380ad302c5ab4ee704a5bee8a913669))
+* **splitpane,menu:** add contentId ([7713b59](https://github.com/fivethree-team/vscode-ionic-snippets/commit/7713b59f8e4db35da5cd471fb3743150f0224e75))
+* **tab-button:** update focused state ([ea9a06e](https://github.com/fivethree-team/vscode-ionic-snippets/commit/ea9a06e17202351369ef7e63454fc55a4cf7ac3f))
+
+
+
 # [1.20.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v1.8.0...v1.20.0) (2020-01-17)
 
 
