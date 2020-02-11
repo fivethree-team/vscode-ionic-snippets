@@ -792,7 +792,7 @@
   "ion-searchbar": {
     "prefix": "i-searchbar",
     "body": [
-      "<ion-searchbar placeholder=\"${1:Filter Pizza}\" inputmode=\"${2|email,number,password,search,tel,text,url|}\" type=\"${3|decimal,email,numeric,search,tel,text,url|}\" onIonChange={ev => console.log(ev)} debounce=\"${4:250}\"></ion-searchbar>"
+      "<ion-searchbar placeholder=\"${1:Filter Pizza}\" inputmode=\"${2|email,number,password,search,tel,text,url|}\" type=\"${3|decimal,email,numeric,search,tel,text,url|}\" onIonChange={ev => console.log(ev)} debounce=\"${4:250}\" show-cancel-button=\"${5|always,focus,never|}\"></ion-searchbar>"
     ],
     "description": "<ion-searchbar>"
   },
