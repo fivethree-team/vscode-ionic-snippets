@@ -444,7 +444,7 @@
       "\t--box-shadow: ${13:10px 10px};",
       "\t--color: ${14:#ffffff};",
       "\t--color-activated: ${15:#3880ff};",
-      "\t--color-focused ${16:#3880ff};",
+      "\t--color-focused: ${16:#3880ff};",
       "\t--color-hover: ${17:#3880ff};",
       "\t--padding-bottom: ${18:4px};",
       "\t--padding-end: ${19:4px};",
