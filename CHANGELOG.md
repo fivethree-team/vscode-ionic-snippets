@@ -1,3 +1,12 @@
+## [2.0.1](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v2.0.0...v2.0.1) (2020-02-12)
+
+
+### Bug Fixes
+
+* **fab-button:** add mission colon ([9d9d326](https://github.com/fivethree-team/vscode-ionic-snippets/commit/9d9d326cb4f5c0b056091fdc5631c3ee16c70e80))
+
+
+
 # [2.0.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v1.8.0...v2.0.0) (2020-02-11)
 
 
