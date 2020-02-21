@@ -1,3 +1,12 @@
+## [2.0.2](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v2.0.1...v2.0.2) (2020-02-21)
+
+
+### Bug Fixes
+
+* **grid,button:** remove no-padding grid prop ([c2a8e73](https://github.com/fivethree-team/vscode-ionic-snippets/commit/c2a8e7369f8e968ba61acf23ff6aee175f4fc04d))
+
+
+
 ## [2.0.1](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v2.0.0...v2.0.1) (2020-02-12)
 
 
