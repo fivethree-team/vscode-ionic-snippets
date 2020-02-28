@@ -1,3 +1,13 @@
+## [2.0.3](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v2.0.1...v2.0.3) (2020-02-28)
+
+
+### Bug Fixes
+
+* **button:** add missing colon ([8483956](https://github.com/fivethree-team/vscode-ionic-snippets/commit/8483956c35951e6c9675f762202d65b3c9ebcd0e))
+* **grid,button:** remove no-padding grid prop ([c2a8e73](https://github.com/fivethree-team/vscode-ionic-snippets/commit/c2a8e7369f8e968ba61acf23ff6aee175f4fc04d))
+
+
+
 ## [2.0.2](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v2.0.1...v2.0.2) (2020-02-21)
 
 
