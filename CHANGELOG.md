@@ -1,3 +1,13 @@
+# [2.1.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v2.0.4...v2.1.0) (2020-03-09)
+
+
+### Features
+
+* **scss:** add new css properties ([d8c4258](https://github.com/fivethree-team/vscode-ionic-snippets/commit/d8c42580c43cb3b6e3a8947d814d4e376399545f))
+* **scss:** add new scss properties ([68c13ba](https://github.com/fivethree-team/vscode-ionic-snippets/commit/68c13babed5714c87a58ac238441d62b3f0021a7))
+
+
+
 ## [2.0.4](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v2.0.3...v2.0.4) (2020-03-09)
 
 
