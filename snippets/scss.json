@@ -778,7 +778,7 @@
       "\t--icon-color: ${6:#3880ff};",
       "\t--placeholder-color: ${7:#3880ff};",
       "\t--placeholder-font-style: ${8:initial};",
-      "\t--placeholder-font-weight ${9:initial};",
+      "\t--placeholder-font-weight: ${9:initial};",
       "\t--placeholder-opacity ${10:0.5};",
       "}"
     ],
