@@ -1,3 +1,12 @@
+## [2.0.4](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v2.0.3...v2.0.4) (2020-03-09)
+
+
+### Bug Fixes
+
+* **searchbar:** add missing colon ([31d302f](https://github.com/fivethree-team/vscode-ionic-snippets/commit/31d302f4918d6aac2304835b7f95e89e9ef49253))
+
+
+
 ## [2.0.3](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v2.0.2...v2.0.3) (2020-02-28)
 
 
