@@ -786,6 +786,7 @@
     "body": [
       "${1:ion-searchbar} {",
       "\t--background: ${2:#3880ff};",
+      "\t--border-radius: ${3:2px}",
       "\t--box-shadow: ${3:10px 10px};",
       "\t--cancel-button-color: ${4:#3880ff};",
       "\t--clear-button-color: ${5:#3880ff};",
