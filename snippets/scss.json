@@ -1034,7 +1034,13 @@
       "\t--border-radius: ${4:8px};",
       "\t--handle-background: ${5:#ffffff};",
       "\t--handle-background-checked: ${6:#3880ff};",
-      "\t--handle-border-radius: ${7:8px};",
+      "\t--handle-border-radius: ${7:14px 4px 4px 14px};",
+      "\t--handle-box-shadow: ${8:4px 0 2px 0}",
+      "\t--handle-height: ${9:20px}",
+      "\t--handle-max-height: ${10:24px}",
+      "\t--handle-spacing: ${11:2px}",
+      "\t--handle-transition: ${12:background-color 15ms linear}",
+      "\t--handle-width: ${13:20px}",
       "}"
     ],
     "description": "Toggle CSS custom properties"
