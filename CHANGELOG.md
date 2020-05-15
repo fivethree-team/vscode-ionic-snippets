@@ -1,3 +1,12 @@
+## [2.2.1](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v2.2.0...v2.2.1) (2020-05-15)
+
+
+### Bug Fixes
+
+* **searchbar:** template number ([dd387b8](https://github.com/fivethree-team/vscode-ionic-snippets/commit/dd387b8a9d7e8008227f24c5d2f63bc503d5d3b6))
+
+
+
 # [2.2.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v2.0.4...v2.2.0) (2020-05-15)
 
 
