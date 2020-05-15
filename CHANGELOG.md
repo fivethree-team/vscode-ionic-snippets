@@ -1,3 +1,15 @@
+# [2.2.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v2.0.4...v2.2.0) (2020-05-15)
+
+
+### Features
+
+* **scss:** add new css properties ([d8c4258](https://github.com/fivethree-team/vscode-ionic-snippets/commit/d8c42580c43cb3b6e3a8947d814d4e376399545f))
+* **scss:** add new scss properties ([68c13ba](https://github.com/fivethree-team/vscode-ionic-snippets/commit/68c13babed5714c87a58ac238441d62b3f0021a7))
+* **searchbar:** new border-radius scss props ([c914216](https://github.com/fivethree-team/vscode-ionic-snippets/commit/c9142162ee7e7996befee21ea7a215d517fea7a6))
+* **toggle:** new scss props ([06e0d57](https://github.com/fivethree-team/vscode-ionic-snippets/commit/06e0d5729303f90b37354e00b70b1e5a0c597f7a))
+
+
+
 # [2.1.0](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v2.0.4...v2.1.0) (2020-03-09)
 
 
