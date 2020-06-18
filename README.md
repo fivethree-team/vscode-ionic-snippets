@@ -15,6 +15,8 @@ Boost your [Ionic](https://ionicframework.com/) development with snippets for [V
 
 All code snippets are based on and follow the [Ionic 5 Api](https://ionicframework.com/docs/api) and [Ionic 4 Api](https://ionicframework.com/docs/v4/api)
 
+Available for [VSCodium](https://vscodium.com/) at [Ionic Snippets](https://open-vsx.org/extension/fivethree/vscode-ionic-snippets).
+
 ## Overview
 
 - [Ionic Snippets for VS Code](#ionic-snippets-for-vs-code)
