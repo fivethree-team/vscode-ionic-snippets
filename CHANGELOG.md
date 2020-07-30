@@ -1,3 +1,14 @@
+## [2.2.2](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v2.2.0...v2.2.2) (2020-07-30)
+
+
+### Bug Fixes
+
+* **ion-router-outlet:** add closing slash for tag ([926aae7](https://github.com/fivethree-team/vscode-ionic-snippets/commit/926aae71155636447de946d07dd89ebe1285f03f))
+* **searchbar:** template number ([dd387b8](https://github.com/fivethree-team/vscode-ionic-snippets/commit/dd387b8a9d7e8008227f24c5d2f63bc503d5d3b6))
+* **vue:** remove ion-router-outlet ([a04eed7](https://github.com/fivethree-team/vscode-ionic-snippets/commit/a04eed73e8b0bef9e2c4bab558043906d1fccffc))
+
+
+
 ## [2.2.1](https://github.com/fivethree-team/vscode-ionic-snippets/compare/v2.2.0...v2.2.1) (2020-05-15)
 
 
